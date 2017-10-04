@@ -15,8 +15,7 @@ cache:
 
 before_install:
 # 解密 RSA 私钥并设置为本机 ssh 私钥
-- openssl aes-256-cbc -K $encrypted_1fc90f464345_key -iv $encrypted_1fc90f464345_iv
-  -in .travis/travis.key.enc -out ~/.ssh/id_rsa -d
+- openssl aes-256-cbc -K $encrypted_1fc90f464345_key -iv $encrypted_1fc90f464345_iv -in .travis/travis.key.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 # 修改本机 ssh 配置，防止秘钥认证过程影响自动部署
 - mv -fv .travis/ssh-config ~/.ssh/config
@@ -29,8 +28,8 @@ before_install:
 install:
 # 安装 Hexo 及其依赖
 - yarn
-# 从 Gitee 私有仓库 clone 主题（使用上面的 ssh 私钥）
-- git clone git@gitee.com:printempw/hexo-theme-seventeen.git themes/seventeen
+# 当 Travis 文件缓存不存在时，从 Gitee 私有仓库 clone 主题
+- if [ ! -d "themes/seventeen" ]; then git clone git@gitee.com:printempw/hexo-theme-seventeen.git themes/seventeen; fi
 
 script:
 # 生成静态页面
