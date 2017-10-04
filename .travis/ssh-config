@@ -1,0 +1,17 @@
+Host github.com
+    User git
+    StrictHostKeyChecking no
+    IdentityFile ~/.ssh/id_rsa
+    IdentitiesOnly yes
+
+Host gitee.com
+    User git
+    StrictHostKeyChecking no
+    IdentityFile ~/.ssh/id_rsa
+    IdentitiesOnly yes
+
+Host prinzeugen.net
+    User git
+    StrictHostKeyChecking no
+    IdentityFile ~/.ssh/id_rsa
+    IdentitiesOnly yes

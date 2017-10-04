@@ -1,0 +1,41 @@
+language: node_js
+node_js: stable
+
+# 只监听 source 分支的改动
+branches:
+  only:
+  - source
+
+# 缓存依赖，节省持续集成时间
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+before_install:
+# 解密 RSA 私钥并设置为本机 ssh 私钥
+- openssl aes-256-cbc -K $encrypted_9b39e25ca17b_key -iv $encrypted_9b39e25ca17b_iv
+  -in .travis/travis.key.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+# 修改本机 ssh 配置，防止秘钥认证过程影响自动部署
+- mv -fv .travis/ssh-config ~/.ssh/config
+- git config --global user.name "printempw"
+- git config --global user.email "h@prinzeugen.net"
+- yarn global add hexo-cli
+# 赋予自动部署脚本可执行权限
+- chmod +x .travis/deploy.sh
+
+install:
+# 安装 Hexo 及其依赖
+- yarn
+# 从 Gitee 私有仓库 clone 主题（使用上面的 ssh 私钥）
+- git clone git@gitee.com:printempw/hexo-theme-seventeen.git themes/seventeen
+
+script:
+# 生成静态页面
+- hexo clean
+- hexo generate
+
+after_success:
+# 部署到 GitHub Pages 和 VPS
+- .travis/deploy.sh
