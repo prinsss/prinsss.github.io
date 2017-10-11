@@ -1,7 +1,7 @@
 ---
 title:   '友情链接'
 date:    '2015-09-03 11:54:24'
-updated: '2017-10-03 16:37:04'
+updated: '2017-10-11 16:53:04'
 ---
 
 最近有很多博主和我交换友链呢，挺开心的 ![emotion](https://ooo.0o0.ooo/2016/07/27/57989a5e3cbdb.jpg)
@@ -30,6 +30,7 @@ updated: '2017-10-03 16:37:04'
 * [曼治小住](https://www.mtxz.org/)
 * [黎明余光](https://blog.lim-light.com/)
 * [碱基们的时间](http://nanguage.org/)
+* [Hdsky](https://hdsky.pw/)
 
 --------
 
