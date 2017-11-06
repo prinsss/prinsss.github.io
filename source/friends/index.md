@@ -4,7 +4,7 @@ date:    '2015-09-03 11:54:24'
 updated: '2017-10-11 16:53:04'
 ---
 
-最近有很多博主和我交换友链呢，挺开心的 ![emotion](https://ooo.0o0.ooo/2016/07/27/57989a5e3cbdb.jpg)
+最近有很多博主和我交换友链呢，挺开心的 ![emoticon](https://ooo.0o0.ooo/2016/07/27/57989a5e3cbdb.jpg)
 
 想和我换友链的，没啥特别需求，只是希望你的博客有足够多的**原创、有意义的内容**。那种塞满了转载文章的采集站点还是绕道吧。
 
@@ -31,8 +31,9 @@ updated: '2017-10-11 16:53:04'
 * [黎明余光](https://blog.lim-light.com/)
 * [碱基们的时间](http://nanguage.org/)
 * [Hdsky](https://hdsky.pw/)
-* [just 涨芝士](http://cheesekun.top)
-* [1111Lab](https://1111lab.org)
+* [just 涨芝士](http://cheesekun.top/)
+* [1111Lab](https://1111lab.org/)
+* [后宫学长](https://haremu.com/)
 
 --------
 
