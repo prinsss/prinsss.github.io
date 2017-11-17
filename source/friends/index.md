@@ -34,6 +34,7 @@ updated: '2017-10-11 16:53:04'
 * [just 涨芝士](http://cheesekun.top/)
 * [1111Lab](https://1111lab.org/)
 * [后宫学长](https://haremu.com/)
+* [Eree's blog](http://ereebay.me/)
 
 --------
 
