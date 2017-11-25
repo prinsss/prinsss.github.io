@@ -1,7 +1,7 @@
 ---
 title:   '友情链接'
 date:    '2015-09-03 11:54:24'
-updated: '2017-10-11 16:53:04'
+updated: '2017-11-25 22:57:04'
 ---
 
 最近有很多博主和我交换友链呢，挺开心的 ![emoticon](https://ooo.0o0.ooo/2016/07/27/57989a5e3cbdb.jpg)
@@ -12,7 +12,6 @@ updated: '2017-10-11 16:53:04'
 
 - - - - - -
 
-* [高嶺 Projects](http://www.takanenote.com/)
 * [Tsez Blog](https://blog.tse.moe/)
 * [DreamCity](https://www.littleqiu.net/)
 * [Steins;Lab](http://steinslab.xyz)
@@ -35,9 +34,11 @@ updated: '2017-10-11 16:53:04'
 * [1111Lab](https://1111lab.org/)
 * [后宫学长](https://haremu.com/)
 * [Eree's blog](http://ereebay.me/)
+* [樱花庄的白猫](https://2heng.xin)
 
 --------
 
 维护独立博客从来都不是一件容易的事。让我们记住这些名字：
 
 * [喵呜](https://nnya.cat)
+* [高嶺 Projects](http://www.takanenote.com/)
