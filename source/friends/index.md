@@ -36,6 +36,7 @@ updated: '2017-11-25 22:57:04'
 * [Eree's blog](http://ereebay.me/)
 * [樱花庄的白猫](https://2heng.xin)
 * [蝉时雨](https://chanshiyu.com/)
+* [ISLAND](http://youngxhui.github.io/)
 
 --------
 
