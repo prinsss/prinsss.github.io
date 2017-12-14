@@ -37,6 +37,7 @@ updated: '2017-11-25 22:57:04'
 * [樱花庄的白猫](https://2heng.xin)
 * [蝉时雨](https://chanshiyu.com/)
 * [ISLAND](http://youngxhui.github.io/)
+* [且听书吟](https://yufan.me/)
 
 --------
 
