@@ -1,7 +1,7 @@
 ---
 title:   '友情链接'
 date:    '2015-09-03 11:54:24'
-updated: '2017-11-25 22:57:04'
+updated: '2017-12-30 20:25:22'
 ---
 
 最近有很多博主和我交换友链呢，挺开心的 ![emoticon](https://ooo.0o0.ooo/2016/07/27/57989a5e3cbdb.jpg)
@@ -10,7 +10,9 @@ updated: '2017-11-25 22:57:04'
 
 > 宁缺毋滥。
 
-- - - - - -
+-----------
+
+以下站点按照添加的时间顺序排列：
 
 * [Tsez Blog](https://blog.tse.moe/)
 * [DreamCity](https://www.littleqiu.net/)
@@ -38,6 +40,7 @@ updated: '2017-11-25 22:57:04'
 * [蝉时雨](https://chanshiyu.com/)
 * [ISLAND](http://youngxhui.github.io/)
 * [且听书吟](https://yufan.me/)
+* [Pig Fang](https://blog.gplane.win/)
 
 --------
 
