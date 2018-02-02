@@ -41,6 +41,7 @@ updated: '2017-12-30 20:25:22'
 * [ISLAND](http://youngxhui.github.io/)
 * [且听书吟](https://yufan.me/)
 * [Pig Fang](https://blog.gplane.win/)
+* [刘伟的博客](https://darrenliuwei.com/)
 
 --------
 
