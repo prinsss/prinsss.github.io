@@ -42,10 +42,10 @@ updated: '2017-12-30 20:25:22'
 * [且听书吟](https://yufan.me/)
 * [Pig Fang](https://blog.gplane.win/)
 * [刘伟的博客](https://darrenliuwei.com/)
+* [南ことりの小窝](https://kotori.net/)
 
 --------
 
 维护独立博客从来都不是一件容易的事。让我们记住这些名字：
 
-* [喵呜](https://nnya.cat)
 * [高嶺 Projects](http://www.takanenote.com/)
