@@ -1,7 +1,7 @@
 ---
 title:   '友情链接'
 date:    '2015-09-03 11:54:24'
-updated: '2017-12-30 20:25:22'
+updated: '2018-02-09 11:06:30'
 ---
 
 最近有很多博主和我交换友链呢，挺开心的 ![emoticon](https://ooo.0o0.ooo/2016/07/27/57989a5e3cbdb.jpg)
@@ -43,6 +43,7 @@ updated: '2017-12-30 20:25:22'
 * [Pig Fang](https://blog.gplane.win/)
 * [刘伟的博客](https://darrenliuwei.com/)
 * [南ことりの小窝](https://kotori.net/)
+* [Hans362 's Blog](https://www.hans362.me/)
 
 --------
 
