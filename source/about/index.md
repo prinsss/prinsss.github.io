@@ -34,14 +34,16 @@ updated: '2017-08-11 20:37:10'
 
 ## 咋联系我呀？
 
-我比较注重网上的个人隐私，属于那种闲着没事会搜索自己 ID 的人。
+我比较注重互联网上的个人隐私，属于那种闲着没事会搜索自己 ID 的人。
 
-- 电子邮件**（推荐）**：`h#prinzeugen.net` 或者 `printempw#gmail.com`；
+你可以通过这些方式找到我~~（其他的我不想告诉你）~~：
+
+- **电子邮件**：`h#prinzeugen.net` 或者 `printempw#gmail.com`；
 - 社交网络：Twitter（[@printempw](https://twitter.com/printempw)）；
-- 即时通讯：鹅厂 QQ（如果你知道的话），Twitter DM（私信）；
+- 即时通讯：Telegram（[@printempw](https://t.me/printempw)）；
 - 我的 PGP 公钥在[这里](https://gist.github.com/printempw/5150ddd62a62a4ff4060bbec1fddc04a)， ID 为 `3F409A40`，指纹为：`B51137BF34A36F0652241A816FC03E5D3F409A40`；
 
-其他诸如 Telegram、渣浪微博、Google+ 之类的服务我虽然有注册账号，但是一般几万年都不上去一次，所以还是尽量通过上面的方式与我取得联系吧。
+其他诸如渣浪微博、Google+ 之类的服务我虽然有注册账号，但是一般几万年都不上去一次，所以还是尽量通过上面的方式与我取得联系吧。
 
 ## 关于博客
 
