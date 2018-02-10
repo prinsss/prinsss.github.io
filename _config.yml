@@ -4,14 +4,13 @@
 
 # Site
 title: Blessing Studio
-subtitle: 半吊子全栈工程师的日常
-description: 这里是 @printempw 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹逼，偶尔也会写正经文字。欢迎订阅 RSS (ﾟ∀ﾟ)ﾉ
+subtitle: 半吊子全栈开发者的日常
+description: 这里是 @printempw 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹逼，偶尔也会写正经文字，欢迎订阅。
 author: printempw
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://blessing.studio
 root: /
 permalink: :title/
@@ -28,10 +27,10 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :title.md
 default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+titlecase: false
+external_link: true
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -84,10 +83,3 @@ feed:
 
 stylus:
   compress: true
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: git@prinzeugen.net:hexo.git
-  branch: master
