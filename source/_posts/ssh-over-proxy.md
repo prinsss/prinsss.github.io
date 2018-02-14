@@ -5,7 +5,6 @@ updated: '2016-01-31 00:59:00'
 categories: 技术
 tags:
   - SSH
-  - 代理
 ---
 
 为什么要写这个呢？

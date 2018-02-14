@@ -4,7 +4,6 @@ date: '2015-08-27 22:50:25'
 updated: '2017-02-18 21:58:48'
 categories: 技术
 tags:
-  - 'ss-panel'
   - 教程
   - shadowsocks
 ---

@@ -2,9 +2,9 @@
 title: '偶像大师 灰姑娘女孩 的「壁ドンしたい」系列'
 date: '2015-09-12 05:01:23'
 updated: '2015-09-12 06:16:59'
-categories: 日常
+categories: 随笔
 tags:
-  - 绘画
+  - ACGN
 ---
 
 

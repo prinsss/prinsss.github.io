@@ -5,8 +5,9 @@ updated: 2017-08-08 23:28:32
 categories: 技术
 tags: 
   - Minecraft
-  - 游戏
+  - ACGN
   - PHP
+  - 教程
 ---
 
 最近给 Blessing Skin 写了个插件，利用皮肤站本身的账号系统实现了 Yggdrasil API（就是 Mojang 的登录 API），然后配合 [authlib-agent](https://github.com/to2mbn/authlib-agent/) 这个库将启动器（基于 Java 编写的支持正版登录的启动器都行）、Minecraft 游戏、Minecraft 服务端中的 Mojang Yggdrasil API 地址给替换成了自己实现的第三方 Yggdrasil API 地址（字节码替换），从而实现了与正版登录功能几乎完全相同的账户鉴权系统。

@@ -4,7 +4,8 @@ date: '2017-04-23 14:02:50'
 updated: '2017-05-14 14:23:54'
 categories: 随笔
 tags:
-  - 动画
+  - ACGN
+  - 安利
 ---
 
 {% alert info %}

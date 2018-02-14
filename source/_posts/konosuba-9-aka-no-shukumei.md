@@ -4,7 +4,7 @@ date: '2016-07-04 16:24:00'
 updated: '2016-07-21 08:06:25'
 categories: 日常
 tags:
-  - 轻小说
+  - ACGN
 ---
 
 我买的实体书还在路上呢，翻译倒是先出来了，现在我的心情很复杂 ![emotion 1](https://img.prinzeugen.net/image.php?di=E0G2) 

@@ -4,7 +4,7 @@ date: 2017-07-15 17:54:24
 updated: 2017-07-15 17:54:24
 categories: 技术
 tags:
-  - 游戏
+  - ACGN
   - Linux
 
 ---
