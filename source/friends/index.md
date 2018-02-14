@@ -32,9 +32,10 @@ updated: '2018-02-09 11:06:30'
 
 --------
 
-* [DreamCity](https://www.littleqiu.net/)
-* [HentaiCollection](https://hencolle.com/)
+* [Steins;Lab](http://steinslab.xyz)
 * [ChionLab](https://blog.chionlab.moe/)
+* [DreamCity](https://www.littleqiu.net/)
+* [FGHRSH 的博客](https://www.fghrsh.net/)
 * [黎明余光](https://blog.lim-light.com/)
 * [后宫学长](https://haremu.com/)
 * [Pig Fang](https://blog.gplane.win/)
@@ -48,9 +49,8 @@ updated: '2018-02-09 11:06:30'
 _以下站点按照添加的时间顺序排列：_
 
 * [Tsez Blog](https://blog.tse.moe/)
-* [Steins;Lab](http://steinslab.xyz)
 * [野生程序猴子](https://ljason.cn/)
-* [FGHRSH的博客](https://www.fghrsh.net/)
+* [HentaiCollection](https://hencolle.com/)
 * [Very9s](http://very9s.net/)
 * [静静's Blog](https://kernel.moe/)
 * [FindSpace](https://www.findhao.net/)
