@@ -21,7 +21,6 @@ before_install:
 - mv -fv .travis/ssh-config ~/.ssh/config
 - git config --global user.name "printempw"
 - git config --global user.email "h@prinzeugen.net"
-- yarn global add hexo-cli
 # 赋予自动部署脚本可执行权限
 - chmod +x .travis/deploy.sh
 
@@ -33,8 +32,8 @@ install:
 
 script:
 # 生成静态页面
-- hexo clean
-- hexo generate
+- node_modules/.bin/hexo clean
+- node_modules/.bin/hexo generate
 
 after_success:
 # 部署到 GitHub Pages 和 VPS
