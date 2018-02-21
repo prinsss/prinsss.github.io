@@ -8,11 +8,6 @@ tags:
   - shadowsocks
 ---
 
-{% alert info %}
-为最好的 ss-panel 部署教程献上更新！<sup>[NETA](https://zh.wikipedia.org/zh/%E7%82%BA%E7%BE%8E%E5%A5%BD%E7%9A%84%E4%B8%96%E7%95%8C%E7%8D%BB%E4%B8%8A%E7%A5%9D%E7%A6%8F%EF%BC%81)</sup>
-本文最后更新与 2017-02-08，更新内容详见博文底部。
-{% endalert %}
-
 今天折腾了好久 ss-panel，期间遇到了一些奇奇怪怪的问题，但是网上都没有好的解决方法。网上那么多教程有些是写得笼统，有些还是瞎复制的。由此萌生了想要写一篇配置 ss-panel 和 ss-manyuser 的教程，希望能够帮到需要的人。
 
 {% alert warning %}
