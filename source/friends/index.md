@@ -1,7 +1,7 @@
 ---
 title:   '友情链接'
 date:    '2015-09-03 11:54:24'
-updated: '2018-02-09 11:06:30'
+updated: '2018-03-26 23:21:20'
 ---
 
 在这个独立博客式微的时代，友情链接的意义是什么？
@@ -39,6 +39,7 @@ updated: '2018-02-09 11:06:30'
 * [黎明余光](https://blog.lim-light.com/)
 * [后宫学长](https://haremu.com/)
 * [Pig Fang](https://blog.gplane.win/)
+* [哈陆lu的博客](https://halu.lu/)
 
 ## 友情链接
 
