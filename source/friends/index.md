@@ -72,6 +72,7 @@ _以下站点按照添加的时间顺序排列：_
 * [刘伟的博客](https://darrenliuwei.com/)
 * [南ことりの小窝](https://kotori.net/)
 * [Hans362's Blog](https://www.hans362.me/)
+* [Zankyo](https://zankyo.cc/)
 
 ## 可能已经消逝的友站
 
