@@ -57,6 +57,7 @@ _以下站点按照添加的时间顺序排列：_
 * [哈陆lu的博客](https://halu.lu/)
 * [Zankyo](https://zankyo.cc/)
 * [贫困的蚊子](https://qwq.moe/)
+* [夜绫千裕](https://yecl.net/)【很有思想的砍口累提督，博客荣获 GFW 认证】
 
 ## 可能已经消逝的友站
 
