@@ -38,10 +38,12 @@ updated: '2017-08-11 20:37:10'
 
 你可以通过这些方式找到我~~（其他的我不想告诉你）~~：
 
-- **电子邮件**：`h#prinzeugen.net` 或者 `printempw#gmail.com`；
+- **电子邮件**：`h#prinzeugen.net`；
 - 社交网络：Twitter（[@printempw](https://twitter.com/printempw)）；
 - 即时通讯：Telegram（[@printempw](https://t.me/printempw)）；
 - 我的 PGP 公钥在[这里](https://gist.github.com/printempw/5150ddd62a62a4ff4060bbec1fddc04a)， ID 为 `3F409A40`，指纹为：`B51137BF34A36F0652241A816FC03E5D3F409A40`；
+
+不过，虽然邮件我每天都会看，但是考虑到送达率之类的问题的话，如果是比较重要的事情，我还是更推荐你使用 Telegram 联系我。
 
 其他诸如渣浪微博、Google+ 之类的服务我虽然有注册账号，但是一般几万年都不上去一次，所以还是尽量通过上面的方式与我取得联系吧。
 
