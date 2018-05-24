@@ -51,7 +51,7 @@ _以下站点按照添加的时间顺序排列：_
 * [ISLAND](http://youngxhui.github.io/)
 * [且听书吟](https://yufan.me/)【雨帆大佬的博客】
 * [Pig Fang](https://blog.gplane.win/)【🤝是 Blessing Skin 的协力开发者哦】
-* [刘伟的博客](https://darrenliuwei.com/)
+* [刘伟](https://darrenliuwei.com/)
 * [南ことりの小窝](https://kotori.net/)【Andy 大佬的新博客哟】
 * [Hans362's Blog](https://www.hans362.me/)
 * [哈陆lu的博客](https://halu.lu/)
