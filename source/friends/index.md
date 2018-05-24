@@ -24,6 +24,7 @@ updated: '2018-04-17 22:54:30'
 
 _以下站点按照添加的时间顺序排列：_
 
+* [琉璃喵](http://www.rurim.moe/)【前身为高嶺Projects，上次被喝茶后好像就没怎么更新了……】
 * [Tsez Blog](https://blog.tse.moe/)
 * [DreamCity](https://www.littleqiu.net/)【是我刚开始做 BS 时就认识了的朋友哦】
 * [Steins;Lab](http://steinslab.xyz)【物联网大佬，搞了好多好玩的东西】
@@ -58,9 +59,3 @@ _以下站点按照添加的时间顺序排列：_
 * [Zankyo](https://zankyo.cc/)
 * [贫困的蚊子](https://qwq.moe/)
 * [夜绫千裕](https://yecl.net/)【很有思想的砍口累提督，博客荣获 GFW 认证】
-
-## 可能已经消逝的友站
-
-维护独立博客从来都不是一件容易的事。让我们记住这些名字：
-
-* [高嶺 Projects](http://www.takanenote.com/)【曾经是个很不错的 ACG 资讯博客，也是第一个提出和我交换友链的博客哦】
