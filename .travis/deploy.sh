@@ -7,8 +7,7 @@ git clone -b master git@github.com:printempw/printempw.github.io.git .deploy_git
 
 cd .deploy_git
 git checkout master
-mv .git/ ../public/
-cd ../public
+cp -r ../public/* ./
 
 git add .
 git commit -m "Site updated: `date +"%Y-%m-%d %H:%M:%S"`"
