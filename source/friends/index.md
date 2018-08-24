@@ -60,3 +60,4 @@ _以下站点按照添加的时间顺序排列：_
 * [贫困的蚊子](https://qwq.moe/)
 * [夜绫千裕](https://yecl.net/)【很有思想的砍口累提督，博客荣获 GFW 认证】
 * [zjyl1994 の 自留地](https://blog.zjyl1994.com/)
+* [乱码](https://luan.ma/)
