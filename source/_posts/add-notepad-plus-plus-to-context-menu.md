@@ -157,7 +157,7 @@ Windows Registry Editor Version 5.00
 
 首先在资源管理器的地址栏中输入 `shell:sendto` 并回车，你会被重定向至 `C:\Users\{username}\AppData\Roaming\Microsoft\Windows\SendTo` 目录。在此目录下建立一个到 `notepad++.exe` 的快捷方式，你就可以通过右键菜单中的「发送到」实现同样的功能。
 
-虽然比直接添加右键菜单要多操作一步，不过我倒觉得这样更简单优雅。
+虽然比直接添加右键菜单要多操作一步，不过我倒觉得这样更简单优雅。另外，这一技巧也同样适用于其他应用程序，大家可以记一下哦。;)
 
 ![npp-send-to-menu](https://img.blessing.studio/images/2018/08/29/npp-send-to-menu.png)
 
