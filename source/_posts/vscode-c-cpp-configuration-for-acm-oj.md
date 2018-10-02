@@ -71,7 +71,9 @@ tags:
 
 想在 Windows 上使用 GCC，必须安装 [MinGW](http://www.mingw.org/)、[Cygwin](https://www.cygwin.com/) 或者 [TDM-GCC](http://tdm-gcc.tdragon.net/) 这类 GCC 移植版与配套环境。下文将以 [MinGW-w64](http://mingw-w64.org/) （简单来说就是 MinGW 的增强版，如果你想知道它俩之间的那些破事儿也可以自己去搜一搜）为例进行配置。
 
-> 当然，你也可以安装 [WSL (Windows Subsystem for Linux)](https://blessing.studio/wsl-guide/)，在 WSL 中安装 GCC，然后在 Windows 下调用 WSL 中的 GCC 编译源码为 Windows 程序……但是没事谁这么蛋疼呢？
+> 当然，你也可以安装 [WSL (Windows Subsystem for Linux)](https://blessing.studio/wsl-guide/)，在 WSL 中安装 GCC，然后在 Windows 下 [调用 WSL 中的 GCC 编译源码为 Linux 可执行程序](https://github.com/Microsoft/vscode-cpptools/blob/master/Documentation/LanguageServer/Windows%20Subsystem%20for%20Linux.md) 并直接在 WSL 中运行。
+>
+> ~~如果你愿意，你甚至可以在 WSL 中安装 mingw-w64 交叉编译工具集，然后在 Windows 上调用 WSL 中的 `x86_64-w64-mingw32-gcc` 交叉编译器在 WSL 中把源码交叉编译为 Windows 可执行程序，最后在 WSL 中运行 Windows 可执行程序……但是没事谁这么蛋疼呢？~~
 
 MinGW-w64 的安装过程我就不赘述了，在 [这里](https://sourceforge.net/projects/mingw-w64/files/) 下载安装包，一路点安装就完事儿了（便携版用户请注意将安装目录下的 `bin` 目录添加至 `PATH` 环境变量）。如果你需要，这里也有一个傻瓜教程：[《⑨也懂系列：MinGW-w64 安装教程》著名 C/C++ 编译器 GCC 的 Windows 版本](http://rsreland.net/archives/1760)。
 
