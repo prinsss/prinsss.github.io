@@ -1,7 +1,8 @@
 ---
-title:   '友情链接'
-date:    '2015-09-03 11:54:24'
-updated: '2018-07-10 21:44:30'
+title: '友情链接'
+date: '2015-09-03 11:54:24'
+updated: '2018-10-11 13:05:30'
+toc: false
 ---
 
 在这个独立博客式微的时代，友情链接的意义是什么？
@@ -62,3 +63,4 @@ _以下站点按照添加的时间顺序排列：_
 * [zjyl1994 の 自留地](https://blog.zjyl1994.com/)
 * [乱码](https://luan.ma/)
 * [Wincer's Blog](https://blog.itswincer.com/)
+* [Listener](https://patrickwu.space/)
