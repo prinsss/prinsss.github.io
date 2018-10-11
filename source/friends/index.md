@@ -1,7 +1,7 @@
 ---
 title: '友情链接'
 date: '2015-09-03 11:54:24'
-updated: '2018-10-11 13:05:30'
+updated: '2018-10-11 17:00:30'
 toc: false
 ---
 
@@ -27,34 +27,34 @@ _以下站点按照添加的时间顺序排列：_
 
 * [琉璃喵](http://www.rurim.moe/)【前身为高嶺Projects，上次被喝茶后好像就没怎么更新了……】
 * [Tsez Blog](https://blog.tse.moe/)
-* [DreamCity](https://www.littleqiu.net/)【是我刚开始做 BS 时就认识了的朋友哦】
+* [DreamCity](https://www.littleqiu.net/)【刚开始做 BS 时就认识了的朋友】
 * [Steins;Lab](http://steinslab.xyz)【物联网大佬，搞了好多好玩的东西】
 * [野生程序猴子](https://ljason.cn/)
 * [HentaiCollection](https://hencolle.com/)【一万年没有更新过博客的摸鱼选手】
 * [Very9s](http://very9s.net/)
 * [静静's Blog](https://kernel.moe/)
-* [FGHRSH 的博客](https://www.fghrsh.net/)【💸是富佬，感觉变成手办开箱博客了（x】
-* [ChionLab](https://blog.chionlab.moe/)【是前端后端、网络协议都有涉猎的大佬哦】
+* [FGHRSH 的博客](https://www.fghrsh.net/)【富佬，迫真手办开箱博客 💸】
+* [ChionLab](https://blog.chionlab.moe/)【前端后端、网络协议都有涉猎的大佬】
 * [FindSpace](https://www.findhao.net/)
 * [小霖](https://xiaolin.in/)
 * [小忆博客](http://blog.iiwo.vip/)
 * [Hanaasagi](https://blog.dreamfever.me/)
 * [LiarOnce 的小站](https://www.liaronce.win)
 * [曼治小住](https://www.mtxz.org/)
-* [黎明余光](https://blog.lim-light.com/)【因为都在写 MC 皮肤站而认识的😉】
+* [黎明余光](https://blog.lim-light.com/)【因为都在写 MC 皮肤站而认识的朋友】
 * [碱基们的时间](http://nanguage.org/)
 * [Hdsky](https://hdsky.pw/)
 * [just 涨芝士](http://cheesekun.top/)
 * [1111Lab](https://1111lab.org/)
-* [后宫学长](https://haremu.com/)【名字看起来很不妙，其实是个正常博客哦ww】
+* [后宫学长](https://haremu.com/)【名字看起来很不妙，其实是个正常博客】
 * [Eree's blog](http://ereebay.me/)
 * [樱花庄的白猫](https://2heng.xin)
 * [蝉时雨](https://chanshiyu.com/)
 * [ISLAND](http://youngxhui.github.io/)
 * [且听书吟](https://yufan.me/)【雨帆大佬的博客】
-* [Pig Fang](https://blog.gplane.win/)【🤝是 Blessing Skin 的协力开发者哦】
+* [Pig Fang](https://blog.gplane.win/)【Blessing Skin 的协力开发者 🤝】
 * [刘伟](https://darrenliuwei.com/)
-* [南ことりの小窝](https://kotori.net/)【Andy 大佬的新博客哟】
+* [南ことりの小窝](https://kotori.net/)【Andy 大佬的新博客】
 * [Hans362's Blog](https://www.hans362.me/)
 * [哈陆lu的博客](https://halu.lu/)
 * [Zankyo](https://zankyo.cc/)
@@ -64,3 +64,4 @@ _以下站点按照添加的时间顺序排列：_
 * [乱码](https://luan.ma/)
 * [Wincer's Blog](https://blog.itswincer.com/)
 * [Listener](https://patrickwu.space/)
+* [归档笔记](https://www.ogura.io/)
