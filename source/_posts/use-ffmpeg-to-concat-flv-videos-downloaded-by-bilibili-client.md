@@ -87,21 +87,19 @@ ffmpeg -f concat -i /path/to/ff.txt -c copy output.mp4
 
 ### 写个脚本
 
-知道了原理，就可以动手写个自动化脚本了。这里我选择了 Bash 脚本语言，毕竟就这么点功能，几行就 OK。用 Bash 的话开个终端复制进去就可以直接运行，比起其他语言也方便 ~~（我才不会说是因为我 Python 都快忘光了呢）~~。
+知道了原理，就可以动手写个自动化脚本了。这里我选择了 Bash 脚本语言，毕竟就这么点功能，几行就 OK。用 Bash 的话开个终端复制进去就可以直接运行，比起其他语言也方便 ~~（我才不会说是因为我 Python 都快忘光了呢）~~。代码放在 [Gist](https://gist.github.com/printempw/1bc29da99b238d68e87af874f898f435) 上：
 
-另外需要注意的是，有些视频的分段超过了 10 个文件，如果直接遍历的话会变成 `[1, 10, 2, 3...]` 这样的顺序，导致最后拼接出来的视频也变成这样，所以需要给单位数的分段先添个 `0`，这样就会是 `[01, 02 ... 10]` 的正常顺序了。
-
-{% lazy_gist 1bc29da99b238d68e87af874f898f435 %}
+<script src="https://gist.github.com/printempw/1bc29da99b238d68e87af874f898f435.js"></script>
 
 这里是压缩过的单行版，方便复制：
 
 ```bash
-cat /dev/null > ff.txt;for i in *.blv; do seq_num="${i%.blv}";if [ "${#seq_num}" -eq 1 ];then mv "$i" "0$seq_num.flv";else mv "$i" "$seq_num.flv";fi;done;for i in *.flv; do echo "file '${i}'" >> "ff.txt";done;ffmpeg -f concat -i ff.txt -c copy ../output.mp4;rm ff.txt;printf "success"
+cat /dev/null > ff.txt;for i in `ls -1 *.flv | sort -n`; do echo "file '${i}'" >> ff.txt;done;ffmpeg -f concat -i ff.txt -c copy ../output.mp4;rm ff.txt;printf "success"
 ```
 
 ### 效果
 
-![终端执行](https://ooo.0o0.ooo/2017/05/13/5916f998dd712.png)
+![终端执行](https://img.blessing.studio/images/2017/05/13/QQ20170513201744.png)
 
 ![输出结果](https://img.blessing.studio/images/2017/05/13/QQ20170513201722.png)
 
