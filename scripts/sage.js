@@ -8,6 +8,11 @@
 // for further use (to make them correctly processed by 'post' generator).
 // @see https://github.com/hexojs/hexo/blob/master/lib/hexo/index.js#L317
 hexo.extend.filter.register('before_generate', function () {
+  // Quick fix, I don't know exactly why.
+  // It works just fine without this line on Node 8.x, but on Node 10.x,
+  // the `hexo.locals.posts` we got here becomes incomplete. So we have to
+  // assign the values again manually. Such a weird problem, damn it.
+  this._bindLocals();
   // Exclude 'sage' posts from all generators except 'post'
   // @see https://github.com/hexojs/hexo/blob/master/lib/hexo/locals.js
   this.locals.set('sage_posts', this.locals.get('posts').find({ sage: true }));
