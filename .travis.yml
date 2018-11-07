@@ -1,5 +1,5 @@
 language: node_js
-node_js: stable
+node_js: lts/*
 
 # 只监听 source 分支的改动
 branches:
@@ -32,8 +32,8 @@ install:
 
 script:
 # 生成静态页面
-- node_modules/.bin/hexo clean
-- node_modules/.bin/hexo generate
+- hexo clean
+- hexo generate
 
 after_success:
 # 部署到 GitHub Pages 和 VPS
