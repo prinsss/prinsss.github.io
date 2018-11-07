@@ -1,8 +1,10 @@
 ---
-title: 谈谈徐晓东：又一位敢于说真话的人倒下了
+title: '谈谈徐晓东：又一位敢于说真话的人倒下了'
 date: '2017-05-09 23:16:23'
 updated: '2017-05-09 23:16:23'
 categories: 随笔
+toc: false
+sage: true
 tags:
   - 政治
 ---

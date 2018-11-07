@@ -1,8 +1,10 @@
 ---
-title: 愿逝者安息
+title: '愿逝者安息'
 date: '2015-08-13 14:23:39'
 updated: '2015-08-23 01:07:59'
 categories: 随笔
+toc: false
+sage: true
 tags:
   - 政治
   - 转载
