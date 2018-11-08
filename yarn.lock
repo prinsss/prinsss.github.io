@@ -949,6 +949,10 @@ hexo-renderer-stylus@^0.3.1:
     nib "^1.1.2"
     stylus "^0.54.5"
 
+hexo-sage-posts@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/hexo-sage-posts/-/hexo-sage-posts-0.0.1.tgz#458fc6ba210a1294e404c1ebcf9fd7e7ab59e361"
+
 hexo-server@^0.2.0:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/hexo-server/-/hexo-server-0.2.2.tgz#592686b554b8bfe09a19bc86c0f003ac3e8c19b9"
