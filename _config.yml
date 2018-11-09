@@ -83,3 +83,43 @@ feed:
 
 stylus:
   compress: true
+
+theme_config:
+  keywords: "621sama, printempw, blog, 博客, 独立博客, Hexo"
+  expired_warning: true
+  sage_noindex: true
+  menu_top:
+    tech:
+      name: 技术
+      title: 提高姿势水平
+      path: /categories/tech/
+    archive:
+      name: 归档
+      title: 总览历史文章
+      path: /archives/
+    kaomoji:
+      name: (´・ω・`)
+      title: 点我点我
+      path: javascript:void;
+  menu_aside:
+    friends:
+      name: 我的小伙伴们
+      title: 友情链接
+      path: /friends
+      icon: link
+    about:
+      name: 关于我
+      title: (*ﾟ∀ﾟ*)
+      path: /about
+      icon: code
+  social:
+    twitter: https://twitter.com/printempw
+    github: https://github.com/printempw
+  open_graph:
+    twitter_id: printempw
+  disqus: blessing-studio
+  google_font: https://fonts.cat.net
+  google_analytics: UA-65656002-1
+  google_site_verification: WUNRfYChNMDduwLOFHG41TsVrre6BOaI7jKshEvtRts
+  post_view_counter: https://work.prinzeugen.net/hexo-view-counter
+  hitokoto: https://work.prinzeugen.net/hitokoto/hitokoto.php?encode=javascript
