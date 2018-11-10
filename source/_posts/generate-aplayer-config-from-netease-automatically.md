@@ -42,15 +42,14 @@ tags:
 
 于是我随便咕狗了一下，找到了用于发送 HTTP 请求的库 superagent，查了一会儿文档写了个自动转换的小脚本，托管在 Gist 上：
 
-{% my_gist 2bb8c1514589140f461630f21380867d %}
+<script src="https://gist.github.com/printempw/2bb8c1514589140f461630f21380867d.js"></script>
 
 错误处理之类的懒得写了，反正可以直接看报错调试，又不是啥要紧的东西（笑）
 
----------------
+-----
 
 效果：
 
 ![Screenshot](https://ooo.0o0.ooo/2016/07/25/5795b31672d8c.png)
 
 APlayer 的效果可以看站点的侧边栏，鼠标点击我的头像就可以看到了哦~
-

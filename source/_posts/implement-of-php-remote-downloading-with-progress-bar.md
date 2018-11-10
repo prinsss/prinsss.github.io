@@ -19,8 +19,6 @@ PHP 实现远程下载文件到服务端并不是什么新鲜玩意，用 `cURL`
 
 <!--more-->
 
-------------------
-
 ## 0x01 原理
 
 也许你在搜索「PHP 下载 进度条」的时候会看到有些文章使用 PHP 的输出控制函数（`flush` 之类的）控制缓冲区来实现进度条。但是——
@@ -53,13 +51,13 @@ PHP 实现远程下载文件到服务端并不是什么新鲜玩意，用 `cURL`
 
 代码照例放在 Gist 上，加载不出自行解决：
 
-{% lazy_gist 9f551b74c86990f8ce62550c2abb2ef3 %}
+<script src="https://gist.github.com/printempw/9f551b74c86990f8ce62550c2abb2ef3.js"></script>
 
 示例代码使用了 `?action=xxx` 的 Query String 形式来区分不同的指令，这些请酌情修改。和我业务逻辑有关的一些关键函数都被我替换为浅显易懂的名字（譬如 `get_remote_file_url`）了，需要你自己去替换实现。
 
 ## 0x04 前端
 
-{% lazy_gist 8500162cade21ed7eb720c9ecf59b86b %}
+<script src="https://gist.github.com/printempw/8500162cade21ed7eb720c9ecf59b86b.js"></script>
 
 ## 0x05 效果 & 总结
 
@@ -74,7 +72,4 @@ PHP 实现远程下载文件到服务端并不是什么新鲜玩意，用 `cURL`
 - [PHP: flush - Manual](http://php.net/manual/zh/function.flush.php) 的「说明」部分
 - [PHP progress bar - PHP Coding Help - PHP Freaks](https://forums.phpfreaks.com/topic/201119-php-progress-bar/)
 - [What is output buffering? - Stack Overflow](http://stackoverflow.com/questions/2832010/what-is-output-buffering)
-- [KODExplorer/file.function.php at master
-](https://github.com/kalcaddle/KODExplorer/blob/master/lib/function/file.function.php#L697)
-
-
+- [KODExplorer/file.function.php at master](https://github.com/kalcaddle/KODExplorer/blob/master/lib/function/file.function.php#L697)
