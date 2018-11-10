@@ -40,14 +40,14 @@ tags:
 
 **更新**：应 Andy 之托，支持了 SQLite。MySQL & SQLite 通用版在[这里](https://gist.github.com/printempw/a1018424b3bf03b0072f)。
 
-{% my_gist f8626711835718c1ad68 %}
+<script src="https://gist.github.com/printempw/f8626711835718c1ad68.js"></script>
 
 转换脚本如下：
 
-{% my_gist 3a72cf916a6689c7a665 %}
+<script src="https://gist.github.com/printempw/3a72cf916a6689c7a665.js"></script>
 
-- - - - -
+-----
 
-就窝把 post view 上线这几分钟里，post_views 表中就多了好多记录，看来窝还是满受欢迎的嘛~~（错觉）~~ 
+就窝把 post view 上线这几分钟里，post_views 表中就多了好多记录，看来窝还是满受欢迎的嘛~~（错觉）~~
 
 ![ac musume emotion](https://img.prinzeugen.net/image.php?di=FO6F)

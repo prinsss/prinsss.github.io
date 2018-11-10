@@ -7,7 +7,6 @@ tags:
   - PHP
 ---
 
-
 这次升级 PHP7，一切顺利，到了恢复站点数据的时候，发现[上次搞的](https://prinzeugen.net/do-you-like-me/) “Do you like me?” 不工作了。看了日志发现是 `mysql_connect()` 这个函数的问题。
 
 看了下文档，原来在 PHP7 中全面移除了 `mysql_` 系列函数，转而使用 `mysqli` 或者 PDO。。fuck 劳资皮肤站里都是 mysql_ 系列函数啊啊
@@ -20,7 +19,4 @@ mysqli 改为以面向对象的方式操作数据库，而不是 `mysql_` 系列
 
 其实也没改多少，另外把建表的 SQL 也顺便封装在文件里了，托管在 [Gist](https://gist.github.com/printempw/48920748b328bacead1b) 上。
 
-{% my_gist 48920748b328bacead1b %}
-
-
-
+<script src="https://gist.github.com/printempw/48920748b328bacead1b.js"></script>
