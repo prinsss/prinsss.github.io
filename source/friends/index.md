@@ -55,7 +55,7 @@ _以下站点按照添加的时间顺序排列：_
 * [Pig Fang](https://blog.gplane.win/)【Blessing Skin 的协力开发者 🤝】
 * [刘伟](https://darrenliuwei.com/)
 * [南ことりの小窝](https://kotori.net/)【Andy 大佬的新博客】
-* [Hans362's Blog](https://www.hans362.me/)
+* [Hans362's Blog](https://blog.hans362.cn/)
 * [哈陆lu的博客](https://halu.lu/)
 * [Zankyo](https://zankyo.cc/)
 * [贫困的蚊子](https://qwq.moe/)
