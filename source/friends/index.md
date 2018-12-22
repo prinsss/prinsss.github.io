@@ -1,7 +1,7 @@
 ---
 title: '友情链接'
 date: '2015-09-03 11:54:24'
-updated: '2018-10-11 17:00:30'
+updated: '2018-12-22 13:30:00'
 toc: false
 ---
 
@@ -65,3 +65,4 @@ _以下站点按照添加的时间顺序排列：_
 * [Wincer's Blog](https://blog.itswincer.com/)
 * [Listener](https://patrickwu.space/)
 * [归档笔记](https://www.ogura.io/)
+* [思维之海](https://stellarkey.github.io/)
