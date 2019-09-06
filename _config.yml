@@ -5,13 +5,13 @@
 # Site
 title: Blessing Studio
 subtitle: 半吊子全栈开发者的日常
-description: 这里是 @printempw 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹逼，偶尔也会写正经文字，欢迎订阅。
+description: 这里是 printempw 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹逼，偶尔也会写正经文字，欢迎订阅。
 author: printempw
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-url: https://blessing.studio
+url: https://printempw.github.io
 root: /
 permalink: :title/
 permalink_defaults:
@@ -85,7 +85,7 @@ stylus:
   compress: true
 
 theme_config:
-  keywords: "621sama, printempw, blog, 博客, 独立博客, Hexo"
+  keywords: "printempw, blog, 博客, 独立博客, Hexo"
   expired_warning: true
   sage_noindex: true
   menu_top:
@@ -120,6 +120,6 @@ theme_config:
   disqus: blessing-studio
   google_font: https://fonts.cat.net
   google_analytics: UA-65656002-1
-  google_site_verification: WUNRfYChNMDduwLOFHG41TsVrre6BOaI7jKshEvtRts
+  google_site_verification: GRFMvqszPSgldR5B46PfCl67MehNVagYoA9AtJpd8BA
   post_view_counter: https://work.prinzeugen.net/hexo-view-counter
   hitokoto: https://work.prinzeugen.net/hitokoto/hitokoto.php
