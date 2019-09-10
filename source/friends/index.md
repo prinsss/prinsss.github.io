@@ -66,3 +66,4 @@ _以下站点按照添加的时间顺序排列：_
 * [Listener](https://patrickwu.space/)
 * [归档笔记](https://www.ogura.io/)
 * [思维之海](https://stellarkey.github.io/)
+* [Desvl's Blog](https://desvl.xyz/)
