@@ -121,3 +121,12 @@ hide_posts:
   # Generators which you want to expose all posts (include hidden ones) to.
   # Common generators: index, tag, category, archive, sitemap, feed, etc.
   public_generators: [archive]
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: git@github.com:printempw/printempw.github.io.git
+  branch: master
+  name: printempw
+  email: printempw@gmail.com
