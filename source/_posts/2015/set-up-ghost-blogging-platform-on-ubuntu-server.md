@@ -9,10 +9,9 @@ tags:
   - 博客
 ---
 
-{% alert danger %}
-本文已废弃。
-排版的错误是由于 WordPress 转换至 Ghost 文章所致，懒得改了（笑
-{% endalert %}
+> 本文已废弃。
+>
+> 排版的错误是由于 WordPress 转换至 Ghost 文章所致，懒得改了（笑
 
 虽然说网上有很多部署 Ghost 的教程了，官方[中文文档](http://docs.ghost.org/zh/installation/)也已经很完善了。但看了大多数的教程，都感觉叙述了太多冗余内容，譬如说 安装并配置 nginx、apache、mysql 等，甚至有些还教了如何使用 ssh。窝这里希望写的是干净、优雅、易懂的教程，并标出容易踩坑的地方。
 

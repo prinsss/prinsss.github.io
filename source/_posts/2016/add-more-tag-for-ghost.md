@@ -18,9 +18,7 @@ tags:
 
 找到 `core/server/helpers/content.js`，在第 22 行的 `if` 语句里面加一个 `<!--more-->` 标签的判断：
 
-{% alert warning %}
-注意：新版 Lodash 将 `contains` 函数更名为了 `includes`。如出现 `_.contains() is not a function` 的情况，请将下面代码中的 `contains` 替换为 `includes`。
-{% endalert %}
+> 注意：新版 Lodash 将 `contains` 函数更名为了 `includes`。如出现 `_.contains() is not a function` 的情况，请将下面代码中的 `contains` 替换为 `includes`。
 
 ```javascript
 if (truncateOptions.hasOwnProperty('words') || truncateOptions.hasOwnProperty('characters')) {

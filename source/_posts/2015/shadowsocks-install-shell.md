@@ -8,9 +8,7 @@ tags:
   - Shell
 ---
 
-{% alert warning %}
-从 WordPress 迁移至 Ghost 时把代码样式都给弄乱了，换行全都被吞掉了，不过我也懒得再去修复就是了（反正原来的代码也很屎）。
-{% endalert %}
+> 从 WordPress 迁移至 Ghost 时把代码样式都给弄乱了，换行全都被吞掉了，不过我也懒得再去修复就是了（反正原来的代码也很屎）。
 
 窝最近由于一些需求所以经常要在 VPS 上安装 shadowsocks，但是每一次都按照窝以前写的[那篇文章](https://prinzeugen.net/vps-ubuntu-shadowsocks/)那样一个个配置真是有够麻烦，虽然别人早就写了很多比窝这个更好的脚本，但是感觉比较臃肿，比较窝的需求也就那么点。正好可以学习学习写 shell 嘛~ (｀･ω･)
 

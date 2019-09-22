@@ -297,13 +297,11 @@ bundle.js  2.86 kB       0  [emitted]  main
 
 ![Webpack Result](https://img.blessing.studio/images/2017/07/06/snipaste_20170706_114129.png)
 
-{% alert info %}
-**Tips: 关于 Webpack 的 Tree Shaking**
-
-Webpack 现在是自带 Tree-Shaking 的，不过需要你把 Babel 默认的转换 ES6 模块至 CommonJS 格式给关掉，就像上面 Rollup.js 那样在 `.babelrc` 中添加个 `"modules": false`。原因的话上面也提到过，tree-shaking 是基于 ES6 模块的静态语法分析的，如果交给 Webpack 的是已经被 Babel 转换成 CommonJS 的代码的话那就没戏了。
-
-而且 Webpack 自带的 tree-shaking 只是把没用到的模块从 `export` 中去掉而已，之后还要再接一个 UglifyJS 之类的工具把冗余代码干掉才能达到 Rollup.js 那样的效果。
-{% endalert %}
+> **Tips: 关于 Webpack 的 Tree Shaking**
+>
+> Webpack 现在是自带 Tree-Shaking 的，不过需要你把 Babel 默认的转换 ES6 模块至 CommonJS 格式给关掉，就像上面 Rollup.js 那样在 `.babelrc` 中添加个 `"modules": false`。原因的话上面也提到过，tree-shaking 是基于 ES6 模块的静态语法分析的，如果交给 Webpack 的是已经被 Babel 转换成 CommonJS 的代码的话那就没戏了。
+>
+> 而且 Webpack 自带的 tree-shaking 只是把没用到的模块从 `export` 中去掉而已，之后还要再接一个 UglifyJS 之类的工具把冗余代码干掉才能达到 Rollup.js 那样的效果。
 
 Webpack 也可以配合 Gulp 工作流让开发更嗨皮，有兴趣的可自行研究。目前来看，这三种方案中，我本人更倾向于使用 Webpack，不知道诸君会选用什么呢？
 
