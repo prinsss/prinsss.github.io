@@ -7,6 +7,7 @@ git clone -b master git@github.com:printempw/printempw.github.io.git .deploy_git
 
 cd .deploy_git
 git checkout master
+rm -rf ./
 cp -r ../public/* ./
 
 git add .
