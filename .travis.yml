@@ -7,11 +7,7 @@ branches:
   - source
 
 # 缓存依赖，节省持续集成时间
-cache:
-  yarn: true
-  directories:
-    - node_modules
-    - themes
+cache: npm
 
 before_install:
 # 解密 RSA 私钥并设置为本机 ssh 私钥
@@ -26,8 +22,7 @@ before_install:
 
 install:
 # 安装 Hexo 及其依赖
-- yarn
-# 当 Travis 文件缓存不存在时，从 Gitee 私有仓库 clone 主题
+- npm install
 - if [ ! -d "themes/seventeen" ]; then git clone git@gitee.com:printempw/hexo-theme-seventeen.git themes/seventeen; fi
 
 script:
