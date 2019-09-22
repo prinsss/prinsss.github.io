@@ -23,7 +23,7 @@ before_install:
 install:
 # 安装 Hexo 及其依赖
 - npm install
-- if [ ! -d "themes/seventeen" ]; then git clone git@gitee.com:printempw/hexo-theme-seventeen.git themes/seventeen; fi
+- git clone https://github.com/printempw/hexo-theme-murasaki.git themes/murasaki
 
 script:
 # 生成静态页面
