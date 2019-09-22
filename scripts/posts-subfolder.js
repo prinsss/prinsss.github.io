@@ -2,7 +2,7 @@
 hexo.extend.filter.register('post_permalink', permalink => {
   // Organize posts in these subfolders,
   // but don't add the subfolder name to generated post links.
-  const folders = ['2015', '2016', '2017', '2018'];
+  const folders = ['2015', '2016', '2017', '2018', '2019'];
 
   for (const name of folders) {
     if (permalink.startsWith(`${name}/`)) {
