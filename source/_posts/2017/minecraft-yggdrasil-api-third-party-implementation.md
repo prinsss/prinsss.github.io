@@ -3,7 +3,7 @@ title: 又是一种 Minecraft 外置登录解决方案：自行实现 Yggdrasil 
 date: 2017-08-08 23:28:32
 updated: 2018-02-22 01:01:30
 categories: 技术
-tags: 
+tags:
   - Minecraft
   - ACGN
   - PHP
@@ -14,9 +14,7 @@ tags:
 
 通俗地讲，就是我把 Mojang 的正版登录 API 给【劫持】成自己的啦，所以可以像登录正版那样直接用皮肤站的邮箱和密码登录游戏（还支持 Mojang 都不支持的多用户选择哦）。这种外置登录系统的实现应该可以说是比市面上的软件都要完善（毕竟可以直接利用 Minecraft 本身自带的鉴权模块），因此写一篇博文介绍一下这些实现之间的不同之处，顺带记录一下实现 Yggdrasil API 时踩到的坑，算是抛砖引玉了。
 
-{% alert warning %}
-**注意**：本文不适合小白及问题解决能力弱的人群阅读。
-{% endalert %}
+> **注意**：本文不适合小白及问题解决能力弱的人群阅读。
 
 ~~感觉我明明好久没玩 MC 了，要玩也都是玩正版服务器，但是却一直在搞这些盗版服用的东西，我真是舍己为人造福大众普惠众生啊（不~~
 
@@ -269,7 +267,7 @@ $privateKeyPath = __DIR__.'/key.pem';
 if (! file_exists($privateKeyPath)) {
   throw new IllegalArgumentException('RSA 私钥不存在');
 }
-  
+
 $privateKeyContent = file_get_contents($privateKeyPath);
 
 $key = openssl_pkey_get_private($privateKeyContent);

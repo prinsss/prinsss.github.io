@@ -8,13 +8,9 @@ tags:
   - 记录
 ---
 
-{% alert warning %}
-没什么用，可以不用看了，不要浪费你宝贵的生命。仅为记录这次折腾。
-{% endalert %}
+> 没什么用，可以不用看了，不要浪费你宝贵的生命。仅为记录这次折腾。
 
-{% alert success %}
-**Upadte:** 已找到 Google Analytics 的统计信息 POST [协议](https://developers.google.com/analytics/devguides/collection/protocol/v1/reference)，等有时间会把统计搬到后端去，敬请期待。~~咕咕咕~~
-{% endalert %}
+> **Upadte:** 已找到 Google Analytics 的统计信息 POST [协议](https://developers.google.com/analytics/devguides/collection/protocol/v1/reference)，等有时间会把统计搬到后端去，敬请期待。~~咕咕咕~~
 
 ~~虽然 Google Analytics 已经没有被墙了，但是访问速度时好时坏，实在是不敢恭维：~~
 
@@ -26,9 +22,7 @@ tags:
 
 ~~[![GA](https://img.blessing.studio/images/2015/08/2015-08-31_01-22-15-1024x284.png)](https://img.blessing.studio/images/2015/08/2015-08-31_01-22-15.png)~~
 
-{% alert danger %}
-**但是！** 使用反代的追踪代码会导致你失去访客的 IP 地址！虽然其他信息譬如语言，分辨率还是保留的。所以并没有什么琴梨用 (´∀((☆ミつ。`X-Real-IP $remote_addr` 之类的也没用，正在找解决方法。想要用就用吧。
-{% endalert %}
+> **但是！** 使用反代的追踪代码会导致你失去访客的 IP 地址！虽然其他信息譬如语言，分辨率还是保留的。所以并没有什么琴梨用 (´∀((☆ミつ。`X-Real-IP $remote_addr` 之类的也没用，正在找解决方法。想要用就用吧。
 
 下面的内容是给那些做反向代理但是想要替换首页的人准备的：
 

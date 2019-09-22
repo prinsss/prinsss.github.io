@@ -8,9 +8,7 @@ tags:
   - 评测
 ---
 
-{% alert danger %}
-想要购买 ConoHa 的，**三思而后行**。详情：[VPS 被 DDoS 后与 ConoHa 客服的邮件记录](https://prinzeugen.net/mail-log-to-conoha-user-center-after-ddos/)
-{% endalert %}
+> 想要购买 ConoHa 的，**三思而后行**。详情：[VPS 被 DDoS 后与 ConoHa 客服的邮件记录](https://prinzeugen.net/mail-log-to-conoha-user-center-after-ddos/)
 
 现在窝的博客已经全线转移到 ConoHa GMO 了，访问速度应该会快一些了，至少在窝这是这样，大概 ctrl+F5 可以在 3s 内打开：
 
