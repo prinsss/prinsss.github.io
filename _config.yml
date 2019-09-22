@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Blessing Studio
-subtitle: 半吊子全栈开发者的日常
-description: 这里是 printempw 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹逼，偶尔也会写正经文字，欢迎订阅。
+title: PRIN BLOG
+subtitle: 致我所深爱着的世界
+description: 这里是 printempw 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹逼，偶尔也会写正经文字，欢迎订阅
 author: printempw
-language: zh-CN
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -71,7 +71,7 @@ archive_generator:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: seventeen
+theme: murasaki
 
 sitemap:
   path: sitemap.xml
@@ -85,41 +85,39 @@ stylus:
   compress: true
 
 theme_config:
+  favicon: /images/favicon.png
   keywords: "printempw, blog, 博客, 独立博客, Hexo"
+  canonical: true
   expired_warning: true
-  sage_noindex: true
-  menu_top:
-    tech:
-      name: 技术
-      title: 提高姿势水平
-      path: /categories/tech/
-    archive:
+  menu_pages:
+    archives:
       name: 归档
-      title: 总览历史文章
       path: /archives/
-    kaomoji:
-      name: (´・ω・`)
-      title: 点我点我
-      path: javascript:void;
-  menu_aside:
     friends:
-      name: 我的小伙伴们
-      title: 友情链接
-      path: /friends
-      icon: link
+      name: 朋友们
+      path: /friends/
     about:
       name: 关于我
-      title: (*ﾟ∀ﾟ*)
-      path: /about
-      icon: code
-  social:
-    twitter: https://twitter.com/printempw
-    github: https://github.com/printempw
-  open_graph:
-    twitter_id: printempw
+      path: /about/
+  menu_links:
+    github:
+      name: GitHub
+      path: https://github.com/printempw
+    twitter:
+      name: Twitter
+      path: https://twitter.com/printempw
+    rss:
+      name: RSS Feed
+      path: /atom.xml
   disqus: blessing-studio
-  google_font: https://fonts.cat.net
+  # google_font: https://fonts.cat.net
   google_analytics: UA-65656002-1
   google_site_verification: GRFMvqszPSgldR5B46PfCl67MehNVagYoA9AtJpd8BA
-  post_view_counter: https://work.prinzeugen.net/hexo-view-counter
-  hitokoto: https://work.prinzeugen.net/hitokoto/hitokoto.php
+
+# hexo-hide-posts
+hide_posts:
+  # Change the filter name to fit your need
+  filter: sage
+  # Generators which you want to expose all posts (include hidden ones) to.
+  # Common generators: index, tag, category, archive, sitemap, feed, etc.
+  public_generators: [archive]
