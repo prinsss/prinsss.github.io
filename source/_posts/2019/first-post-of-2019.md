@@ -36,7 +36,7 @@ Seventeen 原本是一个付费的 WordPress 主题，其漂亮的外观让当�
 
 在 Accent Color 的选取上，本来想直接用我最喜欢的颜色 [藤紫色](https://irocore.com/fujimurasaki/) (#8F82BC) 的，但作为主色可能还是有点偏淡，所以选择了稍深一点的 [菫色](https://irocore.com/sumire-iro/) (#7065A3)。而主题也因此得名：<ruby>紫<rp>(</rp><rt>murasaki</rt><rp>)</rp></ruby>。
 
-> 代码照例以 MIT 协议开源在 GitHub 上：[printempw/hexo-theme-murasaki](printempw/hexo-theme-murasaki)
+> 代码照例以 MIT 协议开源在 GitHub 上：[printempw/hexo-theme-murasaki](https://github.com/printempw/hexo-theme-murasaki/)
 
 不过毕竟是周末两天时间写出来的，还有非常多不完善的地方，只是因为没时间了所以先糊了上去，目前还不推荐各位使用（光是我自己的 TODO 就已经列了一大堆了，我真的有时间全实现吗……）。等到我觉得到了能发布的水准，我会专门写一篇关于这个主题的博客的，这里就按下不表咕咕咕。
 
