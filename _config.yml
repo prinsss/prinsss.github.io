@@ -109,7 +109,13 @@ theme_config:
     rss:
       name: RSS Feed
       path: /atom.xml
-  disqus: blessing-studio
+  disqus:
+    enable: true
+    shortname: blessing-studio
+    api: https://disqusjs-proxy.printempw.now.sh/
+    apikey: 5O1HIIFsAWX3lBOQveU8qWPPAd2aLyf1fklehBAfcQ7S9Jo8y4acIrmyO2uxMD35
+    admin: printempw
+    admin_label: 博主
   # google_font: https://fonts.cat.net
   google_analytics: UA-65656002-1
   google_site_verification: GRFMvqszPSgldR5B46PfCl67MehNVagYoA9AtJpd8BA
