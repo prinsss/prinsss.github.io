@@ -1,11 +1,10 @@
 ---
 title:   '关于'
 date:    '2017-06-25 20:51:23'
-updated: '2019-09-24 23:00:00'
+updated: '2019-10-13 01:00:00'
 ---
 
 <style>.post-title, .post-meta { display: none; } code { word-break: break-word; }</style>
-
 ## 欢迎来访
 
 虽然现在是独立博客式微的时代，但无论你是循关键词自搜索引擎而来，还是从 SNS、朋友引荐而来，能在众多博客中与你相遇，也未尝不是一种缘分。欢迎你！
@@ -14,14 +13,18 @@ PRIN BLOG 是我的个人独立博客，基本上啥都写。原创内容多为�
 
 ## 关于我
 
-- 常用 ID：`printempw`（昵称：[PRIN](https://blessing.studio/new-nickname-prin/)）；
-- 不卑不亢，网络上大多数情况下言辞温和；
+- 常用 ID：`printempw`（叫我 [PRIN](https://printempw.github.io/new-nickname-prin/) 就行）；
+- ~~24 岁~~，是学生；
+- 不卑不亢，大多数情况下言辞温和；
 - 无洋文恐惧症，算是会英语和日语；
+- 懒懒散散，最大的愿望是过上平静舒适的生活；
+- 经常被人说心态好；
+- 三分钟热度；
 - 喜欢网络亚文化，沉迷过一段时间 Virtual YouTuber；
-- 总是在追求着感动人心的作品（[bgm.tv](https://bgm.tv/user/printempw)）；
+- 二刺螈中级高手（[bgm.tv](https://bgm.tv/user/printempw)）；
 - 耳机已退烧，解析差不多一点的都能接受；
 - 对文字排版与代码简洁有着苛刻的要求；
-- 较为熟练的技术栈是 PHP 和前端开发，其余略知一二；
+- 较为熟练的技术栈是 Web 前后端开发，其余略知一二；
 - ~~精通 BUG 驱动开发的面向搜索引擎编程~~；
 - 热爱自由开放、美好与简单优雅的事物。
 
