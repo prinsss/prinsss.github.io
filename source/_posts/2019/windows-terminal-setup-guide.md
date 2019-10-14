@@ -36,10 +36,17 @@ WT 现在已经上架 [Microsoft Store](https://www.microsoft.com/store/apps/9n0
 
 如果你无法使用 Microsoft Store，也可以下载 [releases](https://github.com/microsoft/terminal/releases) 页面打包好的 `.msixbundle` 手动安装（记得先安装依赖库 [Desktop Bridge VC++ v14 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=53175)）。
 
-也可以使用 Chocolatey 包管理器来安装（Scoop 估计是没戏）：
+也可以使用 Chocolatey 包管理器来安装：
 
 ```
 choco install microsoft-windows-terminal
+```
+
+或者使用 Scoop 安装（通过 [@h404bi](https://github.com/h404bi) 维护的第三方 bucket）：
+
+```
+scoop bucket add dorado https://github.com/h404bi/dorado
+scoop install windowsterminal
 ```
 
 如果你愿意，你还可以手动编译安装，具体请参考 [官方文档](https://github.com/microsoft/terminal/blob/master/README.md#developer-guidance)。
