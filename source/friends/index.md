@@ -25,45 +25,56 @@ toc: false
 
 _以下站点按照添加的时间顺序排列：_
 
-* [琉璃喵](http://www.rurim.moe/)【前身为高嶺Projects，上次被喝茶后好像就没怎么更新了……】
-* [Tsez Blog](https://blog.tse.moe/)
-* [DreamCity](https://www.littleqiu.net/)【刚开始做 BS 时就认识了的朋友】
-* [Steins;Lab](http://steinslab.xyz)【物联网大佬，搞了好多好玩的东西】
-* [野生程序猴子](https://ljason.cn/)
-* [HentaiCollection](https://hencolle.com/)【一万年没有更新过博客的摸鱼选手】
-* [Very9s](http://very9s.net/)
-* [静静's Blog](https://kernel.moe/)
-* [FGHRSH 的博客](https://www.fghrsh.net/)【富佬，迫真手办开箱博客 💸】
-* [ChionLab](https://blog.chionlab.moe/)【前端后端、网络协议都有涉猎的大佬】
-* [FindSpace](https://www.findhao.net/)
-* [小霖](https://xiaolin.in/)
-* [小忆博客](http://blog.iiwo.vip/)
-* [Hanaasagi](https://blog.dreamfever.me/)
-* [LiarOnce 的小站](https://www.liaronce.win)
-* [曼治小住](https://www.mtxz.org/)
-* [黎明余光](https://blog.lim-light.com/)【因为都在写 MC 皮肤站而认识的朋友】
-* [碱基们的时间](http://nanguage.org/)
-* [Hdsky](https://hdsky.pw/)
-* [just 涨芝士](http://cheesekun.top/)
-* [1111Lab](https://1111lab.org/)
-* [后宫学长](https://haremu.com/)【名字看起来很不妙，其实是个正常博客】
-* [Eree's blog](http://ereebay.me/)
+* [Tsez Blog](https://blog.tse.moe)
+* [DreamCity](https://www.littleqiu.net)【刚开始做 BS 时就认识了的朋友】
+* [Steins;Lab](https://steinslab.io)【物联网大佬，搞了好多好玩的东西】
+* [野生程序猴子](https://ljason.cn)
+* [Good Old Days](https://hencolle.com)【归来的摸鱼怪】
+* [FGHRSH 的博客](https://www.fghrsh.net)【富佬，迫真手办开箱博客 💸】
+* [ChionLab](https://blog.chionlab.moe)【前端后端、网络协议都有涉猎的大佬】
+* [FindHao](https://www.findhao.net)
+* [小霖](https://xiaolin.in)
+* [Brian's Blog](https://blog.brianhe.me)
+* [Hanaasagi](https://blog.dreamfever.me)
+* [LiarOnce 的小站](https://www.liaronce.com)
+* [曼通性斋](https:/mtxz.org)
+* [黎明余光](https://blog.lim-light.com)【因为都在写 MC 皮肤站而认识的朋友】
+* [Hdsky](https://hdsky.pw)
+* [just 涨芝士](http://cheesekun.top)
+* [后宫学长](https://haremu.com)【名字看起来很不妙，其实是个正常博客】
+* [Eree's blog](http://ereebay.me)
 * [樱花庄的白猫](https://2heng.xin)
-* [蝉时雨](https://chanshiyu.com/)
-* [ISLAND](http://youngxhui.github.io/)
-* [且听书吟](https://yufan.me/)【雨帆大佬的博客】
-* [Pig Fang](https://blog.gplane.win/)【Blessing Skin 的协力开发者 🤝】
-* [刘伟](https://darrenliuwei.com/)
-* [南ことりの小窝](https://kotori.net/)【Andy 大佬的新博客】
-* [Hans362's Blog](https://blog.hans362.cn/)
-* [哈陆lu的博客](https://halu.lu/)
-* [Zankyo](https://zankyo.cc/)
-* [贫困的蚊子](https://qwq.moe/)
-* [夜绫千裕](https://yecl.net/)【很有思想的砍口累提督，博客荣获 GFW 认证】
-* [zjyl1994 の 自留地](https://blog.zjyl1994.com/)
-* [乱码](https://luan.ma/)
-* [Wincer's Blog](https://blog.itswincer.com/)
-* [Listener](https://patrickwu.space/)
-* [归档笔记](https://www.ogura.io/)
-* [思维之海](https://stellarkey.github.io/)
-* [Desvl's Blog](https://desvl.xyz/)
+* [蝉时雨](https://chanshiyu.com)
+* [ISLAND](https://youngxhui.top)
+* [且听书吟](https://yufan.me)【雨帆大佬的博客】
+* [刘伟](https://darrenliuwei.com)
+* [南ことりの小窝](https://kotori.net)
+* [Hans362's Blog](https://blog.hans362.cn)
+* [無位小站](https://halu.lu)
+* [Zankyo](https://zankyo.cc)
+* [贫困的蚊子](https://qwq.moe)
+* [夜绫千裕](https://yecl.net)【砍口累提督，博客荣获 GFW 认证】
+* [咸鱼的小鱼塘](https://blog.zjyl1994.com)
+* [乱码](https://luan.ma)
+* [Wincer's Blog](https://blog.itswincer.com)
+* [Listener](https://patrickwu.space)
+* [归档笔记](https://www.ogura.io)
+* [思维之海](https://vel.life/)
+* [Desvl's Blog](https://desvl.xyz)
+
+<details>
+<summary>可能已经迷失了的友站</summary>
+
+我会定期检查各个友链，将无法访问的链接移动到这里。
+
+如果你发现你的链接被错误地移动了，或者链接需要更新，请在评论区告诉我。
+
+* [琉璃喵](http://www.rurim.moe)
+* [Very9s](http://very9s.net)
+* [静静's Blog](https://kernel.moe)
+* [碱基们的时间](http://nanguage.org)
+* [1111Lab](https://1111lab.org)
+* [Pig Fang](https://blog.gplane.win)【Blessing Skin 的协力开发者 🤝】
+
+维护独立博客从来都不是一件容易的事，且行且珍惜。
+</details>
