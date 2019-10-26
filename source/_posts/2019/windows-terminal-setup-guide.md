@@ -1,5 +1,5 @@
 ---
-title: 'Windows Terminal 食用指南'
+title: 'Windows Terminal 安装与配置指南'
 date: '2019-10-14 20:08:00'
 updated: '2019-10-14 20:08:00'
 categories: 技术
