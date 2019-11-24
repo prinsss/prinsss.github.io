@@ -1,7 +1,7 @@
 ---
 title: 'Manjaro Linux 踩坑调教记录'
 date: '2019-11-23 22:26:53'
-updated: '2019-11-23 22:26:53'
+updated: '2019-11-24 13:53:00'
 categories: 技术
 tags:
   - Linux
@@ -251,6 +251,7 @@ Manjaro 默认安装就自带了这些 GNOME Shell 扩展：
 - `typora` Markdown 编辑器，我这篇文章就是用这写的
 - `deepin-screenshot` 截图，GNOME 自带的不太好用
 - `qv2ray` 科学上网，SS 用户可以用 `shadowsocks-qt5` 或者  `electron-ssr`
+- `onedrive-abraunegg` OneDrive 客户端
 
 国内躲不开的 QQ 微信也可以一键安装（以 TIM 为例）：
 
@@ -347,6 +348,8 @@ imwheel
 ```
 
 可以正常使用的话参见 [Arch Wiki 添加启动项](https://wiki.archlinux.org/index.php/IMWheel#Run_IMWheel_on_startup)。
+
+不知道是不是实现原理的关系，imwheel 运行之后触摸板滚动会变得很奇怪……按需使用吧。
 
 ## 笔记本合盖行为
 
@@ -519,9 +522,9 @@ sudo update-grub
 └── System Volume Information
 ```
 
-安装完 Windows 之后，它会向 EFI 注册一个引导项，告诉 EFI 从哪块硬盘、哪个分区、哪个 `.efi` 文件引导系统（比如我的机器上就是 `Windows Boot Manager  HD(1,GPT,{UUID},0x1000,0x96000)/File(\EFI\Microsoft\Boot\bootmgfw.efi)`），然后把这个引导项的优先级设置成最高。这样一来默认情况下就是开机直接进 Windows 了，也就是我们碰到的情况。
+安装完 Windows 之后，它会向 EFI 注册一个引导项，告诉 EFI 从哪块硬盘、哪个分区、哪个 `.efi` 文件引导系统（比如我的机器上就是 <code style="word-break: break-word;">Windows Boot Manager  HD(1,GPT,{UUID},0x1000,0x96000)/File(\EFI\Microsoft\Boot\bootmgfw.efi)</code>），然后把这个引导项的优先级设置成最高。这样一来默认情况下就是开机直接进 Windows 了，也就是我们碰到的情况。
 
-不过我们之前安装 Manjaro 的时候，也向 EFI 注册了一个引导项（`Manjaro	HD(1,GPT,{UUID},0x1000,0x96000)/File(\EFI\Manjaro\grubx64.efi)`）。Windows 再怎么流氓也不会把我们已经添加了的引导项给删掉，所以按 F12 选择原来的引导项之后还是可以进去 Manjaro 的。
+不过我们之前安装 Manjaro 的时候，也向 EFI 注册了一个引导项（<code style="word-break: break-word;">Manjaro	HD(1,GPT,{UUID},0x1000,0x96000)/File(\EFI\Manjaro\grubx64.efi)</code>）。Windows 再怎么流氓也不会把我们已经添加了的引导项给删掉，所以按 F12 选择原来的引导项之后还是可以进去 Manjaro 的。
 
 如果你继续安装其他的系统或者引导器（比如说我安装了 rEFInd），就会在 `EFI` 目录里继续添加文件，然后注册引导项，显示在 F12 UEFI 启动菜单中供用户选择。
 
