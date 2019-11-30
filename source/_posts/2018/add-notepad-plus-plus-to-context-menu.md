@@ -172,5 +172,3 @@ Windows Registry Editor Version 5.00
 - [为 Notepad++ 添加带图标的右键菜单](http://www.catmee.com/add-context-menu-for-notepad-plus-plus/)
 - [notepad-plus-plus/PowerEditor/src/tools/NppShell/src/NppShell.cpp](https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/PowerEditor/src/tools/NppShell/src/NppShell.cpp)
 - [檔案總管右鍵選單開啟免安裝版 Notepad++](http://blog.darkthread.net/post-2017-06-05-open-notepad-with-contextmenu.aspx)
-
-以上。

@@ -304,5 +304,3 @@ C/C++ 的调试器也有很多，下面以我们之前安装的 MinGW-w64 中配
 - [Microsoft/vscode-cpptools](https://github.com/Microsoft/vscode-cpptools)
 - [使用 Visual Studio Code 搭建 C/C++ 开发和调试环境](https://segmentfault.com/a/1190000014800106)
 - [使用 VSCode 搭建 C/C++ 开发环境](https://www.jianshu.com/p/8933ebdac814)
-
-以上。![meme-i-am-so-vegetable](https://img.blessing.studio/images/2018/10/02/meme-i-am-so-vegetable.jpg)
