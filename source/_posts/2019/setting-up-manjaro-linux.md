@@ -1,7 +1,7 @@
 ---
 title: 'Manjaro Linux 踩坑调教记录'
 date: '2019-11-23 22:26:53'
-updated: '2019-11-24 13:53:00'
+updated: '2019-11-30 14:09:00'
 categories: 技术
 tags:
   - Linux
@@ -150,11 +150,11 @@ XMODIFIERS=@im=fcitx
 
 一些常用的默认快捷键：
 
-- <kbd>Ctrl</kbd>+<kbd>Space</kbd> 激活输入法
+- <kbd>Ctrl</kbd> + <kbd>Space</kbd> 激活输入法
 - <kbd>左Shift</kbd> 临时切换到英文
-- <kbd>Ctrl</kbd>+<kbd>Shift</kbd> 输入法间切换
-- <kbd>-</kbd>/<kbd>=</kbd> 向前/向后翻页
-- <kbd>Shift</kbd>+<kbd>Space</kbd> 全角、半角切换
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> 输入法间切换
+- <kbd>-</kbd> / <kbd>=</kbd> 向前/向后翻页
+- <kbd>Shift</kbd> + <kbd>Space</kbd> 全角、半角切换
 
 本来输入法和输入方案是可以在托盘的 fcitx 图标的菜单中切换的，但是我的 GNOME 上不知道为什么打不开 dropdown 菜单（点一下马上就收起来，终极拼手速），只好手动修改配置文件了：
 
@@ -169,7 +169,7 @@ patch:
     - schema: luna_pinyin
 ```
 
-输入方案也可以在切换至 Rime 时按 F4 或者 <kbd>Ctrl</kbd>+<kbd>`</kbd> 切换，不过我基本只用得到这俩。
+输入方案也可以在切换至 Rime 时按 F4 或者 <kbd>Ctrl</kbd> + <kbd>`</kbd> 切换，不过我基本只用得到这俩。
 
 Rime 自身的具体配置这里不再赘述，实在是太复杂了，有兴趣的可以参考一下网上其他人分享的配置文件。
 
@@ -249,7 +249,7 @@ Manjaro 默认安装就自带了这些 GNOME Shell 扩展：
 - `gimp` 图像编辑
 - `google-chrome` 骂归骂，用还是要用的
 - `typora` Markdown 编辑器，我这篇文章就是用这写的
-- `deepin-screenshot` 截图，GNOME 自带的不太好用
+- `flameshot` 截图，GNOME 自带的不太好用
 - `qv2ray` 科学上网，SS 用户可以用 `shadowsocks-qt5` 或者  `electron-ssr`
 - `onedrive-abraunegg` OneDrive 客户端
 
@@ -286,6 +286,7 @@ yay -S noto-fonts-emoji
 
 - `tldr` 简化版文档，谁用谁知道
 - `proxychains` 解决命令行程序挂代理的老大难问题
+- `oh-my-zsh` 离不开这玩意儿
 
 ## 触摸板手势
 
@@ -561,6 +562,8 @@ reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation
 另外还有指纹识别目前也无法驱动（`ID 27c6:5117 Shenzhen Goodix Technology Co.,Ltd. Goodix Fingerprint Device`），不知道什么时候能支持。Windows Hello 的指纹识别体验确实很不错。
 
 其他基本上没什么问题了，用得很满意，毕竟这价格还要啥自行车是吧。
+
+> 更新：就算在 Windows 下有驱动，MagicBook 锐龙版在同时使用蓝牙与 2.4GHz WiFi 的时候网络丢包也非常严重。此问题并非个例，华为论坛上也是一片骂声。虽然可以通过拆机更换无线网卡解决，不过有意愿购买的还是再考虑一下吧。
 
 ## 参考链接
 
