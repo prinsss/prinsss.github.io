@@ -11,6 +11,8 @@ tags:
 
 为啥呢？简单来说，就是我懒得维护服务器了。
 
+<!--more-->
+
 去年十月份，我为博客添加了 [Travis CI 自动构建流程](https://blessing.studio/deploy-hexo-blog-automatically-with-travis-ci/)，发布新博文只需要把 Markdown 源码 push 至 GitHub 上的仓库，CI 会帮我自动完成后续的所有步骤，很适合我这种懒人。
 
 在我的 CI 脚本中，博客构建完毕后会把构建结果 [同时推送](https://github.com/printempw/printempw.github.io/blob/source/.travis/deploy.sh#L19) 至 GitHub Pages 和我自己的服务器。由于我之前一直是在自有服务器上部署的动态博客程序（WordPress、Ghost），一直用下来也没什么不妥，所以当时我也只是把 GitHub Pages 当成一个备胎，博客域名依然是解析到自有服务器上的。

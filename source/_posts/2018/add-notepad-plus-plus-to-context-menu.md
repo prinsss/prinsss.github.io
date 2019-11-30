@@ -12,6 +12,8 @@ tags:
 
 至于为什么要买小米的本子，主要是因为它的「游戏本性能 + 商务本外观」这一点正戳中我好球区。不过这几天使用下来，只能说缺点确实不少，有购买意愿的朋友需谨慎。在 Twitter 上搜索 `小米游戏本 from:printempw` 就能看到我发的吐槽简评，如果之后有时间的话也打算专门写篇评测（咕咕咕）。
 
+<!--more-->
+
 回到正题。因为以前家里的电脑是全家共用的所以没什么，不过最近有了自己的电脑，我的软件洁癖就上来了：**有[绿色版](https://zh.wikipedia.org/wiki/%E7%B6%A0%E8%89%B2%E8%BB%9F%E9%AB%94)（便携软件，Portable Application）的绝不用安装版，国产软件一律扔沙盒运行。**
 
 看起来有点偏执，不过我就属于那种想把自己设备中的一切纳入可控范围内的人。Windows 在这点上就很讨厌，尤其是注册表的设计，比类 Unix 系统难管理了不是一点半点。在手机上也是一样，不能解锁 bootloader 的 Android 机器我绝对不会购买，AppOps、Magisk、[存储重定向](https://play.google.com/store/apps/details?id=moe.shizuku.redirectstorage) 等工具更是必备。虽然我也没偏执到「每条指令运行都需要我的许可」那种程度，不过至少，我的设备必须听我的话，我说什么不能做那就是不能做，你他娘的不能给我自作主张（比如 Windows [广受诟病的自动更新机制](https://www.zhihu.com/question/271414438)、某些臭名昭著的国产软件扫描用户硬盘等）。为什么？**因为是我在用电脑，不是电脑用我。**
@@ -23,8 +25,6 @@ tags:
 因为这个右键菜单还蛮好用的，所以我打算把它找回来。
 
 ![npp-context-menu-demo](https://img.blessing.studio/images/2018/08/29/npp-context-menu-demo.png)
-
-<!--more-->
 
 ## 方法一：使用官方提供的 NppShell.dll
 

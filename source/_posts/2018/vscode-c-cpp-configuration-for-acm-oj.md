@@ -17,11 +17,11 @@ tags:
 
 而我就比较硬核了，我选择参加可能让我基本告别头发的 ACM 程序设计竞赛（不）。
 
+<!--more-->
+
 ![cs-no-hair](https://img.blessing.studio/images/2018/10/02/cs-no-hair.jpg)
 
 好啦言归正传，今天我们的主题是在 VS Code 编辑器中搭建适用于 ACM 练习的 C/C++ 开发环境。
-
-<!--more-->
 
 ## 0x01 需求分析
 

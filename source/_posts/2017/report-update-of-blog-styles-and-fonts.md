@@ -11,6 +11,8 @@ tags:
 
 一直想改进一下博客的字体和在手机上的样式，奈何最近一直没有时间，只好作罢。昨天晚上抽出一些时间做了一些改进，顺便写篇博文算是记录~~灌水~~（笑）。
 
+<!--more-->
+
 【更新 17/04/24】
 
 - 正文字体已由 Monda 改为 PT Serif
@@ -27,8 +29,6 @@ Roboto Slab 是[粗衬线体](https://zh.wikipedia.org/wiki/%E7%B2%97%E8%A1%AC%E
 ### 全局除正文外的西文字体使用 Alegreya
 
 之前正文以外的西文字体都是使用的 Georgia，同样是衬线字体，[Alegreya](https://fonts.google.com/specimen/Alegreya) 的衬线更加富有书法气息，比较帅气。
-
-<!--more-->
 
 ![Alegreya](https://ooo.0o0.ooo/2017/02/26/58b29a1894a08.png)
 
