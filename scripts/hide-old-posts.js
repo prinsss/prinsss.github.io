@@ -1,5 +1,5 @@
 // Hide old posts from homepage (still visible in archives, categories, tags, etc.)
-const deadline = '2017-01-01';
+const deadline = '2016-01-01';
 
 hexo.extend.filter.register('after_init', function () {
   const originalGeneratorIndex = hexo.extend.generator.get('index');
