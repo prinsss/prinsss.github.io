@@ -3,7 +3,6 @@ title: '一种监测 VTuber 直播并自动录像的方法'
 date: '2018-10-29 23:45:36'
 updated: '2018-10-29 23:45:36'
 categories: 技术
-toc: false
 tags:
   - VTuber
   - 音视频处理
