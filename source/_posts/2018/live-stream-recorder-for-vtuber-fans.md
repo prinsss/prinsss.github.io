@@ -57,5 +57,3 @@ tags:
 - [【转播 man】其他平台转播到 bilibili 的一种方法](https://www.bilibili.com/read/cv1083415)
 - [简单易用 外网直播流转播至 B 站的小工具](https://www.bilibili.com/read/mobile/1122933)
 - [AutoYtB —— 自动检测 youtube 与推特进行自动转播至 B 站并进行录制与转码](https://www.bilibili.com/read/cv1388431)
-
-以上。
