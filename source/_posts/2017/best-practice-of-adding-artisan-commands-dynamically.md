@@ -11,6 +11,8 @@ tags:
 
 虽然 Laravel 官方文档提供的添加 Artisan Command 的方法是直接修改 `app/Console/Kernel.php` 文件并在 `$commands` 属性中注册要添加的 Artisan 命名的类名（Laravel 服务容器会自动解析），但是，如果我们出现需要「动态（运行时）添加 Artisan 命令」的需求的话，就会很容易吃瘪。因为，Laravel 的文档（当然，我说的是官网上的）几乎没有提到任何关于这方面的内容。
 
+<!--more-->
+
 这也是我为什么总是吐槽 Laravel 文档有些地方很烂的原因 —— 很多时候你为了实现一个文档里没提到的功能，需要去翻半天 Laravel 的框架源码才能找到解决方法（我博客的 [Laravel 标签](https://blessing.studio/tag/Laravel/) 下已经有不少这样的踩坑文了）。虽然 Laravel 框架的源码很优雅，看着也不会难受，但是在一堆文件中跳来跳去寻找逻辑浪费脑细胞的行为还是能省则省吧 :(
 
 这次要实现的功能是在运行时动态加载自定义的 Artisan Command（更详细一些的需求就是在皮肤站的一个插件中注册 Artisan 命令，Laravel 插件系统的实现可以参考我之前的 [另一篇文章](https://blessing.studio/laravel-plugin-system-1/)）。
@@ -44,8 +46,6 @@ Event::listen('Illuminate\Console\Events\ArtisanStarting', function ($event) {
     $event->artisan->resolve('Example\BarCommand');
 });
 ```
-
-<!--more-->
 
 Laravel 5.1：
 

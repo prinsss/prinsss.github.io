@@ -17,11 +17,11 @@ tags:
 
 不过我的朋友 [g-plane](https://blog.gplane.win/) 说他愿意接坑，所以现在这个项目的后续开发都是他在搞。而我也乐得清闲，做个甩手掌柜 [搞别的](https://blessing.studio/vscode-c-cpp-configuration-for-acm-oj/) 去了。当我摸鱼正快活时，他过来联系我说准备发布 4.0.0-alpha 了，我才想起来这茬：「啊，我连新版本长啥样都还不知道呢！😂」于是急急忙忙 pull 了新代码准备 review 一下，却发现我的新笔电上甚至压根儿就没安装 PHP 开发环境，只能说是非常地真实。
 
+<!--more-->
+
 因为 [某些原因](https://blessing.studio/phpstudy-prober-page-502-bad-gateway/)，我不想继续使用那些 PHP 一键包来搭建开发环境了，所以这次我打算全部自己来。本文记录了我手动安装配置 PHP + Nginx/Apache 开发环境的过程，希望能帮到后来人。
 
 注意，本文中的配置适用于本地开发环境，应用至生产环境时要注意哦。
-
-<!--more-->
 
 ## 0x01 安装 Nginx / Apache
 

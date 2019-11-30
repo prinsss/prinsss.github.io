@@ -13,6 +13,8 @@ tags:
 
 新协议的提出对于 shadowsocks 是一个非常非常重大的改进，因此我写了这篇博文为看不懂洋文的<span title="pong">朋</span>友们科普一下「为什么 OTA 会被这么快被弃用」以及「为什么应该使用新协议」。
 
+<!--more-->
+
 ## 一、OTA 是什么
 
 OTA（One Time Auth，[一次性验证](https://shadowsocks.org/en/spec/one-time-auth.html)），是之前 shadowsocks 为了增强安全性，抵抗 CCA（Chosen-ciphertext Attack，[选择密文攻击](https://zh.wikipedia.org/wiki/%E9%80%89%E6%8B%A9%E5%AF%86%E6%96%87%E6%94%BB%E5%87%BB)）而加入的实验性功能。
@@ -20,8 +22,6 @@ OTA（One Time Auth，[一次性验证](https://shadowsocks.org/en/spec/one-time
 我觉得应该很多人都听过这玩意 —— 就算不知道 OTA 是啥好歹也在 shadowsocks 各分支的客户端上看到过「一次性验证」的开关吧？虽然这个名字确实起得有点让人不明所以就是了（笑）。
 
 那么下面我来科普下当初为什么要加入 OTA 功能。
-
-<!--more-->
 
 ## 二、原协议的弱点
 

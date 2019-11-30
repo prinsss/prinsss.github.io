@@ -12,13 +12,15 @@ HAIDOMO，这里是年终总结拖了两个月还没写完，上一篇博文发�
 
 最近几天正好遇到了如标题所述的「Windows Update 自动更新时出现错误 `0x800703ed`」的状况，在网上搜索许久，最后历经千辛万苦才终于定位到了问题的根源。特此记录，希望能帮到后来人。
 
+<!--more-->
+
 ## 0x01 问题描述
 
 虽然我现在已经没多少追 Windows Insider Perview 的热情了，不过最近巨硬推出的那个 Fluent Design 看起来还是挺赞的，就打算在 Windows Update 中升级到最新的 Insider Preview。虽然速度屌慢，但是还是成功地检查到了 Build 17093 的更新并且进入了「正在准备更新」这一阶段。谁曾想等进度跑到 100% 却出现了如下错误：
 
 ![error 0x800703ed screenshot](https://img.blessing.studio/images/2018/02/13/DV0b0p7VAAAn_zT.jpg)
 
-这可太他妈的操蛋了。 <!--more-->
+这可太他妈的操蛋了。
 
 ## 0x02 尝试定位问题
 

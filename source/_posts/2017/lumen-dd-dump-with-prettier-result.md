@@ -13,11 +13,11 @@ tags:
 
 如果你用过 Laravel，那你应该知道 Laravel 内置了几个很方便的帮助函数（Helper）—— `dd()` 和 `dump()`。这两个函数都能够输出变量的值，不同的是 `dd()` 在输出变量值后会停止脚本的执行，而 `dump()` 不会。它们的使用方法可参照官方文档：[Helpers - Laravel Documentation](https://laravel.com/docs/5.4/helpers#method-dd)。
 
+<!--more-->
+
 ![Laravel dd() 输出示例](https://img.blessing.studio/images/2017/06/11/snipaste_20170610_214238.png)
 
 什么？哦，上帝！真是见鬼！怎么会有人在 Laravel 中还在用 `echo` + `die()`？好家伙，我敢打赌，他一定没有好好看文档，我向圣母玛利亚保证。如果让我看到这群愚蠢的土拨鼠，看在上帝的份上，我会用靴子狠狠地踢他们的屁股，我发誓我绝对会。
-
-<!--more-->
 
 但是如果你在 Lumen（一个为速度而生的类 Laravel 微框架）中也想使用这些帮助函数的话，你会发现 `dump()` 无法使用了（报错 `Call to undefined function`），而且 `dd()` 的结果会变成这样瞎眼的输出：
 

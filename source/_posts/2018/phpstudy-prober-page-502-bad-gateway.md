@@ -10,6 +10,8 @@ tags:
 
 不要问我为什么要用 phpStudy，我也不想。
 
+<!--more-->
+
 ## TL;DR 太长不看
 
 Windows 环境下的 **PHP 7.2.1 / 7.1.13** 这两个版本有问题，在执行 `getenv()` 函数且第二个参数为 `false` 时，会造成 PHP FastCGI 进程 ( `php-cgi.exe` ) 崩溃。这是一个已知的 [BUG](https://bugs.php.net/bug.php?id=75794)，并且已经在 **2018-02-01** 发布的 **PHP 7.2.2** 与 **PHP 7.1.14** 中 [被修复](http://www.php.net/ChangeLog-7.php#7.2.2) 了。
@@ -23,8 +25,6 @@ Windows 环境下的 **PHP 7.2.1 / 7.1.13** 这两个版本有问题，在执行
 修复方法也很简单，**升级 PHP 版本即可**。
 
 下面开始讲废话。
-
-<!--more-->
 
 ## 0x01 问题描述
 

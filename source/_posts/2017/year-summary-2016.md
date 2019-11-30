@@ -9,17 +9,17 @@ tags:
 
 > 人生天地之间，若白驹之过隙，忽然而已。——《庄子·知北游》
 
-又到了写年终总结的时候了，时间过得真鸡儿快啊。虽然没有 [Maxine Caulfield](http://life-is-strange.wikia.com/wiki/Maxine_Caulfield) 那样操控时间轴的能力，但是回顾一下我在 2016 的大事件的能力还是有的：
+又到了写年终总结的时候了，时间过得真鸡儿快啊。虽然没有 [Maxine Caulfield](http://life-is-strange.wikia.com/wiki/Maxine_Caulfield) 那样操控时间轴的能力，但是回顾一下我在 2016 的大事件的能力还是有的。
 
-### 概览
+<!--more-->
+
+## 概览
 
 过去的一年里，本博客的基本访问情况如下图：
 
 ![Google Analytics Overview](https://img.blessing.studio/images/2017/01/12/QQ20170112172527.png)
 
 这期间，本博客一共迎来了 36,637 位用户，他们一共产生了 56,667 次会话以及 96,728 次浏览。平均每天 100 位用户、155 次会话以及 265 次浏览。
-
-<!--more-->
 
 比起去年好了一些，但还是要加把劲让更多的人知道我啊 (`ε´ )
 
@@ -34,9 +34,9 @@ tags:
 ```
 SELECT COUNT(*) FROM `posts` WHERE `published_at` > '2016-01-01'
 
-SELECT title, published_at, post_views.pv 
-FROM `posts` INNER JOIN `post_views` ON posts.slug = post_views.slug 
-WHERE published_at > '2016-01-01' 
+SELECT title, published_at, post_views.pv
+FROM `posts` INNER JOIN `post_views` ON posts.slug = post_views.slug
+WHERE published_at > '2016-01-01'
 ORDER BY post_views.pv DESC
 ```
 
@@ -55,13 +55,13 @@ ORDER BY post_views.pv DESC
 过去的一年，我的博客上产生了 570 条评论（不包括我发布的）。由于 Disqus 不提供直接查询，我只能导出 XML 后写个脚本分析：
 
 ```
-Total comments number of last year: 570 
+Total comments number of last year: 570
 [Finished in 0.2s]
 ```
 
 脚本是用 PHP 写的 (　ﾟ 3ﾟ) 代码托管在 [Gist](https://gist.github.com/printempw/b598abd560c809ea64667d284fc01f0f) 上。
 
-### 关于博客
+## 关于博客
 
 - 将博客系统由 WordPress [换成了 Ghost](https://blessing.studio/hello-ghost-goodbye-wordpress/)
 - 启用了新域名 [Blessing.Studio](https://blessing.studio/migrate-to-new-domain-blessing-studio/)
@@ -69,7 +69,7 @@ Total comments number of last year: 570
 - 分享了一些[开发心得](https://blessing.studio/tag/development-tips/)
 - 和许多博主交换了[友链](https://blessing.studio/friends/)
 
-### 学习
+## 学习
 
 - 开始学习 PHP，[接触了 Laravel](https://blessing.studio/tag/laravel/) 这个伟大的框架
 - 开发了 [Blessing Skin Server](https://github.com/printempw/blessing-skin-server)，学到了不少东西
@@ -80,7 +80,7 @@ Total comments number of last year: 570
 
 ![GitHub TimeLine](https://img.blessing.studio/images/2017/01/11/QQ20170111125004.png)
 
-### 其他
+## 其他
 
 - 买了一块 [GTX750](https://blessing.studio/awesome-minecraft-shader/)
 - 开始去电影院看电影（说来惭愧，以前一直是盗版侠）
@@ -108,7 +108,7 @@ Total comments number of last year: 570
 
 虽然 14 年就注册了，但是一直没怎么用，只是用来关注喜欢的画师/声优的动态而已。最近倒是一发不可收拾地沉迷其中了，怕不是我的社交媒体魂在燃烧啊 (ゝ∀･)
 
-### 展望 2017
+## 展望 2017
 
 展望个鬼，先好好应付高考再说 (((　ﾟдﾟ)))
 
