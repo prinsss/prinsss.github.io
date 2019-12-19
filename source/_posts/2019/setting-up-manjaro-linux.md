@@ -1,7 +1,7 @@
 ---
 title: 'Manjaro Linux 踩坑调教记录'
 date: '2019-11-23 22:26:53'
-updated: '2019-11-30 14:09:00'
+updated: '2019-12-19 21:37:00'
 categories: 技术
 tags:
   - Linux
@@ -229,7 +229,8 @@ Manjaro 默认安装就自带了这些 GNOME Shell 扩展：
 
 - `gnome-shell-extension-clipboard-indicator-git` 剪贴板管理；
 - `gnome-shell-extension-status-area-horizontal-spacing` 减少顶栏图标间隔，有些主题默认的图标 padding 超大，还是紧凑点好看些。Unite 也有同样的功能，不要两个一起用；
-- `gnome-shell-extension-topicons-redux` TopIcons、TopIcons Plus、TopIcons Redux……哪个能用就用哪个吧，用于集成 Wine 的托盘图标。Redux 是重构版但是目前还有点问题，装完得自己 patch 一下；
+- ~~`gnome-shell-extension-topicons-redux` TopIcons、TopIcons Plus、TopIcons Redux……哪个能用就用哪个吧，用于集成 Wine 的托盘图标。Redux 是重构版但是目前还有点问题，装完得自己 patch 一下~~
+  （Unite 自带托盘图标功能）；
 - `gnome-shell-extension-unite` 窗口最大化时合并顶栏与标题栏，防止出现三重额头；
 - [`remove-accessibility`](https://extensions.gnome.org/extension/112/remove-accesibility/) 这个目前 AUR 里还没有。开启字体缩放后（参见上面 HiDPI 配置）顶栏上会出现一个 Accessibility 的图标，还蛮烦人的，用这个把它隐藏掉。
 
@@ -252,6 +253,7 @@ Manjaro 默认安装就自带了这些 GNOME Shell 扩展：
 - `flameshot` 截图，GNOME 自带的不太好用
 - `qv2ray` 科学上网，SS 用户可以用 `shadowsocks-qt5` 或者  `electron-ssr`
 - `onedrive-abraunegg` OneDrive 客户端
+- `eog` 默认的图片浏览器是 gThumb，用不惯
 
 国内躲不开的 QQ 微信也可以一键安装（以 TIM 为例）：
 
@@ -282,11 +284,25 @@ Manjaro 自带了思源系列字体（Noto 家族），补个 Emoji：
 yay -S noto-fonts-emoji
 ```
 
+修复有的 Emoji 显示为黑白符号的问题（[ref](https://github.com/stove-panini/fontconfig-emoji/)）：
+
+```bash
+mkdir -p ~/.config/fontconfig/conf.d/
+cd ~/.config/fontconfig/conf.d/
+wget https://github.com/stove-panini/fontconfig-emoji/raw/master/69-emoji.conf
+wget https://github.com/stove-panini/fontconfig-emoji/raw/master/70-no-dejavu.conf
+```
+
 再来装一些命令行工具：
 
 - `tldr` 简化版文档，谁用谁知道
-- `proxychains` 解决命令行程序挂代理的老大难问题
-- `oh-my-zsh` 离不开这玩意儿
+- `proxychains` 解决命令行程序挂代理的老大难问题（[对 Go 编写的程序无效](https://github.com/rofl0r/proxychains-ng/issues/199#issuecomment-340183417)）
+- `oh-my-zsh` 简化 zsh 的配置，离不开这玩意儿
+- `autojump` 不用再 cd 一长串进目录啦
+- `zsh-autosuggestion` 命令自动补全
+- `zsh-syntax-highlighting` 命令行语法高亮
+- `fzf` 确实是模糊搜索神器
+
 
 ## 触摸板手势
 
@@ -373,6 +389,7 @@ HandleLidSwitchDocked=ignore
 
 ```bash
 export LANGUAGE=en_US.utf8
+export LC_TIME=en_US.UTF-8
 ```
 
 修改 home 中的中文目录名称为英文（`~/图片` 修改成 `~/Pictures`）：
@@ -482,6 +499,8 @@ sudo update-grub
 
 ![grub-win10-dual-boot](https://img.blessing.studio/images/2019/11/23/grub-win10-dual-boot.png)
 
+> 如果想要 `update-grub` 不自动检测其他操作系统的启动项，可以这样运行：`sudo GRUB_DISABLE_OS_PROBER=true update-grub`
+
 ### 一些扩展知识
 
 知其然，还要知其所以然。为什么这样就能修复引导呢？
@@ -549,6 +568,10 @@ reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation
 
 反正两边同步就行，我选择了后者。
 
+## 双系统共用蓝牙设备
+
+网上教程很多，不再赘述。
+
 ## MagicBook 的一些坑
 
 另外说一下 MagicBook 锐龙版在 Linux 下的坑。
@@ -564,6 +587,8 @@ reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation
 其他基本上没什么问题了，用得很满意，毕竟这价格还要啥自行车是吧。
 
 > 更新：就算在 Windows 下有驱动，MagicBook 锐龙版在同时使用蓝牙与 2.4GHz WiFi 的时候网络丢包也非常严重。此问题并非个例，华为论坛上也是一片骂声。虽然可以通过拆机更换无线网卡解决，不过有意愿购买的还是再考虑一下吧。
+>
+> 再次更新：我已经拆机更换 Intel AX200 网卡了，再您🐴的见。
 
 ## 参考链接
 
