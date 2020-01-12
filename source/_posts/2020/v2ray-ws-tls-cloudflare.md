@@ -309,7 +309,7 @@ Connected (press CTRL+C to quit)
 
 当然，我估计桌面用户基本上用的都是各种图形客户端，不然可不是折腾自己嘛。以 Windows 上的 v2rayN 客户端为例，你可以这样添加服务器：
 
-![v2rayn-client-ws-tls-config](https://img.blessing.studio/images/2020/01/12/v2rayn-client-ws-tls-config.png)
+![v2rayn-client-ws-tls-config](/v2ray-ws-tls-cloudflare/v2rayn-client-ws-tls-config.png)
 
 不出意外就可以正常使用了。
 
