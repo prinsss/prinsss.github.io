@@ -1,7 +1,7 @@
 ---
 title: '搭建备用梯子：V2Ray + WebSocket + TLS + CloudFlare'
 date: '2020-01-12 20:20:00'
-updated: '2020-01-12 20:20:00'
+updated: '2020-01-15 19:30:00'
 categories: 技术
 tags:
   - V2Ray
@@ -191,11 +191,11 @@ server {
 
     ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
-    ssl_session_cache shared:SSL:50m;
+    ssl_session_cache shared:SSL:10m;
     ssl_session_timeout 10m;
-    ssl_protocols TLSv1.1 TLSv1.2;
+    ssl_protocols TLSv1.2 TLSv1.3;
     ssl_prefer_server_ciphers on;
-    ssl_ciphers ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256;
+    ssl_ciphers EECDH+AESGCM:EDH+AESGCM;
 
     location ~ [^/]\.php(/|$) {
         fastcgi_pass unix:/dev/shm/php-cgi.sock;
