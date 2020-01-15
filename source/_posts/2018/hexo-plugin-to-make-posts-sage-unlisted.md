@@ -25,7 +25,7 @@ tags:
 
 ~~另外，插件名中的 [sage](https://knowyourmeme.com/memes/sage) 这个单词，混过匿名版（A 岛、K 岛以及各种 futaba 贴图版）的同学可能会比较熟悉。Sage 词源为日文中的 **下げ**（さげ，降低、下沉），回复讨论串时在 E-mail 栏填入这个单词可以避免该串被顶起（上げ，上浮）。虽然这和本插件的功能并不一致，但我还是借用了这个名称，纯粹是脑子一热，没什么特别的理由。（笑）~~
 
-插件的具体使用方法都写在 README 里了，这里就不再赘述。安装插件后，在想要隐藏的文章的 fornt-matter（就是 Markdown 顶上的那个参数块）里添加一行 `hidden: true` 即可。
+插件的具体使用方法都写在 README 里了，这里就不再赘述。安装插件后，在想要隐藏的文章的 front-matter（就是 Markdown 顶上的那个参数块）里添加一行 `hidden: true` 即可。
 
 至于插件的原理嘛，简单来说就是在 Hexo 运行 [generator](https://hexo.io/zh-cn/api/generator.html) 之前修改储存所有文章的变量 `hexo.locals.posts`，从中排除掉被标记为 `hidden: true` 的文章，这样所有的 generator（用于生成首页、存档页、Feed 等）都会直接忽略掉这些文章。接下来我们覆写了原来的 `post` generator（它用于生成具体的文章页面），让它能正常处理那些被隐藏的文章。这样的结果就是，`post` generator 会帮我们生成具体的文章页面（即 `public/{slug}/index.html`），但是其他所有的页面中都不会包含这篇文章，除非你手动在其他文章中添加了该文章的链接。
 
