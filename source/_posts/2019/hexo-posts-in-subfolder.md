@@ -1,12 +1,19 @@
 ---
 title: '使用子文件夹管理 Hexo 文章且不改变文章永久链接'
 date: '2019-10-13 03:38:00'
-updated: '2019-10-13 03:38:00'
+updated: '2020-01-15 19:45:00'
 categories: 技术
 tags:
   - Hexo
   - 博客
 ---
+
+> **2020-01-15 更新**：如果你只是想实现「文章源码放在子目录、永久链接保持不变」的效果，可以直接修改 `_config.yml` 中的配置：
+> ```yaml
+> permalink: :name/
+> new_post_name: :year/:title.md
+> ```
+> 感谢 [@SukkaW](https://skk.moe/) 在评论区提供的建议！
 
 在 Hexo 中，我们可以通过站点配置中的 `permalink` 配置项来指定文章的永久链接的格式。比如说默认值是 `:year/:month/:day/:title/`，那么一篇 slug 为 `hello-world` 的文章，最终生成的链接就是 `2019/10/13/hello-world/`。
 
