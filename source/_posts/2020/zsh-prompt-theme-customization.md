@@ -1,7 +1,7 @@
 ---
 title: '教你写一个 Zsh 主题'
 date: '2020-01-16 21:30:00'
-updated: '2020-01-16 21:30:00'
+updated: '2020-01-16 23:10:00'
 categories: 技术
 tags:
   - Shell
@@ -196,20 +196,20 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
 %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )
 ```
 
-重温一下 Zsh 的 [Prompt Expansion](http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html)，这是一个三元表达式。`?` 表示当上一条命令的返回值，`0` 为 True，其他值为 False。在这里就是上一条命令成功的话输出绿色箭头，否则输出红色箭头。
+重温一下 Zsh 的 [Prompt Expansion](http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html)，这是一个三元表达式。`?` 在上一条命令的返回值为 `0` 为 True，其他情况下为 False。在这里就是上一条命令成功的话输出绿色箭头，否则输出红色箭头。
 
 ```zsh
 %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)
 ```
 
-`%c` 即当前目录名，等效于 `%1~`（虽然 Zsh 文档都说 deprecated 了）。整句的意思就是输出蓝色的当前目录名，然后重置回默认颜色，运行 `git_prompt_info`。
+`%c` 即当前目录名（虽然文档里说了 deprecated），等效于 `%1~`。整句的意思就是输出蓝色的当前目录名，然后重置回默认颜色，运行 `git_prompt_info`。
 
-[`git_prompt_info`](https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/git.zsh) 是 oh-my-zsh 内置函数，功能是解析当前目录的 Git 仓库状态（如果是），按照以下格式输出：
+[`git_prompt_info`](https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/git.zsh) 是 oh-my-zsh 内置函数，功能是解析当前目录的 Git 仓库状态（如果是的话），按照以下格式输出：
 
 ```zsh
 $ZSH_THEME_GIT_PROMPT_PREFIX$ref$(parse_git_dirty)$ZSH_THEME_GIT_PROMPT_SUFFIX
 
-# parse_git_dirty 的值为
+# parse_git_dirty 的输出为
 $ZSH_THEME_GIT_PROMPT_DIRTY or $ZSH_THEME_GIT_PROMPT_CLEAN
 ```
 
@@ -230,9 +230,9 @@ git:(master*)
 
 我个人对那些华丽的主题也没啥兴趣，够用就行。
 
-比如各大发行版默认的 Bash Prompt 就挺好（服务器上也用不到那些花里胡哨的），所以我把它们移植到了 Zsh 上。oh-my-zsh 的默认主题也不错，但是其中的 Unicode 箭头显示效果不尽如人意，所以我把它修改成了 ASCII 字符。
+比如各大发行版默认的 Bash Prompt 就挺好（服务器上也用不到那些花里胡哨的），所以我把它们移植到了 Zsh 上。oh-my-zsh 的默认主题也不错，但是其中的 Unicode 箭头显示效果不尽如人意，我将其修改为了 ASCII 字符。
 
-https://gist.github.com/printempw/1ae3b8ae3091a6cfd65a22e1872af7ab
+这些主题的源码可以在 [Gist](https://gist.github.com/printempw/1ae3b8ae3091a6cfd65a22e1872af7ab) 上查看。
 
 ![my-custom-zsh-themes](/zsh-prompt-theme-customization/my-custom-zsh-themes.png)
 
