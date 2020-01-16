@@ -109,6 +109,10 @@ theme_config:
     rss:
       name: RSS Feed
       path: /atom.xml
+  toc: true
+  lazyload:
+    enable: true
+    loading_image: images/loading.jpg
   disqus:
     enable: true
     shortname: blessing-studio
