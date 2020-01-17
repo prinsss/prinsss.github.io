@@ -1,7 +1,7 @@
 ---
 title: 'Manjaro Linux 踩坑调教记录'
 date: '2019-11-23 22:26:53'
-updated: '2019-12-19 21:37:00'
+updated: '2020-01-18 00:13:00'
 categories: 技术
 tags:
   - Linux
@@ -114,6 +114,16 @@ yay 的用法与 pacman 完全类似，上述所有 `pacman xxx` 命令，均可
 
 ```bash
 yay -c  # 卸载所有无用的依赖，类似 apt autoremove
+```
+
+## 加速 AUR 包构建
+
+默认情况下 `makepkg` 构建 AUR 包时会启用压缩，构建完了安装又要再解压一次，如果只是自己机器上使用的话，实在是没必要（而且大软件包压缩很慢）。
+
+设置构建包时不进行压缩：
+
+```bash
+sudo sed -i "s/PKGEXT='.pkg.tar.xz'/PKGEXT='.pkg.tar'/g" /etc/makepkg.conf
 ```
 
 ## 输入法
