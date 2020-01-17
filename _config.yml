@@ -85,6 +85,8 @@ stylus:
   compress: true
 
 theme_config:
+  # https://irocore.com/akamurasaki/
+  primary_color: "#eb6ea5"
   favicon: /images/favicon.png
   keywords: "printempw, blog, 博客, 独立博客, Hexo"
   canonical: true
