@@ -4,7 +4,6 @@ date:    '2017-06-25 20:51:23'
 updated: '2019-11-24 14:18:00'
 ---
 
-<style>.post-title, .post-meta { display: none; } code { word-break: break-word; }</style>
 ## 欢迎来访
 
 虽然现在是独立博客式微的时代，但无论你是循关键词自搜索引擎而来，还是从 SNS、朋友引荐而来，能在众多博客中与你相遇，也未尝不是一种缘分。欢迎你！
@@ -25,6 +24,8 @@ PRIN BLOG 是我的个人独立博客，基本上啥都写。原创内容多为�
 - 较为熟练的技术栈是 Web 前后端开发；
 - ~~精通 BUG 驱动开发的面向搜索引擎编程~~；
 - 热爱自由开放、美好与简单优雅的事物。
+
+<style>.post-title, .post-meta { display: none; } code { word-break: break-word; }</style>
 
 ## 联系方式
 
