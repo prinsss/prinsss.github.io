@@ -118,7 +118,7 @@ theme_config:
   disqus:
     enable: true
     shortname: blessing-studio
-    api: https://disqusjs-proxy.printempw.now.sh/
+    api: https://disqus.printempw.workers.dev/api/
     apikey: 5O1HIIFsAWX3lBOQveU8qWPPAd2aLyf1fklehBAfcQ7S9Jo8y4acIrmyO2uxMD35
     admin: printempw
     admin_label: 博主
