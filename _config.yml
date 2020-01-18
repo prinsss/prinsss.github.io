@@ -124,6 +124,7 @@ theme_config:
     admin_label: 博主
   google_font: https://fonts.loli.net
   google_analytics: UA-65656002-1
+  google_analytics_api: https://ga.printempw.workers.dev/
   google_site_verification: GRFMvqszPSgldR5B46PfCl67MehNVagYoA9AtJpd8BA
 
 # hexo-hide-posts
