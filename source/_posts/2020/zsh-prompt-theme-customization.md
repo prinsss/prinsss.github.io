@@ -18,7 +18,7 @@ tags:
 
 > 再次推荐一下我的这篇文章：[命令行界面 (CLI)、终端 (Terminal)、Shell、TTY，傻傻分不清楚？](https://printempw.github.io/the-difference-between-cli-terminal-shell-tty/)
 
-![shell-prompt](/zsh-prompt-theme-customization/shell-prompt.png)
+![shell-prompt](zsh-prompt-theme-customization/shell-prompt.png)
 
 在上面的截图中，`vagrant@homestead:~$` 这样的部分就叫做命令行提示符（Prompt）。顾名思义，提示符就是提示你输入 Shell 命令用的，每次运行完一个命令后都会再显示一次提示符，等待下一个命令。
 
@@ -114,7 +114,7 @@ print -P '[%{\e[32m%}%n%{\e[0m%}@%{\e[31m%}%m %{\e[34m%}%1~%{\e[0m%}]$ '
 
 看花了？来张图，看得更清楚一点：
 
-![zsh-ansi-escape-sequences](/zsh-prompt-theme-customization/zsh-ansi-escape-sequences.png)
+![zsh-ansi-escape-sequences](zsh-prompt-theme-customization/zsh-ansi-escape-sequences.png)
 
 但是像这样手写一长串不直观的转义序列未免也太过低效，所以 Zsh 提供了几种方便地设置文本颜色的方法：
 
@@ -234,7 +234,7 @@ git:(master*)
 
 这些主题的源码可以在 [Gist](https://gist.github.com/printempw/1ae3b8ae3091a6cfd65a22e1872af7ab) 上查看。
 
-![my-custom-zsh-themes](/zsh-prompt-theme-customization/my-custom-zsh-themes.png)
+![my-custom-zsh-themes](zsh-prompt-theme-customization/my-custom-zsh-themes.png)
 
 截图是 WSL + Windows Terminal，[Tango](https://store.kde.org/p/1232062/) 配色，[Cascadia Code](https://github.com/microsoft/cascadia-code) 字体。另一台装 Manjaro 的笔记本上用的是 GNOME Terminal + [Powerline](https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme)，也挺好看的。
 
