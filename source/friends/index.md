@@ -1,7 +1,7 @@
 ---
 title: '友情链接'
 date: '2015-09-03 11:54:24'
-updated: '2018-12-22 13:30:00'
+updated: '2020-01-19 22:00:00'
 ---
 
 在这个独立博客式微的时代，友情链接的意义是什么？
@@ -24,29 +24,29 @@ updated: '2018-12-22 13:30:00'
 
 _以下站点按照添加的时间顺序排列：_
 
-* [Tsez Blog](https://blog.tse.moe)
-* [DreamCity](https://www.littleqiu.net)【刚开始做 BS 时就认识了的朋友】
+* [Tsez's Blog](https://blog.tse.moe)
+* [DreamCity](https://www.littleqiu.net)【Little_Qiu，刚开始做 BS 时就认识了的朋友】
 * [Steins;Lab](https://steinslab.io)【物联网大佬，搞了好多好玩的东西】
 * [野生程序猴子](https://ljason.cn)
-* [Good Old Days](https://hencolle.com)【归来的摸鱼怪】
+* [Very9s](http://very9s.net)
 * [FGHRSH 的博客](https://www.fghrsh.net)【富佬，迫真手办开箱博客 💸】
 * [ChionLab](https://blog.chionlab.moe)【前端后端、网络协议都有涉猎的大佬】
 * [FindHao](https://www.findhao.net)
-* [小霖](https://xiaolin.in)
+* [小霖的梦花园](https://xiaolin.in)
 * [Brian's Blog](https://blog.brianhe.me)
 * [Hanaasagi](https://blog.dreamfever.me)
 * [LiarOnce 的小站](https://www.liaronce.com)
-* [曼通性斋](https:/mtxz.org)
+* [曼通性斋](https://mtxz.org)
 * [黎明余光](https://blog.lim-light.com)【因为都在写 MC 皮肤站而认识的朋友】
-* [Hdsky](https://hdsky.pw)
-* [just 涨芝士](http://cheesekun.top)
+* [NaNg's blog](https://nanguage.github.io)
+* [BLOG | HDSKY](https://hdsky.pw)
 * [后宫学长](https://haremu.com)【名字看起来很不妙，其实是个正常博客】
-* [Eree's blog](http://ereebay.me)
+* [Eree's Blog](http://ereebay.me)
 * [樱花庄的白猫](https://2heng.xin)
 * [蝉时雨](https://chanshiyu.com)
 * [ISLAND](https://youngxhui.top)
 * [且听书吟](https://yufan.me)【雨帆大佬的博客】
-* [刘伟](https://darrenliuwei.com)
+* [Pig Fang](https://blog.gplane.win)【Blessing Skin 的协力开发者 🤝】
 * [南ことりの小窝](https://kotori.net)
 * [Hans362's Blog](https://blog.hans362.cn)
 * [無位小站](https://halu.lu)
@@ -59,7 +59,7 @@ _以下站点按照添加的时间顺序排列：_
 * [Listener](https://patrickwu.space)
 * [归档笔记](https://www.ogura.io)
 * [思维之海](https://vel.life/)
-* [Desvl's Blog](https://desvl.xyz)
+* [Desvl's Blog](https://desvl.xyz)【看得本数学鶸头昏眼花】
 
 <details>
 <summary>可能已经迷失了的友站</summary>
@@ -69,11 +69,11 @@ _以下站点按照添加的时间顺序排列：_
 如果你发现你的链接被错误地移动了，或者链接需要更新，请在评论区告诉我。
 
 * [琉璃喵](http://www.rurim.moe)
-* [Very9s](http://very9s.net)
 * [静静's Blog](https://kernel.moe)
-* [碱基们的时间](http://nanguage.org)
 * [1111Lab](https://1111lab.org)
-* [Pig Fang](https://blog.gplane.win)【Blessing Skin 的协力开发者 🤝】
+* [Good Old Days](https://hencolle.com)【归来的摸鱼怪……等等你怎么又没了
+* [just 涨芝士](http://cheesekun.top)
+* [刘伟](https://darrenliuwei.com)
 
 维护独立博客从来都不是一件容易的事，且行且珍惜。
 </details>
