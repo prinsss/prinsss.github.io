@@ -1,5 +1,6 @@
 language: node_js
 node_js: lts/*
+env: POST_ASSET_IMAGE_CDN=true
 
 # 只监听 source 分支的改动
 branches:
