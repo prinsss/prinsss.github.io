@@ -1,7 +1,7 @@
 ---
 title: 'Manjaro Linux 踩坑调教记录'
 date: '2019-11-23 22:26:53'
-updated: '2020-01-18 00:13:00'
+updated: '2020-01-23 18:30:00'
 categories: 技术
 tags:
   - Linux
@@ -88,6 +88,8 @@ Manjaro 自带的 pamac 图形化包管理器在设置中即可开启 AUR 支持
 sudo pacman -S yay base-devel
 # 设置 AUR 清华镜像源
 yay --aururl "https://aur.tuna.tsinghua.edu.cn" --save
+# 开启 pacman 和 yay 的彩色输出
+sudo sed -i "s/#Color/Color/g" /etc/pacman.conf
 ```
 
 另附 pacman 的[一些基本操作](https://www.cnblogs.com/kirito-c/p/11181978.html)供参考，和 apt 还是蛮不一样的：
@@ -254,15 +256,15 @@ Manjaro 默认安装就自带了这些 GNOME Shell 扩展：
 
 ## 常用软件
 
-安装一些常用软件（基本全都可以在 AUR 中找到）：
+安装一些常用软件（基本全都可以在官方源或者 AUR 中找到）：
 
 - `visual-studio-code-bin` 爽死了
+- `guake` ~~挂科~~ 雷神终端，快捷键呼出很好用
 - `gimp` 图像编辑
 - `google-chrome` 骂归骂，用还是要用的
 - `typora` Markdown 编辑器，我这篇文章就是用这写的
 - `flameshot` 截图，GNOME 自带的不太好用
 - `qv2ray` 科学上网，SS 用户可以用 `shadowsocks-qt5` 或者  `electron-ssr`
-- `onedrive-abraunegg` OneDrive 客户端
 - `eog` 默认的图片浏览器是 gThumb，用不惯
 
 国内躲不开的 QQ 微信也可以一键安装（以 TIM 为例）：
@@ -296,6 +298,8 @@ yay -S noto-fonts-emoji
 
 修复有的 Emoji 显示为黑白符号的问题（[ref](https://github.com/stove-panini/fontconfig-emoji/)）：
 
+> 可能会造成 Powerline 中的 ✔ 等字符显示异常（变成彩色 emoji），有时间再研究下。
+
 ```bash
 mkdir -p ~/.config/fontconfig/conf.d/
 cd ~/.config/fontconfig/conf.d/
@@ -303,15 +307,30 @@ wget https://github.com/stove-panini/fontconfig-emoji/raw/master/69-emoji.conf
 wget https://github.com/stove-panini/fontconfig-emoji/raw/master/70-no-dejavu.conf
 ```
 
+如果要装 Source Hans Sans/Serif 的，注意一下几个版本的区别：
+
+```bash
+# CN 的是 Region-Specific Release，字库较小
+# Source Hans Sans CN 和 Source Hans Sans SC/TC/... 的区别
+adobe-source-han-sans-cn-fonts
+adobe-source-han-sans-otc-fonts
+adobe-source-han-serif-cn-fonts
+adobe-source-han-serif-otc-fonts
+```
+
 再来装一些命令行工具：
 
 - `tldr` 简化版文档，谁用谁知道
 - `proxychains` 解决命令行程序挂代理的老大难问题（[对 Go 编写的程序无效](https://github.com/rofl0r/proxychains-ng/issues/199#issuecomment-340183417)）
 - `oh-my-zsh` 简化 zsh 的配置，离不开这玩意儿
+- `zsh-theme-powerlevel9k` Powerline 主题
 - `autojump` 不用再 cd 一长串进目录啦
 - `zsh-autosuggestion` 命令自动补全
 - `zsh-syntax-highlighting` 命令行语法高亮
 - `fzf` 确实是模糊搜索神器
+- `trash-cli` 直接 rm 是坏文明，最少也要 `alias rm="rm -iv"`
+- `thefuck` 命令打错了？fuck 一下解解压
+- `python-lolcat` 要 lolcat 不要 Ruby
 
 
 ## 触摸板手势
@@ -398,8 +417,15 @@ HandleLidSwitchDocked=ignore
 图形界面用中文，命令行界面用英文。在 `~/.zshrc` 中添加：
 
 ```bash
-export LANGUAGE=en_US.utf8
+export LANG=en_US.utf8
 export LC_TIME=en_US.UTF-8
+```
+
+但是这样的话在终端中程序时打开的界面也会是英文，如果想用中文界面的话可以设置一下 alias：
+
+```bash
+alias typora="LANG=zh_CN.UTF-8 typora"
+alias code="LANG=zh_CN.UTF-8 code"
 ```
 
 修改 home 中的中文目录名称为英文（`~/图片` 修改成 `~/Pictures`）：
@@ -407,7 +433,6 @@ export LC_TIME=en_US.UTF-8
 ```bash
 export LANG=en_US.utf8
 xdg-user-dirs-gtk-update
-export LANG=zh_CN.utf8
 ```
 
 也可以手动修改：
@@ -415,7 +440,7 @@ export LANG=zh_CN.utf8
 ```bash
 vim ~/.config/user-dirs.dirs
 ```
-```
+```bash
 XDG_DESKTOP_DIR="$HOME/Desktop"
 XDG_DOWNLOAD_DIR="$HOME/Downloads"
 XDG_TEMPLATES_DIR="$HOME/Templates"
@@ -424,6 +449,12 @@ XDG_DOCUMENTS_DIR="$HOME/Documents"
 XDG_MUSIC_DIR="$HOME/Music"
 XDG_PICTURES_DIR="$HOME/Pictures"
 XDG_VIDEOS_DIR="$HOME/Videos"
+```
+
+移除 Manjaro 自带的浏览器设置包（会修改主页添加书签等）：
+
+```bash
+sudo pacman -R manjaro-browser-settings
 ```
 
 ## Win10 双系统
@@ -509,7 +540,7 @@ sudo update-grub
 
 ![grub-win10-dual-boot](https://img.blessing.studio/images/2019/11/23/grub-win10-dual-boot.png)
 
-> 如果想要 `update-grub` 不自动检测其他操作系统的启动项，可以这样运行：`sudo GRUB_DISABLE_OS_PROBER=true update-grub`
+> 如果想要 `update-grub` 不自动检测其他操作系统的启动项，可以这样运行：`sudo GRUB_DISABLE_OS_PROBER=true update-grub`。永久禁止检测需编辑 `/etc/default/grub`。
 
 ### 一些扩展知识
 
