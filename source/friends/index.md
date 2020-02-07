@@ -1,7 +1,7 @@
 ---
 title: '友情链接'
 date: '2015-09-03 11:54:24'
-updated: '2020-01-19 22:00:00'
+updated: '2020-02-07 23:33:00'
 ---
 
 在这个独立博客式微的时代，友情链接的意义是什么？
@@ -25,7 +25,7 @@ updated: '2020-01-19 22:00:00'
 _以下站点按照添加的时间顺序排列：_
 
 * [Tsez's Blog](https://blog.tse.moe)
-* [DreamCity](https://www.littleqiu.net)【Little_Qiu，刚开始做 BS 时就认识了的朋友】
+* [DreamCity](https://www.littleqiu.net)【小邱，刚开始做 BS 时就认识了的朋友】
 * [Steins;Lab](https://steinslab.io)【物联网大佬，搞了好多好玩的东西】
 * [野生程序猴子](https://ljason.cn)
 * [Very9s](http://very9s.net)
@@ -56,10 +56,16 @@ _以下站点按照添加的时间顺序排列：_
 * [咸鱼的小鱼塘](https://blog.zjyl1994.com)
 * [乱码](https://luan.ma)
 * [Wincer's Blog](https://blog.itswincer.com)
-* [Listener](https://patrickwu.space)
+* [Listener](https://patrickwu.space)【WSL 大佬！】
 * [归档笔记](https://www.ogura.io)
-* [思维之海](https://vel.life/)
+* [思维之海](https://vel.life)
 * [Desvl's Blog](https://desvl.xyz)【看得本数学鶸头昏眼花】
+* [忘归](http://jalan.space)
+* [Inevitable](https://www.inevitable.tech)
+* [Icystal Works](https://www.icystal.top)
+* [TimeBlog时光轴](https://imrbq.cn)
+* [文鹃阁](https://szukevin.site)
+* [CpZhao](https://chengpengzhao.com)
 
 <details>
 <summary>可能已经迷失了的友站</summary>
@@ -71,7 +77,7 @@ _以下站点按照添加的时间顺序排列：_
 * [琉璃喵](http://www.rurim.moe)
 * [静静's Blog](https://kernel.moe)
 * [1111Lab](https://1111lab.org)
-* [Good Old Days](https://hencolle.com)【归来的摸鱼怪……等等你怎么又没了
+* [Good Old Days](https://hencolle.com)【摸鱼怪大约的确是死了，阿门】
 * [just 涨芝士](http://cheesekun.top)
 * [刘伟](https://darrenliuwei.com)
 
