@@ -4,8 +4,8 @@
 
 # Site
 title: PRIN BLOG
-subtitle: 致我所深爱着的世界
-description: 这里是 printempw 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹逼，偶尔也会写正经文字，欢迎订阅
+subtitle: 半吊子全栈开发者的日常
+description: 这里是 printempw 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹水，偶尔也会写点正经文字。
 author: printempw
 language: zh-Hans
 timezone: Asia/Shanghai
@@ -88,7 +88,7 @@ theme_config:
   # https://irocore.com/akamurasaki/
   primary_color: "#eb6ea5"
   favicon: /images/favicon.png
-  keywords: "printempw, blog, 博客, 独立博客, Hexo"
+  keywords: "printempw, prin, blog, 博客, 独立博客"
   canonical: true
   expired_warning: true
   menu_pages:
