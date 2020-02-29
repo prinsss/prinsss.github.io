@@ -236,10 +236,10 @@ pause
 
 如果你足够熟练，也可以自行通过其他方式修改注册表，反正就那么些字段，路径正确就行了。Windows Terminal 的图标可以在 [这里](https://raw.githubusercontent.com/microsoft/terminal/master/res/terminal.ico) 获取 。
 
-另外，你还需要设置一下 `profiles.json` 里对应 profile 的 `startingDiretory` 字段：
+另外，你还需要设置一下 `profiles.json` 里对应 profile 的 `startingDirectory` 字段：
 
 ```json
-"startingDiretory" : "."
+"startingDirectory" : "."
 ```
 
 这样右键菜单就可以正常工作啦。
