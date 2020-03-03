@@ -1,7 +1,7 @@
 ---
 title: 'Windows 下手动搭建 PHP + Nginx/Apache 开发环境'
 date: '2018-11-01 23:00:10'
-updated: '2018-11-01 23:00:10'
+updated: '2020-03-03 21:37:00'
 categories: 技术
 tags:
   - PHP
@@ -22,6 +22,34 @@ tags:
 因为 [某些原因](https://blessing.studio/phpstudy-prober-page-502-bad-gateway/)，我不想继续使用那些 PHP 一键包来搭建开发环境了，所以这次我打算全部自己来。本文记录了我手动安装配置 PHP + Nginx/Apache 开发环境的过程，希望能帮到后来人。
 
 注意，本文中的配置适用于本地开发环境，应用至生产环境时要注意哦。
+
+> **2020/03/03 更新**：
+>
+> 你也可以直接用 scoop 来管理 WNMP 开发环境。
+>
+> 安装：
+>
+> ```cmd
+> scoop install nginx mariadb php
+> ```
+>
+> 启动：
+>
+> ```cmd
+> nginx -p %NGINX_HOME%
+> mysqld --standalone
+> php-cgi -b 127.0.0.1:9000
+> ```
+>
+> 配置或数据文件的位置：
+>
+> ```plain
+> C:\Users\printempw\scoop\apps\nginx\current\conf
+> C:\Users\printempw\scoop\apps\mariadb\current\data
+> C:\Users\printempw\scoop\apps\php\current\cli
+> ```
+>
+> 比起手动下载方便不少。
 
 ## 0x01 安装 Nginx / Apache
 
