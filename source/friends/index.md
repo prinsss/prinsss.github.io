@@ -1,7 +1,7 @@
 ---
 title: '友情链接'
 date: '2015-09-03 11:54:24'
-updated: '2020-02-07 23:33:00'
+updated: '2020-03-15 01:45:00'
 ---
 
 在这个独立博客式微的时代，友情链接的意义是什么？
@@ -66,6 +66,7 @@ _以下站点按照添加的时间顺序排列：_
 * [TimeBlog时光轴](https://imrbq.cn)
 * [文鹃阁](https://szukevin.site)
 * [CpZhao](https://chengpengzhao.com)
+* [Niu Code](https://tianle.me)
 
 <details>
 <summary>可能已经迷失了的友站</summary>
