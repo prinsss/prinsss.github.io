@@ -122,6 +122,9 @@ theme_config:
     apikey: 5O1HIIFsAWX3lBOQveU8qWPPAd2aLyf1fklehBAfcQ7S9Jo8y4acIrmyO2uxMD35
     admin: printempw
     admin_label: 博主
+  post_views_counter:
+    enable: true
+    api: https://work.prinzeugen.net/api/pageviews
   google_font: https://fonts.loli.net
   google_analytics: UA-65656002-1
   google_analytics_api: https://ga.printempw.workers.dev/
