@@ -1,7 +1,7 @@
 ---
 title: '使用 Google Analytics API 实现博客阅读量统计'
-date: '2020-03-25 07：07:00'
-updated: '2020-03-25 07：07:00'
+date: '2020-03-25 07:07:00'
+updated: '2020-03-25 07:07:00'
 categories: 技术
 tags:
   - 博客
