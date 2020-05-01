@@ -1,7 +1,7 @@
 ---
-title: '博客短域名 printem.pw'
+title: '博客短域名 printem.pw 和 prin.studio'
 date: '2020-03-15 19:22:00'
-updated: '2020-03-15 19:22:00'
+updated: '2020-05-02 01:21:00'
 categories: 日常
 tags:
   - 博客
@@ -45,6 +45,8 @@ tags:
 不过当然，这些都是以防万一嘛，人不能总是盼着最坏的情况活着。
 
 所以我寻思了一下，把 **[printem.pw](https://printem.pw)** 这个域名也反代到了这里（之前是 301 重定向）。如果你愿意，你也可以用这个短域名来访问我的博客（加上 TLD 正好是我的常用 ID，我还是挺满意这域名的，~~虽然还是很难记~~）。我的各种 bio 上的主页也是用的这个域名，看起来也比较拉风，~~虽然还是很难记~~。
+
+> **2020-05-02 更新**：我又摸了个域名 **[prin.studio](https://prin.studio/)**，稍微好记一点（
 
 不过主域名还是继续使用 **[printempw.github.io](https://printempw.github.io)**，包括短域名上的页面也都通过 [rel=canonical &lt;link&gt; 标记](https://support.google.com/webmasters/answer/139066) 指向主域名了，所以搜索引擎上出现的结果肯定还是指向这个二级域名的，交换友链的朋友也请尽量使用主域名。
 
