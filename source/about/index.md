@@ -1,7 +1,7 @@
 ---
 title:   '关于'
 date:    '2017-06-25 20:51:23'
-updated: '2019-11-24 14:18:00'
+updated: '2020-05-02 01:50:00'
 ---
 
 ## 欢迎来访
@@ -12,17 +12,15 @@ PRIN BLOG 是我的个人独立博客，基本上啥都写。原创内容多为�
 
 ## 关于我
 
-- 常用 ID：`printempw`（或者 [PRIN](https://printempw.github.io/new-nickname-prin/)）；
-- ~~24 岁~~，是学生；
-- 大多数情况下言辞温和，经常被人说心态好；
-- 无洋文恐惧症，算是会英语和日语；
+- 常用 ID：`printempw` = [prin](https://printempw.github.io/new-nickname-prin/)；
+- ~~24 岁~~，是学生，自认为算是佛系青年；
 - 极其地三分钟热度；
-- 喜欢网络亚文化，沉迷过一段时间 Virtual YouTuber；
-- 二刺螈中级高手（[bgm.tv](https://bgm.tv/user/printempw)）；
-- 一个信条是「你不关心政治，政治也会来关心你」；
-- 对文字排版与代码简洁有着苛刻的要求；
+- 喜欢网络亚文化，比如[二刺螈](https://bgm.tv/user/printempw)，最近沉迷[邦邦](https://zh.moegirl.org/zh/BanG_Dream!)；
+- 对文字排版与代码简洁有着强迫症般的要求；
 - 较为熟练的技术栈是 Web 前后端开发；
 - ~~精通 BUG 驱动开发的面向搜索引擎编程~~；
+- 一个信条是「你不关心政治，政治也会来关心你」；
+- 另一个信条是「尊重是有效沟通的前提」；
 - 热爱自由开放、美好与简单优雅的事物。
 
 <style>.post-title, .post-meta { display: none; } code { word-break: break-word; }</style>
@@ -57,4 +55,6 @@ PRIN BLOG 是我的个人独立博客，基本上啥都写。原创内容多为�
 | 2016-12-25 | 启用新域名 `blessing.studio`                                 |
 | 2017-06-18 | 弃用 Ghost，改用静态博客生成器 Hexo                          |
 | 2018-08-24 | 迁移至 GitHub Pages                                          |
-| 2019-09-23 | 由 Blessing Studio 更名为 PRIN BLOG<br />域名更换为 `printempw.github.io`<br />启用短域名 `printem.pw`<br />启用新主题 [hexo-theme-murasaki](https://github.com/printempw/hexo-theme-murasaki/) |
+| 2019-09-23 | 由 Blessing Studio 更名为 PRIN BLOG<br />域名更换为 `printempw.github.io`<br />启用新主题 [hexo-theme-murasaki](https://github.com/printempw/hexo-theme-murasaki/) |
+| 2020-03-15 | 启用短域名 `printem.pw`                                      |
+| 2020-05-02 | 启用短域名 `prin.studio`                                     |
