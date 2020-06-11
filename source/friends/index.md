@@ -71,6 +71,7 @@ _以下站点按照添加的时间顺序排列：_
 * [The Art of Chawye Hsu](https://www.h404bi.com)【悄悄单链我的大佬！】
 * [ChrAlpha 的幻想乡](https://blog.ichr.me)
 * [ChungZH 的小窝](https://chungzh.cn)
+* [靜海遺跡](https://voidge.github.io)
 
 承蒙厚爱，不知不觉已经这么多友链了……感觉这样朴素的列表已经不太够用了，不仅不直观，看着眼睛也有点花，什么时候重写一下友链页面吧~~咕咕咕~~
 
