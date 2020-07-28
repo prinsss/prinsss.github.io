@@ -85,8 +85,8 @@ stylus:
   compress: true
 
 theme_config:
-  # https://irocore.com/akamurasaki/
-  primary_color: "#eb6ea5"
+  # https://twitter.com/imas_official/status/1287398983267049473
+  primary_color: "#f34e6c"
   favicon: /images/favicon.png
   keywords: "printempw, prin, blog, 博客, 独立博客"
   canonical: true
