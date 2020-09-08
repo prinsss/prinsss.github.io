@@ -32,7 +32,7 @@ tags:
 
 ![airpods-2-unsplash](airpods-2-are-great/airpods-2-unsplash.jpg)
 
-*▲ 配图来自 [Unsplash](https://unsplash.com/photos/1MMVPDcQCPY)，懒得自己拍了，反正到处都有*
+*▲ 配图来自 [Unsplash](https://unsplash.com/photos/ZhToglVbSdY)，懒得自己拍了，反正到处都有*
 
 ## 在哪里买？
 
