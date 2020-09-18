@@ -18,13 +18,13 @@ Charlotte 是窝七月第二期待的动画（顺带一提第一是小埋～）�
 
 不要太在意别人的评论，自己看得开心，才是最重要的 ( ´∀｀)
 
-[![Screenshot_2015-09-27-01-41-45](https://img.blessing.studio/images/2015/09/2015-09-26_17-51-13-1024x576.png)](https://img.blessing.studio/images/2015/09/2015-09-26_17-51-13.png)
+[![Screenshot_2015-09-27-01-41-45](https://img.prin.studio/images/2015/09/2015-09-26_17-51-13-1024x576.png)](https://img.prin.studio/images/2015/09/2015-09-26_17-51-13.png)
 
 虽然最后一集剧情仓促，但是这个 HE 窝给满分啊 (*´ω｀*)
 
 话说 ZHIEND 主唱就打了个酱油？
 
-<div class="wp-player" data-address="http://p2.music.126.net/gyNK2GMN_T3bc4LSAYC1rA==/3286440256314296.mp3|" data-author="Lia|" data-autoplay="0" data-lyric="close" data-source="netease" data-thumb="https://img.prinzeugen.net/image.php?di=PFNF|" data-title="Bravely You|" data-type="song" data-wp-player="wp-player" data-xiami=""><div class="wp-player-box"><div class="wp-player-thumb">![](https://prinzeugen.net/wp-content/plugins/wp-player/images/default.png)<div class="wp-player-playing"><span></span></div></div><div class="wp-player-panel"><div class="wp-player-title"></div><div class="wp-player-author"></div><div class="wp-player-progress"><div class="wp-player-seek-bar"><div class="wp-player-play-bar"><span class="wp-player-play-current"></span></div></div></div><div class="wp-player-controls-holder"><div class="wp-player-time"></div><div class="wp-player-controls">[](javascript:; "上一首") [](javascript:; "播放") [](javascript:; "暂停") [](javascript:; "下一首")</div><div class="wp-player-list-btn" title="歌单"></div></div></div></div><div class="wp-player-main"><div class="wp-player-list">
+<div class="wp-player" data-address="http://p2.music.126.net/gyNK2GMN_T3bc4LSAYC1rA==/3286440256314296.mp3|" data-author="Lia|" data-autoplay="0" data-lyric="close" data-source="netease" data-thumb="https://img.prin.studio/legacy/image.php?di=PFNF|" data-title="Bravely You|" data-type="song" data-wp-player="wp-player" data-xiami=""><div class="wp-player-box"><div class="wp-player-thumb">![](https://prinzeugen.net/wp-content/plugins/wp-player/images/default.png)<div class="wp-player-playing"><span></span></div></div><div class="wp-player-panel"><div class="wp-player-title"></div><div class="wp-player-author"></div><div class="wp-player-progress"><div class="wp-player-seek-bar"><div class="wp-player-play-bar"><span class="wp-player-play-current"></span></div></div></div><div class="wp-player-controls-holder"><div class="wp-player-time"></div><div class="wp-player-controls">[](javascript:; "上一首") [](javascript:; "播放") [](javascript:; "暂停") [](javascript:; "下一首")</div><div class="wp-player-list-btn" title="歌单"></div></div></div></div><div class="wp-player-main"><div class="wp-player-list">
 </div><div class="wp-player-lyrics">
 </div></div></div>或许你可以看看 [这篇](http://pudding.cc/activity/5607d259e397fa2c7b8b45df)，反正窝是写不出这么长的评论的。个人觉得写得好，最少不像那些傻逼评论一样用“喂屎”带过。
 

@@ -85,7 +85,7 @@ shadowsocks 服务端会用这个 `IV` 和 `pre-shared key`（预共享密钥，
 
 经过讨论后上述漏洞被证明是 [确实存在](https://github.com/breakwa11/shadowsocks-rss/issues/38#issuecomment-136022971) 的，所以现在大部分的 shadowsocks 分支都已经加入了针对这种探测方法的对抗措施（e.g. [shadowsocks-libev v2.5.5+](https://github.com/shadowsocks/shadowsocks-libev/compare/v2.5.4...v2.5.5)），即「随机超时抵抗」而不是立即断开连接，配合自动黑名单等机制可以有效减少被探测到的风险。
 
-但是这种方法总归不是长久之计，要怎么办呢？ ![](https://img.blessing.studio/images/2017/02/09/QQ20170209163228.jpg)
+但是这种方法总归不是长久之计，要怎么办呢？ ![](https://img.prin.studio/images/2017/02/09/QQ20170209163228.jpg)
 
 ## 三、OTA 闪亮登场
 
@@ -175,7 +175,7 @@ OTA 协议虽然通过在数据包尾部附上 `HMAC-SHA1` 字段对 `DATA` 的�
 
 使用了 AEAD 算法的新协议能够解决上面描述的 Original/OTA 协议的所有问题，可以有效防范 CCA 和中间人攻击，减少被主动探测的风险。我能想到的唯一的缺点大概就是性能了，但是它又能影响多少呢？Benchmark 参考在 [这里](https://github.com/shadowsocks/shadowsocks-libev/issues/1173)。
 
-shadowsocks 原本就不是为「加速网络」而生的项目，它的初衷是「突破网络审查并提供安全的加密访问」。是继续使用很可能会被 GFW 封锁的原协议呢，还是选择使用更安全的新协议呢，相信各位看官心中自有定夺 ![](https://img.blessing.studio/images/2017/02/09/QQ20170209164340.gif)
+shadowsocks 原本就不是为「加速网络」而生的项目，它的初衷是「突破网络审查并提供安全的加密访问」。是继续使用很可能会被 GFW 封锁的原协议呢，还是选择使用更安全的新协议呢，相信各位看官心中自有定夺 ![](https://img.prin.studio/images/2017/02/09/QQ20170209164340.gif)
 
 ## 五、写在后面
 

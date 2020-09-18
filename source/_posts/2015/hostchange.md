@@ -9,6 +9,6 @@ tags:
 
 然而却因 PHP 版本错误主题出了些奇怪的问题（扶额
 
-嘛 价格算便宜了 而且速度也还不错 ![20150503085737](https://img.blessing.studio/images/2015/05/20150503085737.jpg)
+嘛 价格算便宜了 而且速度也还不错 ![20150503085737](https://img.prin.studio/images/2015/05/20150503085737.jpg)
 
-[优易主机](http://my.cefhost.cn/aff.php?aff=792) <- 推广链接 ![i_f25](https://img.blessing.studio/images/2015/03/i_f25.png)
+[优易主机](http://my.cefhost.cn/aff.php?aff=792) <- 推广链接 ![i_f25](https://img.prin.studio/images/2015/03/i_f25.png)

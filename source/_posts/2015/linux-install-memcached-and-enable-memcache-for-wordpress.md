@@ -25,8 +25,8 @@ apt-get install memcached memcached -d -m 128 -u root -p 11211 #启动 memcached
 
 参数说明：
 
-*-p  侦听的端口，默认为 11211*  
-*-m  使用内存大小，默认为 64m*  
+*-p  侦听的端口，默认为 11211*
+*-m  使用内存大小，默认为 64m*
 *-d  作为守护进程启动*
 
 可以用 <span class="lang:sh decode:true crayon-inline">ps -ef|grep memcached</span>  或者 <span class="lang:sh decode:true  crayon-inline">telnet 127.0.0.1 11211</span>  查看 memcached 服务状态
@@ -47,7 +47,7 @@ wget http://pecl.php.net/get/memcached-2.1.0.tgz tar -xvf memcached-2.1.0.tgz
 
 ls 一下这个目录，
 
-[![20150726203222](https://img.blessing.studio/images/2015/07/2015-07-28_14-47-15.png)](https://img.blessing.studio/images/2015/07/2015-07-28_14-47-15.png)
+[![20150726203222](https://img.prin.studio/images/2015/07/2015-07-28_14-47-15.png)](https://img.prin.studio/images/2015/07/2015-07-28_14-47-15.png)
 
 多了一个编译出来的 memcache.so ，mv 到你的 *php extension dir* 里去（可以在 phpinfo() 中查看
 
@@ -57,13 +57,13 @@ extension = memcache.so
 
 重启 php-fpm 和 nginx 后就可以在 phpinfo() 中看到扩展信息了
 
-[![phpinfo](https://img.blessing.studio/images/2015/07/2015-07-28_14-51-15.png)](https://img.blessing.studio/images/2015/07/2015-07-28_14-51-15.png)
+[![phpinfo](https://img.prin.studio/images/2015/07/2015-07-28_14-51-15.png)](https://img.prin.studio/images/2015/07/2015-07-28_14-51-15.png)
 
 ### 三、在 WordPress 中启用 memcache 缓存
 
 推荐 W3-Total-Cache，运行 W3TC 的 compatibility check 可以看到 memcache 已经安装成功可以使用了
 
-[![w3tc_memcache](https://img.blessing.studio/images/2015/07/2015-07-29_03-14-37.png)](https://img.blessing.studio/images/2015/07/2015-07-29_03-14-37.png)
+[![w3tc_memcache](https://img.prin.studio/images/2015/07/2015-07-29_03-14-37.png)](https://img.prin.studio/images/2015/07/2015-07-29_03-14-37.png)
 
  
 

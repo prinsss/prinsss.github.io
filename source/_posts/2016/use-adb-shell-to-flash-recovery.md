@@ -18,7 +18,7 @@ tags:
 <!--more-->
 
 > dd 是一个 Unix 和类 Unix 系统上的命令，主要功能为转换和复制文件。
-> 
+>
 > 在Unix上，硬件的设备驱动（如硬盘）就像普通文件一样，出现在文件系统中；只要在各自的驱动程序中实现了对应的功能，dd 也可以读取自和/或写入到这些文件。这样，dd 也可以用在备份硬件的引导扇区、获取一定数量的随机数据等任务中。
 
 以上摘自中文 [WikiPedia](https://zh.wikipedia.org/wiki/Dd_(Unix))。
@@ -29,7 +29,7 @@ tags:
 printempw@prinzeugen ~ $ adb shell
 shell@android:/ $ su
 su # 切换到 root 用户
-shell@android:/ # 
+shell@android:/ #
 ```
 
 那么既然拿到了 `root` 的 shell 访问权，为什么不能用 `dd` 命令覆写 `recovery` 呢？当然真正运行之前我还是查了一下这种方法的，不过似乎大部分都是使用 `dd` 从手机里把 `recovery` 备份出来的。。至于国内论坛上那些所谓「通过 ADB 命令刷入 recovery.img 的方法」，都是瞎 TM 扯淡，整篇文章里 adb 起到的作用就是：
@@ -58,7 +58,7 @@ dd if=/mnt/sdcard2/recovery.img of=/dev/recovery
 printempw@prinzeugen ~ $ adb reboot recovery
 ```
 
-![](https://img.prinzeugen.net/image.php?di=15FA) 大成功！
+![](https://img.prin.studio/legacy/image.php?di=15FA) 大成功！
 
 ---------------------
 

@@ -16,7 +16,7 @@ tags:
 
 不如说 VTuber 的世界实在过于精彩，每天都有大量好玩的内容产出，以至于我甚至已经很久没有看新番动画等传统 ACG 作品，就连游戏也不玩了，只能说 VTuber 沼恐怖如斯。
 
-![meme_i_am_ok](https://img.blessing.studio/images/2018/10/29/meme_i_am_ok.jpg)
+![meme_i_am_ok](https://img.prin.studio/images/2018/10/29/meme_i_am_ok.jpg)
 
 为什么突然谈起这茬？其实我一直都想写一篇关于 VTuber 的文章，但是当时由于学业之类的原因只能搁置。然而到了现在，时间和精力确实是有了，但是正处繁荣期的 VTuber 市场的复杂度，却已经不再是我这孱弱的文笔能够描绘的了。只能说，非常遗憾。
 
@@ -46,7 +46,7 @@ tags:
 
 这玩意儿的原理其实很简单，就是每隔 30s 查询一次直播状态（这一块比较难搞），如果在播就开始录像。录像方面，使用 [youtube-dl](https://github.com/rg3/youtube-dl/) 或者 [streamlink](https://github.com/streamlink/streamlink) 等工具获取直播 HLS 的 `.m3u8` 地址，然后直接交给 ffmpeg 进行录制（还能顺带推流转播，不得不说 ffmpeg 真是神器）。
 
-![live-stream-recorder_logs](https://img.blessing.studio/images/2018/10/30/live-stream-recorder_logs.png)
+![live-stream-recorder_logs](https://img.prin.studio/images/2018/10/30/live-stream-recorder_logs.png)
 
 因为功能就这么点，所以我选择了用 Shell 脚本来完成，之后有时间的话或许会用 PHP 给它套个便于操控的网页前端。也可以再优化一下，把轮询模式改为 Pub/Sub 模式，节省点资源（不过我那台 VPS 就是为了录像买的，所以说实话怎样都好）。总之，有缘再说吧。
 

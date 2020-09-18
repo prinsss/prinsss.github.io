@@ -21,7 +21,7 @@ tags:
 
 **注意**，有可能你主题的 *single.php* 中只包含了主循环体而没有明显的输出 content，这种情况还请随机应变。可以看看都没有 content，post 之类的字眼。
 
-但是如果只是这样的话，是完全没有定义样式的，简直是丑的可以 [![20150711215742](https://img.blessing.studio/images/2015/07/2015-07-11_13-57-54.jpg)](https://img.blessing.studio/images/2015/07/2015-07-11_13-57-54.jpg)。遂自定义其样式：
+但是如果只是这样的话，是完全没有定义样式的，简直是丑的可以 [![20150711215742](https://img.prin.studio/images/2015/07/2015-07-11_13-57-54.jpg)](https://img.prin.studio/images/2015/07/2015-07-11_13-57-54.jpg)。遂自定义其样式：
 
 注意，以下 CSS 仅适用于 *Seventeen* 主题，其他主题还请自行撰写样式。
 
@@ -37,23 +37,23 @@ tags:
 
 顺带一提如果在 Seventeen 主题中还是像上面那样将 PHP 代码插入到 single.php 中的话，pagination 是会出现在 文章标签 之下的，很丑。
 
-这时候需要将上面的 PHP 代码添加至 *content.php* 的输出 tags 代码 <span class="lang:php decode:true crayon-inline "><?php the_tags(); ?></span>  的前面。  
+这时候需要将上面的 PHP 代码添加至 *content.php* 的输出 tags 代码 <span class="lang:php decode:true crayon-inline "><?php the_tags(); ?></span>  的前面。
  最终效果请查看本文章底部：
 
 
 ## 这是第二页
 
-  
- 这是第三页哟  
-  
- 这是第四页。。  
-  
- 够了吧这么多页了诶  
-  
- 再来一页好了 qwq  
-  
- 这是最后一页了  
-  
+
+ 这是第三页哟
+
+ 这是第四页。。
+
+ 够了吧这么多页了诶
+
+ 再来一页好了 qwq
+
+ 这是最后一页了
+
  窝是认真的
 
 BOOM~

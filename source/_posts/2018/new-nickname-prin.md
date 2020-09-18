@@ -25,7 +25,7 @@ tags:
 
 关于读音，法语单词 *printemps* 的读音是 [prɛ̃tɑ̃]，LL 中 *printemps* 的读音是 [プランタン]（到这里就改得没原型了……日本人的外来语发音一如既往地奇妙），按照英语的发音习惯 *printemps* 大概可以读成 [prɪnˈtemps]，而将单词尾部的 *s* 修改为 *w* 后应该读作……
 
-![meme-duck-question-mark](https://img.blessing.studio/images/2018/10/03/meme-duck-question-mark.jpg)
+![meme-duck-question-mark](https://img.prin.studio/images/2018/10/03/meme-duck-question-mark.jpg)
 
 因此，这几年我一直致力于给自己起一个简单易懂、中日英三语都易于发音、和 `printempw` 这个常用 ID 有关联、最好能够可爱一些的昵称，但是苦于一直找不到合适的。
 

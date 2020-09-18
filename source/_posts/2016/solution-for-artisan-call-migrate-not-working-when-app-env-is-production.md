@@ -47,7 +47,7 @@ if (! $this->confirmToProceed()) {
 
 这个 `confirmToProceed` 方法是定义在 `Illuminate\Console\ConfirmableTrait` 里的，通过阅读代码我们可以知道这个方法可以让我们传进去一个回调（或者让它在 shell 里要求用户输入 Y 确认）来确认是否要执行这个 action。
 
-![要求确认的栗子](https://img.prinzeugen.net/image.php?di=I5NU)
+![要求确认的栗子](https://img.prin.studio/legacy/image.php?di=I5NU)
 
 不巧的是，在 `MigrateCommand` 里并没有传 `callback` 给这个方法，所以它就使用了默认的回调：
 

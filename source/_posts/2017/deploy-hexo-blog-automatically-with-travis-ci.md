@@ -57,9 +57,9 @@ git push origin source:source
 
 最后这个 repo 的画风是这样的：
 
-![snipaste_20171004_201448.png](https://img.blessing.studio/images/2017/10/04/snipaste_20171004_201448.png)
+![snipaste_20171004_201448.png](https://img.prin.studio/images/2017/10/04/snipaste_20171004_201448.png)
 
-![snipaste_20171004_201526.png](https://img.blessing.studio/images/2017/10/04/snipaste_20171004_201526.png)
+![snipaste_20171004_201526.png](https://img.prin.studio/images/2017/10/04/snipaste_20171004_201526.png)
 
 我是觉得挺不错的，你说呢？
 
@@ -113,7 +113,7 @@ $ travis encrypt-file travis.key -add
 
 需要注意的是，这些文件加密步骤**不能**在 Windows 系统下完成，不然在自动部署时会出现神秘的错误（wrong final block length）。这个问题已经被很多人[报告过了](https://github.com/travis-ci/travis-ci/issues/4746)（实际上我也踩上去了），并且[官方文档](https://docs.travis-ci.com/user/encrypting-files/)里也加上了这样一段话：
 
-![Caveat](https://img.blessing.studio/images/2017/10/04/snipaste_20171004_204633.png)
+![Caveat](https://img.prin.studio/images/2017/10/04/snipaste_20171004_204633.png)
 
 总之就是「辣鸡 Windows 太菜了不行，给我用 WSL 或者类 Unix 系统吧哈哈哈」的意思（迫真）经过我的测试，Windows10 下的 babun、Git Bash 均告失败，WSL（Windows Subsystem for Linux）和我 VPS 上的 Ubuntu 14.04 所生成的加密文件均可通过自动部署，屁事儿没有。
 
@@ -166,7 +166,7 @@ addons:
   - prinzeugen.net
 ```
 
-这样一来，就没有什么能阻挡我们的自动部署过程啦 ![表情](https://img.blessing.studio/images/2017/10/04/QQ20171004210320.jpg)
+这样一来，就没有什么能阻挡我们的自动部署过程啦 ![表情](https://img.prin.studio/images/2017/10/04/QQ20171004210320.jpg)
 
 ### 0x32 编写 .travis.yml
 
@@ -178,7 +178,7 @@ addons:
 
 如果不出意外，每次 push 新 commit 到 source 分支后，Travis CI 就会自动帮你构建最新的静态博客，并部署至 Github Pages 和你自己的 VPS 上了。
 
-![Travis CI Build Status](https://img.blessing.studio/images/2017/10/04/snipaste_20171004_212745.png)
+![Travis CI Build Status](https://img.prin.studio/images/2017/10/04/snipaste_20171004_212745.png)
 
 ## 0x04 后记
 

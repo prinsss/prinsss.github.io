@@ -9,6 +9,6 @@ tags:
 ---
 
 
-可惜咱没钱，破虚机上**♂**不了https，看着其它博客的小绿锁好羡慕 ![biaoq](https://img.blessing.studio/images/2015/06/2015-06-21_05-34-38.jpg)
+可惜咱没钱，破虚机上**♂**不了https，看着其它博客的小绿锁好羡慕 ![biaoq](https://img.prin.studio/images/2015/06/2015-06-21_05-34-38.jpg)
 
-等咱有钱了上 VPS ![表情](https://img.blessing.studio/images/2015/06/2015-06-21_05-40-30.gif)
+等咱有钱了上 VPS ![表情](https://img.prin.studio/images/2015/06/2015-06-21_05-40-30.gif)

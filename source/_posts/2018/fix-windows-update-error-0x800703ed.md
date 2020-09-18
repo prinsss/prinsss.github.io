@@ -18,7 +18,7 @@ HAIDOMO，这里是年终总结拖了两个月还没写完，上一篇博文发�
 
 虽然我现在已经没多少追 Windows Insider Perview 的热情了，不过最近巨硬推出的那个 Fluent Design 看起来还是挺赞的，就打算在 Windows Update 中升级到最新的 Insider Preview。虽然速度屌慢，但是还是成功地检查到了 Build 17093 的更新并且进入了「正在准备更新」这一阶段。谁曾想等进度跑到 100% 却出现了如下错误：
 
-![error 0x800703ed screenshot](https://img.blessing.studio/images/2018/02/13/DV0b0p7VAAAn_zT.jpg)
+![error 0x800703ed screenshot](https://img.prin.studio/images/2018/02/13/DV0b0p7VAAAn_zT.jpg)
 
 这可太他妈的操蛋了。
 
@@ -50,7 +50,7 @@ HAIDOMO，这里是年终总结拖了两个月还没写完，上一篇博文发�
 
 ……。
 
-![sticker_288532_sorena](https://img.blessing.studio/images/2018/11/04/sticker_288532_sorena.png)
+![sticker_288532_sorena](https://img.prin.studio/images/2018/11/04/sticker_288532_sorena.png)
 
 ## 0x03 解决问题
 
@@ -60,7 +60,7 @@ HAIDOMO，这里是年终总结拖了两个月还没写完，上一篇博文发�
 
 到这里基本就可以破案了。之后我把引导程序由 grub2 切换回巨硬的 NT 6.x，重启之后 Windows Update 就一切正常了，并且成功更新至 Build 17093。
 
-![windows-update-error-fixed](https://img.blessing.studio/images/2018/11/04/windows-update-error-fixed.png)
+![windows-update-error-fixed](https://img.prin.studio/images/2018/11/04/windows-update-error-fixed.png)
 
 具体切换引导程序的操作我这里就不说了，这种东西网上一搜一大把，注意区分 Legacy BIOS + MBR 环境和 UEFI + GPT 环境就好了。
 

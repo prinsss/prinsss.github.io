@@ -88,7 +88,7 @@ tags:
 
 这就够了。
 
-![我的母校，摄于 2017 毕业前](https://img.blessing.studio/images/2018/07/21/IMG_20170605_150610_L.jpg)
+![我的母校，摄于 2017 毕业前](https://img.prin.studio/images/2018/07/21/IMG_20170605_150610_L.jpg)
 
 ### 高考复读的好处
 
@@ -119,7 +119,7 @@ tags:
 
 所以我当下拍板（我在这方面似乎都很果断），直接放弃填志愿，选中了杭州的一所高复专门学校，七月份去咨询，八月份就去上课，一气呵成，是复读选手中的豪杰（不）。
 
-![前往杭州](https://img.blessing.studio/images/2018/07/21/IMG_20170812_103824_FILTERED_L.jpg)
+![前往杭州](https://img.prin.studio/images/2018/07/21/IMG_20170812_103824_FILTERED_L.jpg)
 
 ## 我的高复生活
 
@@ -145,7 +145,7 @@ tags:
 
 真要说的话，就是「举目四望全是高楼大厦，挺无聊的」这一点吧。
 
-![杭州的天空](https://img.blessing.studio/images/2018/07/21/IMG_20170824_105840_L.jpg)
+![杭州的天空](https://img.prin.studio/images/2018/07/21/IMG_20170824_105840_L.jpg)
 
 ### 关于校规
 
@@ -161,7 +161,7 @@ tags:
 
 ……
 
-![表情图](https://img.blessing.studio/images/2018/07/21/-501d1e8255079ef0.jpg)
+![表情图](https://img.prin.studio/images/2018/07/21/-501d1e8255079ef0.jpg)
 
 好吧不开玩笑了。
 
@@ -207,7 +207,7 @@ tags:
 
 比如说这样的就是在敬业：
 
-![敬业截图](https://img.blessing.studio/images/2018/11/04/tweets-about-study-snapshot.png)
+![敬业截图](https://img.prin.studio/images/2018/11/04/tweets-about-study-snapshot.png)
 
 **其他时间都是在摸鱼。**（确实是这样）（笑）
 

@@ -9,7 +9,7 @@ tags:
 ---
 
 
-咱在把小号的gmail代收到大号的gmail上时，出现了这样的错误（密码正确）[![i_f33](https://img.blessing.studio/images/2015/05/2015-05-24_09-19-271.png)](https://img.blessing.studio/images/2015/05/2015-05-24_09-19-271.png)
+咱在把小号的gmail代收到大号的gmail上时，出现了这样的错误（密码正确）[![i_f33](https://img.prin.studio/images/2015/05/2015-05-24_09-19-271.png)](https://img.prin.studio/images/2015/05/2015-05-24_09-19-271.png)
 
 [AUTH] Web login required: https://support.google.com/mail/answer/78754
 
@@ -17,9 +17,9 @@ tags:
 
 咕狗了一下，发现原因是没有开启**【[从新设备登录或使用新应用时允许访问您的 Google 帐户](https://accounts.google.com/DisplayUnlockCaptcha)】**
 
-![20150707181912](https://img.blessing.studio/images/2015/07/2015-07-07_10-43-13.png)
+![20150707181912](https://img.prin.studio/images/2015/07/2015-07-07_10-43-13.png)
 
-开启即可添加代收邮箱~ [![QQ图片20150621133428](https://img.blessing.studio/images/2015/06/2015-06-21_05-34-38.jpg)](https://img.blessing.studio/images/2015/06/2015-06-21_05-34-38.jpg)
+开启即可添加代收邮箱~ [![QQ图片20150621133428](https://img.prin.studio/images/2015/06/2015-06-21_05-34-38.jpg)](https://img.prin.studio/images/2015/06/2015-06-21_05-34-38.jpg)
 
 
 

@@ -9,7 +9,7 @@ tags:
 
 今天打开 InoReader，一眼便看到「微广场」关闭服务的通知。虽然我知道这类提供微信公众号 RSS 输出的服务总有一天是会消亡的，但没想到竟是如此之快。极尽惋惜之余，不由得一声叹息。
 
-![微广场关站通知](https://img.blessing.studio/images/2017/04/29/iwgc_closed.png)
+![微广场关站通知](https://img.prin.studio/images/2017/04/29/iwgc_closed.png)
 
 我个人是不愿意去耗费精力折腾微信公众号的抓取的，毕竟能用钱解决的事，为什么要浪费时间呢？因此我也非常愿意为这类服务付费。既然微广场已经倒下，那我也不得不寻找其他对应方案了，目前看起来[「今天看啥」](http://www.jintiankansha.me/)这个服务还不错。
 
@@ -49,7 +49,7 @@ tags:
 
 虽然很多阅读器（如 Google Reader）倒下了，很多提供 RSS 服务的站点（之前的 WeiRSS、现在的微广场）也倒下了，各大内容商的平台也趋于封闭（微信公众号、简书、知乎专栏）……但只要人们对高端阅读的诉求还在，对 RSS 的需求还在，**RSS 就不会消亡**。
 
-![IRC](https://img.blessing.studio/images/2017/04/29/team_chat.png)
+![IRC](https://img.prin.studio/images/2017/04/29/team_chat.png)
 
 *▲来自 [xkcd.com](https://xkcd.com/1782/) 的漫画*
 

@@ -11,7 +11,7 @@ tags:
 
 AMH 面板也是国内挺流行的一个 web 主机面板吧，而且相信很多人都是直接在 AMH 面板的软件管理中下载的 PMA。直接通过 AMH 面板访问 PMA 的话就可以登录，但是直接访问 phpMyadmin，登录的话就会出现 `#2002 无法登录 MySQL 服务器` 错误：
 
-[![error](https://img.blessing.studio/images/2015/09/2015-09-13_06-58-13.png)](https://img.blessing.studio/images/2015/09/2015-09-13_06-58-13.png)
+[![error](https://img.prin.studio/images/2015/09/2015-09-13_06-58-13.png)](https://img.prin.studio/images/2015/09/2015-09-13_06-58-13.png)
 
 而且自己安装的 phpMyadmin 也同样是 #2002 错误，
 
@@ -59,9 +59,9 @@ $cfg['Servers'][$i]['host'] = "localhost:/tmp/{$_COOKIE['connect_mysql_name']}.s
 
 试着访问看看？
 
-[![2](https://img.blessing.studio/images/2015/09/2015-09-13_07-29-05-1024x506.png)](https://img.blessing.studio/images/2015/09/2015-09-13_07-29-05.png)
+[![2](https://img.prin.studio/images/2015/09/2015-09-13_07-29-05-1024x506.png)](https://img.prin.studio/images/2015/09/2015-09-13_07-29-05.png)
 
-蛤蛤，大功告成 [![QQ图片20150913141653](https://img.blessing.studio/images/2015/09/2015-09-13_07-32-05.jpg)](https://img.blessing.studio/images/2015/09/2015-09-13_07-32-05.jpg)
+蛤蛤，大功告成 [![QQ图片20150913141653](https://img.prin.studio/images/2015/09/2015-09-13_07-32-05.jpg)](https://img.prin.studio/images/2015/09/2015-09-13_07-32-05.jpg)
 
 
 

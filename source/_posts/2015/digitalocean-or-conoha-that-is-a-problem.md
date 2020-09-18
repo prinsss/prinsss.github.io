@@ -12,7 +12,7 @@ tags:
 
 现在窝的博客已经全线转移到 ConoHa GMO 了，访问速度应该会快一些了，至少在窝这是这样，大概 ctrl+F5 可以在 3s 内打开：
 
-[![console](https://img.blessing.studio/images/2015/08/2015-08-13_08-51-51-1024x231.png)](https://img.blessing.studio/images/2015/08/2015-08-13_08-51-51.png)
+[![console](https://img.prin.studio/images/2015/08/2015-08-13_08-51-51-1024x231.png)](https://img.prin.studio/images/2015/08/2015-08-13_08-51-51.png)
 
 正好窝两家 IDC 同价位的 VPS 都使用了一个月多了，就写一篇评测 DO 和 ConoHa 的文吧。关于窝博客的三次搬迁可以看[这里](https://prinzeugen.net/move-to-conoha-tokyo/)，[这里](https://prinzeugen.net/move-back-to-digitalocean-nyc-3/)，还有[这里](https://prinzeugen.net/wanna-move-back-to-conoha/)。
 
@@ -32,27 +32,27 @@ conoha 窝买的是东京机房，DO 的买过 SFO 和 NYC3 的机房。但是�
 
 **UPDATE：**最近 ConoHa GMO 到电信简直起飞啊
 
-[![conoha youtube](https://img.blessing.studio/images/2015/08/2015-08-14_03-08-04.png)](https://img.blessing.studio/images/2015/08/2015-08-14_03-08-04.png)
+[![conoha youtube](https://img.prin.studio/images/2015/08/2015-08-14_03-08-04.png)](https://img.prin.studio/images/2015/08/2015-08-14_03-08-04.png)
 
 <!--more-->
 
 **UPDATE2：**从昨天窝提供试用 ss 账号的反馈来看，conoha 现在不是对所有运营商都这么 dio 的，顺带一提窝是浙江电信，这是窝 现在到本站的 ping 和 100mb.test 下载速度 <span class="collapseomatic " id="id4160" tabindex="" title="点击展开">点击展开</span>
 
-<div class="collapseomatic_content " id="target-id4160">[![ping](https://img.blessing.studio/images/2015/08/2015-08-15_01-04-13.png)](https://img.blessing.studio/images/2015/08/2015-08-15_01-04-13.png)
+<div class="collapseomatic_content " id="target-id4160">[![ping](https://img.prin.studio/images/2015/08/2015-08-15_01-04-13.png)](https://img.prin.studio/images/2015/08/2015-08-15_01-04-13.png)
 
-[![100mb](https://img.blessing.studio/images/2015/08/2015-08-15_01-06-07.png)](https://img.blessing.studio/images/2015/08/2015-08-15_01-06-07.png)
+[![100mb](https://img.prin.studio/images/2015/08/2015-08-15_01-06-07.png)](https://img.prin.studio/images/2015/08/2015-08-15_01-06-07.png)
 
 </div> 窝也不保证 ConoHa 到各位所在地的速度### 3. 控制面板
 
 这个窝不得不吐槽了，ConoHa 的面板虽然很可爱，但是只有 DO 面板一半好用啊！虽然很可爱！
 
-[![conoha panel](https://img.blessing.studio/images/2015/08/2015-08-13_07-40-33-1024x513.png)](https://img.blessing.studio/images/2015/08/2015-08-13_07-40-33.png)
+[![conoha panel](https://img.prin.studio/images/2015/08/2015-08-13_07-40-33-1024x513.png)](https://img.prin.studio/images/2015/08/2015-08-13_07-40-33.png)
 
 保存镜像，恢复镜像/重装系统 速度慢得跟狗爬一样啊，难道是手工重装（大雾）？相比起来 DO 的 Snapshot 简直爽，2分钟左右镜像就好了，恢复镜像也很快。而且窝上次 conoha 恢复镜像时还出现了问题，具体可以看[这里](https://prinzeugen.net/move-back-to-digitalocean-nyc-3/)。
 
 但是 ConoHa 的网页 VNC 是窝用过中**最好用的**。同时也支持手动上传镜像安装（网上一搜一大把 conoha VPS 装 windows server 的教程），顺带一提这是 DigitalOcean 的控制面板：
 
-[![do panel](https://img.blessing.studio/images/2015/08/2015-08-13_07-47-01-1024x527.png)](https://img.blessing.studio/images/2015/08/2015-08-13_07-47-01.png)
+[![do panel](https://img.prin.studio/images/2015/08/2015-08-13_07-47-01-1024x527.png)](https://img.prin.studio/images/2015/08/2015-08-13_07-47-01.png)
 
 怎么样，很帅气吧，一股 geek 气息。相比起来 conoha 就是一股萌豚气息嘛（笑
 
@@ -76,7 +76,7 @@ GlobalCash 具体是什么请自行搜索。如果你连网银卡都没有的话
 
 记住，**千 万 不 要 **用淘宝的代付 Paypal 去激活 DO 账号，**千 万 不 要**。
 
-这是 <span style="color: #ff0000;">[血的教训（点我）](https://prinzeugen.net/fucking-paypal/)</span> 。[![20150808110252](https://img.blessing.studio/images/2015/08/2015-08-08_03-03-05.jpg)](https://img.blessing.studio/images/2015/08/2015-08-08_03-03-05.jpg)
+这是 <span style="color: #ff0000;">[血的教训（点我）](https://prinzeugen.net/fucking-paypal/)</span> 。[![20150808110252](https://img.prin.studio/images/2015/08/2015-08-08_03-03-05.jpg)](https://img.prin.studio/images/2015/08/2015-08-08_03-03-05.jpg)
 
 ### 5. 服务器性能（这里都是说窝买的）
 
@@ -110,7 +110,7 @@ DigitalOcean：30GB SSD
 
 不过主要看的还是速度吧，窝就是因为速度的问题来来回回搬迁了这么多次的 qwq，现在 ConoHa 到大陆似乎是吃了大伟哥，简直屌得飞起。
 
-不过不知道以后还会不会这样快了。。[![20150808110355](https://img.blessing.studio/images/2015/08/2015-08-08_03-04-04.jpg)](https://img.blessing.studio/images/2015/08/2015-08-08_03-04-04.jpg)
+不过不知道以后还会不会这样快了。。[![20150808110355](https://img.prin.studio/images/2015/08/2015-08-08_03-04-04.jpg)](https://img.prin.studio/images/2015/08/2015-08-08_03-04-04.jpg)
 
 最后附上窝的小尾巴链接，如果看到这篇文章的人能用它注册那窝花半个下午写这篇文也值了 qwq，有不清楚的可以评论在下面
 

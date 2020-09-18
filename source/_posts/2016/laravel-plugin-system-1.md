@@ -25,7 +25,7 @@ tags:
 
 > 这是这个系列的第一篇，主要描述了该如何构建一个插件系统。第二篇则会讲述该如何利用这个插件系统开发一个插件。
 
-该开始了 ![](https://img.prinzeugen.net/image.php?di=CFTF)
+该开始了 ![](https://img.prin.studio/legacy/image.php?di=CFTF)
 
 ----------------
 

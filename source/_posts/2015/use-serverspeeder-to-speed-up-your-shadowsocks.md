@@ -12,7 +12,7 @@ tags:
 
 - - - - - -
 
-自建的 Shadowsocks 代理速度永远是在 100KBps 左右徘徊 [![QQ图片20150531180053](https://img.blessing.studio/images/2015/05/2015-05-31_10-01-03.jpg)](https://img.blessing.studio/images/2015/05/2015-05-31_10-01-03.jpg)，搜索优化相关时发现了锐速这个解决方法。试用了三天，<span style="line-height: 1.5;">感觉效果还不错，代理速度提升了，网站内容下载时间也显著减少（然而响应速度是硬伤 qvq</span>
+自建的 Shadowsocks 代理速度永远是在 100KBps 左右徘徊 [![QQ图片20150531180053](https://img.prin.studio/images/2015/05/2015-05-31_10-01-03.jpg)](https://img.prin.studio/images/2015/05/2015-05-31_10-01-03.jpg)，搜索优化相关时发现了锐速这个解决方法。试用了三天，<span style="line-height: 1.5;">感觉效果还不错，代理速度提升了，网站内容下载时间也显著减少（然而响应速度是硬伤 qvq</span>
 
 ### 锐速是什么，好吃吗？
 
@@ -36,21 +36,21 @@ wget http://my.serverspeeder.com/d/ls/serverSpeederInstaller.tar.gz tar xzvf se
 
 做什么呢？嘛，总之先去油管看看视频吧
 
-[![20150802142705](https://img.blessing.studio/images/2015/07/2015-08-02_06-30-34.png)](https://img.blessing.studio/images/2015/07/2015-08-02_06-30-34.png)
+[![20150802142705](https://img.prin.studio/images/2015/07/2015-08-02_06-30-34.png)](https://img.prin.studio/images/2015/07/2015-08-02_06-30-34.png)
 
-这速度。。嘛啊，还算可以接受吧 [![20150711215742](https://img.blessing.studio/images/2015/07/2015-07-11_13-57-54.jpg)](https://img.blessing.studio/images/2015/07/2015-07-11_13-57-54.jpg) 比以前好多了
+这速度。。嘛啊，还算可以接受吧 [![20150711215742](https://img.prin.studio/images/2015/07/2015-07-11_13-57-54.jpg)](https://img.prin.studio/images/2015/07/2015-07-11_13-57-54.jpg) 比以前好多了
 
 然后可以从服务器下载 [100mb.test](https://files.prinzeugen.net/100mb.test) 文件试试 HTTP 速度
 
-[![20150731191654](https://img.blessing.studio/images/2015/07/2015-07-31_11-17-53.png)](https://img.blessing.studio/images/2015/07/2015-07-31_11-17-53.png)
+[![20150731191654](https://img.prin.studio/images/2015/07/2015-07-31_11-17-53.png)](https://img.prin.studio/images/2015/07/2015-07-31_11-17-53.png)
 
-wow~ 这 tm 以前快多了，以前可是 60KB/s 的啊 [![20150715224933](https://img.blessing.studio/images/2015/07/2015-07-15_14-49-46.jpg)](https://img.blessing.studio/images/2015/07/2015-07-15_14-49-46.jpg)
+wow~ 这 tm 以前快多了，以前可是 60KB/s 的啊 [![20150715224933](https://img.prin.studio/images/2015/07/2015-07-15_14-49-46.jpg)](https://img.prin.studio/images/2015/07/2015-07-15_14-49-46.jpg)
 
 ### 总的来说
 
 锐速还是比较有用的，对于个人搭建的 SS 可以起到较好的加速作用，
 
-至少是值得一试 [![QQ图片20150627233807](https://img.blessing.studio/images/2015/06/2015-06-27_15-39-05.jpg)](https://img.blessing.studio/images/2015/06/2015-06-27_15-39-05.jpg)，反正是免费的嘛
+至少是值得一试 [![QQ图片20150627233807](https://img.prin.studio/images/2015/06/2015-06-27_15-39-05.jpg)](https://img.prin.studio/images/2015/06/2015-06-27_15-39-05.jpg)，反正是免费的嘛
 
 
 

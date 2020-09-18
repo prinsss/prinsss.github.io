@@ -7,7 +7,7 @@ tags:
   - ACGN
 ---
 
-我买的实体书还在路上呢，翻译倒是先出来了，现在我的心情很复杂 ![emotion 1](https://img.prinzeugen.net/image.php?di=E0G2) 
+我买的实体书还在路上呢，翻译倒是先出来了，现在我的心情很复杂 ![emotion 1](https://img.prin.studio/legacy/image.php?di=E0G2)
 
 konosuba 厨的爆肝力真可怕
 

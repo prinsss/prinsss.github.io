@@ -20,7 +20,7 @@ tags:
 
 *诶——？嗯。。那，如果你愿意养杏一辈子的话。。。可以哟？*
 
-[![COInZEOVEAQJQpv](https://img.blessing.studio/images/2015/09/2015-09-11_12-53-46.jpg)](https://img.blessing.studio/images/2015/09/2015-09-11_12-53-46.jpg)
+[![COInZEOVEAQJQpv](https://img.prin.studio/images/2015/09/2015-09-11_12-53-46.jpg)](https://img.prin.studio/images/2015/09/2015-09-11_12-53-46.jpg)
 
 <!--more-->
 

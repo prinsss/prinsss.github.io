@@ -10,7 +10,7 @@ tags:
 
 lnmp 自动安装 phpMyAdmin 后，默认高级功能是未开启的，会提示：
 
-> The phpMyAdmin configuration storage is not completely configured, some extended features have been deactivated. Find out why.  
+> The phpMyAdmin configuration storage is not completely configured, some extended features have been deactivated. Find out why.
 >  Or alternately go to ‘Operations’ tab of any database to set it up there.
 
 似乎不同pma版本有的是中文提示：**高级功能未全部设置，部分功能不可用。**
@@ -25,7 +25,7 @@ lnmp 自动安装 phpMyAdmin 后，默认高级功能是未开启的，会提示
 
 把以下内容的注释去掉
 
-[![20150709094915](https://img.blessing.studio/images/2015/07/2015-07-10_06-49-40.png)](https://img.blessing.studio/images/2015/07/2015-07-10_06-49-40.png)
+[![20150709094915](https://img.prin.studio/images/2015/07/2015-07-10_06-49-40.png)](https://img.prin.studio/images/2015/07/2015-07-10_06-49-40.png)
 
 视情况你可能还需要自己添加一些。。反正看一下pma底部的报告差不多就懂了
 

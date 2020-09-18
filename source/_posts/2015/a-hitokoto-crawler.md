@@ -14,7 +14,7 @@ Python 实现，格式化后文本存储于 `hitokoto.txt`（使用 `\n` 做换�
 
 不过用 Python 写这种小脚本真心方便呢w ~
 
-[![hitokoto.py screenshot](https://img.blessing.studio/images/2015/12/2015-12-27_04-25-30-1024x414.png)](https://img.blessing.studio/images/2015/12/2015-12-27_04-25-30.png)
+[![hitokoto.py screenshot](https://img.prin.studio/images/2015/12/2015-12-27_04-25-30-1024x414.png)](https://img.prin.studio/images/2015/12/2015-12-27_04-25-30.png)
 
 命令行参数（也可以用 `--help` 查看）：
 
@@ -30,9 +30,9 @@ Python 实现，格式化后文本存储于 `hitokoto.txt`（使用 `\n` 做换�
 
 单线程（并不想多线程），服务端又是随机返回，所以保存的数量多了以后，效率会很慢。1000 个请求中，999 个是重复的也很常见 qwq 所以还是挂 vps 上慢慢爬吧
 
-[![2](https://img.blessing.studio/images/2015/12/2015-12-27_04-47-26.png)](https://img.blessing.studio/images/2015/12/2015-12-27_04-47-26.png)
+[![2](https://img.prin.studio/images/2015/12/2015-12-27_04-47-26.png)](https://img.prin.studio/images/2015/12/2015-12-27_04-47-26.png)
 
-爬太快的话怪不好意思的 [![QQ图片20150919235138](https://img.blessing.studio/images/2015/09/2015-09-19_15-53-31.jpg)](https://img.blessing.studio/images/2015/09/2015-09-19_15-53-31.jpg)
+爬太快的话怪不好意思的 [![QQ图片20150919235138](https://img.prin.studio/images/2015/09/2015-09-19_15-53-31.jpg)](https://img.prin.studio/images/2015/09/2015-09-19_15-53-31.jpg)
 
 
 

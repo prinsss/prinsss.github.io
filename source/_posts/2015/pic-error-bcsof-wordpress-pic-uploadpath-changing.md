@@ -10,9 +10,9 @@ tags:
 
 把默认的图片上传地址改成了 `img.prinzeugen.net`，但是原来的文章中所有的图片引用都失效了
 
-本来想不会要一篇一篇改过去吧 ![表情1](https://img.blessing.studio/images/2015/05/2015-05-31_10-01-03.jpg) 不过还好想起来可以改数据库
+本来想不会要一篇一篇改过去吧 ![表情1](https://img.prin.studio/images/2015/05/2015-05-31_10-01-03.jpg) 不过还好想起来可以改数据库
 
-总之就是替换数据库里所有 `www.prinzeugen.net/wp-contents/uploads` 为 `img.prinzeugen.net/uploads` 就可以了，但是窝是 SQL 渣（只是学 SQLite 时知道一点），于是查了下 SQL 基本语法的 REPLACE，总算是搞好啦 ![表情2](https://img.blessing.studio/images/2015/05/20150503124308.jpg)，下面是解决方法：
+总之就是替换数据库里所有 `www.prinzeugen.net/wp-contents/uploads` 为 `img.prinzeugen.net/uploads` 就可以了，但是窝是 SQL 渣（只是学 SQLite 时知道一点），于是查了下 SQL 基本语法的 REPLACE，总算是搞好啦 ![表情2](https://img.prin.studio/images/2015/05/20150503124308.jpg)，下面是解决方法：
 
 <!--more-->
 

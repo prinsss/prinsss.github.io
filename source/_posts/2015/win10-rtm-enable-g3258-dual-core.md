@@ -27,9 +27,9 @@ tags:
 
 4. GJ！完成辣！上图：
 
-[![屏幕截图(68)](https://img.blessing.studio/images/2015/08/2015-08-03_14-04-17-1024x576.png)](https://img.blessing.studio/images/2015/08/2015-08-03_14-04-17.png)
+[![屏幕截图(68)](https://img.prin.studio/images/2015/08/2015-08-03_14-04-17-1024x576.png)](https://img.prin.studio/images/2015/08/2015-08-03_14-04-17.png)
 
-吗的终于不用忍受 chrome 加载新标签页和微软 IME 打字 CPU 爆满了窝容易吗 [![20150715224933](https://img.blessing.studio/images/2015/07/2015-07-15_14-49-46.jpg)](https://img.blessing.studio/images/2015/07/2015-07-15_14-49-46.jpg)
+吗的终于不用忍受 chrome 加载新标签页和微软 IME 打字 CPU 爆满了窝容易吗 [![20150715224933](https://img.prin.studio/images/2015/07/2015-07-15_14-49-46.jpg)](https://img.prin.studio/images/2015/07/2015-07-15_14-49-46.jpg)
 
 
 

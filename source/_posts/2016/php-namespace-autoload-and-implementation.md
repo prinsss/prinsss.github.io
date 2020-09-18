@@ -11,7 +11,7 @@ Blessing Skin Server 也经过蛮长时间的开发了，但是类文件都只�
 
 然而在上周加入了数据对接之后，`includes` 文件夹就开始爆满了：
 
-![includes dir](https://img.prinzeugen.net/image.php?di=3G97)
+![includes dir](https://img.prin.studio/legacy/image.php?di=3G97)
 
 这尼玛还怎么忍？必须命名空间走起啊。
 
@@ -39,10 +39,10 @@ E:\wwwroot\blessing-skin-server\includes\classes\Database\AuthmeDatabase.class.p
 
 然后 `require_once` 一下就完成了自动加载。
 
-![used namespace](https://img.prinzeugen.net/image.php?di=7RIP)
+![used namespace](https://img.prin.studio/legacy/image.php?di=7RIP)
 
-神清气爽 
-![](https://img.prinzeugen.net/image.php?di=8WUY)
+神清气爽
+![](https://img.prin.studio/legacy/image.php?di=8WUY)
 
 -------------
 

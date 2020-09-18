@@ -11,7 +11,7 @@ tags:
 
 在刷入 OpenGapps 的时候，却出现了如标题所示的情况：
 
-![setup wizard stopped](https://img.prinzeugen.net/image.php?di=F02V)
+![setup wizard stopped](https://img.prin.studio/legacy/image.php?di=F02V)
 
 无限弹窗，即时点了确定也会马上再弹一个，完全无法使用。
 
@@ -53,12 +53,12 @@ pm enable com.google.android.setupwizard
 
 最后运行（ADB Shell）：
 ```shell
-am start -n com.google.android.setupwizard/.SetupWizardTestActivity 
+am start -n com.google.android.setupwizard/.SetupWizardTestActivity
 ```
 
 即可重新运行设置向导。
 
-![setup wizard success](https://img.prinzeugen.net/image.php?di=2HUU)
+![setup wizard success](https://img.prin.studio/legacy/image.php?di=2HUU)
 
 
 

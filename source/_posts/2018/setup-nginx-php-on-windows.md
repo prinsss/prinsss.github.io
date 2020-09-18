@@ -192,7 +192,7 @@ date.timezone = Asia/Shanghai
 
 - 如果一切正常，你将可以在任务管理器中看到同时运行的多个 `php-cgi` 进程。
 
-![php-cgi-processes](https://img.blessing.studio/images/2018/11/01/php-cgi-processes.png)
+![php-cgi-processes](https://img.prin.studio/images/2018/11/01/php-cgi-processes.png)
 
 **接下来修改 Nginx 配置**（即 0x01 中提到的 `vhosts.conf` 中的内容），通过 FastCGI 协议将请求转发给监听在 9000 端口上的 PHP 进行处理：
 
@@ -271,7 +271,7 @@ ProcessLifeTime 360
 
 如果一切配置正确，你应该就能正常访问 PHP 网页了。
 
-![nginx-php-works](https://img.blessing.studio/images/2018/11/01/nginx-php-works.png)
+![nginx-php-works](https://img.prin.studio/images/2018/11/01/nginx-php-works.png)
 
 ## 0x04 编写启停脚本
 
@@ -335,7 +335,7 @@ taskkill /F /IM httpd.exe > nul
 
 这些脚本我放在 `E:\environment\scripts` 目录中，如果你需要放在其他地方，请适当修改脚本中的可执行文件路径。另外，脚本中用到了 `RunHiddenConsole.exe` 来隐藏命令行窗口，你可以在 [这里](http://redmine.lighttpd.net/attachments/660/RunHiddenConsole.zip) 下载到这个小工具。
 
-![wnmp-all-processes](https://img.blessing.studio/images/2018/11/01/wnmp-all-processes.png)
+![wnmp-all-processes](https://img.prin.studio/images/2018/11/01/wnmp-all-processes.png)
 
 ## 0x05 后记
 

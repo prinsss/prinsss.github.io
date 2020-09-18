@@ -9,7 +9,7 @@ tags:
 ---
 
 
-暑假以来好像天天都在搞 vps ，本来只用过 linux 图形界面的窝也可以比较熟练地使用 shell 了 （天天对着终端艹 [![20150711215742](https://img.blessing.studio/images/2015/07/2015-07-11_13-57-54.jpg)](https://img.blessing.studio/images/2015/07/2015-07-11_13-57-54.jpg) ，于是整理了一些 shell 常用命令如下：
+暑假以来好像天天都在搞 vps ，本来只用过 linux 图形界面的窝也可以比较熟练地使用 shell 了 （天天对着终端艹 [![20150711215742](https://img.prin.studio/images/2015/07/2015-07-11_13-57-54.jpg)](https://img.prin.studio/images/2015/07/2015-07-11_13-57-54.jpg) ，于是整理了一些 shell 常用命令如下：
 
  
 
@@ -103,7 +103,7 @@ e.g. ps -aux | grep nginx        在所有进程中，查找nginx的进程
 
 - - - - - -
 
-就先写这么点吧~ [![QQ图片20150621133428](https://img.blessing.studio/images/2015/06/2015-06-21_05-34-38.jpg)](https://img.blessing.studio/images/2015/06/2015-06-21_05-34-38.jpg)
+就先写这么点吧~ [![QQ图片20150621133428](https://img.prin.studio/images/2015/06/2015-06-21_05-34-38.jpg)](https://img.prin.studio/images/2015/06/2015-06-21_05-34-38.jpg)
 
 
 

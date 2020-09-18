@@ -30,7 +30,7 @@ tags:
 
 顺带一提窝其实挺喜欢纯文字少图片的博客的，也喜欢 Markdown
 
-但是没办法嘛 qwq，喜欢用表情是死宅的通病 [![20150715224933](https://img.blessing.studio/images/2015/07/2015-07-15_14-49-46.jpg)](https://img.blessing.studio/images/2015/07/2015-07-15_14-49-46.jpg)
+但是没办法嘛 qwq，喜欢用表情是死宅的通病 [![20150715224933](https://img.prin.studio/images/2015/07/2015-07-15_14-49-46.jpg)](https://img.prin.studio/images/2015/07/2015-07-15_14-49-46.jpg)
 
 第一人称用“窝”大概算是网上的口癖吧，就像编程随想自称俺那样的
 

@@ -43,7 +43,7 @@ tags:
 
 这些软件的原理就是将原本的登录鉴权这一步骤从游戏里抽出来了，将其放到启动器 or 网页上去，而服务端插件的功能就只剩下「查询数据库中用户的登录状态，决定是否放行」：
 
-![原理图](https://img.blessing.studio/images/2017/08/04/Minecraft.png)
+![原理图](https://img.prin.studio/images/2017/08/04/Minecraft.png)
 
 *▲随手画的示意流程图，这里推荐一下  [ProcessOn](https://www.processon.com/) 这个在线作图网站，很好用 ;)*
 
@@ -97,11 +97,11 @@ authlib-injector 官方也提供了一个 Java 编写的后端 [yggdrasil-mock](
 
 皮肤站的用户管理系统、皮肤系统、后台界面之类的我就不截图了，有兴趣可以去 MCBBS 的 [发布帖](http://www.mcbbs.net/forum.php?mod=viewthread&tid=552877) 上感受一下。
 
-![网页管理](https://img.blessing.studio/images/2017/08/04/imageac07f.png)
+![网页管理](https://img.prin.studio/images/2017/08/04/imageac07f.png)
 
 *▲在皮肤站「角色管理」中可添加多个角色*
 
-![多角色选择](https://img.blessing.studio/images/2017/08/04/image.png)
+![多角色选择](https://img.prin.studio/images/2017/08/04/image.png)
 
 *▲使用皮肤站的邮箱与密码登录后，配合 HMCL 实现多角色选择*
 

@@ -22,8 +22,8 @@ tags:
 
 那么在 Laravel 下我们可以怎么优化呢？
 
-蛤？你说 Eloquent？你 TM 长点脑子啊 
-![](https://img.prinzeugen.net/image.php?di=UPMZ) 用了 ORM 那 tm 还叫优化？你们呀，不要听的风是得雨，看到 Laravel 就想到 Eloquent！
+蛤？你说 Eloquent？你 TM 长点脑子啊
+![](https://img.prin.studio/legacy/image.php?di=UPMZ) 用了 ORM 那 tm 还叫优化？你们呀，不要听的风是得雨，看到 Laravel 就想到 Eloquent！
 
 好吧好吧，再强行 +1s 是要出事的，我们回到正题。没错，我们正是要把 `options` 放到 Laravel 的服务容器里去。
 

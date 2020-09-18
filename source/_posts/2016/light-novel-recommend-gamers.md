@@ -40,8 +40,8 @@ tags:
 
 总的来说，这个系列对于我来说和「为美好的世界献上祝福」一样，是只要一出新卷就会屁颠屁颠去代购日版的那种（笑）。
 
-可惜我一介高中生并没有几个钱，就只入了日版第五卷聊表支持 
-![emotion](https://img.prinzeugen.net/image.php?di=56FY)（十一月 konosuba 第十卷发售还得攒钱呢 QwQ）
+可惜我一介高中生并没有几个钱，就只入了日版第五卷聊表支持
+![emotion](https://img.prin.studio/legacy/image.php?di=56FY)（十一月 konosuba 第十卷发售还得攒钱呢 QwQ）
 
 ![order screenshot](https://moepic.org/images/2016/10/17/96023c1aab81facdc9645389e29b13c8.png)
 

@@ -20,7 +20,7 @@ Disqus 评论系统以其几乎零配置的安装方式为众人所称道。只�
 
 今天我去 Disqus 后台查看博客上的所有 thread（即一篇文章对应的评论区）时，发现其中记录的全都是些奇怪的 URL：有带着 QQ、微信各种 Query String 一大串的，有 Google 翻译的，有 Web Archive 缓存的，甚至还有不少我自己本地测试域名的，五花八门千奇百怪着实给我看呆了。
 
-![disqus-discussions-weird-url](https://img.blessing.studio/images/2019/09/26/disqus-discussions-weird-url.png)
+![disqus-discussions-weird-url](https://img.prin.studio/images/2019/09/26/disqus-discussions-weird-url.png)
 
 > 顺带一提，根据不同 URL 的数量来看（比如微信的 `?nsukey=`），所有文章里被分享次数最多的是「[为何 shadowsocks 要弃用一次性验证 (OTA)](https://printempw.github.io/why-do-shadowsocks-deprecate-ota/)」，足足有 400 多条。其他还有「[Twitter 账号被锁定是种怎样的体验](https://printempw.github.io/twitter-account-has-been-locked/)」「[命令行界面 (CLI)、终端 (Terminal)、Shell、TTY，傻傻分不清楚？](https://printempw.github.io/the-difference-between-cli-terminal-shell-tty/)」等文章也比较受欢迎。
 

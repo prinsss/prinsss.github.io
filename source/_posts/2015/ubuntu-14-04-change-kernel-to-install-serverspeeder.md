@@ -31,7 +31,7 @@ $ sudo apt-get install linux-image-extra-3.13.0-24-generic
 
 查看系统现有内核 
 ```
-$ dpkg -l|grep linux-image  
+$ dpkg -l|grep linux-image
 ```
 卸载列出的其他内核：
 ```
@@ -40,12 +40,12 @@ $ sudo apt-get purge linux-image-3.16.0-36-generic linux-image-extra-3.16.0-36-g
 
 ### 4.更新 grub 系统引导文件并重启
 ```
-$ sudo update-grub 
+$ sudo update-grub
 $ sudo reboot
 ```
 不出意外的话重启后启用的就是新的内核了~
 
-[![kernel](https://img.blessing.studio/images/2015/08/2015-08-02_05-51-37.png)](https://img.blessing.studio/images/2015/08/2015-08-02_05-51-37.png)
+[![kernel](https://img.prin.studio/images/2015/08/2015-08-02_05-51-37.png)](https://img.prin.studio/images/2015/08/2015-08-02_05-51-37.png)
 
 安装锐速请看[这篇博文](https://prinzeugen.net/use-serverspeeder-to-speed-up-your-shadowsocks/)~ (σﾟ∀ﾟ)σ
 

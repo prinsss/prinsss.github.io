@@ -54,7 +54,7 @@ tags:
 
 最后放一张原来 WordPress 后台的截图以示纪念：
 
-![wordpress-dashboard](https://img.prinzeugen.net/image.php?di=GS78)
+![wordpress-dashboard](https://img.prin.studio/legacy/image.php?di=GS78)
 
 再见了，WordPress，我依然喜欢你。
 

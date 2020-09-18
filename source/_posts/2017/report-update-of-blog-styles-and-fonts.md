@@ -46,7 +46,7 @@ Roboto Slab 是[粗衬线体](https://zh.wikipedia.org/wiki/%E7%B2%97%E8%A1%AC%E
 
 我之前的 [Tweet](https://twitter.com/printempw/status/835472326221127683) 里也有提到过，对比图如下（上面是 Alegreya Sans *Medium*，下面是 Monda *Regular*）：
 
-![对比图](https://img.blessing.studio/images/2017/02/26/QQ20170226164005.png)
+![对比图](https://img.prin.studio/images/2017/02/26/QQ20170226164005.png)
 
 ### 全局字体大小由 15px 改为 14px
 

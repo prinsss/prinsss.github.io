@@ -8,7 +8,7 @@ tags:
 ---
 
 
-听说加了 swap 会有用。。总之试一下又不会怀孕 [![20150711215742](https://img.blessing.studio/images/2015/07/2015-07-11_13-57-54.jpg)](https://img.blessing.studio/images/2015/07/2015-07-11_13-57-54.jpg)
+听说加了 swap 会有用。。总之试一下又不会怀孕 [![20150711215742](https://img.prin.studio/images/2015/07/2015-07-11_13-57-54.jpg)](https://img.prin.studio/images/2015/07/2015-07-11_13-57-54.jpg)
 
 参考了 Digital Ocean 官方的教程：[How To Add Swap on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
 
@@ -33,7 +33,7 @@ Swap: 0 0 0
 
 `df -h`
 
-![20150710101458](https://img.blessing.studio/images/2015/07/2015-07-11_14-06-47.png)
+![20150710101458](https://img.prin.studio/images/2015/07/2015-07-11_14-06-47.png)
 
 ### 3.创建 swap 文件
 
@@ -79,7 +79,7 @@ If you want to learn how to create the file faster, remove the file and follow a
 
 这时候用 `ls -lh /swapfile` 可以查看已创建的 swap files
 
-![20150710101618](https://img.blessing.studio/images/2015/07/2015-07-11_14-12-21.png)
+![20150710101618](https://img.prin.studio/images/2015/07/2015-07-11_14-12-21.png)
 
 ### 4.启用创建的 swap 文件
 
@@ -87,17 +87,17 @@ If you want to learn how to create the file faster, remove the file and follow a
 
 使用 `ls -lh /swapfile` 验证权限配置是否生效
 
-![20150710101712](https://img.blessing.studio/images/2015/07/2015-07-11_14-14-14.png)
+![20150710101712](https://img.prin.studio/images/2015/07/2015-07-11_14-14-14.png)
 
 告诉系统将此文件做为 swap 空间使用 `mkswap /swapfile`
 
 启用~ `swapon /swapfile`
 
-可以使用 `swapon -s` 验证是否生效 ![20150710101817](https://img.blessing.studio/images/2015/07/2015-07-11_14-18-18.png)
+可以使用 `swapon -s` 验证是否生效 ![20150710101817](https://img.prin.studio/images/2015/07/2015-07-11_14-18-18.png)
 
 现在可以再用 `free -m<` 看看了
 
-![20150710101856](https://img.blessing.studio/images/2015/07/2015-07-11_14-19-51.png)
+![20150710101856](https://img.prin.studio/images/2015/07/2015-07-11_14-19-51.png)
 
 ### 5.持久性地启用你的 swap file
 
@@ -193,4 +193,4 @@ Save and close the file when you are finished.
 
 如果你总是碰到 OOM (Out of Memory) 错误，或者你的系统无法运行你需要的应用的话，最好的选择是优化你的应用配置或者升级你的配置。。调整 swap 配置然并卵
 
-![20150710185714](https://img.blessing.studio/images/2015/07/2015-07-10_10-57-26.jpg)
+![20150710185714](https://img.prin.studio/images/2015/07/2015-07-10_10-57-26.jpg)

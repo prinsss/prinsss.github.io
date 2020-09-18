@@ -32,7 +32,7 @@ tags:
 
 **注意**，接下来的操作大部分都是在【目标服务器】的 shell 中进行的。继续阅读之前，你需要通过 SSH 等工具连接至你的服务器，它一般长这样：
 
-![shell example](https://img.blessing.studio/images/2017/02/18/QQ20170218173516.png)
+![shell example](https://img.prin.studio/images/2017/02/18/QQ20170218173516.png)
 
 如果你不晓得这是什么，神奇海螺……以下略。
 
@@ -53,7 +53,7 @@ $ git clone https://github.com/orvice/ss-panel.git
 
 注意源码下载完成后的目录结构，**请务必保证** `/public` 目录在站点的根目录下。你可以使用 `$ mv ss-panel/{.,}* ./` 命令将子目录的内容移动到当前目录来。正确的目录结构应该类似于这样：
 
-![directory structure example](https://img.blessing.studio/images/2017/02/18/QQ20170218174949.png)
+![directory structure example](https://img.prin.studio/images/2017/02/18/QQ20170218174949.png)
 
 ### 0x03 配置 ss-panel
 
@@ -63,7 +63,7 @@ $ git clone https://github.com/orvice/ss-panel.git
 
 接下来请按照 [官方文档的说明](https://sspanel.xyz/docs/intro/installation#%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE) 正确配置你的 Web 服务器。正确配置后的 NGINX 配置应该长这样：
 
-![nginx configuration sample](https://img.blessing.studio/images/2017/02/18/QQ20170218180726.png)
+![nginx configuration sample](https://img.prin.studio/images/2017/02/18/QQ20170218180726.png)
 
 编辑完后重载你的 Web 服务器，然后访问你的站点……于是你得到了一个 500 Internal Server Error（如果你没开启 `display_errors` 可能看不到详细报错）：
 
@@ -81,7 +81,7 @@ $ curl -sS https://getcomposer.org/installer | php
 $ php composer.phar install
 ```
 
-![installing dependencies with composer](https://img.blessing.studio/images/2017/02/18/QQ20170218181624.png)
+![installing dependencies with composer](https://img.prin.studio/images/2017/02/18/QQ20170218181624.png)
 
 等待它安装完毕后接着进行配置：
 
@@ -106,7 +106,7 @@ db_prefix = ''
 
 数据库的创建我就不多说了，建站的一般都玩过数据库吧？将根目录下的 `db.sql` 导入到数据库中即可。其他配置自行修改。
 
-![importing tables](https://img.blessing.studio/images/2017/02/18/QQ20170218183004.png)
+![importing tables](https://img.prin.studio/images/2017/02/18/QQ20170218183004.png)
 
 你还需要修改 `.env` 中的 `muKey` 字段，修改为任意字符串（最好只包含 ASCII 字符），下面配置后端的时候我们需要使用到这个 `muKey`：
 
@@ -137,7 +137,7 @@ $ php xcat createAdmin
 
 在站点根目录下运行，根据提示即可创建管理员账号 ~~（这个文字对齐真鸡儿 shi）~~：
 
-![creating admin account](https://img.blessing.studio/images/2017/02/18/QQ20170218184049.png)
+![creating admin account](https://img.prin.studio/images/2017/02/18/QQ20170218184049.png)
 
 使用刚才填写的邮箱和密码进入后台：
 
@@ -163,7 +163,7 @@ $ git clone https://github.com/fsgmhoward/shadowsocks-py-mu.git
 
 源码 clone 后，你的目录结构应该是这样的：
 
-![directory structure ss mu](https://img.blessing.studio/images/2017/02/18/QQ20170218200629.png)
+![directory structure ss mu](https://img.prin.studio/images/2017/02/18/QQ20170218200629.png)
 
 其中的 shadowsocks 子目录才是我们需要的，外面的是 `setup.py` 的相关文件。
 
@@ -192,7 +192,7 @@ API_PASS = 'api_key_just_for_test'
 
 好了，现在可以试着运行一下 `$ python servers.py` 了（注意，是 **servers.py** 而不是 **server.py**）。如果没错的话，应该可以看到这样的输出：
 
-![running successfully](https://img.blessing.studio/images/2017/02/18/QQ20170218203217.png)
+![running successfully](https://img.prin.studio/images/2017/02/18/QQ20170218203217.png)
 
 其中 `P[XXX]` 表示用户端口，`M[XXX]` 表示加密方式，`E[XXX]` 表示用户的邮箱地址。这些都会随着 ss-panel 前端中用户配置的改变而实时变化。
 
@@ -336,7 +336,7 @@ $ supervisorctl {start|stop|restart} ss-manyuser
 
 --------------
 
-![success google](https://img.blessing.studio/images/2017/02/18/QQ20170218213554.png)
+![success google](https://img.prin.studio/images/2017/02/18/QQ20170218213554.png)
 
 至此，你已完成对 ss-panel 的部署。叫上小伙伴们一起享受自由的互联网吧 ;)
 

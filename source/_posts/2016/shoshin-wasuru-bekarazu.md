@@ -70,7 +70,7 @@ tags:
 
 *prinzeugen.net*，对于一些人可能会觉得这个又长又难记的域名完全意义不明，不过也有些人会会心一笑心想呜啊博主估计是个舰狗。Prinz Eugen，其实只要搜索一下就知道，德意志西佩尔海军上将级重巡洋舰 3 番舰 欧根亲王号，长这样<del>（舰C的立绘）</del>：
 
-![Prinz Eugen](https://img.blessing.studio/images/2016/01/2016-01-08_14-36-32.png)
+![Prinz Eugen](https://img.prin.studio/images/2016/01/2016-01-08_14-36-32.png)
 
 为什么是欧根的原因也已经不可考<del>（德棍舰厨）</del>，虽然中途有想要换 blessing.net 之类更好记的域名，但都不了了之了。看得久了也生了感情，好歹也是见证了我博客成长历程的域名，而且也挺好的不是吗<del>（并不）</del>
 

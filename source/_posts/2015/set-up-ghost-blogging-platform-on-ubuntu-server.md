@@ -107,13 +107,13 @@ $ npm start --production
 
 很好。你现在 curl 已经可以得到正确的 html 页面了，于是你兴高采烈地在浏览器中输入 http://your-ip:2368/ 。。
 
-[![boom~](https://img.blessing.studio/images/2015/08/2015-08-21_13-27-38.png)](https://img.blessing.studio/images/2015/08/2015-08-21_13-27-38.png)
+[![boom~](https://img.prin.studio/images/2015/08/2015-08-21_13-27-38.png)](https://img.prin.studio/images/2015/08/2015-08-21_13-27-38.png)
 
 Oh…What The Fuck !!! 明明本地 curl 都可以 get 到页面的啊！而且 log 上也完全没有滚动。。
 
 最初窝以为是 iptables 的问题。但是执行 <span class="lang:sh decode:true crayon-inline ">$ sudo iptables -A INPUT -p tcp –dport 2368 -j ACCEPT</span>  后还是同样的问题。网上搜了搜，有人说将 **config.js** 中的 **127.0.0.1** 改成 **0.0.0.0** 就好了，于是窝就去试了一下：
 
-[![ghost-done](https://img.blessing.studio/images/2015/08/2015-08-21_13-32-15-1024x502.png)](https://img.blessing.studio/images/2015/08/2015-08-21_13-32-15.png) wow~液！It works !! XD
+[![ghost-done](https://img.prin.studio/images/2015/08/2015-08-21_13-32-15-1024x502.png)](https://img.prin.studio/images/2015/08/2015-08-21_13-32-15.png) wow~液！It works !! XD
 
 不过只知其然，不知其所以然是不行的，窝自然要去搜索下 *127.0.0.1* 与 *0.0.0.0* 之间的区别
 
@@ -206,4 +206,4 @@ Good Job ! 你已经成功配置好 Ghost 并可以使用域名访问了。可�
 
 反正没人看，Ghost 字体微调好麻烦，已弃坑。
 
-[![20150808110252](https://img.blessing.studio/images/2015/08/2015-08-08_03-03-05.jpg)](https://img.blessing.studio/images/2015/08/2015-08-08_03-03-05.jpg)
+[![20150808110252](https://img.prin.studio/images/2015/08/2015-08-08_03-03-05.jpg)](https://img.prin.studio/images/2015/08/2015-08-08_03-03-05.jpg)

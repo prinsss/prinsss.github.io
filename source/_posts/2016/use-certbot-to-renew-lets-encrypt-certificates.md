@@ -11,7 +11,7 @@ tags:
 
 Let's Encrypt 证书即将过期时会给你发送邮件，这个还是比较贴心的。这样也就不会陷入证书过期却没发现的尴尬境地（Let's Encrypt 的证书只有 90 天的有效期）。
 
-![2826714bc9645e4b9828433b8e674800.png](https://img.blessing.studio/images/2017/06/11/2826714bc9645e4b9828433b8e674800.png)
+![2826714bc9645e4b9828433b8e674800.png](https://img.prin.studio/images/2017/06/11/2826714bc9645e4b9828433b8e674800.png)
 
 以前我写过使用 Certbot 这个工具[申请证书的文章](https://prinzeugen.net/use-certbot-to-issue-lets-encrypt-certificates/)，而同样使用这个工具更新证书只需要一行命令：
 
@@ -23,7 +23,7 @@ certbot renew --post-hook "service nginx reload"
 
 <!--more-->
 
-![b2134999636066c29c9e93a40bd88a57.png](https://img.blessing.studio/images/2017/06/11/b2134999636066c29c9e93a40bd88a57.png)
+![b2134999636066c29c9e93a40bd88a57.png](https://img.prin.studio/images/2017/06/11/b2134999636066c29c9e93a40bd88a57.png)
 
 不想每次都登上去更新的也可以把上面那行脚本加入 crontab（`crontab -e`），让它每个月执行一次：
 

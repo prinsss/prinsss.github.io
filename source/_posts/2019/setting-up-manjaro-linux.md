@@ -156,7 +156,7 @@ XMODIFIERS=@im=fcitx
 
 图形化配置界面中删除自带的拼音输入法，添加 Rime 与 Mozc：
 
-![fcitx-gui-add-im](https://img.blessing.studio/images/2019/11/23/fcitx-gui-add-im.png)
+![fcitx-gui-add-im](https://img.prin.studio/images/2019/11/23/fcitx-gui-add-im.png)
 
 如果添加界面中找不到新安装的输入法，可以在菜单中重启一下 fcitx。
 
@@ -196,7 +196,7 @@ vim ~/.config/fcitx/conf/fcitx-classic-ui.config
 
 看起来还不错：
 
-![fcitx-change-skin-material](https://img.blessing.studio/images/2019/11/23/fcitx-change-skin-material.png)
+![fcitx-change-skin-material](https://img.prin.studio/images/2019/11/23/fcitx-change-skin-material.png)
 
 ## GNOME 桌面美化
 
@@ -214,7 +214,7 @@ yay -S yaru-gnome-shell-theme yaru-gtk-theme yaru-icon-theme yaru-session
 
 在 GNOME Tweaks 里指定主题：
 
-![gnome-tweaks-set-theme-yaru](https://img.blessing.studio/images/2019/11/23/gnome-tweaks-set-theme-yaru.png)
+![gnome-tweaks-set-theme-yaru](https://img.prin.studio/images/2019/11/23/gnome-tweaks-set-theme-yaru.png)
 
 ~~这样配合下面的 GNOME Shell 扩展就可以实现 Ubuntu 拟态啦。（x）~~
 
@@ -248,11 +248,11 @@ Manjaro 默认安装就自带了这些 GNOME Shell 扩展：
 
 每个扩展都有不少配置（扩展开关左边的齿轮图标），调整配置上花了我不少时间。
 
-![gnome-tweaks-extensions](https://img.blessing.studio/images/2019/11/23/gnome-tweaks-extensions.png)
+![gnome-tweaks-extensions](https://img.prin.studio/images/2019/11/23/gnome-tweaks-extensions.png)
 
 最后我的桌面是这样的：
 
-![my-gnome-desktop](https://img.blessing.studio/images/2019/11/23/my-gnome-desktop-compressed.png)
+![my-gnome-desktop](https://img.prin.studio/images/2019/11/23/my-gnome-desktop-compressed.png)
 
 ## 常用软件
 
@@ -496,7 +496,7 @@ Rufus 制作 Windows 安装启动盘，安装至分好的 NTFS 分区一路无�
 
 开机按 F12 键打开 UEFI 引导菜单，除了最上面的 Windows Boot Manager 之外应该还有一个启动项（不知道为什么我的机器上不显示其他启动项的名字……），选择它应该就可以进入 Manjaro 系统了：
 
-![uefi-boot-menu-f12](https://img.blessing.studio/images/2019/11/23/uefi-boot-menu-f12.png)
+![uefi-boot-menu-f12](https://img.prin.studio/images/2019/11/23/uefi-boot-menu-f12.png)
 
 如果你愿意，可以一直像这样通过 UEFI 引导菜单来启动双系统（事实上这也是现在的主流做法）。
 
@@ -504,7 +504,7 @@ Rufus 制作 Windows 安装启动盘，安装至分好的 NTFS 分区一路无�
 
 UEFI 启动序列可以直接在 Windows 下使用 BOOTICE 编辑：
 
-![uefi-boot-entries-after-win10-installation](https://img.blessing.studio/images/2019/11/23/uefi-boot-entries-after-win10-installation.png)
+![uefi-boot-entries-after-win10-installation](https://img.prin.studio/images/2019/11/23/uefi-boot-entries-after-win10-installation.png)
 
 也可以在 Linux 下通过 `efibootmgr` 来编辑：
 
@@ -538,7 +538,7 @@ Boot2003* EFI Network
 sudo update-grub
 ```
 
-![grub-win10-dual-boot](https://img.blessing.studio/images/2019/11/23/grub-win10-dual-boot.png)
+![grub-win10-dual-boot](https://img.prin.studio/images/2019/11/23/grub-win10-dual-boot.png)
 
 > 如果想要 `update-grub` 不自动检测其他操作系统的启动项，可以这样运行：`sudo GRUB_DISABLE_OS_PROBER=true update-grub`。永久禁止检测需编辑 `/etc/default/grub`。
 
@@ -597,7 +597,7 @@ sudo update-grub
 
 所以解决方法也有两种，一种是让 Linux 认为硬件时钟是本地时间：打开 Manjaro Settings Manager，在「时间和日期」中勾选「本地时区的硬件时钟」。
 
-![manjaro-settings-manager-set-local-rtc](https://img.blessing.studio/images/2019/11/23/manjaro-settings-manager-set-local-rtc.png)
+![manjaro-settings-manager-set-local-rtc](https://img.prin.studio/images/2019/11/23/manjaro-settings-manager-set-local-rtc.png)
 
 > 吐个槽：就拿这个界面举例说吧，不知道为什么明明 Kvantum 中设置了 Yaru 主题，QT 程序的标题栏却是亮色风格的，而标题栏里的文本又是白色，很怪。GNOME Tweaks 中设置应用程序主题为 Yaru-dark 或者 Yaru-light 时都正常，设置成 Yaru 时 QT 程序的标题栏就变成缝合怪了，搞不懂。
 

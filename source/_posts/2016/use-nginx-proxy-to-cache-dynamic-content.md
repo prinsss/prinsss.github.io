@@ -12,7 +12,7 @@ tags:
 
 我到现在也还是搞不懂那到底是正常流量还是 CC 攻击。。难道正常用户会每秒请求 20+ 次 Json Profile 吗？又不是天天退/进游戏玩 ![emotion](https://moepic.org/images/2016/10/02/c066215f622f0bf2fe7ee9625955e343.jpg)
 
-虽然当时我就花了一点时间给 Json Profile 和皮肤预览之类的地方 [加上了缓存](https://prinzeugen.net/use-observer-pattern-of-laravel-to-implement-loosely-coupled-cache/)，但是由于这些缓存方案都是在 Laravel 层之上的，所以框架的性能依旧是硬伤。试了下 [Stone](https://github.com/StoneGroup/stone) 
+虽然当时我就花了一点时间给 Json Profile 和皮肤预览之类的地方 [加上了缓存](https://prinzeugen.net/use-observer-pattern-of-laravel-to-implement-loosely-coupled-cache/)，但是由于这些缓存方案都是在 Laravel 层之上的，所以框架的性能依旧是硬伤。试了下 [Stone](https://github.com/StoneGroup/stone)
 之类的优化措施也没什么卵效果，再加上我学业也忙了起来，这个问题就被搁置了。
 
 正好最近国庆放假（虽然只有四天），我就抽了点时间出来研究了一下如何给我的皮肤站套一层缓存 ( ・_ゝ・)
@@ -25,7 +25,7 @@ tags:
 虽然说 Nginx 同时还可以做到负载均衡之类的事，但由于我这穷屌只有一台机子，所以只好普通地做成这样的架构：
 
 ```
-[用户] --- 访问 ---> [skin.prinzeugen.net] 
+[用户] --- 访问 ---> [skin.prinzeugen.net]
   ^                           |
   |                           v
   |--- 返回缓存 <-（否）-缓存是否过期？
@@ -69,7 +69,7 @@ tags:
 
 如果一切配置无误，你就可以看到你的内容已经被 Nginx 缓存下来啦：
 
-![Screenshot](https://img.prinzeugen.net/image.php?di=M8Z0)
+![Screenshot](https://img.prin.studio/legacy/image.php?di=M8Z0)
 
 最后贴一下我的 Nginx 配置：
 
@@ -83,22 +83,22 @@ server {
     server_name skin.prinzeugen.net;
     index index.html index.htm index.php;
     root /home/wwwroot/skin.prinzeugen.net;
-    
+
     # 显示当前页面的缓存状态
     add_header X-Cache $upstream_cache_status;
-    
+
     location ~ /(csl|usm|)/?[^/]+\.json {
         proxy_pass        http://localhost:8080;
-        
+
         # 转发一些客户端信息
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
-        
+
         # 设置缓存用的 Key
         proxy_cache_key $host$uri$is_args$args;
-        
+
         proxy_cache json;
         # 设置缓存有效期
         proxy_cache_valid  200 302  1m;

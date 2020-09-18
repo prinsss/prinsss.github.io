@@ -20,13 +20,13 @@ tags:
 
 Boxy 提供了很多自定义选项，因此你甚至可以把 Sublime 打扮成 Atom、VS Code，甚至是同为 ST 主题的 Predawn/Material 的样式，简直碉堡了好吗：
 
-![Screenshot](https://img.prinzeugen.net/image.php?di=VFYA)
+![Screenshot](https://img.prin.studio/legacy/image.php?di=VFYA)
 
 <!--more-->
 
 > 上图为 Boxy Theme 应用了 Predawn 的 Preset，自定义了 Predawn 的代码高亮，以及修改了一些小细节之后的样子~
 
-![Screenshot2](https://img.prinzeugen.net/image.php?di=KXCN)
+![Screenshot2](https://img.prin.studio/legacy/image.php?di=KXCN)
 
 > 上图为应用了 Code Preset 和使用 Tomorrow Color Scheme 后的样子
 

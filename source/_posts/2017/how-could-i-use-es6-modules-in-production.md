@@ -106,7 +106,7 @@ export {
 
 噢，我可去你妈的吧，这些东西都tm是干嘛的？我就是想用个模块化，我到底该用啥子？
 
-![我可去你妈的吧](https://img.blessing.studio/images/2017/07/06/QQ20170706155858.jpg)
+![我可去你妈的吧](https://img.prin.studio/images/2017/07/06/QQ20170706155858.jpg)
 
 本文正旨在列出几种可用的在生产环境中放心使用 ES6 模块化的方法，希望能帮到诸位后来者（这方面的中文资源实在是忒少了）。
 
@@ -120,7 +120,7 @@ export {
 
 所以我们整个工具链应该是这样的：
 
-![处理流程](https://img.blessing.studio/images/2017/07/06/snipaste_20170706_104001.png)
+![处理流程](https://img.prin.studio/images/2017/07/06/snipaste_20170706_104001.png)
 
 而目前来看，主要可用的模块打包工具有这么几个：
 
@@ -136,7 +136,7 @@ export {
 
 Browserify 这个工具也是有些年头了，它通过打包所有的依赖来让你能够在浏览器中使用 CommonJS 的语法来 `require('modules')`，这样你就可以像在 Node.js 中一样在浏览器中使用 npm 包了，可以爽到。
 
-<img src="https://img.blessing.studio/images/2017/07/06/browserify.png" class="head-img" title="而且我也很喜欢 Browserify 这个 LOGO">
+<img src="https://img.prin.studio/images/2017/07/06/browserify.png" class="head-img" title="而且我也很喜欢 Browserify 这个 LOGO">
 
 既然 Babel 会把我们的 ES6 Modules 语法转换成 ES5 + CommonJS 规范的模块语法，那我们就可以直接用 Browserify 来解析 Babel 的转译生成物，然后把所有的依赖给打包成一个文件，岂不是美滋滋。
 
@@ -186,13 +186,13 @@ gulp.task('build', function () {
 [12:12:01] Finished 'build' after 720 ms
 ```
 
-![Browserify Result](https://img.blessing.studio/images/2017/07/06/snipaste_20170706_111125.png)
+![Browserify Result](https://img.prin.studio/images/2017/07/06/snipaste_20170706_111125.png)
 
 ## Rollup.js
 
 我记得这玩意最开始出来的时候号称为「下一代的模块打包工具」，并且自带了可大大减小打包体积的 `tree-shaking` 技术（DCE 无用代码移除的一种，运用了 ES6 静态分析语法树的特性，只打包那些用到了的代码），在当时很新鲜。
 
-![Rollup.js](https://img.blessing.studio/images/2017/07/06/rollupjs.jpg)
+![Rollup.js](https://img.prin.studio/images/2017/07/06/rollupjs.jpg)
 
 但是现在 Webpack2+ 已经支持了 Tree Shaking 的情况下，我们又有什么特别的理由去使用 Rollup.js 呢？不过毕竟也是一种可行的方法，这里也提一提：
 
@@ -235,13 +235,13 @@ export default {
 
 然后在根目录下运行 `rollup -c` 即可打包依赖，也可以配合 Gulp 来使用，官方文档里就有，这里就不赘述了。可以看到，Tree Shaking 的效果还是很显著的，经测试，未使用的代码确实不会被打包进去，比起上面几个工具生成的结果要清爽多了：
 
-![Rollup.js Result](https://img.blessing.studio/images/2017/07/06/snipaste_20170706_140641.png)
+![Rollup.js Result](https://img.prin.studio/images/2017/07/06/snipaste_20170706_140641.png)
 
 ## Webpack
 
 对，Webpack，就是那个丧心病狂想要把啥玩意都给模块化的模块打包工具。既然人家已经到了 `3.0.0` 版本了，所以下面的都是基于 Webpack3 的。什么？现在还有搞前端的不知道 Webpack？神奇海螺以下略。
 
-![Webpack](https://img.blessing.studio/images/2017/07/06/webpack.png)
+![Webpack](https://img.prin.studio/images/2017/07/06/webpack.png)
 
 喜闻乐见的依赖安装环节：
 
@@ -295,7 +295,7 @@ bundle.js  2.86 kB       0  [emitted]  main
 
 情况呢就是这么个情况：
 
-![Webpack Result](https://img.blessing.studio/images/2017/07/06/snipaste_20170706_114129.png)
+![Webpack Result](https://img.prin.studio/images/2017/07/06/snipaste_20170706_114129.png)
 
 > **Tips: 关于 Webpack 的 Tree Shaking**
 >

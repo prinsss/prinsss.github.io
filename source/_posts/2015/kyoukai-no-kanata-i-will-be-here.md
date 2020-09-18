@@ -7,7 +7,7 @@ tags:
   - ACGN
 ---
 
-![title](https://img.prinzeugen.net/image.php?di=UVKI)
+![title](https://img.prin.studio/legacy/image.php?di=UVKI)
 
 京阿尼作画还是那么棒，角色细微表情的刻画，背景的景深模糊、色散看起来都是那么的赏心悦目，加上音响监督精心挑选的 BGM，画面气氛渲染得恰到好处，虽然不至于泪腺崩坏，但绝对会感动（反正窝是泪目了 qwq
 

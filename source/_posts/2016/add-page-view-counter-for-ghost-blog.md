@@ -50,4 +50,4 @@ tags:
 
 就窝把 post view 上线这几分钟里，post_views 表中就多了好多记录，看来窝还是满受欢迎的嘛~~（错觉）~~
 
-![ac musume emotion](https://img.prinzeugen.net/image.php?di=FO6F)
+![ac musume emotion](https://img.prin.studio/legacy/image.php?di=FO6F)

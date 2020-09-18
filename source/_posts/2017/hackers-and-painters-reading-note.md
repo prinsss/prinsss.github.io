@@ -18,7 +18,7 @@ tags:
 
 不过阅读体验还是很不错的，所以原谅你。
 
-![Amazon](https://img.blessing.studio/images/2017/04/29/20170429183338.png)
+![Amazon](https://img.prin.studio/images/2017/04/29/20170429183338.png)
 
 *▲中亚上 Kindle 书籍大多数都很便宜*
 
