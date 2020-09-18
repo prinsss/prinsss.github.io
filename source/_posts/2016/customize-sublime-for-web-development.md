@@ -11,7 +11,7 @@ tags:
 
 Sublime Text 是非常强大的编辑器，插件功能更是让其拥有无限可能。我用 Sublime 也已经快八个月了，我的 Sublime 也从原来连 Package Control 也没有的纯原版到现在的 Web 开发神器，特此安利一下。
 
-![Sublime Predawn Screenshot](https://img.prinzeugen.net/image.php?di=OMC6)
+![Sublime Predawn Screenshot](https://img.prin.studio/legacy/image.php?di=OMC6)
 
 ### 主题推荐
 
@@ -27,15 +27,15 @@ Sublime Text 是非常强大的编辑器，插件功能更是让其拥有无限�
 
 <!--more-->
 
-![All Autocompelete Screenshot](https://img.prinzeugen.net/image.php?di=QKZE)
+![All Autocompelete Screenshot](https://img.prin.studio/legacy/image.php?di=QKZE)
 
 [Bracket Highlighter](https://packagecontrol.io/packages/BracketHighlighter)，括号高亮，大堆嵌套条件控制语句的时候就可以不用看得头昏眼花啦
 
-![Bracket Highlighter Screenshot](https://img.prinzeugen.net/image.php?di=3D4U)
+![Bracket Highlighter Screenshot](https://img.prin.studio/legacy/image.php?di=3D4U)
 
 [Color Highlighter](https://packagecontrol.io/packages/Color%20Highlighter)，CSS 颜色预览，蛮方便的
 
-![Color Highlighter Screenshot](https://img.prinzeugen.net/image.php?di=QTCT)
+![Color Highlighter Screenshot](https://img.prin.studio/legacy/image.php?di=QTCT)
 
 [Compare Side-By-Side](https://packagecontrol.io/packages/Compare%20Side-By-Side)，文件比较插件，不多赘述。
 
@@ -45,13 +45,13 @@ Sublime Text 是非常强大的编辑器，插件功能更是让其拥有无限�
 
 [DocBlockr](https://packagecontrol.io/packages/DocBlockr)，自动生成函数注释块
 
-![DocBlockr Screenshot](https://img.prinzeugen.net/image.php?di=GME1)
+![DocBlockr Screenshot](https://img.prin.studio/legacy/image.php?di=GME1)
 
 [Emmet](https://packagecontrol.io/packages/Emmet)，不解释。
 
 [File Header](https://packagecontrol.io/packages/FileHeader)，自动生成文件头部，包含作者，创建/修改日期等，模板可自行修改
 
-![File Header Screenshot](https://img.prinzeugen.net/image.php?di=QVRQ)
+![File Header Screenshot](https://img.prin.studio/legacy/image.php?di=QVRQ)
 
 [Git](https://packagecontrol.io/packages/Git)，虽然窝都是 shell 操作的，不过插件版的 Diff 功能还是挺好用的。
 
@@ -59,13 +59,13 @@ Sublime Text 是非常强大的编辑器，插件功能更是让其拥有无限�
 
 [Markdown Editing](https://packagecontrol.io/packages/MarkdownEditing)，配合 [Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview) 就是神器
 
-![Markdown Editing Screenshot](https://img.prinzeugen.net/image.php?di=QPI0)
+![Markdown Editing Screenshot](https://img.prin.studio/legacy/image.php?di=QPI0)
 
 [SideBar Enhancement](https://packagecontrol.io/packages/SideBarEnhancements)，侧边栏增强
 
 [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)，让 Sublime 足以媲美 IDE 的重要插件 —— 代码实时错误提示：
 
-![SublimeLinter Screenshot](https://img.prinzeugen.net/image.php?di=1JKD)
+![SublimeLinter Screenshot](https://img.prin.studio/legacy/image.php?di=1JKD)
 
 -------
 

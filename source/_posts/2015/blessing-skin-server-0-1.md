@@ -10,7 +10,7 @@ tags:
 ---
 
 
-![bss upload](https://img.blessing.studio/images/2016/01/2016-01-03_05-22-44.png)
+![bss upload](https://img.prin.studio/images/2016/01/2016-01-03_05-22-44.png)
 
 很久以前就有想写一个皮肤站的想法了，但是苦于没有时间且 PHP、前端的 coding 都不熟练，所以一直搁置着，当作一个目标。
 
@@ -34,7 +34,7 @@ Ajax 文件上传带 token POST 请求 `upload.php`，同样返回 json，上次
 
 遗憾的是由于没有时间，后台管理页面还没写，目前只能通过自己管理数据库和文件的方式来管理用户。而且现在的数据表结构也不支持后台管理 qwq
 
-而且前端的 JS 和 CSS 都写得乱糟糟的，CSS 选择器一半是 id 一般是 class，文件关系也没处理好，没有响应式设计，有些地方还用了绝对定位 ![emotion1](https://img.blessing.studio/images/2015/10/2015-10-24_09-56-11.jpg) 
+而且前端的 JS 和 CSS 都写得乱糟糟的，CSS 选择器一半是 id 一般是 class，文件关系也没处理好，没有响应式设计，有些地方还用了绝对定位 ![emotion1](https://img.prin.studio/images/2015/10/2015-10-24_09-56-11.jpg) 
 
 不过由于时间所限，这些都放到下一个版本吧~
 

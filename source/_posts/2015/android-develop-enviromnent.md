@@ -17,12 +17,12 @@ tags:
 
 计算机 -> 属性 -> 高级系统设置 -> 高级 -> 环境变量
 
-- 系统变量 -> 新建 JAVA_HOME 变量 ，变量值填写jdk的安装目录  
+- 系统变量 -> 新建 JAVA_HOME 变量 ，变量值填写jdk的安装目录
  （窝是 `C:\Program Files\Java\jdk1.8.0_45`)
-- 系统变量 -> 寻找 Path 变量→编辑，在变量值最后输入  
- `%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`  
+- 系统变量 -> 寻找 Path 变量→编辑，在变量值最后输入
+ `%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`
  （注意原来Path的变量值末尾有没有 `;` 号，如果没有，先输入 `;` 号再输入上面的代码）
-- 系统变量 -> 新建 CLASSPATH 变量，变量值填写（注意最前面有一点）  
+- 系统变量 -> 新建 CLASSPATH 变量，变量值填写（注意最前面有一点）
  `.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar`
 
 环境变量配置完毕~ <!--more-->
@@ -45,18 +45,18 @@ ide-only 适用于已经安装 Android SDK 的，可以节省下载时间（900m
 
 ----------
 
-よし、既然环境配置好了，那咱写个hello world吧 ![QQ图片20150606223914](https://img.blessing.studio/images/2015/06/2015-06-06_14-39-25.jpg)
+よし、既然环境配置好了，那咱写个hello world吧 ![QQ图片20150606223914](https://img.prin.studio/images/2015/06/2015-06-06_14-39-25.jpg)
 
-![QQ截图20150619192227](https://img.blessing.studio/images/2015/06/2015-06-19_11-32-28-1024x620.png)
+![QQ截图20150619192227](https://img.prin.studio/images/2015/06/2015-06-19_11-32-28-1024x620.png)
 
-新建个project，让AS帮生成主活动，这些都和ADT一样 ![chabei](https://img.blessing.studio/images/2015/05/2015-05-24_09-07-51.png)
+新建个project，让AS帮生成主活动，这些都和ADT一样 ![chabei](https://img.prin.studio/images/2015/05/2015-05-24_09-07-51.png)
 
-![QQ截图20150619193422](https://img.blessing.studio/images/2015/06/2015-06-19_11-37-09-1024x592.png)
+![QQ截图20150619193422](https://img.prin.studio/images/2015/06/2015-06-19_11-37-09-1024x592.png)
 
-AS自带的AVD可是比ASDK里的AVD manager高多了 ![i_f16](https://img.blessing.studio/images/2015/05/2015-05-24_09-19-27.png)
+AS自带的AVD可是比ASDK里的AVD manager高多了 ![i_f16](https://img.prin.studio/images/2015/05/2015-05-24_09-19-27.png)
 
-![QQ截图20150619193541](https://img.blessing.studio/images/2015/06/2015-06-19_11-36-31-1024x559.png)
+![QQ截图20150619193541](https://img.prin.studio/images/2015/06/2015-06-19_11-36-31-1024x559.png)
 
-写个布局~运行~ ![i_f16](https://img.blessing.studio/images/2015/05/2015-05-24_09-19-27.png)
+写个布局~运行~ ![i_f16](https://img.prin.studio/images/2015/05/2015-05-24_09-19-27.png)
 
-![QQ截图20150619193613](https://img.blessing.studio/images/2015/06/2015-06-19_11-39-12.png)
+![QQ截图20150619193613](https://img.prin.studio/images/2015/06/2015-06-19_11-39-12.png)

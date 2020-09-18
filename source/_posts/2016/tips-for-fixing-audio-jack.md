@@ -16,11 +16,11 @@ tags:
 
 ### 3.5mm 耳机插头接线图
 
-![耳机插头示意](https://img.blessing.studio/images/2017/06/10/82f3a4e9e890e1d4ab91352def12f33a.png)
+![耳机插头示意](https://img.prin.studio/images/2017/06/10/82f3a4e9e890e1d4ab91352def12f33a.png)
 
 <!--more-->
 
-![三节插头接线示意图](https://img.blessing.studio/images/2017/06/10/eb4e54c6a8188d6748b5fd454861a274.png)
+![三节插头接线示意图](https://img.prin.studio/images/2017/06/10/eb4e54c6a8188d6748b5fd454861a274.png)
 
 以上是三节的插头，至于四节的手机耳机接头。。论外吧，要用自己查去（美标国标啥的），反正我又不修这玩意。
 
@@ -52,11 +52,11 @@ tags:
 
 一般来说卖耳机插头的店家都会随包附送几个热缩管。请务必使用这些热缩管套在焊接点上，加热使其收缩之后再套上外壳，不然你会拥有一段时间后发现接触不良旋开插头外壳一看发现所有的线被扭在一起的美好经验。
 
-![热缩管1](https://img.blessing.studio/images/2017/06/10/ddcf02a89e632cb5365f2184498353c7.png)
+![热缩管1](https://img.prin.studio/images/2017/06/10/ddcf02a89e632cb5365f2184498353c7.png)
 
 另外也要注意在测试完耳机功能正常后再用热风机吹，不然也会体验到绝望的滋味ww
 
-![热缩管2](https://img.blessing.studio/images/2017/06/10/83ef065ad7a59aebd1ea017d3cd9d02d.png)
+![热缩管2](https://img.prin.studio/images/2017/06/10/83ef065ad7a59aebd1ea017d3cd9d02d.png)
 
 ### 关于焊接
 
@@ -66,7 +66,7 @@ tags:
 
 ### 最终成果
 
-![RESULT](https://img.blessing.studio/images/2017/06/10/adf12f412b41f45b279682758b6dc22c.jpg)
+![RESULT](https://img.prin.studio/images/2017/06/10/adf12f412b41f45b279682758b6dc22c.jpg)
 
 话说我好突然好想玩摄影啊。。手机拍东西太不带感了（你够
 

@@ -78,7 +78,7 @@ shadowsocksR 作者 @breakwa11 表示会继续开发新版本，@clowwindy 对�
 
 同时 @clowwindy 明确表示不会继续开发 shadowsocks 项目
 
-![t2](https://img.blessing.studio/images/2015/08/2015-08-22_09-34-40.png)
+![t2](https://img.prin.studio/images/2015/08/2015-08-22_09-34-40.png)
 
 ### 8.24
 

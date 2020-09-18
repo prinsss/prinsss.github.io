@@ -61,7 +61,7 @@ PHP 实现远程下载文件到服务端并不是什么新鲜玩意，用 `cURL`
 
 ## 0x05 效果 & 总结
 
-![效果图](https://img.prinzeugen.net/image.php?di=8CFM)
+![效果图](https://img.prin.studio/legacy/image.php?di=8CFM)
 
 实例代码用了 `fopen` 和循环 `fwrite` 写入一个 chunk 的数据到临时文件，这是借鉴了 KODExplorer 远程下载的函数，在此致谢。另外也有通过 `curl_setopt($ch, CURLOPT_FILE, $fp);` 给 cURL 设置一个文件句柄的方法，但是我没有测试成功，希望各位也能试一试。
 

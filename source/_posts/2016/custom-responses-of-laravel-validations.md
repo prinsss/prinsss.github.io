@@ -17,7 +17,7 @@ tags:
 
 WTF！坑爹呢这是！要知道 422 这个状态码是通不过 `jQuery.ajax.success` 的啊！
 
-![](https://img.prinzeugen.net/image.php?di=WYT3)
+![](https://img.prin.studio/legacy/image.php?di=WYT3)
 
 在网上找了一圈，愣是没找着什么好一点的解决方法（全是叫你在 `$.ajax.failed` 里处理错误的）。
 
@@ -78,7 +78,7 @@ class Handler extends ExceptionHandler
 
 这里我们用到了 Laravel 一票帮助函数中非常好用的一个函数 —— `dd()`，这个函数的功能差不多就是一个漂亮的 `var_dump()` 加上 `exit()`，用来调试再方便不过了：
 
-![](https://img.prinzeugen.net/image.php?di=7RB6)
+![](https://img.prin.studio/legacy/image.php?di=7RB6)
 
 哦？这个方法得到的竟然是一个标准的 `JsonResponse` 响应！
 
@@ -94,7 +94,7 @@ if ($e instanceof ValidationException) {
 
 结果如下：
 
-![](https://img.prinzeugen.net/image.php?di=XQY9)
+![](https://img.prin.studio/legacy/image.php?di=XQY9)
 
 谨以此文记录，愿能帮到后来人~ (ゝ∀･)
 

@@ -9,7 +9,7 @@ tags:
   - 记录
 ---
 
-<img src="https://img.blessing.studio/images/2017/06/07/google_play_purchase.png" alt="剁tm的！" style="border: 0;">
+<img src="https://img.prin.studio/images/2017/06/07/google_play_purchase.png" alt="剁tm的！" style="border: 0;">
 
 虽然 Google Play 在中国大陆无法正常使用，但作为 Android 官方的应用市场，我们~~正版软件受害者~~经常需要在 Play 商店上购买正版应用或者通过 Google Play 内购支持开发者等等。
 
@@ -23,8 +23,8 @@ tags:
 
 国内某些银行的多币种信用卡可以直接在 Google Play 上绑定，譬如招商银行的双币信用卡，不过账单地址要改为其他国家（具体情况可自行搜索）。
 
-然而我是学生，这种方法 PASS 
-![表情1](https://img.blessing.studio/images/2017/06/07/QQ20170607203042.jpg)。
+然而我是学生，这种方法 PASS
+![表情1](https://img.prin.studio/images/2017/06/07/QQ20170607203042.jpg)。
 
 ### 二、虚拟信用卡
 
@@ -32,7 +32,7 @@ tags:
 
 虚拟信用卡服务中最著名的当数 [全球付 GlobalCash](https://www.globalcash.hk)，我第一次（2015 年）在 Google Play 上购买正版应用（Solid Explorer）时就是用的这家。
 
-![GlobalCash 页面截图](https://img.blessing.studio/images/2017/06/05/snipaste_20170605_223508.png)
+![GlobalCash 页面截图](https://img.prin.studio/images/2017/06/05/snipaste_20170605_223508.png)
 
 但是，**现在**我并不推荐你使用全球付。为啥呢？
 
@@ -43,7 +43,7 @@ tags:
 
 综上所述，如果你想要使用全球付，还请在充值大额款项前三思。其他提供虚拟信用卡的商家还有 Payoneer（年费 $30）和 Wirex（支持 Bitcoin，没用过）。
 
-![Google Payments Help](https://img.blessing.studio/images/2017/06/07/snipaste_20170607_205727.png)
+![Google Payments Help](https://img.prin.studio/images/2017/06/07/snipaste_20170607_205727.png)
 
 不过 Google Payments 的官方帮助页面中[声明](https://support.google.com/payments/answer/6220309?hl=zh-Hans)了不支持虚拟信用卡，即使你确实可以使用，也不能保证之后会不会出什么事情。
 
@@ -51,7 +51,7 @@ tags:
 
 那么看起来适合学生的唯一方式就是购买 Google Play 的礼品卡了，在线购买礼品卡的话马云家就有。不过在某宝购买时请注意不要买到黑卡了，最好选那种发礼品卡扫描图片的商家（虽不能完全保证，但相对来说出事几率小一些）
 
-![礼品卡扫描](https://img.blessing.studio/images/2017/06/05/gift_card_sacn_img.jpg)
+![礼品卡扫描](https://img.prin.studio/images/2017/06/05/gift_card_sacn_img.jpg)
 
 ### 四、注意事项
 
@@ -60,7 +60,7 @@ tags:
 3. 兑换礼品卡时不一定要用美国 IP 的代理服务器，我用的 HK 代理似乎也没问题；
 4. 题外话，当年用盗版欠下的债，总是会还的。
 
-![Google Payments](https://img.blessing.studio/images/2017/06/05/snipaste_20170605_223826.png)
+![Google Payments](https://img.prin.studio/images/2017/06/05/snipaste_20170605_223826.png)
 
 
 

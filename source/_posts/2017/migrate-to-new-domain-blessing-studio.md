@@ -13,9 +13,9 @@ tags:
 
 <!--more-->
 
-[![QQ20161224205054.png](https://img.blessing.studio/images/2016/12/25/QQ20161224205054.png)](https://img.blessing.studio/image/Sow)
+[![QQ20161224205054.png](https://img.prin.studio/images/2016/12/25/QQ20161224205054.png)](https://img.prin.studio/image/Sow)
 
-这也是没有办法的事情嘛~ [![QQ20161225134536.jpg](https://img.blessing.studio/images/2016/12/25/QQ20161225134536.jpg)](https://img.blessing.studio/image/Zkq)
+这也是没有办法的事情嘛~ [![QQ20161225134536.jpg](https://img.prin.studio/images/2016/12/25/QQ20161225134536.jpg)](https://img.prin.studio/image/Zkq)
 
 そういうわけで、博客要迁移至新域名 `blessing.studio` 啦~
 
@@ -23,6 +23,6 @@ tags:
 
 嗯？你说 `.studio` 不能备案，对百度 SEO 不好？
 
-Who cares. [![QQ20161225135139.jpg](https://img.blessing.studio/images/2016/12/25/QQ20161225135139.jpg)](https://img.blessing.studio/image/761)
+Who cares. [![QQ20161225135139.jpg](https://img.prin.studio/images/2016/12/25/QQ20161225135139.jpg)](https://img.prin.studio/image/761)
 
 

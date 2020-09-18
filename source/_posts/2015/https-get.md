@@ -12,7 +12,7 @@ tags:
 
 感觉速度不慢呐，加上 ssl ctrl+f5 依然可以在8s内打开
 
-估计是刚才有人在干啥拖母鸡吧 [![20150715224933](https://img.blessing.studio/images/2015/07/2015-07-15_14-49-46.jpg)](https://img.blessing.studio/images/2015/07/2015-07-15_14-49-46.jpg)
+估计是刚才有人在干啥拖母鸡吧 [![20150715224933](https://img.prin.studio/images/2015/07/2015-07-15_14-49-46.jpg)](https://img.prin.studio/images/2015/07/2015-07-15_14-49-46.jpg)
 
 - - - - - -
 

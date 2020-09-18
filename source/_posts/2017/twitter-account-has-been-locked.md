@@ -3,7 +3,7 @@ title: Twitter 账号被锁定是种怎样的体验
 date: 2017-06-19 11:09:22
 updated: 2017-06-19 11:09:22
 categories: 日常
-tags: 
+tags:
   - Twitter
   - 记录
 
@@ -11,9 +11,9 @@ tags:
 
 两天前（2017-06-17），我的 Twitter 账号莫名其妙被锁定了，原因是有「自动行为」。
 
-![locked](https://img.blessing.studio/images/2017/06/19/QQ20170617201254.png)
+![locked](https://img.prin.studio/images/2017/06/19/QQ20170617201254.png)
 
-WTF？ 你特么在逗我？![黑人问号](https://img.blessing.studio/images/2017/06/19/5628dd6ecd9fa100f371_size30_w521_h534.th.jpg)
+WTF？ 你特么在逗我？![黑人问号](https://img.prin.studio/images/2017/06/19/5628dd6ecd9fa100f371_size30_w521_h534.th.jpg)
 
 我思前想后，估计那一天关于 Twitter 我干的最值得怀疑的就是「多设备异地登录」了。具体流程如下（都是发生在 6.17 那一天，其实看我那一天被封前的推文也行）：
 
@@ -41,7 +41,7 @@ WTF？ 你特么在逗我？![黑人问号](https://img.blessing.studio/images/2
 
 那我该咋解锁我的 Twitter 账号呢？
 
-![Verification Required](https://img.blessing.studio/images/2017/06/19/locked_verification_required.png)
+![Verification Required](https://img.prin.studio/images/2017/06/19/locked_verification_required.png)
 
 Twitter 官方说会给我绑定的手机号打电话，叫我把电话中的验证码输入进去，但是……
 
@@ -53,13 +53,13 @@ Twitter 官方说会给我绑定的手机号打电话，叫我把电话中的验
 
 访问「[帮助中心 > 提交请求  > ACCOUNT ACCESS](https://support.twitter.com/forms/general?subtopic=suspended)」这个页面填写一个 ticket，描述你所遇到的问题和你为啥要申诉（e.g. 没有做出任何违反 Twitter Rules 的行为，中国大陆手机号收不到 Twitter 打来的电话），一般来说用英文比较好：
 
-![申诉页面](https://img.blessing.studio/images/2017/06/19/snipaste_20170619_102152.png)
+![申诉页面](https://img.prin.studio/images/2017/06/19/snipaste_20170619_102152.png)
 
 *▲ Twitter 这个页面的  Localization 可真 Good 啊*
 
 如果你不懂洋文，这里我提供个复制用范文（瞎写的，诸君不要吐槽）：
 
-> Hi, 
+> Hi,
 >
 > My account is currently suspended by Twitter, but I have no idea why my account was locked. To unlock my account, it seems that I need to enter the confirmation code which I should receive in a phone call from Twitter. However, I am in China Mainland, and the "Call Me" button dosen't work at all. I've tried for many times but still no phone calls came.
 >
@@ -73,7 +73,7 @@ Twitter 官方说会给我绑定的手机号打电话，叫我把电话中的验
 
 然后你就直接把上面那一段复制过去，再在这封邮件底下回复一下就好了 ‾\\\_(ツ)\_/‾
 
-![邮件记录](https://img.blessing.studio/images/2017/06/19/snipaste_20170619_104702.png)
+![邮件记录](https://img.prin.studio/images/2017/06/19/snipaste_20170619_104702.png)
 
 你急的话，也可以再继续回复催催看，不过记得言辞得体。也可以用其他语言再去开一个 ticket，我是用中文再发了一遍，本来打算今天要是还不解封的话就拿日文再发一封的（笑）而且不晓得申诉单填写页面的那个 *"Where are you experiencing this issue?"* 的平台选择对处理优先级有没有啥实际影响。
 
@@ -81,7 +81,7 @@ Twitter 官方说会给我绑定的手机号打电话，叫我把电话中的验
 
 一般来说，填写申诉单，回复邮件的两三天后就能收到 Twitter 的解封通知了：
 
-![Unlock](https://img.blessing.studio/images/2017/06/19/snipaste_20170619_105254.png)
+![Unlock](https://img.prin.studio/images/2017/06/19/snipaste_20170619_105254.png)
 
 我是在两天后（2017-06-19）[早上起来时](https://twitter.com/printempw/status/876603531930722305)收到邮件的，申诉处理速度和网上其他人**两年前**描述的也差不多（ummmm……）。所以被封申诉后一天两天没有回复还算是正常的，不用太慌。
 

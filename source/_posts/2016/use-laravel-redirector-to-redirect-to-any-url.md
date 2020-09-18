@@ -29,7 +29,7 @@ Laravel 允许我们在控制器中返回一个 `Illuminate\Http\RedirectRespons
 
 首先我们使用 `dd()` 看一下 `redirect('/')` 所返回的对象到底长什么样：
 
-![](https://img.prinzeugen.net/image.php?di=FV4B)
+![](https://img.prin.studio/legacy/image.php?di=FV4B)
 
 瞧我们发现了什么！一只野生的 `targetUrl` 属性！
 
@@ -52,7 +52,7 @@ class RedirectResponse extends Response
     protected $targetUrl;
 
     /* 省略 */
-    
+
     public function setTargetUrl($url)
     {
         if (empty($url)) {

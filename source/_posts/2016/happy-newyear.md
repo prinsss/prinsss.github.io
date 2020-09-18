@@ -7,7 +7,7 @@ tags:
 ---
 
 
-[![id=24052290](https://img.blessing.studio/images/2016/01/2016-01-01_04-16-14.jpg)](http://www.pixiv.net/member_illust.php?mode=medium&illust_id=24052290)
+[![id=24052290](https://img.prin.studio/images/2016/01/2016-01-01_04-16-14.jpg)](http://www.pixiv.net/member_illust.php?mode=medium&illust_id=24052290)
 
 
 

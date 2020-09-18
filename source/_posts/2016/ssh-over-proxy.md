@@ -24,15 +24,15 @@ tags:
 如果你是 Linux/Mac 用户，克隆项目到本地（然而窝不用 Mercurial），编译安装：
 
 ```bash
-$ hg clone https://bitbucket.org/gotoh/connect 
-$ cd connect 
+$ hg clone https://bitbucket.org/gotoh/connect
+$ cd connect
 $ make && make install
 ```
 
 也可以：
 
 ```bash
-$ gcc connect.c -o connect 
+$ gcc connect.c -o connect
 $ cp connect /usr/local/bin
 ```
 
@@ -43,7 +43,7 @@ $ cp connect /usr/local/bin
 如果你使用的是 socks5 代理（Shadowsocks），添加这两行到 `~/.ssh/config`
 
 ```
-Host * 
+Host *
     ProxyCommand connect -H 127.0.0.1:1080 %h %p
 ```
 
@@ -51,7 +51,7 @@ Host *
 
 ### 0x03 连接
 
-![success](https://img.blessing.studio/images/2016/01/2016-01-24_08-19-25.png)
+![success](https://img.prin.studio/images/2016/01/2016-01-24_08-19-25.png)
 
 成功
 

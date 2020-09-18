@@ -18,7 +18,7 @@ Windows 环境下的 **PHP 7.2.1 / 7.1.13** 这两个版本有问题，在执行
 
 然而遗憾的是，你现在（截至发稿日 2018-10-21）能在 phpStudy 官网下载到的最新的集成环境，其中的 PHP 版本依然停留在 7.2.1 与 7.1.13。惊不惊喜，意不意外？
 
-![phpstudy-fake-version-7210](https://img.blessing.studio/images/2018/10/21/phpstudy-fake-version-7210.png)
+![phpstudy-fake-version-7210](https://img.prin.studio/images/2018/10/21/phpstudy-fake-version-7210.png)
 
 最绝的是，phpStudy 明明自带的是 **7.2.1** 版本的 PHP，却在界面上显示成了 **7.2.10**，是我瞎了还是你瞎了？补零也不是你这么补的啊兄弟……
 
@@ -59,7 +59,7 @@ Stack trace:
 
 用关键词「Windows PHP 502 Bad Gateway」查了一下，似乎有说是 `php-cgi.exe` 进程开太少，造成并发阻塞的话会造成 502。我这才想起来，php-fpm 只适用于类 Unix 系统，Windows 版的 PHP 是没有自带 FastCGI 进程管理器的。打开任务管理器看了一下，果然，phpStudy 只开了一个 `php-cgi.exe`。
 
-![phpstudy-single-php-cgi-process](https://img.blessing.studio/images/2018/10/21/phpstudy-single-php-cgi-process.png)
+![phpstudy-single-php-cgi-process](https://img.prin.studio/images/2018/10/21/phpstudy-single-php-cgi-process.png)
 
 看起来挺靠谱啊！难道就是这玩意造成的 502？
 

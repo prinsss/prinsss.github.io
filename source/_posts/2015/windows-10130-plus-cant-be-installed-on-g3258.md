@@ -66,4 +66,4 @@ tags:
 
 总之先这样吧，看看巨硬还会不会有动静
 
-[![20150730083049](https://img.blessing.studio/images/2015/07/2015-07-30_00-32-17.png)](https://img.blessing.studio/images/2015/07/2015-07-30_00-32-17.png) [![20150730083129](https://img.blessing.studio/images/2015/07/2015-07-30_00-32-15.png)](https://img.blessing.studio/images/2015/07/2015-07-30_00-32-15.png)
+[![20150730083049](https://img.prin.studio/images/2015/07/2015-07-30_00-32-17.png)](https://img.prin.studio/images/2015/07/2015-07-30_00-32-17.png) [![20150730083129](https://img.prin.studio/images/2015/07/2015-07-30_00-32-15.png)](https://img.prin.studio/images/2015/07/2015-07-30_00-32-15.png)

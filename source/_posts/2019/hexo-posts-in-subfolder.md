@@ -23,7 +23,7 @@ tags:
 
 <!--more-->
 
-![too-many-files-in-posts-chaos](https://img.blessing.studio/images/2019/10/13/too-many-files-in-posts-chaos.png)
+![too-many-files-in-posts-chaos](https://img.prin.studio/images/2019/10/13/too-many-files-in-posts-chaos.png)
 
 但如果你在 `_posts` 目录下新建子文件夹来存放文章，比如 `_posts/2019/hello-world.md`，你就会发现，最终生成的文章链接中也会带上这个子文件夹的名称：`https://hexo.example/2019/hello-world/`。
 

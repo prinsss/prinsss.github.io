@@ -11,13 +11,13 @@ tags:
 
 以前似乎看到过这样的样式，但是忘记保存了。于是到处去翻，发现维基百科有类似的样式，但是。。
 
-[![screenshot1](https://img.blessing.studio/images/2015/10/2015-10-24_09-54-46.png)](https://img.blessing.studio/images/2015/10/2015-10-24_09-54-46.png)
+[![screenshot1](https://img.prin.studio/images/2015/10/2015-10-24_09-54-46.png)](https://img.prin.studio/images/2015/10/2015-10-24_09-54-46.png)
 
-WTF，明明俩伪类就可以解决的。。 [![emotion1](https://img.blessing.studio/images/2015/10/2015-10-24_09-56-11.jpg)](https://img.blessing.studio/images/2015/10/2015-10-24_09-56-11.jpg)
+WTF，明明俩伪类就可以解决的。。 [![emotion1](https://img.prin.studio/images/2015/10/2015-10-24_09-56-11.jpg)](https://img.prin.studio/images/2015/10/2015-10-24_09-56-11.jpg)
 
 想起 [Long Live Shadowsocks](https://typeblog.net/life/2015/08/21/long-live-shadowsocks.html) 这篇文章里似乎有类似的样式，于是去看了看，但还不是窝想要的效果
 
-[![screenshot2](https://img.blessing.studio/images/2015/10/2015-10-24_09-58-54.png)](https://img.blessing.studio/images/2015/10/2015-10-24_09-58-54.png)
+[![screenshot2](https://img.prin.studio/images/2015/10/2015-10-24_09-58-54.png)](https://img.prin.studio/images/2015/10/2015-10-24_09-58-54.png)
 
 然后就各种找资料，仿照着东拼西凑搞成了差不多满意的样式 qwq
 

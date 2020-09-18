@@ -7,7 +7,7 @@ tags:
   - 吐槽
 ---
 
-![Internet Explorer 6](https://img.blessing.studio/images/2015/03/3546546-300x225.jpg)
+![Internet Explorer 6](https://img.prin.studio/images/2015/03/3546546-300x225.jpg)
 
 <!--more-->
 

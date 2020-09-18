@@ -24,7 +24,7 @@ tags:
 
 因为这个右键菜单还蛮好用的，所以我打算把它找回来。
 
-![npp-context-menu-demo](https://img.blessing.studio/images/2018/08/29/npp-context-menu-demo.png)
+![npp-context-menu-demo](https://img.prin.studio/images/2018/08/29/npp-context-menu-demo.png)
 
 ## 方法一：使用官方提供的 NppShell.dll
 
@@ -46,7 +46,7 @@ regsvr32 /i NppShell64.dll
 
 如果没给管理员权限，会报错「模块 NppShell64.dll 已加载，但对 DllRegisterServer 的调用失败」。
 
-![regsrv32-i-nppshell-dll](https://img.blessing.studio/images/2018/08/29/regsrv32-i-nppshell-dll.png)
+![regsrv32-i-nppshell-dll](https://img.prin.studio/images/2018/08/29/regsrv32-i-nppshell-dll.png)
 
 如果要删除右键菜单，请运行：
 
@@ -159,7 +159,7 @@ Windows Registry Editor Version 5.00
 
 虽然比直接添加右键菜单要多操作一步，不过我倒觉得这样更简单优雅。另外，这一技巧也同样适用于其他应用程序，大家可以记一下哦。;)
 
-![npp-send-to-menu](https://img.blessing.studio/images/2018/08/29/npp-send-to-menu.png)
+![npp-send-to-menu](https://img.prin.studio/images/2018/08/29/npp-send-to-menu.png)
 
 ## 总结
 

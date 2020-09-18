@@ -47,7 +47,7 @@ tags:
 
 成品开源在 GitHub 上（[printempw/hexo-view-counter](https://github.com/printempw/hexo-view-counter)），采用 GPLv3 协议，欢迎 star 或修改自用，Live Demo 就是这个博客。另外这也是我第一次使用 Atom 编辑器从头开始开发一个项目，一路用下来使用体验还是蛮不错的（之前都用的 Sublime Text3）。
 
-![Atom](https://img.blessing.studio/images/2017/06/25/snipaste_20170624_222645.png)
+![Atom](https://img.prin.studio/images/2017/06/25/snipaste_20170624_222645.png)
 
 ## 0x03 使用方法
 

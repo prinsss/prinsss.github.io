@@ -12,7 +12,7 @@ Pixiv 的动图机制很奇怪，并不是 GIF 或者其他动画格式，而是
 
 这点从 P 站的 network 里可以看出来，206 分批次下载了一个 zip 包。
 
-[![network](https://img.blessing.studio/images/2015/09/2015-09-27_08-10-44-1024x366.png)](https://img.blessing.studio/images/2015/09/2015-09-27_08-10-44.png)
+[![network](https://img.prin.studio/images/2015/09/2015-09-27_08-10-44-1024x366.png)](https://img.prin.studio/images/2015/09/2015-09-27_08-10-44.png)
 
 然而直接访问这个压缩包却返回 403 Forbidden，看来是服务器加了判断 Referer 的防盗链。然而并没啥卵用，看一下 network 里的 Referer，只要是 pixiv.net 都没关系。遂 wget 之：
 
@@ -42,7 +42,7 @@ download(url, referer, threads)
 
 欢迎大触提建议/吊打 qwq
 
-[![result](https://img.blessing.studio/images/2015/09/2015-09-27_08-12-38.png)](https://img.blessing.studio/images/2015/09/2015-09-27_08-12-38.png)
+[![result](https://img.prin.studio/images/2015/09/2015-09-27_08-12-38.png)](https://img.prin.studio/images/2015/09/2015-09-27_08-12-38.png)
 
 
 

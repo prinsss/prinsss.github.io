@@ -32,11 +32,11 @@ tags:
 
 这个扩展的图标只会在可以抓取到 RSS 源或链接的页面上才会显示，具体效果就像这样 
 
-[![extension_demo](https://img.blessing.studio/images/2015/08/2015-08-09_06-21-37.png)](https://img.blessing.studio/images/2015/08/2015-08-09_06-21-37.png)
+[![extension_demo](https://img.prin.studio/images/2015/08/2015-08-09_06-21-37.png)](https://img.prin.studio/images/2015/08/2015-08-09_06-21-37.png)
 
 - - - - - -
 
-虽然图标确实有够丑。。[![20150808110355](https://img.blessing.studio/images/2015/08/2015-08-08_03-04-04.jpg)](https://img.blessing.studio/images/2015/08/2015-08-08_03-04-04.jpg) 找个时间替换图标为 feedly 的图标吧
+虽然图标确实有够丑。。[![20150808110355](https://img.prin.studio/images/2015/08/2015-08-08_03-04-04.jpg)](https://img.prin.studio/images/2015/08/2015-08-08_03-04-04.jpg) 找个时间替换图标为 feedly 的图标吧
 
 
 

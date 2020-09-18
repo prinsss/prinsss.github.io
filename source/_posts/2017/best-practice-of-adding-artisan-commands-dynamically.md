@@ -195,7 +195,7 @@ Artisan::registerCommand(app('InsaneProfileCache\Commands\Clean'));
 
 虽然这样确实能够实现我们的需求，但是我觉得这样不行（话说我都不晓得嘻哈梗怎么突然就流行起来了，虽然确实蛮有意思的啦）。
 
-![我觉得不行](https://img.blessing.studio/images/2017/07/30/934f97e408371023.png)
+![我觉得不行](https://img.prin.studio/images/2017/07/30/934f97e408371023.png)
 
 又要自己取出 `Kernel` 实例，又要自己调用 `bootstrap` 方法，调用 `registerCommand` 方法之前还有自己先把 Command 实例化……这么繁琐，肯定不是运行时添加 Artisan 命令的最佳实践，所以我决定继续寻找更优解。
 

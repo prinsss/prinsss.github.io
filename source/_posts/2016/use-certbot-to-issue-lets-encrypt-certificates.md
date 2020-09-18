@@ -21,7 +21,7 @@ tags:
 
 我们在 Certbot 的站点上选择好我们的 Web Server 和操作系统版本后，就可以看到详细些的教程了。按照它上面所写的一般就可以正常使用了，如果你看不懂鹰文的话可以去找找其他人写的中文教程。
 
-![screenshot1](https://img.prinzeugen.net/image.php?di=3YNU)
+![screenshot1](https://img.prin.studio/legacy/image.php?di=3YNU)
 
 -------------
 
@@ -77,6 +77,6 @@ location /.well-known/acme-challenge/ {
 
 --------------------
 
-![screenshot2](https://img.prinzeugen.net/image.php?di=CI32)
+![screenshot2](https://img.prin.studio/legacy/image.php?di=CI32)
 
 最后，愿你我都能享受到安全的互联网 :)

@@ -11,9 +11,9 @@ tags:
 
 唔。。有可能你会碰到这种情况：
 
-[![1](https://img.blessing.studio/images/2015/08/2015-08-09_14-04-35.png)](https://img.blessing.studio/images/2015/08/2015-08-09_14-04-35.png)
+[![1](https://img.prin.studio/images/2015/08/2015-08-09_14-04-35.png)](https://img.prin.studio/images/2015/08/2015-08-09_14-04-35.png)
 
-文本溢出元素了。原因是因为窝用的主题作者没有设置洋文的 break-all，怕截断正常单词，于是就。。 窝以前就直接用 <pre> 标签就算了，然而有些东西放代码高亮里不好看，于是给作者提了个 issue，dalao 说是今晚 commit，但是好像跳票了~[![20150808110355](https://img.blessing.studio/images/2015/08/2015-08-08_03-04-04.jpg)](https://img.blessing.studio/images/2015/08/2015-08-08_03-04-04.jpg)
+文本溢出元素了。原因是因为窝用的主题作者没有设置洋文的 break-all，怕截断正常单词，于是就。。 窝以前就直接用 <pre> 标签就算了，然而有些东西放代码高亮里不好看，于是给作者提了个 issue，dalao 说是今晚 commit，但是好像跳票了~[![20150808110355](https://img.prin.studio/images/2015/08/2015-08-08_03-04-04.jpg)](https://img.prin.studio/images/2015/08/2015-08-08_03-04-04.jpg)
 
 没办法只好自己动手丰衣足食，Google 了一下总结了个临时解决方法：
 
@@ -33,7 +33,7 @@ tags:
 
 ### 3.Cool! It’s Done. 贴上完成后效果
 
-[![2](https://img.blessing.studio/images/2015/08/2015-08-09_14-04-53.png)](https://img.blessing.studio/images/2015/08/2015-08-09_14-04-53.png)
+[![2](https://img.prin.studio/images/2015/08/2015-08-09_14-04-53.png)](https://img.prin.studio/images/2015/08/2015-08-09_14-04-53.png)
 
 - - - - - -
 

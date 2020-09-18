@@ -95,15 +95,15 @@ protected function renderExceptionInBrief(Exception $e)
 
 你问我为啥要覆盖 Laravel 在 `APP_DEBUG` 为关时的默认错误页？
 
-![DEFAULT](https://img.blessing.studio/images/2017/06/11/dcd061dea8af4e92a25f6f759997867d.png)
+![DEFAULT](https://img.prin.studio/images/2017/06/11/dcd061dea8af4e92a25f6f759997867d.png)
 
 你要是觉得这个默认的页面好看那我也管不着咯~ 反正我是修改成下面这样了：
 
-![CUSTOM ERROR HANDLER](https://img.blessing.studio/images/2017/06/11/e043fab0f154cf59e6d5381f2401c6c1.png)
+![CUSTOM ERROR HANDLER](https://img.prin.studio/images/2017/06/11/e043fab0f154cf59e6d5381f2401c6c1.png)
 
 至于为什么要在当前为 POST 请求时使用 `PlainTextHandler` 渲染纯文本的堆栈信息：
 
-![AJAX](https://img.blessing.studio/images/2017/06/11/48e75f7e2cfcec5ec7bd26084fd8ea93.png)
+![AJAX](https://img.prin.studio/images/2017/06/11/48e75f7e2cfcec5ec7bd26084fd8ea93.png)
 
 如果你渲染的是页面的话你就会在这个 Modal 里看到你的窗口了（笑）。当然，如果你没有做这样的 Ajax 错误处理的话也可以忽略这个。
 
@@ -111,6 +111,6 @@ protected function renderExceptionInBrief(Exception $e)
 
 最后效果如下：
 
-![whoops](https://img.blessing.studio/images/2017/06/11/6892b433d0e0b08d24a8ec9569163462.png)
+![whoops](https://img.prin.studio/images/2017/06/11/6892b433d0e0b08d24a8ec9569163462.png)
 
 以上。

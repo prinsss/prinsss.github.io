@@ -150,7 +150,7 @@ $ tree -a
 
 另外必须吐槽的一点是，9012 年了，C/C++ 扩展还不支持「以非调试模式运行」，绝了。如果你想要不调试直接跑，可以自己新建一个 Task 来运行程序。不过这超出了本文的讨论范围，故按下不表。
 
-![vscode-cpp-project](https://img.blessing.studio/images/2019/12/19/vscode-cpp-project.png)
+![vscode-cpp-project](https://img.prin.studio/images/2019/12/19/vscode-cpp-project.png)
 
 <br>
 

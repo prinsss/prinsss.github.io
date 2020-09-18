@@ -17,13 +17,13 @@ tags:
 
 过去的一年里，本博客的基本访问情况如下图：
 
-![Google Analytics Overview](https://img.blessing.studio/images/2017/01/12/QQ20170112172527.png)
+![Google Analytics Overview](https://img.prin.studio/images/2017/01/12/QQ20170112172527.png)
 
 这期间，本博客一共迎来了 36,637 位用户，他们一共产生了 56,667 次会话以及 96,728 次浏览。平均每天 100 位用户、155 次会话以及 265 次浏览。
 
 比起去年好了一些，但还是要加把劲让更多的人知道我啊 (`ε´ )
 
-![GA Traffic Source](https://img.blessing.studio/images/2017/01/12/QQ20170112171931.png)
+![GA Traffic Source](https://img.prin.studio/images/2017/01/12/QQ20170112171931.png)
 
 流量大部分是来自 Google 和直接访问，还有其他的一些搜索引擎（让我惊讶的是百度的流量排在第三，要知道我可是完全放弃了对度狗的 SEO 的）和第三方引荐。
 
@@ -78,7 +78,7 @@ Total comments number of last year: 570
 - 熟练使用了 Shell
 - 学习了使用 Git，我这一年的 GitHub 时间线：
 
-![GitHub TimeLine](https://img.blessing.studio/images/2017/01/11/QQ20170111125004.png)
+![GitHub TimeLine](https://img.prin.studio/images/2017/01/11/QQ20170111125004.png)
 
 ## 其他
 
@@ -86,25 +86,25 @@ Total comments number of last year: 570
 - 开始去电影院看电影（说来惭愧，以前一直是盗版侠）
 - 看了好几本日版轻小说，顺带尝试了下日亚海淘：
 
-![photo lightnovels](https://img.blessing.studio/images/2017/01/11/QQ20170111130400.jpg)
+![photo lightnovels](https://img.prin.studio/images/2017/01/11/QQ20170111130400.jpg)
 
 - 被传染了秦流感，成为了猛男寨住民：
 
-![Mr.Quin](https://img.blessing.studio/images/2017/01/11/QQ20170111125711.png)
+![Mr.Quin](https://img.prin.studio/images/2017/01/11/QQ20170111125711.png)
 
 - 更依赖 Todoist 了，感觉记忆力在下降（笑）
 
-![Todoist](https://img.blessing.studio/images/2017/01/11/QQ20170111130820.png)
+![Todoist](https://img.prin.studio/images/2017/01/11/QQ20170111130820.png)
 
 - 买了许多游戏：
 
-![Steam Purchase Log](https://img.blessing.studio/images/2017/01/12/QQ20170112174831.png)
+![Steam Purchase Log](https://img.prin.studio/images/2017/01/12/QQ20170112174831.png)
 
 列表里去掉了社区市场的消费记录（学前端知识的好处之一ww）
 
 - 开始使用 Twitter，欢迎关注 [@printempw](https://twitter.com/printempw)：
 
-![Twitter](https://img.blessing.studio/images/2017/01/11/Screenshot_2017-01-11-12-59-37.png)
+![Twitter](https://img.prin.studio/images/2017/01/11/Screenshot_2017-01-11-12-59-37.png)
 
 虽然 14 年就注册了，但是一直没怎么用，只是用来关注喜欢的画师/声优的动态而已。最近倒是一发不可收拾地沉迷其中了，怕不是我的社交媒体魂在燃烧啊 (ゝ∀･)
 
@@ -116,7 +116,7 @@ Total comments number of last year: 570
 
 最后祝诸君新年快乐，鸡年大吉吧，虽然迟了十二天 |∀` )
 
-![Anmi](https://img.blessing.studio/images/2017/06/11/8b27d6698a9874a90eb46b5481d869bb.jpg)
+![Anmi](https://img.prin.studio/images/2017/06/11/8b27d6698a9874a90eb46b5481d869bb.jpg)
 
 *Credit: [Anmi](https://twitter.com/Anmi_/status/818404937126187008)*
 

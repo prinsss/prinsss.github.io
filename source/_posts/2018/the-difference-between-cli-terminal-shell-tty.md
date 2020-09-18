@@ -34,7 +34,7 @@ tags:
 
 相信大家对于影视作品中出现的那种，某黑客/程序员/安全专家坐在电脑前猛敲键盘、屏幕上放眼望去全是滚动的字符的场景不会感到陌生。这种靠一行行命令的输入输出进行交互的用户界面，就叫做命令行界面。
 
-![the_matrix_screenshot](https://img.blessing.studio/images/2018/08/24/the_matrix_screenshot.jpg)
+![the_matrix_screenshot](https://img.prin.studio/images/2018/08/24/the_matrix_screenshot.jpg)
 
 *▲ 电影「黑客帝国」剧照*
 
@@ -64,7 +64,7 @@ rename 's/\.tpl$/\.blade.php/' ./**/*.tpl
 
 在大型机 (Mainframe) 和小型机 (Minicomputer) 的时代里，计算机曾经非常昂贵且巨大，不像现在这样人手一台。这些笨重的计算机通常被安置在单独的房间内，而操作计算机的人们坐在另外的房间里，通过某些设备与计算机进行交互。这种设备就叫做 **终端** (Terminal)，也叫终端机。
 
-![ASR-33](https://img.blessing.studio/images/2018/08/22/ASR-33_2.jpg)
+![ASR-33](https://img.prin.studio/images/2018/08/22/ASR-33_2.jpg)
 
 *▲ ASR-33 电传打字机（图片来源：[Flickr - Marcin Wichary](https://www.flickr.com/photos/8399025@N07/2283401196/)，CC-BY-2.0）*
 
@@ -84,7 +84,7 @@ rename 's/\.tpl$/\.blade.php/' ./**/*.tpl
 
 顾名思义，控制台是用于管理主机的，只能给系统管理员使用，有着比普通终端更大的权限。一台计算机上一般只有一个控制台，但是可以连接很多个终端。
 
-![console_and_terminal](https://img.blessing.studio/images/2018/08/22/console_and_terminal.jpg)
+![console_and_terminal](https://img.prin.studio/images/2018/08/22/console_and_terminal.jpg)
 
 *▲ 左边的是 Console，右边的是 Terminal（图片来源：[带你逛西雅图活电脑博物馆](https://zhuanlan.zhihu.com/p/21895357)）*
 
@@ -100,7 +100,7 @@ rename 's/\.tpl$/\.blade.php/' ./**/*.tpl
 
 **字符终端** (Character Terminal) 也叫文本终端 (Text Terminal)，是只能接收和显示文本信息的终端。早期的终端全部是字符终端。字符终端也分为 **哑终端** (Dumb Terminal) 和所谓的 **智能终端** (Intelligent Terminal)，因为后者可以理解转义序列、定位光标和显示位置，比较聪明，而哑终端不行。
 
-![DEC_VT100_terminal](https://img.blessing.studio/images/2018/08/22/DEC_VT100_terminal.jpg)
+![DEC_VT100_terminal](https://img.prin.studio/images/2018/08/22/DEC_VT100_terminal.jpg)
 
 *▲ DEC VT100 终端（图片来源：[Flickr - Jason Scott](https://www.flickr.com/photos/54568729@N00/9636183501)，CC-BY-2.0）*
 
@@ -133,7 +133,7 @@ DEC 公司在 1978 年制造的 [VT100](https://en.wikipedia.org/wiki/VT100)，�
 - macOS：Terminal.app、iTerm2；
 - Windows：[Win32 控制台](https://zh.wikipedia.org/wiki/Win32%E6%8E%A7%E5%88%B6%E5%8F%B0)、ConEmu 等。
 
-![my-terminals](https://img.blessing.studio/images/2018/08/22/my-terminals.png)
+![my-terminals](https://img.prin.studio/images/2018/08/22/my-terminals.png)
 
 *▲ 我正在使用的终端模拟器：[Hyper](https://hyper.is/) 与 [wsl-terminal](https://github.com/goreliu/wsl-terminal)*
 
@@ -145,7 +145,7 @@ DEC 公司在 1978 年制造的 [VT100](https://en.wikipedia.org/wiki/VT100)，�
 
 比如在 GNU/Linux 操作系统中，按下 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F1,F2...F6</kbd> 等组合键可以切换出好几个黑不溜秋的全屏终端界面，而按下 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F7</kbd> 才是切换回图形界面。不过不要被它们唬着了，虽然它们并不运行在图形界面中，但其实它们也是终端模拟器的一种。
 
-![KNOPPIX_booting](https://img.blessing.studio/images/2018/08/22/KNOPPIX_booting.png)
+![KNOPPIX_booting](https://img.prin.studio/images/2018/08/22/KNOPPIX_booting.png)
 
 *▲ 一个正在显示系统启动信息的虚拟控制台（图片来源：[hacktolive.org](https://commons.wikimedia.org/wiki/File:KNOPPIX_booting.png)，GPLv2）*
 
@@ -163,7 +163,7 @@ DEC 公司在 1978 年制造的 [VT100](https://en.wikipedia.org/wiki/VT100)，�
 
 > 为什么要把电传打字机这个硬件设备抽象成「tty 设备」文件呢？有兴趣的同学可以去了解一下 Unix 操作系统中 *Everything is a file* 的概念。
 
-![tty_device_files](https://img.blessing.studio/images/2018/08/22/tty_device_files.png)
+![tty_device_files](https://img.prin.studio/images/2018/08/22/tty_device_files.png)
 
 *▲ 还记得上面我们说过的特殊的终端，也就是通过 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F1-6</kbd> 呼出的那些虚拟控制台 (Virtual Console) 吗？其对应的就是上图中的 `tty1` 到 `tty6`。*
 
@@ -183,7 +183,7 @@ DEC 公司在 1978 年制造的 [VT100](https://en.wikipedia.org/wiki/VT100)，�
 
 至于为什么叫做 Shell，看下图就知道啦。是不是很像一层壳呢？
 
-![computer_system](https://img.blessing.studio/images/2018/08/23/computer_system.png)
+![computer_system](https://img.prin.studio/images/2018/08/23/computer_system.png)
 
 Shell 通常可以分为两种：**命令行 Shell** 与 **图形 Shell**。顾名思义，前者提供一个命令行界面 (CLI)，后者提供一个图形用户界面 (GUI)。Windows 下的 `explorer.exe` 就是一个典型的图形 Shell（没错，它确实是，因为它接受来自你的指令，并且会帮你与内核交互完成你的指令）。
 
@@ -207,12 +207,12 @@ Shell 通常可以分为两种：**命令行 Shell** 与 **图形 Shell**。顾�
 - 终端将用户的键盘输入转换为控制序列（除了字符以外的按键，比如 `左方向键` → `^[[D`），Shell 则解析并执行收到的控制序列（比如 `^[[D` → `将光标向左移动`）；
 - 不过也有例外，比如终端在接收到 <kbd>Ctrl</kbd> + <kbd>C</kbd> 组合键时，不会把这个按键转发给当前的程序，而是会发送一个 `SIGINT` 信号（默认情况下，这会导致进程终止）。其他类似的特殊组合键有 <kbd>Ctrl-Z</kbd> 与 <kbd>Ctrl-\\</kbd> 等，可以通过 `stty -a` 命令查看当前终端的设置。
 
-![shell_control_sequences](https://img.blessing.studio/images/2018/08/22/shell_control_sequences.png)
+![shell_control_sequences](https://img.prin.studio/images/2018/08/22/shell_control_sequences.png)
 
 - Shell 发出类似「把前景色改为红色（控制序列为 `\033[31m`）」「显示 `foo`」等指令；
 - 终端接收这些指令，并且照着 Shell 说的做，于是你就看到了终端上输出了一行红色的 `foo`。
 
-![terminal_control_sequences](https://img.blessing.studio/images/2018/08/22/terminal_control_sequences.png)
+![terminal_control_sequences](https://img.prin.studio/images/2018/08/22/terminal_control_sequences.png)
 
 - 除非被重定向，否则 Shell 永远不会知道它所执行命令的输出结果。我们可以在终端窗口中上下翻页查看过去的输出内容，这完全是终端提供的 feature，与 Shell 没有半毛钱关系；
 - 命令提示符 (Prompt) 是一个完全的 Shell 概念，与终端无关；

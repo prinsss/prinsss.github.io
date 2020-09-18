@@ -26,7 +26,7 @@ tags:
 
 这部动画讲述的是在疑似人类灭绝、看不到其他人类存在的巨大综合~~美少女~~动物园「Japari Park（ジャパリパーク）」里，动画里目前唯一的人类「小包（かばんちゃん）」在旅途中与各式各样因「砂之星（サンドスター）」的力量而拥有人类姿态的动物女孩 —— 通称「Friends（フレンズ）」们邂逅的故事。
 
-![动画主视觉图](https://img.blessing.studio/images/2017/04/04/anime-main.jpg)
+![动画主视觉图](https://img.prin.studio/images/2017/04/04/anime-main.jpg)
 
 ……当然，如果仅仅是这样，我是不可能为它专门写一篇博客的，毕竟我这博客又不是什么 ACG 资讯站点 (・_ゝ・)
 
@@ -46,7 +46,7 @@ tags:
 
 在看了几篇《动物朋友》的推坑文后，我对这部「一月黑马」的好奇心被彻底引燃了。
 
-![Twitter 时间线变成这样了](https://img.blessing.studio/images/2017/04/04/damenano104.jpg)
+![Twitter 时间线变成这样了](https://img.prin.studio/images/2017/04/04/damenano104.jpg)
 
 *▲被《动物朋友》刷屏的时间线（来自 Twitter 用户 @damenano104 的画作）*
 
@@ -58,7 +58,7 @@ tags:
 
 关掉视频后，我抑制不住高昂的心跳，开始在 Twitter、Pixiv 上收集各类信息，爬各大论坛的专楼讨论串，收集同人图和同人漫画，看各种科普考据，在 YouTube 和ニコニコ上找 MAD 和现实中原型动物的纪录片来看，连歪果仁的 Live Reaction 都不放过。甚至原本不愿意看的 bilibili 评论区、百度贴吧都被我翻了个遍。
 
-![沉迷兽娘无法自拔](https://img.blessing.studio/images/2017/04/04/kanihamiso.png)
+![沉迷兽娘无法自拔](https://img.prin.studio/images/2017/04/04/kanihamiso.png)
 
 *▲来自 Twitter 用户 @kanihamiso 的画作 (ﾟ∀。)*
 
@@ -68,7 +68,7 @@ tags:
 
 可以确定的是，《动物朋友》会火爆的理由绝对不是因为那些网络上流行的成句以及角色们可爱的人设。让广大观众撑过大半季还保有这么大热情，二刷三刷也不会觉得厌倦，作品本身一定有什么强烈吸引观众的要素。
 
-![当季动画生放送来场者数](https://img.blessing.studio/images/2017/04/04/07356d41515e32c2.png)
+![当季动画生放送来场者数](https://img.prin.studio/images/2017/04/04/07356d41515e32c2.png)
 
 *▲这是今年 1 月新番 1~10 话的ニコニコ生放送[来场者数量趋势图](http://originalnews.nico/17371)。通常来讲，一部动画的生放送来场者数会随着播出而慢慢下降，但是……*
 
@@ -86,23 +86,23 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 但是在 2 月 6 日之后，这部动画却奇迹般 180 度反转，人气急转直上，翻身成为 2017 冬季动画最大黑马。不仅各大社交网络上随处可见与本片相关的讨论和画作，这部动画本身也创造了不少可称为【奇迹】的纪录。
 
-![再生数比较](https://img.blessing.studio/images/2017/04/21/88c12b2b3244a9cd.jpg)
+![再生数比较](https://img.prin.studio/images/2017/04/21/88c12b2b3244a9cd.jpg)
 
 截止至 4/21，《动物朋友》在ニコニコ上第一话播放量已突破 600w，仅耗时三个月（数据来源在[这里](http://www.nicovideo.jp/watch/sm30881173)）。而且不只是可以免费观看的第 1 话，就连需要付费观看（指日本情况）的后面几话播放量也大涨，可谓是【史无前例】。
 
-![收费动画播放量排行榜](https://img.blessing.studio/images/2017/04/16/paid-anime-ranking.jpg)
+![收费动画播放量排行榜](https://img.prin.studio/images/2017/04/16/paid-anime-ranking.jpg)
 
 *▲惨遭《动物朋友》屠榜的ニコニコ历代收费动画[播放量排行](https://twitter.com/Dollar__G/status/852825171412926465)*
 
 3 月 25 日举行的《动物朋友》第 1~11 话一举放送生放送（直播）更是达成了 **30万人来场，弹幕数 260万，五星好评率 97.6%** 的空前盛况 —— 超越了已经占据ニコニコ生放送弹幕排行榜榜首【**六年之久**】的《魔法少女小圆》（186万），成为ニコニコ有史以来最多弹幕数的生放送。
 
-![N站生放送弹幕数排行榜](https://img.blessing.studio/images/2017/04/04/comment-rank.jpg)
+![N站生放送弹幕数排行榜](https://img.prin.studio/images/2017/04/04/comment-rank.jpg)
 
 *▲第三位开始分别是《Love Live! 第二季》（152万）、《幸运星》（148万）、《化物语》（140万）。*
 
 6 小时的节目获得 260w 弹幕，这已经是迄今为止最高的数值了。然而，五天后的《动物朋友》最终回却再次让大家跌破眼镜 —— 这个仅持续了【30 分钟】的生放送，竟然超过了大多数几小时的节目，最终获得了 125w 的弹幕。想想看在ニコニコ动画生放送[弹幕数排行榜](https://twitter.com/lunaticmonster/status/847469234103832580)上，一群几小时的节目中竟然出现了一个半小时的节目……
 
-![Twitter 趋势](https://img.blessing.studio/images/2017/04/10/twitter_world_trend.jpg)
+![Twitter 趋势](https://img.prin.studio/images/2017/04/10/twitter_world_trend.jpg)
 
 *▲最终回 TV 放送的那天晚上，[#けものフレンズ](https://twitter.com/search?q=%23%E3%81%91%E3%82%82%E3%81%AE%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA) 话题标签登上了 Twitter 世界关键词榜第 2 名，仅次于第一位的「梅西」。*
 
@@ -110,23 +110,23 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 
 
-![N站宕机](https://img.blessing.studio/images/2017/04/10/nico-down.jpg)
+![N站宕机](https://img.prin.studio/images/2017/04/10/nico-down.jpg)
 
 *▲第 11 话时也是由于访问人数过多导致ニコニコ服务器宕机，~~屑运营爆破不可避~~*
 
 动画人气会如此火爆是制作组完全没有预料到的，原本只准备了几百册的公式书很快就卖到脱销，虽然有一直补货但也都在转瞬间售罄。截至 4/20，公式书第一卷和第二卷的累计发行量[已达到 12万](https://twitter.com/kemo_anime/status/854987808502448128)（这应该是算上预约量的，辣鸡角川补货速度哪有那么快）。不过《动物朋友》的动画光盘是随着官方 Guide Book（设定集）附送的，所以不算 BD/DVD 销量而是书籍销量，3500 日元的价格也比普通动画光盘的定价（7~8k）要便宜不少。粗略换算成 BD 的话销量大概是一卷 3w 吧，还是在缺货的情况下。
 
-![Amazon 图书类销售排行](https://img.blessing.studio/images/2017/04/05/book-amazon-rank.jpg)
+![Amazon 图书类销售排行](https://img.prin.studio/images/2017/04/05/book-amazon-rank.jpg)
 
 4 月 14 日官方在新宿召开的期间限定活动[「けものフレンズ SHOP」](http://www.0101.co.jp/005/store-info/fair.html?article_id=5023)（动物朋友专卖店），原定是开到 4 月 27 日，结果不到三天大部分在贩卖的周边就被[抢购一空](https://twitter.com/marui_annex_a/status/853098261317435392)，只剩下印有北狐银狐的ケロリン洗澡盆还有剩（然而这个印花洗澡盆也收到了[超过一万单的预定](http://yutty.jp/archives/kemofure-kerorin-1/#i-5)，占了这家公司去年洗澡盆销量的 1/4。~~四斋蒸蚝片~~），变成了「澡盆店」。一天后（4.16）洗澡盆也卖光了，官方急急忙忙调来一批 OP 通常盘摆起来卖，变成了「CD 店」。除了 CD 什么都没在卖、完全呈[废墟状态](http://www.nicovideo.jp/watch/sm31038826)的专卖店只好把吉崎老师的色纸、たつき监督自制的明信片、みゆはん 的签名纸挂在墙上，好好的商店整成了美术馆。直到 4 月 21 日[商品大量进货](http://blog.esuteru.com/archives/20012427.html)，けものフレンズ SHOP 才终于变回名副其实的《动物朋友》专卖店。(つд⊂)
 
-![けものフレンズ SHOP](https://img.blessing.studio/images/2017/04/19/kemonofriendsshopempty.jpg)
+![けものフレンズ SHOP](https://img.prin.studio/images/2017/04/19/kemonofriendsshopempty.jpg)
 
 *▲仅开业三天就像龙卷风过境一样的《动物朋友》专卖店*
 
 而动画中可爱的角色也让 friends 们爱屋及乌，连带着参观动物园的~~朝圣者~~人数都大幅增长。不少人在薮猫展区驻足围观，突如其来的客流也让园方在惊喜之余纷纷摆出画有《动物朋友》中角色的导引牌~~骗钱~~，连日本 NHK 新闻都[对此进行了报道](http://www.nicovideo.jp/watch/sm30644490)。微博上也有很多阿宅特地出门去上海动物园和杭州动物园看薮猫，甚至因发现杭州动物园中负责照顾薮猫的饲养员姓「包」而引发中文圈 friends 们[疯狂玩梗](http://www.acfun.cn/a/ac3583924)。
 
-![围观薮猫的人群](https://img.blessing.studio/images/2017/04/04/zoo-serval-cat.jpg)
+![围观薮猫的人群](https://img.prin.studio/images/2017/04/04/zoo-serval-cat.jpg)
 
 *▲多摩动物园中薮猫展区的围观群众。*
 
@@ -153,21 +153,21 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 如动画第 1 话中出场的河马 friends，乍一看你会觉得「这哪里像河马嘛」，但是仔细研究后就能发现这看似随意的造型其实亮点颇多。如人物头发的造型其实是参考的河马张嘴时牙齿的形状，身体的曲线则模仿了河马的脸部，衣服上的两粒装饰扣代表河马的鼻子，用摩托车骑手服的拉链来指代动物扁平的尾巴。
 
-![河马的人设](https://img.blessing.studio/images/2017/04/11/kaba.png)
+![河马的人设](https://img.prin.studio/images/2017/04/11/kaba.png)
 
 而所有 friends 中唯一一位戴着黑框眼镜，最后还被 PPP 钦定为经纪人的偶像厨长尾~~（zhe）~~虎猫，其黑框眼镜的设计则是还原了原型动物眼睛周围的黑色纹路。现实中长尾虎猫擅长利用模仿别的动物的叫声的能力来捕猎，相应的在动画里也有通过模仿别人说话来化解危机的情节。
 
-![长者虎猫](https://img.blessing.studio/images/2017/04/11/margay.png)
+![长者虎猫](https://img.prin.studio/images/2017/04/11/margay.png)
 
 鲸头鹳是一种在日本人气很高的大型鸟类，因为从正面看很有魄力，从其他角度看就[很蠢](https://www.bilibili.com/video/av9001853/)而爆红。在《动物朋友》第 6 话登场的鲸头鹳 friends，优秀的设计、本尊的话题性以及与外表反差极大的可爱声音使其一登场就赢得了极高人气，甚至在登场后一天就有了 MMD 模组。
 
-![鲸头鹳](https://img.blessing.studio/images/2017/04/11/shoebill.png)
+![鲸头鹳](https://img.prin.studio/images/2017/04/11/shoebill.png)
 
-![从其他角度看](https://img.blessing.studio/images/2017/04/11/shoebill_2.jpg)
+![从其他角度看](https://img.prin.studio/images/2017/04/11/shoebill_2.jpg)
 
 因此她一出场便激发很多绘师画她前发被掀起来的样子 XD
 
-![前发](https://img.blessing.studio/images/2017/04/11/player_wanko.jpg)
+![前发](https://img.prin.studio/images/2017/04/11/player_wanko.jpg)
 
 *▲来自 Twitter 用户 @player_wanko 的画作*
 
@@ -175,13 +175,13 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 而且不只是动物外表上的特征，原型动物的习性也巧妙地体现在 friends 化的动物女孩身上，如现实中沙丘猫身体易冷易热在动画中则表现为对什么事物都是三分钟热度的个性。猫科动物的磨爪子、朱鹮动听~~才怪~~的歌声、小爪水獭玩石子、土拨鼠的亲吻式问候都很自然地融入在演出中。当观众们发现现实中的动物们确实有这样的习性时，这种惊异感（sense of wonder）就会使人印象深刻。
 
-![北狐和银狐](https://img.blessing.studio/images/2017/04/21/fox.jpg)
+![北狐和银狐](https://img.prin.studio/images/2017/04/21/fox.jpg)
 
 也正是因为这样在「人性」和「动物性」之间巧妙的平衡，《动物朋友》的人物设计才会从众多萌系拟人化作品中脱颖而出。与其他很多拟人化不一样，只有《动物朋友》的人设是真正让我感受到这不是那些二次元美少女披上动物的外衣，而是**动物们确实变为了人形、学会了日语**，在我们眼前上演着一幕幕温馨而有趣的日常。
 
 在人物设计获得高评价同时，官方对于《动物朋友》的二次创作也[持宽容态度](https://kimu3.net/20170209/6338)，只要不是有损动物朋友 IP 或过度违反公序良俗，大部分的衍生作品都是允许的。不单单是作品中登场角色多和人物个性鲜明，官方的首肯也是网上有关《动物朋友》的二次创作（同人漫画、动画、游戏等）爆发性增长的原因之一。
 
-![PPP](https://img.blessing.studio/images/2017/04/11/tokki_517.jpg)
+![PPP](https://img.prin.studio/images/2017/04/11/tokki_517.jpg)
 
 *▲企鹅偶像组合 PPP（**P**enguins **P**erformance **P**roject），来自 Twitter 用户 @tokki_517 的画作*
 
@@ -195,7 +195,7 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 《动物朋友》使用的渐进式的剧情展开方式是传统的，也是非常经典的。你可以说它比较王道、俗套，但正是这种在各大作品中均有运用却历久弥新的剧情安排方式，最能吸引观众跟着剧情走。就好比你买了一个房子，但是每天只能看其中的一个房间 —— 这种抽丝剥茧的展开，可以很自然地诱使观众对后续剧情产生兴趣，也是为什么大家愿意追着看的原因。
 
-![Japari Bus](https://img.blessing.studio/images/2017/04/19/japari-bus.jpg)
+![Japari Bus](https://img.prin.studio/images/2017/04/19/japari-bus.jpg)
 
 *▲来自 Twitter 用户 @akaiteto 的画作*
 
@@ -207,7 +207,7 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 在与 friends 们纯粹而开心地互动的明面下，又紧密交织着文明衰退的暗线。《动物朋友》将剧情的落差感和节奏的缓急控制得特别好，再加上曲调欢快中带有忧伤的 ED，让人在轻松治愈的氛围内不由得细思恐极：「这部作品不简单」。
 
-![野槌蛇](https://img.blessing.studio/images/2017/04/16/tsuchinoko.png)
+![野槌蛇](https://img.prin.studio/images/2017/04/16/tsuchinoko.png)
 
 *▲看穿一切的野槌蛇，情报泄露担当，引爆大家脑洞的元凶之一*
 
@@ -229,7 +229,7 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 而将这些零散的设定拼凑起来后，我们就得以窥见《动物朋友》世界的全貌。
 
-![兽学](https://img.blessing.studio/images/2017/04/20/e5f38484ef43ad4d.jpg)
+![兽学](https://img.prin.studio/images/2017/04/20/e5f38484ef43ad4d.jpg)
 
 比如，在第四集观众可以从导游机器人口中得知动物女孩们是由于「朋友（Friends）化」才变成人形，但制作组却又不告诉观众动物朋友化的原因。在觉得这只是个普通的萌化设定而继续看下去时，观众们又能后面几集 friends 们无意中发出对于「现在身体太大不好造窝」的抱怨，这样乍看之下很可爱的对话中感受到一丝异样 ——「等等！朋友化到底是什么！？」
 
@@ -245,7 +245,7 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 大量的伏笔与铺垫的结果之一就是，作品中角色的行动都能找到前因。《动物朋友》从不卖弄玄虚，这部作品不会用~~如同某学姐掉头那样~~故意隐藏情报再突然反转的手法让人猝不及防，它那平凡的、实而不华的叙事手法，依然可以给我们带来极大的震撼。如《动物朋友》第 11 话小包最后的那个震撼了所有人（[けもフレ 11 話ショック](http://dic.nicovideo.jp/a/%E3%81%91%E3%82%82%E3%83%95%E3%83%AC11%E8%A9%B1%E3%82%B7%E3%83%A7%E3%83%83%E3%82%AF)）的名场景 —— 你可以说它虐，但它绝对不是所谓的「黑深残」，而是充满了感动的一集。
 
-![ありがとう、元気で。](https://img.blessing.studio/images/2017/04/18/kaban-11-2.jpg)
+![ありがとう、元気で。](https://img.prin.studio/images/2017/04/18/kaban-11-2.jpg)
 
 *▲世 界 名 画*
 
@@ -253,7 +253,7 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 **所有人都在哀嚎，但没有人抱怨这剧情走向莫名其妙**，这就是只有巧妙运用铺垫才能达成的效果。
 
-![ReapersAnimeReaction](https://img.blessing.studio/images/2017/04/16/ReapersAnimeReaction.png)
+![ReapersAnimeReaction](https://img.prin.studio/images/2017/04/16/ReapersAnimeReaction.png)
 
 *▲YouTube 上看完《动物朋友》第 11 话后的 [ReapersAnimeReaction ](https://www.youtube.com/watch?v=gC9ZFJorkY8)*
 
@@ -269,7 +269,7 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 在角色的塑造方面，《动物朋友》的表现也是绝佳的。不仅是在人设阶段就特点鲜明的人物性格，作品中角色随着故事发展的成长刻画也给人留下了深刻的印象。其中作为主角组的薮猫与小包，其二人的成长更是作为一条主线贯穿着整个系列。
 
-![食べないで下さいー！](https://img.blessing.studio/images/2017/04/21/6b390d2bb27c57fc.jpg)
+![食べないで下さいー！](https://img.prin.studio/images/2017/04/21/6b390d2bb27c57fc.jpg)
 
 *▲请……请不要吃我！*
 
@@ -281,7 +281,7 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 **「僕はお客さんじゃないよ（我可不是游客啊）」**
 
-![ラッキーさん、僕はお客さんじゃないよ](https://img.blessing.studio/images/2017/04/21/62063105_p0_tinified.png)
+![ラッキーさん、僕はお客さんじゃないよ](https://img.prin.studio/images/2017/04/21/62063105_p0_tinified.png)
 
 *▲来自 Twitter 用户 @rimukoro 的画作*
 
@@ -291,7 +291,7 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 而之后薮猫遇到危机时，这个既不会爬树，也不会游泳，跑得也不快，在第 1 话被人评价为「你什么都不会呢」的弱小女孩，面对真的有可能吃了她的巨大敌人，却义无反顾地站了出来。一点犹豫也没有，只为了拯救她的朋友。
 
-![人类的赞歌，是勇气的赞歌](https://img.blessing.studio/images/2017/04/18/kaban-11.png)
+![人类的赞歌，是勇气的赞歌](https://img.prin.studio/images/2017/04/18/kaban-11.png)
 
 **「人类的伟大，是其敢于直面恐惧的崇高姿态」**
 
@@ -313,13 +313,13 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 不管带不带脑子都能开心观看，《动物朋友》是一部名副其实的「老少咸宜」动画。
 
-![真治愈啊](https://img.blessing.studio/images/2017/04/17/cure.png)
+![真治愈啊](https://img.prin.studio/images/2017/04/17/cure.png)
 
 这样温柔的气氛，应该是唤起了许多人心中最初的美好吧。是从什么时候，我们开始用责备替代鼓励、亦或是嘲笑别人犯错，是从什么时候开始为自己设限，而不敢向前迈进的呢……又是从什么时候开始，忘记自我的呢？
 
 但是那些美好的东西其实不曾消失，只是像 Japari Park 中的人类一样被遗忘了而已。也许我们在现实生活中通常不得不多留个心眼，但是有时候也应该回归童心，就像作品中一直陪伴着主角、元气又温柔的小薮猫一样，多称赞他人，用纯粹的心来看待眼前的人和物。
 
-![魔性](https://img.blessing.studio/images/2017/04/22/serval_aho_face.jpg)
+![魔性](https://img.prin.studio/images/2017/04/22/serval_aho_face.jpg)
 
 *▲薮猫魔性的「例の顔」*
 
@@ -365,7 +365,7 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 不过反过来想，这也不是什么坏事。正是因为这样的「过滤器」效果，使得最后沉淀下来的观众多为高素质人群 —— 在《动物朋友》后面几话的 B 站讨论区，你甚至需要翻上好几页才能看到一个低于 Lv.3 的用户留言，其弹幕与讨论的和谐气氛也是同期其他动画望尘莫及的。
 
-![动物朋友的 B 站弹幕](https://img.blessing.studio/images/2017/04/22/kemono-friends-danmaku.jpg)
+![动物朋友的 B 站弹幕](https://img.prin.studio/images/2017/04/22/kemono-friends-danmaku.jpg)
 
 *▲动物朋友是我近几年唯一愿意开着弹幕看完的动画。弹幕池全是谐星和玩梗大队，淫梦厨、杰哥、JOJO、膜法师、大秦猛男齐聚一堂，感觉全 B 站最会玩梗的一群人都在这里了~~（都是藉语言传播的高级病毒）~~，高素质弹幕也将这部动画的观感拉高了一个档次。*
 
@@ -381,7 +381,7 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 说到底，这部作品只是好好地讲述了一个很简单的故事。如果你追求的是紧张刺激的冒险与挑战性极强的推理解谜，却因其盛名而去观看《动物朋友》，那你多半只会得出『名不副实』的失望评价。但如果你只是想看一部令人愉快的动画，放松放松，并且适当地开开脑洞，那我相信这部动画能够回应你的期待 ;)
 
-![简单的美好](https://img.blessing.studio/images/2017/04/21/C6FUoq0VMAYwP8k.jpg)
+![简单的美好](https://img.prin.studio/images/2017/04/21/C6FUoq0VMAYwP8k.jpg)
 
 *▲来自 @ringoanu 的画作*
 
@@ -397,7 +397,7 @@ OK，其实我觉得在看这篇文章的人有一大部分是不知道《动物
 
 小包这个角色于 11 话的第一次升华，就是她以一个物种为「人类」的动物成为了 Japari Park 的一员的时候。我想这也是这部动画想要表达的「人类与动物和谐相处」的思想吧。正是因为有了各种各样『十人十色』的物种存在，这个世界才会变得【丰富多彩】：
 
-![最终话 ED](https://img.blessing.studio/images/2017/04/23/ed-color.png)
+![最终话 ED](https://img.prin.studio/images/2017/04/23/ed-color.png)
 
 然而在现实生活中，到底要到什么时候，人类这个物种才能真正与其他动物友好相处呢？
 

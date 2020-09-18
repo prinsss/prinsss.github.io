@@ -37,7 +37,7 @@ babun 默认内置的是 python 2.7，可以使用 `$ pact install python3`，�
 
 最终效果如下：
 
-[![final](https://img.blessing.studio/images/2015/11/2015-11-01_05-24-05.png)](https://img.blessing.studio/images/2015/11/2015-11-01_05-24-05.png)
+[![final](https://img.prin.studio/images/2015/11/2015-11-01_05-24-05.png)](https://img.prin.studio/images/2015/11/2015-11-01_05-24-05.png)
 
 
 

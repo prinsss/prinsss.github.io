@@ -13,7 +13,7 @@ tags:
 
 前些天我关注的某 [气人主播](http://space.bilibili.com/15810/#!/) 在 bilibili 上传了《盗贼之海》（*Sea of Thieves*）Alpha 测试的直播录像，却因吃了文化亏不慎违反了保密协定，不久视频就被不存在了。不过好在有热心猛男把缓存好了的睾清视频发了出来，像我这样没赶上趟的人才能爽到 :P
 
-![感谢这位pong友](https://img.blessing.studio/images/2017/05/13/20170513185210.png)
+![感谢这位pong友](https://img.prin.studio/images/2017/05/13/20170513185210.png)
 
 然而这位pong友上传的是 bilibili 客户端的下载（缓存）格式，虽然放在手机的 `/Android/data/tv.danmaku.bili/download` 目录下就可以被客户端直接识别，但是想要在电脑上直接播放就没那么容易了。
 
@@ -99,15 +99,15 @@ cat /dev/null > ff.txt;for i in `ls -1 *.flv | sort -n`; do echo "file '${i}'" >
 
 ### 效果
 
-![终端执行](https://img.blessing.studio/images/2017/05/13/QQ20170513201744.png)
+![终端执行](https://img.prin.studio/images/2017/05/13/QQ20170513201744.png)
 
-![输出结果](https://img.blessing.studio/images/2017/05/13/QQ20170513201722.png)
+![输出结果](https://img.prin.studio/images/2017/05/13/QQ20170513201722.png)
 
 合并过程大概六七秒吧，一发入魂非常到位。
 
 将合并后的视频文件 `output.mp4` 和 `danmaku.xml` 弹幕文件一起拖入「弹弹 Play」或「BiliLocal」等本地弹幕播放器后就可以观看了，爽到。
 
-![弹幕播放器](https://img.blessing.studio/images/2017/05/13/QQ20170513202429.png)
+![弹幕播放器](https://img.prin.studio/images/2017/05/13/QQ20170513202429.png)
 
 ### 参考链接
 

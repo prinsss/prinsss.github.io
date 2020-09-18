@@ -19,7 +19,7 @@ tags:
 
 <!--more-->
 
-![cs-no-hair](https://img.blessing.studio/images/2018/10/02/cs-no-hair.jpg)
+![cs-no-hair](https://img.prin.studio/images/2018/10/02/cs-no-hair.jpg)
 
 好啦言归正传，今天我们的主题是在 VS Code 编辑器中搭建适用于 ACM 练习的 C/C++ 开发环境。
 
@@ -85,7 +85,7 @@ MinGW-w64 的安装过程我就不赘述了，在 [这里](https://sourceforge.n
 - **Exception**：异常处理模型，`seh` 只支持 64 位系统，`sjlj` 兼容 32 位；
 - **Build revision**：修订版本，保持默认即可。
 
-![installing-mingw-w64](https://img.blessing.studio/images/2018/10/02/installing-mingw-w64.png)
+![installing-mingw-w64](https://img.prin.studio/images/2018/10/02/installing-mingw-w64.png)
 
 安装完后，在 `cmd.exe` 或者 PowerShell 中运行 `gcc --version` 命令，如果看到类似下面这样的输出，那么 MinGW-w64 就算安装完成了。
 
@@ -100,7 +100,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 想要实现我们在第一节提出的需求，必不可少的就是 Microsoft 官方推出的 VS Code [C/C++ 扩展](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)。这个扩展提供了针对 C/C++ 的 IntelliSense 与调试等功能，搜索「C/C++」即可直接安装。
 
-![ms-vscode-cpptools](https://img.blessing.studio/images/2018/10/02/ms-vscode-cpptools.png)
+![ms-vscode-cpptools](https://img.prin.studio/images/2018/10/02/ms-vscode-cpptools.png)
 
 安装完后，<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> 打开命令面板运行 **C/Cpp: Edit configurations**，这会自动在当前打开的目录下创建 `.vscode/c_cpp_properties.json` 配置文件。由于下面的配置文件都是存储在当前文件夹下的 `.vscode` 目录中而非全局的，所以我推荐专门开一个工作区用于 C/C++ 开发（废话）。
 
@@ -146,7 +146,7 @@ $ ./A.exe
 
 这个扩展非常强大，可以让你在 VS Code 中直接运行各种语言的代码。虽然它并不支持复杂的构建流程，但是对于我们这种「编译运行单文件」的需求，Code Runner 正好胜任，而且更为简单快捷。
 
-![vsc-code-runner](https://img.blessing.studio/images/2018/10/02/vsc-code-runner.png)
+![vsc-code-runner](https://img.prin.studio/images/2018/10/02/vsc-code-runner.png)
 
 扩展安装完成后，进入设置页面搜索 `code-runner`，可以看到这个扩展提供了很多配置项。这里我推荐各位将自定义的配置项 **保存至工作区**（别告诉我你用了这么久 VS Code 还不知道工作区是啥）而非全局，因为这个扩展也可以用于其他语言，最好不要让我们之后做出的一些专门针对 C/C++ 的配置污染到全局作用域中。
 
@@ -179,7 +179,7 @@ $ ./A.exe
 
 配置完成后，你可以通过 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd> 快捷键（可以自定义，我改成了 <kbd>F5</kbd>）或者右键菜单等方式编译运行当前编辑器中打开的文件，非常方便。效果如下：
 
-![code-runner-demo](https://img.blessing.studio/images/2018/10/02/code-runner-demo.png)
+![code-runner-demo](https://img.prin.studio/images/2018/10/02/code-runner-demo.png)
 
 **除了使用 Code Runner，另一种在 VS Code 内执行编译的方法就是定义 Task。**
 
@@ -248,7 +248,7 @@ C/C++ 的调试器也有很多，下面以我们之前安装的 MinGW-w64 中配
 - 点击面板上部的齿轮图标（配置或修复 `launch.json`）；
 - 在弹出的「选择环境」面板中选择 `C++ (GDB/LLDB)`。
 
-![configue-launch-json](https://img.blessing.studio/images/2018/10/02/configue-launch-json.png)
+![configue-launch-json](https://img.prin.studio/images/2018/10/02/configue-launch-json.png)
 
 这会在当前工作区的 `.vscode` 目录中新建一个 `launch.json` 文件，修改文件内容如下：
 
@@ -290,7 +290,7 @@ C/C++ 的调试器也有很多，下面以我们之前安装的 MinGW-w64 中配
 
 配置正确后的调试效果图如下：
 
-![vsc-debugger-demo](https://img.blessing.studio/images/2018/10/02/vsc-debugger-demo.png)
+![vsc-debugger-demo](https://img.prin.studio/images/2018/10/02/vsc-debugger-demo.png)
 
 ## 0x06 后记
 

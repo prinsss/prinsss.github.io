@@ -16,7 +16,7 @@ tags:
 
 大概从去年年底开始到最近几个月，我在某个项目（大概能算是项目吧？）上投注了大量的时间和精力，以至于基本没有时间顾及这边的东西。从我的 GitHub 格子就可以很直观地看出来，我这一年实属摸得透彻。
 
-![github-activities-2018-now](https://img.blessing.studio/images/2019/09/23/github-activities-2018-now.png)
+![github-activities-2018-now](https://img.prin.studio/images/2019/09/23/github-activities-2018-now.png)
 
 至于在忙什么，等到以后能公开的时候我会写一篇博客聊一聊的。
 
@@ -54,6 +54,6 @@ Seventeen 原本是一个付费的 WordPress 主题，其漂亮的外观让当�
 
 最后放张原来的截图留念：
 
-![seventeen-theme-screenshot-2019](https://img.blessing.studio/images/2019/09/23/seventeen-theme-screenshot-2019.png)
+![seventeen-theme-screenshot-2019](https://img.prin.studio/images/2019/09/23/seventeen-theme-screenshot-2019.png)
 
 哦对，博客内容的许可协议也从 CC BY-NC-SA 3.0 改成了 CC BY 4.0。虽然不会有什么实质上的变化而且还更宽松了，姑且还是提醒一下。👇

@@ -11,9 +11,9 @@ tags:
 
 @clowwindy 的 [twitter](https://twitter.com/clowwindy?lang=zh-cn) 似乎已经开始更新推文了，看来人没有大事，也算是放心了。注意，C大现在已经锁推了，除了以前关注的都看不到他的推文。这里放一下 C大最近的两条推文：
 
-[![T1](https://img.blessing.studio/images/2015/08/2015-08-22_01-14-53.png)](https://img.blessing.studio/images/2015/08/2015-08-22_01-14-53.png)
+[![T1](https://img.prin.studio/images/2015/08/2015-08-22_01-14-53.png)](https://img.prin.studio/images/2015/08/2015-08-22_01-14-53.png)
 
-[![T2](https://img.blessing.studio/images/2015/08/2015-08-22_01-14-52.png)](https://img.blessing.studio/images/2015/08/2015-08-22_01-14-53.png)
+[![T2](https://img.prin.studio/images/2015/08/2015-08-22_01-14-52.png)](https://img.prin.studio/images/2015/08/2015-08-22_01-14-53.png)
 
 我文采不好，无法表达出我此刻的心情，只能说
 

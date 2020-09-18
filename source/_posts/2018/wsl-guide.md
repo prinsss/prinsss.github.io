@@ -19,7 +19,7 @@ tags:
 
 （开学在即，仓促成文，如有谬误，还请指正。）
 
-![get-wsl](https://img.blessing.studio/images/2018/09/08/get-wsl.png)
+![get-wsl](https://img.prin.studio/images/2018/09/08/get-wsl.png)
 
 <!--more-->
 
@@ -47,7 +47,7 @@ tags:
 
 但是，PowerShell 与 Bash 等类 Unix 系统上的 Shell 程序几乎是两个完全不同的世界。不仅语法不同，其平台上各类常用的命令行工具也基本不一致（比如类 Unix 系统中的 `grep` 对应 PowerShell 中的 `Select-String`，`uniq` 对应 `Select-Object -Unique` 等）。往深了说，他们的系统设计理念都是不一样的，比如很多人推崇的 [Unix 哲学](https://zh.wikipedia.org/wiki/Unix%E5%93%B2%E5%AD%A6)，在 Windows 上就基本不见踪影；而 COM 等概念也是 Windows 独一份。
 
-![manga-system-admin-girl-sp-wsl](https://img.blessing.studio/images/2018/09/08/manga-system-admin-girl-sp-wsl.png)
+![manga-system-admin-girl-sp-wsl](https://img.prin.studio/images/2018/09/08/manga-system-admin-girl-sp-wsl.png)
 
 *▲ 图片来源：[シス管系女子 BEGINS 特別編 まんがでわかる WSL](https://system-admin-girl.com/comic/begins/sp-wsl/)*
 
@@ -93,7 +93,7 @@ tags:
 
 同样是将 POSIX 系统调用转换为 Windows 中的 API，Cygwin 是转换成 Win32 API 的调用（因为它架设在 Win32 子系统上，很多内核操作受限于 Win32 的实现，比如 `fork`），而 WSL 则是转换为更底层的 NT API 调用（WSL 是与 Win32 平行的子系统，直接架设在 NT 内核上，可以通过 NT API 原生实现 `fork` 等系统调用）。
 
-![wsl-architecture](https://img.blessing.studio/images/2018/09/08/wsl-architecture.png)
+![wsl-architecture](https://img.prin.studio/images/2018/09/08/wsl-architecture.png)
 
 *▲ WSL 架构示意图。图片来源：[Windows for Linux Nerds](https://blog.jessfraz.com/post/windows-for-linux-nerds/)*
 
@@ -101,7 +101,7 @@ tags:
 
 而在 WSL 下，我们可以直接运行未经任何修改的 ELF 格式 Linux 可执行程序。
 
-![ls-exe-in-cygwin](https://img.blessing.studio/images/2018/09/08/ls-exe-in-cygwin.png)
+![ls-exe-in-cygwin](https://img.prin.studio/images/2018/09/08/ls-exe-in-cygwin.png)
 
 *▲ Cygwin 目录下，被编译成 Win32 可执行程序的 Linux 应用程序们。*
 
@@ -129,11 +129,11 @@ WSL 就像是一个翻译官，就算那些未经修改的 Linux 应用程序们
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
-![enable-windows-optional-feature](https://img.blessing.studio/images/2018/09/08/enable-windows-optional-feature.png)
+![enable-windows-optional-feature](https://img.prin.studio/images/2018/09/08/enable-windows-optional-feature.png)
 
 **第二步**，打开 Microsoft Store，搜索「WSL」。挑选一个你喜欢的 Linux 发行版，然后点击安装。（截至目前，商店中可用的发行版有 Ubuntu、openSUSE、SUSE Linux Enterprise Server、Debian 以及 Kali Linux。）
 
-![microsoft-store-wsl](https://img.blessing.studio/images/2018/09/08/microsoft-store-wsl.png)
+![microsoft-store-wsl](https://img.prin.studio/images/2018/09/08/microsoft-store-wsl.png)
 
 **第三步**，在开始菜单中找到你刚刚安装的发行版，打开它。等待几分钟的初始化过程，设定好用户名与密码后（不需要与 Windows 的相同，用过 Linux 的选手应该都懂的）就会自动进入 Linux 环境。
 
@@ -141,7 +141,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 你也可以同时安装多个发行版，它们的数据都是独立的，互不影响。
 
-![initialize-wsl](https://img.blessing.studio/images/2018/09/08/initialize-wsl.png)
+![initialize-wsl](https://img.prin.studio/images/2018/09/08/initialize-wsl.png)
 
 ## 5. 使用更专业的终端模拟器
 
@@ -175,7 +175,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 另外，设定终端模拟器的 Shell 入口时有个坑，需要注意一下（参见下文 6.4）。
 
-![my-terminals](https://img.blessing.studio/images/2018/08/22/my-terminals.png)
+![my-terminals](https://img.prin.studio/images/2018/08/22/my-terminals.png)
 
 *▲ 我正在使用的终端，wsl-terminal 与 Hyper。~~好看是第一生产力。~~*
 
@@ -219,7 +219,7 @@ plugins=(git zsh-completions zsh-autosuggestions zsh-syntax-highlighting)
 
 Windows 10 Fall Creators Update 之后，WSL 支持同时安装多个 Linux 发行版，直接在 Microsoft Store 中搜索想要的发行版并点击安装即可。这些发行版可以同时运行，并且数据互相独立。你可以使用 `wslconfig.exe` 来查询已安装的发行版，或者更改默认的发行版。
 
-![multiple-wsl-distributions](https://img.blessing.studio/images/2018/09/08/multiple-wsl-distributions.png)
+![multiple-wsl-distributions](https://img.prin.studio/images/2018/09/08/multiple-wsl-distributions.png)
 
 删除发行版也很简单，直接卸载对应的商店应用即可（记得备份哦）。
 
@@ -249,7 +249,7 @@ Windows 10 Fall Creators Update 之后，WSL 支持同时安装多个 Linux 发�
 - `bash -c [command]`
 - `wsl [command]`（不再需要指定 `-c`）
 
-![invoking-wsl-in-many-ways](https://img.blessing.studio/images/2018/09/08/invoking-wsl-in-many-ways.png)
+![invoking-wsl-in-many-ways](https://img.prin.studio/images/2018/09/08/invoking-wsl-in-many-ways.png)
 
 ### 6.5 与 Windows 的互操作性
 
@@ -340,7 +340,7 @@ $ cmd.exe /c dir
 
 虽然 WSL 中可以直接访问 Windows 磁盘的内容，但如果你曾经这么做过，你应该对这样绿油油一片的 `ls` 不会感到陌生。为什么 NTFS 文件系统中的文件到 WSL 下权限就全部成 `0777` 了呢？
 
-![ls-with-wrong-file-permission](https://img.blessing.studio/images/2018/09/08/ls-with-wrong-file-permission.png)
+![ls-with-wrong-file-permission](https://img.prin.studio/images/2018/09/08/ls-with-wrong-file-permission.png)
 
 这主要是 DrvFs 中 Linux 文件权限的实现导致的。
 
@@ -376,7 +376,7 @@ $ sudo mount -t drvfs E: /mnt/e -o metadata,uid=1000,gid=1000,umask=22,fmask=111
 
 这样磁盘下的文件的默认权限就是 `0644`，`ls` 也不会再是绿油油一片啦。
 
-![ls-with-fixed-file-permission](https://img.blessing.studio/images/2018/09/08/ls-with-fixed-file-permission.png)
+![ls-with-fixed-file-permission](https://img.prin.studio/images/2018/09/08/ls-with-fixed-file-permission.png)
 
 不过每次使用时都要重新挂载未免也太烦，我们可以通过另一个新特性 [Automatically Configuring WSL](https://blogs.msdn.microsoft.com/commandline/2018/02/07/automatically-configuring-wsl/) 实现自动挂载。在 WSL 中创建 `/etc/wsl.conf`，在其中填写如下内容：
 

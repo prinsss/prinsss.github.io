@@ -15,13 +15,13 @@ tags:
 
 <!--more-->
 
-![Laravel dd() 输出示例](https://img.blessing.studio/images/2017/06/11/snipaste_20170610_214238.png)
+![Laravel dd() 输出示例](https://img.prin.studio/images/2017/06/11/snipaste_20170610_214238.png)
 
 什么？哦，上帝！真是见鬼！怎么会有人在 Laravel 中还在用 `echo` + `die()`？好家伙，我敢打赌，他一定没有好好看文档，我向圣母玛利亚保证。如果让我看到这群愚蠢的土拨鼠，看在上帝的份上，我会用靴子狠狠地踢他们的屁股，我发誓我绝对会。
 
 但是如果你在 Lumen（一个为速度而生的类 Laravel 微框架）中也想使用这些帮助函数的话，你会发现 `dump()` 无法使用了（报错 `Call to undefined function`），而且 `dd()` 的结果会变成这样瞎眼的输出：
 
-![Lumen dd() 输出示例](https://img.blessing.studio/images/2017/06/11/snipaste_20170610_214933.png)
+![Lumen dd() 输出示例](https://img.prin.studio/images/2017/06/11/snipaste_20170610_214933.png)
 
 淦！这不就是 `var_dump()` 吗？为毛在 Laravel 上输出那么漂亮，在 Lumen 上就无法使用了呢？
 
@@ -37,7 +37,7 @@ $ composer require symfony/var-dumper
 
 安装完成后就可以在 Lumen 中看到和 Laravel 一样的调试输出，而且 `dump()` 函数也可以使用了。
 
-![](https://img.blessing.studio/images/2017/06/11/snipaste_20170611_093434.png)
+![](https://img.prin.studio/images/2017/06/11/snipaste_20170611_093434.png)
 
 顺带一提，有人觉得这样的变量内容输出没有 `var_dump()` 好，原因是要不停地点展开很麻烦。其实只要按住 `Ctrl` 再点击箭头，就可以快速展开所有的子项目了。
 

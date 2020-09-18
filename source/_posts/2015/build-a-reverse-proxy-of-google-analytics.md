@@ -14,13 +14,13 @@ tags:
 
 ~~虽然 Google Analytics 已经没有被墙了，但是访问速度时好时坏，实在是不敢恭维：~~
 
-[![fucking speed](https://img.blessing.studio/images/2015/08/2015-08-31_01-15-27.png)](https://img.blessing.studio/images/2015/08/2015-08-31_01-15-27.png)
+[![fucking speed](https://img.prin.studio/images/2015/08/2015-08-31_01-15-27.png)](https://img.prin.studio/images/2015/08/2015-08-31_01-15-27.png)
 
 ~~但是对于那些国内统计又无感，所以搭建了一个 GA 的 [反代](https://ga.prinzeugen.net/) 给自己用。~~
 
 ~~在追踪代码里把域名替换一下就好了。所幸 GA 没有什么坑爹的验证机制。。~~
 
-~~[![GA](https://img.blessing.studio/images/2015/08/2015-08-31_01-22-15-1024x284.png)](https://img.blessing.studio/images/2015/08/2015-08-31_01-22-15.png)~~
+~~[![GA](https://img.prin.studio/images/2015/08/2015-08-31_01-22-15-1024x284.png)](https://img.prin.studio/images/2015/08/2015-08-31_01-22-15.png)~~
 
 > **但是！** 使用反代的追踪代码会导致你失去访客的 IP 地址！虽然其他信息譬如语言，分辨率还是保留的。所以并没有什么琴梨用 (´∀((☆ミつ。`X-Real-IP $remote_addr` 之类的也没用，正在找解决方法。想要用就用吧。
 

@@ -10,13 +10,13 @@ tags:
 
 窝一直天真的以为不会有人暴力破解窝的，直到今天看了一下 `grep sshd /var/log/auth.log` 。。
 
-![log](https://img.blessing.studio/images/2015/08/2015-08-15_12-49-38.png)
+![log](https://img.prin.studio/images/2015/08/2015-08-15_12-49-38.png)
 
 防止 ssh 暴力破解大概就是使用 ssh key，改端口，关闭口令登录，还有就是 fail2ban，denyhost 之类的软件了，这里窝打算使用 fail2ban。项目地址：[GitHub](https://github.com/fail2ban/fail2ban)，官网：[http://www.fail2ban.org/](http://www.fail2ban.org/)
 
 ```
-__      _ _ ___ _               
-/ _|__ _(_) |_  ) |__  __ _ _ _  
+__      _ _ ___ _
+/ _|__ _(_) |_  ) |__  __ _ _ _
 |  _/ _` | | |/ /| '_ \/ _` | ' \
 |_| \__,_|_|_/___|_.__/\__,_|_||_|
 v0.9.3.dev              2015/XX/XX
@@ -47,7 +47,7 @@ $ sudo apt-get install fail2ban
 
 fail2ban 中已经内置常用软件的过滤规则，如 ssh，ftp 等，在 `/etc/fail2ban/jail.conf` 中配置为 enable 即可
 
-![jail](https://img.blessing.studio/images/2015/08/2015-08-15_13-19-37.png)
+![jail](https://img.prin.studio/images/2015/08/2015-08-15_13-19-37.png)
 
 另外如果需要自定义 filter 的话需要正则表达式知识，这里就不多说了，自带的对于防范 ssh 暴力破解已经够用了
 
@@ -105,7 +105,7 @@ If you would like to configure email alerts, you can change the value from actio
 
 根据 `/etc/fail2ban/jail.conf` 中 `ssh` 的配置，只要窝们登录失败六次错误就会被 ban 掉 IP，那么就让窝祭出 cmd 大法来 ssh 登录吧！
 
-![em1](https://img.blessing.studio/images/2015/08/2015-08-12_12-42-14.jpg)
+![em1](https://img.prin.studio/images/2015/08/2015-08-12_12-42-14.jpg)
 
 测试结果明天更吧~
 

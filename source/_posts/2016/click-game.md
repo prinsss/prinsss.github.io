@@ -8,7 +8,7 @@ tags:
   - JavaScript
 ---
 
-![screenshot](https://img.prinzeugen.net/image.php?di=0D06)
+![screenshot](https://img.prin.studio/legacy/image.php?di=0D06)
 
 本来这是个指向一个页面的链接的，今天突然闲得蛋疼就写了这么个小玩意（笑），颜文字来自 A岛。
 

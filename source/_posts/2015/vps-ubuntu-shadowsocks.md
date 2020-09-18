@@ -12,7 +12,7 @@ tags:
 
 ----------
 
-就在刚才咱买的ss服务过期了，vps又买到了，自然是在vps上搭个ss来爬墙 ![i_f25](https://img.blessing.studio/images/2015/03/i_f25.png)
+就在刚才咱买的ss服务过期了，vps又买到了，自然是在vps上搭个ss来爬墙 ![i_f25](https://img.prin.studio/images/2015/03/i_f25.png)
 
 ### ssh 上 vps，apt-get
 
@@ -20,7 +20,7 @@ tags:
 apt-get install python-pip m2crypto supervisor pip install shadowsocks
 ```
 
-![20150708170216](https://img.blessing.studio/images/2015/07/2015-07-08_09-49-56.png)
+![20150708170216](https://img.prin.studio/images/2015/07/2015-07-08_09-49-56.png)
 
 ### 编辑 `/etc/shadowsocks.json` （咱用的是vim
 
@@ -79,7 +79,7 @@ iptables-save
 
 至此 shadowsocks 部署完成。
 
-![20150708175558](https://img.blessing.studio/images/2015/07/2015-07-08_10-03-53.png)
+![20150708175558](https://img.prin.studio/images/2015/07/2015-07-08_10-03-53.png)
 
 -----------
 
