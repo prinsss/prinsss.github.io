@@ -22,6 +22,7 @@
     "hexo-server": "^2.0.0"
   },
   "resolutions": {
-    "stylus": "^0.54.8"
+    "stylus": "^0.54.8",
+    "hexo-fs": "^3.1.0"
   }
 }
