@@ -8,7 +8,7 @@ branches:
   - source
 
 # 缓存依赖，节省持续集成时间
-cache: npm
+cache: yarn
 
 before_install:
 # 解密 RSA 私钥并设置为本机 ssh 私钥
@@ -21,7 +21,7 @@ before_install:
 
 install:
 # 安装 Hexo 及其依赖
-- npm install
+- yarn install --frozen-lockfile
 - git clone https://github.com/printempw/hexo-theme-murasaki.git themes/murasaki
 
 script:

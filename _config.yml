@@ -30,7 +30,8 @@ skip_render:
 new_post_name: :year/:title.md
 default_layout: post
 titlecase: false
-external_link: true
+external_link:
+  enable: true
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
