@@ -1,7 +1,7 @@
 ---
 title: '反向代理解决 Gmail 代收 126 邮箱出现 Connection timed out 的问题'
 date: '2020-03-18 14:27:58'
-updated: '2020-03-18 14:27:58'
+updated: '2021-02-06 23:10:00'
 categories: 技术
 tags:
   - 记录
@@ -105,6 +105,18 @@ sudo systemctl enable pop-proxy
 
 ```sh
 journalctl -u pop-proxy
+```
+
+-----
+
+2021/02/06 更新，也可以使用 docker 一行解决：
+
+```bash
+docker run --name pop-proxy \
+    -d --restart=always \
+    -p 1110:1110 \
+    alpine/socat \
+    -d -d TCP4-LISTEN:1110,reuseaddr,fork TCP4:pop.126.com:110
 ```
 
 \- EOF -
