@@ -210,7 +210,7 @@ $ netstat -anp | grep 你的端口
 
 正常的话，应该是这样的：
 
-```no-highlight
+```text
 Active Internet connections (servers and established)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
 tcp        0      0 0.0.0.0:62111            0.0.0.0:*               LISTEN      32083/python

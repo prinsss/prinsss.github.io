@@ -20,7 +20,7 @@ tags:
 
 首先移除原来的「在终端中打开」右键菜单。从 Nautilus 3.14 版本开始，这个菜单变成了 `gnome-terminal` 软件包的一部分（所以没法自定义这个菜单打开的终端）。
 
-```plain
+```text
 $ pacman -Ql gnome-terminal | grep nautilus
 
 gnome-terminal /usr/lib/nautilus/

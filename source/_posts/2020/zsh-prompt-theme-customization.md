@@ -215,7 +215,7 @@ $ZSH_THEME_GIT_PROMPT_DIRTY or $ZSH_THEME_GIT_PROMPT_CLEAN
 
 [默认情况下](https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/theme-and-appearance.zsh#L48)，这个函数的输出是这样的：
 
-```plain
+```text
 git:(master*)
 ```
 

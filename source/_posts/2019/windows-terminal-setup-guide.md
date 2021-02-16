@@ -68,7 +68,7 @@ scoop install windowsterminal
 
 在标签右侧的下拉菜单中点击「Settings」，即可用你默认的 `.json` 文件编辑器打开配置文件。该文件的实际位置在这里：
 
-```plain
+```text
 %localappdata%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\profiles.json
 ```
 

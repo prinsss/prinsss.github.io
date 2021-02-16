@@ -43,7 +43,7 @@ tags:
 >
 > 配置或数据文件的位置：
 >
-> ```plain
+> ```text
 > C:\Users\printempw\scoop\apps\nginx\current\conf
 > C:\Users\printempw\scoop\apps\mariadb\current\data
 > C:\Users\printempw\scoop\apps\php\current\cli
