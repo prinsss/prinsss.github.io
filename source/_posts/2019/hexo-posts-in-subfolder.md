@@ -72,7 +72,7 @@ hexo.extend.filter.register('new_post_path', data => {
 
 修改 `post_permalink` filter 传进来的值就可以直接修改最终生成的文章永久链接，所以我们直接把自定义的子文件夹从 `permalink` 中删掉，这样文章链接中就不会出现子文件夹的名称啦，非常简单粗暴。
 
-```plain
+```text
 > _posts $ tree
 .
 ├── ...

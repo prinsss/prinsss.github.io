@@ -130,7 +130,7 @@ service v2ray start
 curl -i http://127.0.0.1:10086/whatever
 ```
 
-```plain
+```text
 HTTP/1.1 400 Bad Request
 Content-Type: text/plain; charset=utf-8
 Sec-Websocket-Version: 13
@@ -223,7 +223,7 @@ CDN 配置完了再用 curl 测试一下：
 curl -i https://example.com/whatever
 ```
 
-```plain
+```text
 HTTP/2 400
 date: Sun, 12 Jan 2020 08:44:07 GMT
 content-type: text/plain; charset=utf-8
@@ -244,7 +244,7 @@ Bad Request
 wscat -c wss://example.com/whatever
 ```
 
-```plain
+```text
 Connected (press CTRL+C to quit)
 ```
 

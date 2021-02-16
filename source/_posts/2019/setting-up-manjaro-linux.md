@@ -473,7 +473,7 @@ Manjaro 预装了 Timeshift 备份工具，使用起来很方便，我在移动�
 
 分一块 NTFS 出来给 Windows 安装就行了，用 GParted 还是什么随你。
 
-```plain
+```text
 [printempw@magicbook ~]$ lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 nvme0n1     259:0    0   477G  0 disk
@@ -508,7 +508,7 @@ UEFI 启动序列可以直接在 Windows 下使用 BOOTICE 编辑：
 
 也可以在 Linux 下通过 `efibootmgr` 来编辑：
 
-```plain
+```text
 [printempw@magicbook ~]$ efibootmgr
 BootCurrent: 0001
 Timeout: 0 seconds
@@ -558,7 +558,7 @@ sudo update-grub
 
 先来看看 EFI 分区里面都有啥：
 
-```plain
+```text
 [printempw@magicbook ~]$ sudo tree -L 3 /boot/efi
 /boot/efi
 ├── EFI

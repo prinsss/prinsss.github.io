@@ -15,7 +15,7 @@ tags:
 
 打开 Gmail 配置一看，报错如下：
 
-```plain
+```text
 连接到pop.126.com时出现问题
 
 服务器返回错误：“Connection timed out: There may be a problem with the settings you added. Please contact your other email provider to verify the correct server name and port.”
@@ -43,7 +43,7 @@ nc pop.126.com 110
 
 一切正常的话可以看到 POP3 服务器的欢迎语：
 
-```plain
+```text
 +OK Welcome to coremail Mail Pop3 Server (126coms)
 ```
 

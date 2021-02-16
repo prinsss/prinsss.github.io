@@ -43,7 +43,7 @@ comm -1 -3 <(pacman -Q | cut -d' ' -f1 | sort) <(curl "https://osdn.net/projects
 
 比如说我的机器上对比的结果是这样的：
 
-```plain
+```text
 adwaita-maia
 dash
 empathy

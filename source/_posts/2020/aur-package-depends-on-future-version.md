@@ -10,7 +10,7 @@ tags:
 
 今天升级软件包时出了点问题，提示是这样的：
 
-```plain
+```text
 $ yay -S qv2ray
 
 ==> Error: Could not find all required packages:

@@ -80,7 +80,7 @@ emmmmm……🤔
 ip link show
 ```
 
-```plain
+```text
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast master br0 state UP qlen 1000
@@ -124,7 +124,7 @@ ip addr show
 vi /etc/network/interfaces
 ```
 
-```plain
+```text
 auto lo
 iface lo inet loopback
 

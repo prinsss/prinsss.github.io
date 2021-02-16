@@ -33,7 +33,7 @@ OTA（One Time Auth，[一次性验证](https://shadowsocks.org/en/spec/one-time
 
 [原 shadowsocks 协议](https://shadowsocks.org/en/spec/protocol.html) 的 TCP 握手包（加密后）的格式是这样的：
 
-```no-highlight
+```text
 +-------+----------+
 |  IV   | Payload  |
 +-------+----------+
@@ -47,7 +47,7 @@ shadowsocks 服务端会用这个 `IV` 和 `pre-shared key`（预共享密钥，
 
 解密后的内容格式如下：
 
-```no-highlight
+```text
 +--------------+---------------------+------------------+----------+
 | Address Type | Destination Address | Destination Port |   Data   |
 +--------------+---------------------+------------------+----------+
@@ -97,7 +97,7 @@ shadowsocks 服务端会用这个 `IV` 和 `pre-shared key`（预共享密钥，
 
 开启了 OTA 后的 shadowsocks 握手包（加密前）是这样的：
 
-```no-highlight
+```text
 +------+---------------------+------------------+-----------+
 | ATYP | Destination Address | Destination Port | HMAC-SHA1 |
 +------+---------------------+------------------+-----------+
@@ -107,7 +107,7 @@ shadowsocks 服务端会用这个 `IV` 和 `pre-shared key`（预共享密钥，
 
 可以看到它添加了一个 `HMAC-SHA1` 字段，这个字段是将除了 `DATA` 通过 `HMAC-SHA1` 算法（以 `IV + PSK` 作为 key）生成的。并且数据包头部的 ATYP 添加了一个标志位用于指示 OTA 是否开启（`ATYP & 0x10 == 0x10`）。
 
-```no-highlight
+```text
 +----------+-----------+----------+----
 | DATA.LEN | HMAC-SHA1 |   DATA   | ...
 +----------+-----------+----------+----
