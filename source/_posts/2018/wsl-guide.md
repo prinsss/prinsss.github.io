@@ -25,7 +25,7 @@ tags:
 
 ## 1. 我理想中的命令行界面
 
-既然~~违反广告法~~取了这么个标题，那我自然得先描述一下我的目标，也就是我理想中的命令行界面应该是什么样子的（如果你不清楚命令行的概念，可以看看我之前写的 [这篇文章](https://blessing.studio/the-difference-between-cli-terminal-shell-tty/)）：
+既然~~违反广告法~~取了这么个标题，那我自然得先描述一下我的目标，也就是我理想中的命令行界面应该是什么样子的（如果你不清楚命令行的概念，可以看看我之前写的 [这篇文章](https://printempw.github.io/the-difference-between-cli-terminal-shell-tty/)）：
 
 - **好看**（配色、字体可以自由设定）；
 - 支持 UTF-8 字符的输入与显示；
@@ -151,11 +151,11 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 如果你正在使用中文 Windows 系统，而且之前并没有修改过 Win32 Console 的默认配置，那么你的 WSL 终端默认就会是这样的。新宋体，就是这么 Hardcore。惊不惊喜，意不意外？
 
-好吧不开玩笑，Windows 这个控制台窗口就是很多人讨厌它的原因之一，难用又难看。丑这一点倒还有解决方法（经过一番设置后还算能看，我以前就写过一篇关于 [自定义 Windows 控制台字体](https://blessing.studio/windows-change-cmd-font/) 的文章），难用却是实打实的。尽管 Win10 上的控制台已经改进了不少（可以看看 Microsoft 的官方博客：[Windows Command Line Tools For Developers](https://blogs.msdn.microsoft.com/commandline/)），但其依然是最难用的终端模拟器之一，或许没有之一。
+好吧不开玩笑，Windows 这个控制台窗口就是很多人讨厌它的原因之一，难用又难看。丑这一点倒还有解决方法（经过一番设置后还算能看，我以前就写过一篇关于 [自定义 Windows 控制台字体](https://printempw.github.io/windows-change-cmd-font/) 的文章），难用却是实打实的。尽管 Win10 上的控制台已经改进了不少（可以看看 Microsoft 的官方博客：[Windows Command Line Tools For Developers](https://blogs.msdn.microsoft.com/commandline/)），但其依然是最难用的终端模拟器之一，或许没有之一。
 
 因此，为了实现我们的目标，一个更强大的终端模拟器是必须的。
 
-> 终端模拟器是什么？为了这个回答这个问题，我专门写了一篇文章，[去看看吧](https://blessing.studio/the-difference-between-cli-terminal-shell-tty/)。:P
+> 终端模拟器是什么？为了这个回答这个问题，我专门写了一篇文章，[去看看吧](https://printempw.github.io/the-difference-between-cli-terminal-shell-tty/)。:P
 
 我个人比较推荐的终端模拟器有：
 
