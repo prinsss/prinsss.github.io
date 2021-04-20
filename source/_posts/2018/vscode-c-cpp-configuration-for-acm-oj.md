@@ -9,7 +9,7 @@ tags:
   - ACM
 ---
 
-大学入学也快一个月了，总的来说，我过得很开心，不枉我花费一年的时间 [高考复读](https://blessing.studio/check-in-2018-07/)。具体哪里令人开心呢？我觉得最主要的是，比起初高中，大学的时间分配更为自由。
+大学入学也快一个月了，总的来说，我过得很开心，不枉我花费一年的时间 [高考复读](https://printempw.github.io/check-in-2018-07/)。具体哪里令人开心呢？我觉得最主要的是，比起初高中，大学的时间分配更为自由。
 
 **中学时代，学生的时间基本都被学校安排得死死的**：早上什么时间必须到校，然后开始早读、上午五节课下午三节课、晚读、晚自习，最后在规定的时间离校（住宿生还要在规定的时间就寝），可以自由分配的时间少得可怜，在某些管理严格的学校甚至连人身自由都要被限制。虽然学生们苦中作乐的摸鱼技巧也不容小觑，但考虑到升学的压力，如果在兴趣上分配的时间过多，很有可能就会像我去年一样落得个无法升学的尴尬境地。
 
@@ -71,7 +71,7 @@ tags:
 
 想在 Windows 上使用 GCC，必须安装 [MinGW](http://www.mingw.org/)、[Cygwin](https://www.cygwin.com/) 或者 [TDM-GCC](http://tdm-gcc.tdragon.net/) 这类 GCC 移植版与配套环境。下文将以 [MinGW-w64](http://mingw-w64.org/) （简单来说就是 MinGW 的增强版，如果你想知道它俩之间的那些破事儿也可以自己去搜一搜）为例进行配置。
 
-> 当然，你也可以安装 [WSL (Windows Subsystem for Linux)](https://blessing.studio/wsl-guide/)，在 WSL 中安装 GCC，然后在 Windows 下 [调用 WSL 中的 GCC 编译源码为 Linux 可执行程序](https://github.com/Microsoft/vscode-cpptools/blob/master/Documentation/LanguageServer/Windows%20Subsystem%20for%20Linux.md) 并直接在 WSL 中运行。
+> 当然，你也可以安装 [WSL (Windows Subsystem for Linux)](https://printempw.github.io/wsl-guide/)，在 WSL 中安装 GCC，然后在 Windows 下 [调用 WSL 中的 GCC 编译源码为 Linux 可执行程序](https://github.com/Microsoft/vscode-cpptools/blob/master/Documentation/LanguageServer/Windows%20Subsystem%20for%20Linux.md) 并直接在 WSL 中运行。
 >
 > ~~如果你愿意，你甚至可以在 WSL 中安装 mingw-w64 交叉编译工具集，然后在 Windows 上调用 WSL 中的 `x86_64-w64-mingw32-gcc` 交叉编译器在 WSL 中把源码交叉编译为 Windows 可执行程序，最后在 WSL 中运行 Windows 可执行程序……但是没事谁这么蛋疼呢？~~
 

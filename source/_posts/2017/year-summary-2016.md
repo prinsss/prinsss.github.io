@@ -42,13 +42,13 @@ ORDER BY post_views.pv DESC
 
 其中阅读量最高的几篇文章如下：
 
-- [Android 6.0 刷入 Gapps 后出现 “设置向导” 已停止运行 的解决方法](https://blessing.studio/fixed-setup-wizard-stopped-after-install-gapps-android-6-0/)
-- [VPS 被 DDoS 后与 ConoHa 客服的邮件记录](https://blessing.studio/mail-log-to-conoha-user-center-after-ddos/)
-- [喜闻乐见被 DDoS + CC 攻击](https://blessing.studio/have-been-ddos-and-cc-attacked/)
-- [Hello Ghost, goodbye Wordpress](https://blessing.studio/hello-ghost-goodbye-wordpress/)
-- [不忘初心，方得始终](https://blessing.studio/shoshin-wasuru-bekarazu/)
-- [Blessing Skin Server 0.1 —— 开源 PHP Minecraft 皮肤站](https://blessing.studio/blessing-skin-server-0-1/)
-- [为 Ghost 博客添加页面访问计数器](https://blessing.studio/add-page-view-counter-for-ghost-blog/)
+- [Android 6.0 刷入 Gapps 后出现 “设置向导” 已停止运行 的解决方法](https://printempw.github.io/fixed-setup-wizard-stopped-after-install-gapps-android-6-0/)
+- [VPS 被 DDoS 后与 ConoHa 客服的邮件记录](https://printempw.github.io/mail-log-to-conoha-user-center-after-ddos/)
+- [喜闻乐见被 DDoS + CC 攻击](https://printempw.github.io/have-been-ddos-and-cc-attacked/)
+- [Hello Ghost, goodbye Wordpress](https://printempw.github.io/hello-ghost-goodbye-wordpress/)
+- [不忘初心，方得始终](https://printempw.github.io/shoshin-wasuru-bekarazu/)
+- [Blessing Skin Server 0.1 —— 开源 PHP Minecraft 皮肤站](https://printempw.github.io/blessing-skin-server-0-1/)
+- [为 Ghost 博客添加页面访问计数器](https://printempw.github.io/add-page-view-counter-for-ghost-blog/)
 
 （反倒是那几篇技术文章没怎么人看，我的心情也是很复杂啊）
 
@@ -63,15 +63,15 @@ Total comments number of last year: 570
 
 ## 关于博客
 
-- 将博客系统由 WordPress [换成了 Ghost](https://blessing.studio/hello-ghost-goodbye-wordpress/)
-- 启用了新域名 [Blessing.Studio](https://blessing.studio/migrate-to-new-domain-blessing-studio/)
+- 将博客系统由 WordPress [换成了 Ghost](https://printempw.github.io/hello-ghost-goodbye-wordpress/)
+- 启用了新域名 [Blessing.Studio](https://printempw.github.io/migrate-to-new-domain-blessing-studio/)
 - 写了更多技术文章
-- 分享了一些[开发心得](https://blessing.studio/tag/development-tips/)
-- 和许多博主交换了[友链](https://blessing.studio/friends/)
+- 分享了一些[开发心得](https://printempw.github.io/tag/development-tips/)
+- 和许多博主交换了[友链](https://printempw.github.io/friends/)
 
 ## 学习
 
-- 开始学习 PHP，[接触了 Laravel](https://blessing.studio/tag/laravel/) 这个伟大的框架
+- 开始学习 PHP，[接触了 Laravel](https://printempw.github.io/tag/laravel/) 这个伟大的框架
 - 开发了 [Blessing Skin Server](https://github.com/printempw/blessing-skin-server)，学到了不少东西
 - 学会了基于 gulp 等工具的前端工程化
 - 学会了软件工程中一些不错的设计模式和架构模式
@@ -82,7 +82,7 @@ Total comments number of last year: 570
 
 ## 其他
 
-- 买了一块 [GTX750](https://blessing.studio/awesome-minecraft-shader/)
+- 买了一块 [GTX750](https://printempw.github.io/awesome-minecraft-shader/)
 - 开始去电影院看电影（说来惭愧，以前一直是盗版侠）
 - 看了好几本日版轻小说，顺带尝试了下日亚海淘：
 
