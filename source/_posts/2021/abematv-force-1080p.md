@@ -1,7 +1,7 @@
 ---
 title: 'AbemaTV 网页版与客户端强制 1080p'
 date: '2021-04-26 05:30:00'
-updated: '2021-04-26 05:30:00'
+updated: '2021-04-26 06:30:00'
 categories: 技术
 tags:
   - 流媒体
@@ -70,15 +70,17 @@ window.fetch = (...args) => {
 
 开启 MitM 功能，添加主机名如下：
 
+> 更新：网页版和手机版请求的是 `vod-abematv.akamaized.net`，iPad 上请求的是 `ds-vod-abematv.akamaized.net`，搞不懂，直接通配符算了。
+
 ```text
-vod-abematv.akamaized.net
+*abematv.akamaized.net
 ```
 
 安装并信任证书（过程略），修改配置文件，添加重写规则：
 
 ```ini
 [rewrite_local]
-^https://vod-abematv\.akamaized\.net/.+/\d+/playlist\.m3u8 url request-header /\d+/playlist.m3u8 request-header /1080/playlist.m3u8
+abematv\.akamaized\.net/.+/\d+/playlist\.m3u8 url request-header /\d+/playlist.m3u8 request-header /1080/playlist.m3u8
 ```
 
 验证强制 1080p 是否成功（开启 HTTP 调试功能查看）：
