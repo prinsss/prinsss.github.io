@@ -137,9 +137,9 @@ hide_posts:
   filter: hidden
   # Generators which you want to expose all posts (include hidden ones) to.
   # Common generators: index, tag, category, archive, sitemap, feed, etc.
-  public_generators: [archive]
+  public_generators: [feed]
   # Add "noindex" meta tag to prevent hidden posts from being indexed by search engines
-  noindex: true
+  noindex: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

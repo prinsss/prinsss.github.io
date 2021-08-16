@@ -6,6 +6,7 @@ categories: 日常
 tags:
   - 水
   - 近况报告
+hidden: true
 ---
 
 好久不见。
