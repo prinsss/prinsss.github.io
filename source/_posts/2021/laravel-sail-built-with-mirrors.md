@@ -28,13 +28,10 @@ Laravel Sail 是什么？简单来说就是一个基于 Docker 的开发环境�
 curl -s https://laravel.build/example-app -o install.sh
 ```
 
-
-
 临时新建一个 composer 容器：
 
 ```bash
-docker run -it --rm \
-  -u "$(id -u):$(id -g)" -v $(pwd):/opt -w /opt \
+docker run -it --rm -v $(pwd):/opt -w /opt \
   laravelsail/php80-composer:latest bash
 ```
 
