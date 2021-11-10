@@ -24,7 +24,7 @@ Python 实现，格式化后文本存储于 `hitokoto.txt`（使用 `\n` 做换�
 -a    是否自动重新请求，布尔值
 ```
 
-源码托管于 [Gist](https://gist.github.com/printempw/8efc424f8033f7f008ed)（打不开请自行解决）。
+源码托管于 [Gist](https://gist.github.com/prinsss/8efc424f8033f7f008ed)（打不开请自行解决）。
 
 唔。。最近手生了，写这么点花了将近半天 qwq
 

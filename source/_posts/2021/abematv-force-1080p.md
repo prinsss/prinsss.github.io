@@ -29,7 +29,7 @@ XMLHttpRequest.prototype.open = function () {
 
 还好以前捣鼓过一段时间 HLS 相关的东西，所以这些不算陌生。不过实际使用的时候发现 `XMLHttpRequest` 并没有拦截到 `playlist.m3u8` 之类的请求，看了一下，原来是 Abema 请求的时候改用了 fetch API。反正大同小异，稍微修改一下就行了。
 
-修改后的脚本同样放在 [Gist](https://gist.github.com/printempw/0c7730cdac336dfeddd3f22da6ad08a5) 上：
+修改后的脚本同样放在 [Gist](https://gist.github.com/prinsss/0c7730cdac336dfeddd3f22da6ad08a5) 上：
 
 ```js
 // ==UserScript==

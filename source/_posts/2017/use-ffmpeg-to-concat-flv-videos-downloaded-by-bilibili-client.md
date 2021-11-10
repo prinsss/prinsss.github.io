@@ -87,9 +87,9 @@ ffmpeg -f concat -i /path/to/ff.txt -c copy output.mp4
 
 ### 写个脚本
 
-知道了原理，就可以动手写个自动化脚本了。这里我选择了 Bash 脚本语言，毕竟就这么点功能，几行就 OK。用 Bash 的话开个终端复制进去就可以直接运行，比起其他语言也方便 ~~（我才不会说是因为我 Python 都快忘光了呢）~~。代码放在 [Gist](https://gist.github.com/printempw/1bc29da99b238d68e87af874f898f435) 上：
+知道了原理，就可以动手写个自动化脚本了。这里我选择了 Bash 脚本语言，毕竟就这么点功能，几行就 OK。用 Bash 的话开个终端复制进去就可以直接运行，比起其他语言也方便 ~~（我才不会说是因为我 Python 都快忘光了呢）~~。代码放在 [Gist](https://gist.github.com/prinsss/1bc29da99b238d68e87af874f898f435) 上：
 
-<script src="https://gist.github.com/printempw/1bc29da99b238d68e87af874f898f435.js"></script>
+<script src="https://gist.github.com/prinsss/1bc29da99b238d68e87af874f898f435.js"></script>
 
 这里是压缩过的单行版，方便复制：
 

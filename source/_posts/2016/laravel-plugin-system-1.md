@@ -80,7 +80,7 @@ tags:
 
 关于 `Plugin` 这个类，它是每一个具体插件的抽象，我们需要通过这玩意来进行 **获取插件信息**、**启用/禁用**、**安装/删除** 等操作，所以类也必须提供相应的方法（代码块放在 Gist 上）：
 
-<script src="https://gist.github.com/printempw/8bc1049481f2ba0be51eba4edccea2d5.js"></script>
+<script src="https://gist.github.com/prinsss/8bc1049481f2ba0be51eba4edccea2d5.js"></script>
 
 可以看到我们在类中使用了 `$packageInfo` 这个属性来存储 `json_decode` 解析后的 `package.json` 的内容，并通过一堆 `getter` 和 `setter` 实现了上述的功能。
 
@@ -90,7 +90,7 @@ tags:
 
 这个插件经理类也是这个插件系统中很重要的一部分了，它主要负责扫描文件系统并 **加载所有插件**、查询数据库**获取插件的启用情况**、在插件被 启用/禁用/删除 时**触发相应事件**好让插件能够做出反应。
 
-<script src="https://gist.github.com/printempw/e1cc9516189c800cd50ad7955adfc1b2.js"></script>
+<script src="https://gist.github.com/prinsss/e1cc9516189c800cd50ad7955adfc1b2.js"></script>
 
 可以看到我们在 `PluginManager` 类的构造函数中使用了类型提示，这可以让 Laravel 的服务容器为我们注入我们需要的依赖。
 
@@ -106,7 +106,7 @@ tags:
 
 在这个服务提供者里，我们将把 `PluginManager` 绑定到服务容器上，并且初始化所有的插件。
 
-<script src="https://gist.github.com/printempw/8b3632231a999a2fc1bf949d97608530.js"></script>
+<script src="https://gist.github.com/prinsss/8b3632231a999a2fc1bf949d97608530.js"></script>
 
 可以看到，我们在 `require` 了各个插件的 `bootstrap.php` 文件得到了 `Closure` 对象后，使用了服务容器的 `call()` 方法调用了这个闭包。这也就意味着我们可以在 `bootstrap.php` 开心地使用 Laravel 提供的依赖注入功能啦。
 
@@ -135,7 +135,7 @@ tags:
 
 正如上面「目录结构」那里所演示的，我们可以直接使用 `SuperCache\Listener\CachePlayerJson` 这个类，并且该插件目录下的 `/src/Listener/CachePlayerJson.php` 文件将会被自动加载。
 
-<script src="https://gist.github.com/printempw/d7eb791b346e0521f838e269d8e87bd3.js"></script>
+<script src="https://gist.github.com/prinsss/d7eb791b346e0521f838e269d8e87bd3.js"></script>
 
 同样是在 `PluginServiceProvider` 这个类中，我们在加载插件的时候使用了 `$src_paths` 这个数组来储存各个插件的「命名空间」到「`src` 目录」的映射，并且通过 `spl_autoload_register` 这个内置函数注册了一个 autoload。这个 SPL 函数的文档在 [这里](http://php.net/manual/zh/function.spl-autoload-register.php)。
 

@@ -30,7 +30,7 @@ Failed to execute 'write' on 'Document': It isn't possible to write into a docum
 
 下面贴一下核心代码（同时也是点击预览的 DEMO）：
 
-<script src="https://gist.github.com/printempw/a12f8fe71c2e3d7a2c0fcedbc6d625d2.js"></script>
+<script src="https://gist.github.com/prinsss/a12f8fe71c2e3d7a2c0fcedbc6d625d2.js"></script>
 
 至于「短代码自动替换」呀、「识别 Gist 链接并 append 预览按钮」（SegmentFault 的做法）之类的，朱军可以继续研究~
 

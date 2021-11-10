@@ -67,7 +67,7 @@ function loadLocales() {
 }
 ```
 
-上面用到的那个 `isEmpty` 函数可以看这里：[@Gist](这个 isEmpty 函数可以看这里：https://gist.github.com/printempw/ac924ca2952a93667f8211b7b626a2fd)。然后我们就可以定义用于把 `key` 翻译成具体语言的翻译函数啦：
+上面用到的那个 `isEmpty` 函数可以看这里：[@Gist](这个 isEmpty 函数可以看这里：https://gist.github.com/prinsss/ac924ca2952a93667f8211b7b626a2fd)。然后我们就可以定义用于把 `key` 翻译成具体语言的翻译函数啦：
 
 ```javascript
 function trans(key, parameters) {

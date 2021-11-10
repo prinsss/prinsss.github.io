@@ -17,6 +17,6 @@ mysqli 改为以面向对象的方式操作数据库，而不是 `mysql_` 系列
 
 不知道为何原来 LWL12 写的版本单独使用了一个表来存投票数，可能是怕效率问题。不过 `SELECT COUNT(*)` 在没有指定 WHICH 的时候效率还是蛮高的，参见：[知乎：mysql select count(*) 与 select count(id) 两个执行效率怎样？](https://www.zhihu.com/question/19641756)
 
-其实也没改多少，另外把建表的 SQL 也顺便封装在文件里了，托管在 [Gist](https://gist.github.com/printempw/48920748b328bacead1b) 上。
+其实也没改多少，另外把建表的 SQL 也顺便封装在文件里了，托管在 [Gist](https://gist.github.com/prinsss/48920748b328bacead1b) 上。
 
-<script src="https://gist.github.com/printempw/48920748b328bacead1b.js"></script>
+<script src="https://gist.github.com/prinsss/48920748b328bacead1b.js"></script>

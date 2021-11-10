@@ -36,15 +36,15 @@ tags:
 
 **更新**：添加了 “热门文章” 功能，访问 `index.php?action=order&limit=10` 即可得到访问量前 10 的文章列表 （json），示例代码也一起贴在下面了。
 
-源码托管于 [Gist](https://gist.github.com/printempw/f8626711835718c1ad68)，~~适用于使用 MySQL 的 Ghost 用户。如果你是使用 SQLite，而且恰好需要这个功能的话，留言给窝，窝也好有点动力。~~
+源码托管于 [Gist](https://gist.github.com/prinsss/f8626711835718c1ad68)，~~适用于使用 MySQL 的 Ghost 用户。如果你是使用 SQLite，而且恰好需要这个功能的话，留言给窝，窝也好有点动力。~~
 
-**更新**：应 Andy 之托，支持了 SQLite。MySQL & SQLite 通用版在[这里](https://gist.github.com/printempw/a1018424b3bf03b0072f)。
+**更新**：应 Andy 之托，支持了 SQLite。MySQL & SQLite 通用版在[这里](https://gist.github.com/prinsss/a1018424b3bf03b0072f)。
 
-<script src="https://gist.github.com/printempw/f8626711835718c1ad68.js"></script>
+<script src="https://gist.github.com/prinsss/f8626711835718c1ad68.js"></script>
 
 转换脚本如下：
 
-<script src="https://gist.github.com/printempw/3a72cf916a6689c7a665.js"></script>
+<script src="https://gist.github.com/prinsss/3a72cf916a6689c7a665.js"></script>
 
 -----
 

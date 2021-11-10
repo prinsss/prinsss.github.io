@@ -12,4 +12,4 @@ tags:
 
 本来这是个指向一个页面的链接的，今天突然闲得蛋疼就写了这么个小玩意（笑），颜文字来自 A岛。
 
-[Gist 传送门](https://gist.github.com/printempw/63662dc94ff250123edb18fef454b2a5)
+[Gist 传送门](https://gist.github.com/prinsss/63662dc94ff250123edb18fef454b2a5)

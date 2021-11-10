@@ -55,7 +55,7 @@ tags:
 
 这个项目只提供基本的 API（具体看 README），其他逻辑需要在博客前端完成，下面贴一下我自己在用的脚本（某些语句依赖于 jQuery，可自行修改）：
 
-<script src="https://gist.github.com/printempw/2e0e0c127a0f5081434b4dbe136327c1.js"></script>
+<script src="https://gist.github.com/prinsss/2e0e0c127a0f5081434b4dbe136327c1.js"></script>
 
 需要注意的是，「最受欢迎的文章」页面需要后端提供文章标题，但是我思来想去，都想不到什么好的解决方法。原先搞 Ghost 的访问计数器时可以直接访问 Ghost 的数据库来获取文章信息，但是静态博客就不行了。虽然想过各种自动化的方法（譬如自动去爬标题之类的），但想想还是作罢。目前情况是，文章相关的 record 会随着访问而自动生成（`slug`、`pv`、`created_at` 等字段），但是 `title` 字段并不会自动填写（NULL）。所以如果你需要热门文章功能的话，可以定期访问计数器的数据库，手动填写文章的标题信息。
 

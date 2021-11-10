@@ -59,7 +59,7 @@ Total comments number of last year: 570
 [Finished in 0.2s]
 ```
 
-脚本是用 PHP 写的 (　ﾟ 3ﾟ) 代码托管在 [Gist](https://gist.github.com/printempw/b598abd560c809ea64667d284fc01f0f) 上。
+脚本是用 PHP 写的 (　ﾟ 3ﾟ) 代码托管在 [Gist](https://gist.github.com/prinsss/b598abd560c809ea64667d284fc01f0f) 上。
 
 ## 关于博客
 

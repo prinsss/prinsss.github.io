@@ -170,9 +170,9 @@ addons:
 
 ### 0x32 编写 .travis.yml
 
-我就直接贴我自己的配置了（放在 [Gist](https://gist.github.com/printempw/42e8781ed3adadbcc6ecac01904a32f6) 上，加载不出来的自己想办法），诸位看着修改：
+我就直接贴我自己的配置了（放在 [Gist](https://gist.github.com/prinsss/42e8781ed3adadbcc6ecac01904a32f6) 上，加载不出来的自己想办法），诸位看着修改：
 
-<script src="https://work.prinzeugen.net/gist/printempw/42e8781ed3adadbcc6ecac01904a32f6.js"></script>
+<script src="https://gist.github.com/prinsss/42e8781ed3adadbcc6ecac01904a32f6.js"></script>
 
 大部分语句都加了注释，我也就不再多说明了。
 

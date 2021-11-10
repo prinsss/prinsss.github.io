@@ -21,7 +21,7 @@ Blessing Skin Server 也经过蛮长时间的开发了，但是类文件都只�
 
 <!--more-->
 
-<script src="https://work.prinzeugen.net/gist/printempw/d1af9fefbcbd89996273.js"></script>
+<script src="https://gist.github.com/prinsss/d1af9fefbcbd89996273.js"></script>
 
 `__autoload` 是 PHP 的魔术方法，具体请查看[官方文档](http://php.net/manual/zh/function.autoload.php)。
 

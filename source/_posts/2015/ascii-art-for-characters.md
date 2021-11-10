@@ -17,7 +17,7 @@ tags:
 
 ![exec result](https://img.prin.studio/images/2015/12/2015-12-27_07-51-34.png)
 
-还是 Python 实现，源码托管于 [Gist](https://gist.github.com/printempw/689a1da4b515aa682d4b)。
+还是 Python 实现，源码托管于 [Gist](https://gist.github.com/prinsss/689a1da4b515aa682d4b)。
 
 明明不是很复杂的东西，想保存字符画的数据结构时却想了窝好长时间 qwq
 

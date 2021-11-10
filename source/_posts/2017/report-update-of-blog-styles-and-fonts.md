@@ -92,9 +92,9 @@ $('#sbpin').affix({
 
 这其实之前就实现了，不过也在这里提一下吧。
 
-我对进行了一些改动，代码托管在 [Gist](https://gist.github.com/printempw/e31ae00ddbadf1b0237c56a36e7ee6b1) 上：
+我对进行了一些改动，代码托管在 [Gist](https://gist.github.com/prinsss/e31ae00ddbadf1b0237c56a36e7ee6b1) 上：
 
-<script src="https://gist.github.com/printempw/e31ae00ddbadf1b0237c56a36e7ee6b1.js"></script>
+<script src="https://gist.github.com/prinsss/e31ae00ddbadf1b0237c56a36e7ee6b1.js"></script>
 
 上面那个「点击加载 Gist」按钮也是我之前[折腾](https://printempw.github.io/how-to-load-gist-dynamically-via-clicking-button/)的。
 

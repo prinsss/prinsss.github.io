@@ -193,7 +193,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 想要快乐地使用命令行，一个趁手的 Shell 是必不可少的。
 
-我个人习惯使用 zsh，安装步骤不再赘述。[我的自定义 oh-my-zsh 主题](https://gist.github.com/printempw/1ae3b8ae3091a6cfd65a22e1872af7ab)：
+我个人习惯使用 zsh，安装步骤不再赘述。[我的自定义 oh-my-zsh 主题](https://gist.github.com/prinsss/1ae3b8ae3091a6cfd65a22e1872af7ab)：
 
 ```shell
 # ~/.oh-my-zsh/custom/themes/robbyrussell-ascii.zsh-theme

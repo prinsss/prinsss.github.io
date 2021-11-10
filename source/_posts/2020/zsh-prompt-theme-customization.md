@@ -232,7 +232,7 @@ git:(master*)
 
 比如各大发行版默认的 Bash Prompt 就挺好（服务器上也用不到那些花里胡哨的），所以我把它们移植到了 Zsh 上。oh-my-zsh 的默认主题也不错，但是其中的 Unicode 箭头显示效果不尽如人意，我将其修改为了 ASCII 字符。
 
-这些主题的源码可以在 [Gist](https://gist.github.com/printempw/1ae3b8ae3091a6cfd65a22e1872af7ab) 上查看。
+这些主题的源码可以在 [Gist](https://gist.github.com/prinsss/1ae3b8ae3091a6cfd65a22e1872af7ab) 上查看。
 
 ![my-custom-zsh-themes](zsh-prompt-theme-customization/my-custom-zsh-themes.png)
 

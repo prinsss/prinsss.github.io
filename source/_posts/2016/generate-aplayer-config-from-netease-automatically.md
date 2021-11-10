@@ -42,7 +42,7 @@ tags:
 
 于是我随便咕狗了一下，找到了用于发送 HTTP 请求的库 superagent，查了一会儿文档写了个自动转换的小脚本，托管在 Gist 上：
 
-<script src="https://gist.github.com/printempw/2bb8c1514589140f461630f21380867d.js"></script>
+<script src="https://gist.github.com/prinsss/2bb8c1514589140f461630f21380867d.js"></script>
 
 错误处理之类的懒得写了，反正可以直接看报错调试，又不是啥要紧的东西（笑）
 
