@@ -47,12 +47,15 @@ jobs:
       - name: Set up environment
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          DEPLOY_KEY_OLD: ${{ secrets.DEPLOY_KEY_OLD }}
         run: |
           sudo timedatectl set-timezone "Asia/Shanghai"
           mkdir -p ~/.ssh
           echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
+          echo "$DEPLOY_KEY_OLD" > ~/.ssh/id_rsa.old
+          chmod 600 ~/.ssh/id_rsa ~/.ssh/id_rsa.old
           ssh-keyscan github.com >> ~/.ssh/known_hosts
+          cp .github/workflows/ssh_config ~/.ssh/config
 
       - name: Deploy
         run: |
