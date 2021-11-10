@@ -19,31 +19,30 @@ jobs:
       - name: Checkout theme repo
         uses: actions/checkout@v2
         with:
-          repository: printempw/hexo-theme-murasaki
+          repository: prinsss/hexo-theme-murasaki
           ref: master
           path: themes/murasaki
 
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '14'
+          node-version: 17
 
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - name: Use yarn cache
+      - name: Cache pnpm modules
         uses: actions/cache@v2
-        id: yarn-cache
+        id: pnpm-cache
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-
+            ${{ runner.os }}-pnpm-
 
-      - name: Install dependencies
-        run: |
-          yarn install --prefer-offline --frozen-lockfile
+      - name: Set up pnpm and install dependencies
+        uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.21.0
+          run_install:
+            args: [--prefer-offline, --frozen-lockfile]
 
       - name: Set up environment
         env:
