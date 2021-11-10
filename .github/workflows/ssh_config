@@ -1,7 +1,7 @@
 Host gh_new
-  HostName github.com
-  IdentityFile ~/.ssh/id_rsa
+    HostName github.com
+    IdentityFile ~/.ssh/id_rsa
 
 Host gh_old
-  HostName github.com
-  IdentityFile ~/.ssh/id_rsa.old
+    HostName github.com
+    IdentityFile ~/.ssh/old_key
