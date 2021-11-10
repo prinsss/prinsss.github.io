@@ -5,8 +5,8 @@
 # Site
 title: PRIN BLOG
 subtitle: 半吊子全栈开发者的日常
-description: 这里是 printempw 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹水，偶尔也会写点正经文字。
-author: printempw
+description: 这里是 prin 的个人博客，基本上啥都写：开发心得分享，日常吐槽吹水，偶尔也会写点正经文字。
+author: prin
 language: zh-Hans
 timezone: Asia/Shanghai
 
@@ -89,7 +89,7 @@ theme_config:
   # https://twitter.com/imas_official/status/1287398983267049473
   primary_color: "#f34e6c"
   favicon: /images/favicon.png
-  keywords: "printempw, prin, blog, 博客, 独立博客"
+  keywords: "prin, prinsss, printempw, blog, 博客, 独立博客"
   canonical: true
   expired_warning: true
   menu_pages:
@@ -105,7 +105,7 @@ theme_config:
   menu_links:
     github:
       name: GitHub
-      path: https://github.com/printempw
+      path: https://github.com/prinsss
     twitter:
       name: Twitter
       path: https://twitter.com/printempw
@@ -145,7 +145,7 @@ hide_posts:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:printempw/printempw.github.io.git
+  repo: git@github.com:prinsss/prinsss.github.io.git
   branch: master
-  name: printempw
+  name: prin
   email: printempw@gmail.com

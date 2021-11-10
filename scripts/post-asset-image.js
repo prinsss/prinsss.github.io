@@ -6,7 +6,7 @@ if (!hexo.config.post_asset_folder) {
 }
 
 const chalk = require('chalk');
-const rootUrl = 'https://cdn.jsdelivr.net/gh/printempw/printempw.github.io@source/source/';
+const rootUrl = 'https://cdn.jsdelivr.net/gh/prinsss/prinsss.github.io@source/source/';
 
 function isRelativePath(url) {
   return !/^(http|https):\/\//.test(url);

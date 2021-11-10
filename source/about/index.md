@@ -1,7 +1,7 @@
 ---
 title:   '关于'
 date:    '2017-06-25 20:51:23'
-updated: '2021-03-14 22:20:00'
+updated: '2021-11-11 03:00:00'
 ---
 
 ## 欢迎来访
@@ -14,7 +14,7 @@ PRIN BLOG 是我的个人独立博客，基本上啥都写。原创内容多为�
 
 - 常用 ID：`prin`；
 - 菜鸡游戏玩家，业余普罗丢人，偶尔写点代码；
-- 最近的梦想是周游世界，去看看远方的星空；
+- 最近的梦想是周游世界，去看看远方的星空（然而现在连旅游的条件都没有……）；
 - 对文字排版与代码简洁有着苛刻的要求；
 - ~~精通 BUG 驱动开发的面向搜索引擎编程~~；
 - 热爱自由开放、美好与简单优雅的事物。
@@ -32,7 +32,7 @@ PRIN BLOG 是我的个人独立博客，基本上啥都写。原创内容多为�
 
 ## 关于博客
 
-本博客名为「PRIN BLOG」，建立于公元 2015 年 3 月 28 日。当前博客托管于 GitHub Pages，基于静态博客生成器 [Hexo](https://hexo.io/) 构建，主题是自己写的 [Murasaki](https://github.com/printempw/hexo-theme-murasaki/)。
+本博客名为「PRIN BLOG」，建立于公元 2015 年 3 月 28 日。当前博客托管于 GitHub Pages，基于静态博客生成器 [Hexo](https://hexo.io/) 构建，主题是自己写的 [Murasaki](https://github.com/prinsss/hexo-theme-murasaki/)。
 
 博客经历过几次大的变迁（按时间查找即可找到当初我写的记录博文）：
 
@@ -48,6 +48,7 @@ PRIN BLOG 是我的个人独立博客，基本上啥都写。原创内容多为�
 | 2016-12-25 | 启用新域名 `blessing.studio`                                 |
 | 2017-06-18 | 弃用 Ghost，改用静态博客生成器 Hexo                          |
 | 2018-08-24 | 迁移至 GitHub Pages                                          |
-| 2019-09-23 | 由 Blessing Studio 更名为 PRIN BLOG<br />域名更换为 `printempw.github.io`<br />启用新主题 [hexo-theme-murasaki](https://github.com/printempw/hexo-theme-murasaki/) |
-| 2020-03-15 | 启用短域名 `prin.pw`                                         |
-| 2020-05-02 | 启用短域名 `prin.studio`                                     |
+| 2019-09-23 | 由 Blessing Studio 更名为 PRIN BLOG<br />域名更换为 `printempw.github.io`<br />启用新主题 [hexo-theme-murasaki](https://github.com/prinsss/hexo-theme-murasaki/) |
+| 2020-03-15 | 启用短域名 `prin.pw` 和 `prin.studio`                         |
+| 2020-12-24 | 域名 `blessing.studio` 过期，且不再续费                        |
+| 2021-11-11 | GitHub 用户名修改为 `prinsss`，过渡期 Pages 维持原域名           |
