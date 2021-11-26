@@ -224,7 +224,7 @@ yay -S yaru-gnome-shell-theme yaru-gtk-theme yaru-icon-theme yaru-session
 
 原生的 GNOME 桌面其实并不是很好用，但是加上了各种扩展之后就会变得很强大（包括 Dock 之类的）。你可以在 [extensions.gnome.org](https://extensions.gnome.org/) 中查看所有可用的扩展。
 
->  如果你疑惑为什么叫 Shell，gnome-shell 和 gnome-terminal 有什么区别的话，可以看看 [这篇文章](https://printempw.github.io/the-difference-between-cli-terminal-shell-tty/)。
+>  如果你疑惑为什么叫 Shell，gnome-shell 和 gnome-terminal 有什么区别的话，可以看看 [这篇文章](https://prinsss.github.io/the-difference-between-cli-terminal-shell-tty/)。
 
 Manjaro 默认安装就自带了这些 GNOME Shell 扩展：
 

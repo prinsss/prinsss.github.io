@@ -8,7 +8,7 @@ tags:
   - Mac
 ---
 
-今天闲来无事，数了一下服务器上在跑的东西，打算把它们都扔到 Docker 里面去。第一个开刀的就是之前写的 [Google Analytics 博客阅读量统计](https://printempw.github.io/google-analytics-api-page-views-counter/)，很简单的一个 Node.js + Express 程序。
+今天闲来无事，数了一下服务器上在跑的东西，打算把它们都扔到 Docker 里面去。第一个开刀的就是之前写的 [Google Analytics 博客阅读量统计](https://prinsss.github.io/google-analytics-api-page-views-counter/)，很简单的一个 Node.js + Express 程序。
 
 写完 [Dockerfile](https://github.com/printempw/google-analytics-hit-counter) 测试好，正准备 push 上去时，我才突然想起来：
 

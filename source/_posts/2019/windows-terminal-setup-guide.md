@@ -19,7 +19,7 @@ tags:
 
 根据官方介绍，Windows Terminal 是一个面向命令行用户的全新、现代化、功能丰富的高性能终端应用程序。它在实现了社区用户热切期望的许多功能的同时（包括多标签页、富文本、全球化、可配置性、对主题与样式的支持等），依然保持快速与高效，不会消耗大量的内存或电量。
 
-> 不清楚什么是终端？来看看这篇博客吧：[命令行界面 (CLI)、终端 (Terminal)、Shell、TTY，傻傻分不清楚？](https://printempw.github.io/the-difference-between-cli-terminal-shell-tty/)
+> 不清楚什么是终端？来看看这篇博客吧：[命令行界面 (CLI)、终端 (Terminal)、Shell、TTY，傻傻分不清楚？](https://prinsss.github.io/the-difference-between-cli-terminal-shell-tty/)
 
 说得挺唬人，不过到底也就是一个终端模拟器，玩不出什么花儿来。终端一抓一大把，mintty、ConEmu、Hyper、Terminus……有什么特别的理由用 WT 吗？
 
@@ -258,7 +258,7 @@ New-Item -Path "$basePath\wt\command" -Force -Type ExpandString -Value '"%LOCALA
 
 **我认为，真正决定操作系统命令行体验的，不是终端，是 Shell。**诚然，如果终端很漂亮的话，光看着也非常赏心悦目，但如果其中的 Shell 是 `cmd.exe`，那实际体验可能就令人抓狂了。
 
-在之前[介绍 WSL 的文章](https://printempw.github.io/wsl-guide/)中我也说过，我喜欢 WSL 的原因之一，就是它提供了一种以类 Unix 系统命令行的那一套东西去操作 Windows 的能力（比如 Bash 和各种 GNU 小工具）。PowerShell 是不错，论强大肯定不输给任何命令行 Shell，但我用不惯呀（不过最近我也有在学习）。以前的 Cygwin 等项目虽然也能达成同样的效果，但是因为其底层实现的不同，还是 WSL 来得更舒适一些。
+在之前[介绍 WSL 的文章](https://prinsss.github.io/wsl-guide/)中我也说过，我喜欢 WSL 的原因之一，就是它提供了一种以类 Unix 系统命令行的那一套东西去操作 Windows 的能力（比如 Bash 和各种 GNU 小工具）。PowerShell 是不错，论强大肯定不输给任何命令行 Shell，但我用不惯呀（不过最近我也有在学习）。以前的 Cygwin 等项目虽然也能达成同样的效果，但是因为其底层实现的不同，还是 WSL 来得更舒适一些。
 
 所以当我得知 WSL2 底层实现换成了虚拟机的时候是很抗拒的。系统调用翻译层的设计不是很惊艳吗？怎么直接就变成个小 VM 了？原本 WSL 最为人称道的（至少我是如此）互操作性要怎么办？距离我接受 WSL2，看来还是需要一定的时间。
 

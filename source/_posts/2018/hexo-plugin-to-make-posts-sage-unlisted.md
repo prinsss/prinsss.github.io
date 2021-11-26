@@ -29,4 +29,4 @@ tags:
 
 至于插件的原理嘛，简单来说就是在 Hexo 运行 [generator](https://hexo.io/zh-cn/api/generator.html) 之前修改储存所有文章的变量 `hexo.locals.posts`，从中排除掉被标记为 `hidden: true` 的文章，这样所有的 generator（用于生成首页、存档页、Feed 等）都会直接忽略掉这些文章。接下来我们覆写了原来的 `post` generator（它用于生成具体的文章页面），让它能正常处理那些被隐藏的文章。这样的结果就是，`post` generator 会帮我们生成具体的文章页面（即 `public/{slug}/index.html`），但是其他所有的页面中都不会包含这篇文章，除非你手动在其他文章中添加了该文章的链接。
 
-对具体实现有兴趣的话可以直接去看插件源码，注释我也写得蛮详细的（不如说注释都要比源码多了）。另外，还是要再吐槽一下 Hexo 的辣鸡文档（上一次吐槽是 [移植主题](https://printempw.github.io/get-hexo-posts-by-category-or-tag/) 的时候），为了写这个插件我基本上把 Hexo 的源码都翻了一遍，绝了。
+对具体实现有兴趣的话可以直接去看插件源码，注释我也写得蛮详细的（不如说注释都要比源码多了）。另外，还是要再吐槽一下 Hexo 的辣鸡文档（上一次吐槽是 [移植主题](https://prinsss.github.io/get-hexo-posts-by-category-or-tag/) 的时候），为了写这个插件我基本上把 Hexo 的源码都翻了一遍，绝了。

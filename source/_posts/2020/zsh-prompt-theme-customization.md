@@ -16,7 +16,7 @@ tags:
 
 开始动手之前，先来了解一下类 Unix 系统中命令行的一些基础知识。如果你之前有过自定义 Bash 等 Shell 的提示符的经验，可以直接跳过这一段，毕竟除了一些 Zsh 特有的东西之外都是一样的。
 
-> 再次推荐一下我的这篇文章：[命令行界面 (CLI)、终端 (Terminal)、Shell、TTY，傻傻分不清楚？](https://printempw.github.io/the-difference-between-cli-terminal-shell-tty/)
+> 再次推荐一下我的这篇文章：[命令行界面 (CLI)、终端 (Terminal)、Shell、TTY，傻傻分不清楚？](https://prinsss.github.io/the-difference-between-cli-terminal-shell-tty/)
 
 ![shell-prompt](zsh-prompt-theme-customization/shell-prompt.png)
 

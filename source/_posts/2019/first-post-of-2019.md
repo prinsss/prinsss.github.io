@@ -26,7 +26,7 @@ tags:
 
 以前的读者们可能还有印象，自从我开始写博客的这几年来，主题一直都没变过。
 
-Seventeen 原本是一个付费的 WordPress 主题，其漂亮的外观让当时还是建站萌新的我就对它一见钟情。之后不论是 [迁移至 Ghost](https://printempw.github.io/hello-ghost-goodbye-wordpress/)，还是 [迁移至 Hexo](https://printempw.github.io/migrated-to-hexo/)，我都把它移植到了相应的平台。（至今为止有很多人找我问过这个主题，但毕竟原本是付费的，原作者也早就已经停止了贩卖，所以我不能把它分享出来。~~说实话我也联系不上原作者了~~）
+Seventeen 原本是一个付费的 WordPress 主题，其漂亮的外观让当时还是建站萌新的我就对它一见钟情。之后不论是 [迁移至 Ghost](https://prinsss.github.io/hello-ghost-goodbye-wordpress/)，还是 [迁移至 Hexo](https://prinsss.github.io/migrated-to-hexo/)，我都把它移植到了相应的平台。（至今为止有很多人找我问过这个主题，但毕竟原本是付费的，原作者也早就已经停止了贩卖，所以我不能把它分享出来。~~说实话我也联系不上原作者了~~）
 
 修修补补，数经风雨，它就这么陪伴了我四年时光。
 
@@ -44,7 +44,7 @@ Seventeen 原本是一个付费的 WordPress 主题，其漂亮的外观让当�
 
 也没啥特别的理由，真要说的话就是想表明我对生活的态度，以及我想在这浩如烟海的 Cyberworld 中留下点什么痕迹的愿望。还有就是看起来更装逼一点（
 
-因为博客改名了，原来的域名 [blessing.studio](https://blessing.studio) 也就一起 deprecated 掉了，目前是 301 重定向到当前的域名 [printempw.github.io](https://printempw.github.io) 上。对，就是 GitHub Pages 的默认域名。虽然没那么个性，但不用担心过期失效，所以普普通通的也挺好。
+因为博客改名了，原来的域名 [blessing.studio](https://blessing.studio) 也就一起 deprecated 掉了，目前是 301 重定向到当前的域名 [printempw.github.io](https://prinsss.github.io) 上。对，就是 GitHub Pages 的默认域名。虽然没那么个性，但不用担心过期失效，所以普普通通的也挺好。
 
 另外我还买了个域名 [printem.pw](https://printem.pw) 指向这里，虽然不会作为主域名，不过放到外面个人资料之类的地方也还是蛮拉风的。
 

@@ -13,9 +13,9 @@ tags:
 
 <!--more-->
 
-这也是我为什么总是吐槽 Laravel 文档有些地方很烂的原因 —— 很多时候你为了实现一个文档里没提到的功能，需要去翻半天 Laravel 的框架源码才能找到解决方法（我博客的 [Laravel 标签](https://printempw.github.io/tag/Laravel/) 下已经有不少这样的踩坑文了）。虽然 Laravel 框架的源码很优雅，看着也不会难受，但是在一堆文件中跳来跳去寻找逻辑浪费脑细胞的行为还是能省则省吧 :(
+这也是我为什么总是吐槽 Laravel 文档有些地方很烂的原因 —— 很多时候你为了实现一个文档里没提到的功能，需要去翻半天 Laravel 的框架源码才能找到解决方法（我博客的 [Laravel 标签](https://prinsss.github.io/tag/Laravel/) 下已经有不少这样的踩坑文了）。虽然 Laravel 框架的源码很优雅，看着也不会难受，但是在一堆文件中跳来跳去寻找逻辑浪费脑细胞的行为还是能省则省吧 :(
 
-这次要实现的功能是在运行时动态加载自定义的 Artisan Command（更详细一些的需求就是在皮肤站的一个插件中注册 Artisan 命令，Laravel 插件系统的实现可以参考我之前的 [另一篇文章](https://printempw.github.io/laravel-plugin-system-1/)）。
+这次要实现的功能是在运行时动态加载自定义的 Artisan Command（更详细一些的需求就是在皮肤站的一个插件中注册 Artisan 命令，Laravel 插件系统的实现可以参考我之前的 [另一篇文章](https://prinsss.github.io/laravel-plugin-system-1/)）。
 
 ## TL;DR 太长不看
 

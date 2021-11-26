@@ -8,7 +8,7 @@ tags:
   - 博客
 ---
 
-联动三年前的文章：[使用 Travis CI 自动部署 Hexo 博客](https://printempw.github.io/deploy-hexo-blog-automatically-with-travis-ci/)
+联动三年前的文章：[使用 Travis CI 自动部署 Hexo 博客](https://prinsss.github.io/deploy-hexo-blog-automatically-with-travis-ci/)
 
 今天更新了一下博客，寻思着好歹也改一下页脚的 Copyright 年份，改完 push 上去以后却发现 GitHub Pages 迟迟没有更新。进去 Travis CI 一看，发现任务一直处于 Queued 状态，半小时了都没开始构建。
 

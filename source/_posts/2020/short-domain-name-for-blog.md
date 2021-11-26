@@ -28,7 +28,7 @@ tags:
 
 -----
 
-其实我这个博客以前就是用的私有域名，还[换过好几个](https://printempw.github.io/about/#%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2)。那为什么后来改成现在这个毫无特色的 GitHub 二级域名了呢？
+其实我这个博客以前就是用的私有域名，还[换过好几个](https://prinsss.github.io/about/#%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2)。那为什么后来改成现在这个毫无特色的 GitHub 二级域名了呢？
 
 之前的博文里也有零星提到过，我这人有种特殊的情结，总是希望自己能在浩如烟海的 Internet 上留下些什么痕迹，证明我曾经来到过、享受过这个赛博空间，甚至为其做出过一些微小的贡献。
 
@@ -48,6 +48,6 @@ tags:
 
 > **2020-05-02 更新**：我又摸了个域名 **[prin.studio](https://prin.studio/)**，稍微好记一点（
 
-不过主域名还是继续使用 **[printempw.github.io](https://printempw.github.io)**，包括短域名上的页面也都通过 [rel=canonical &lt;link&gt; 标记](https://support.google.com/webmasters/answer/139066) 指向主域名了，所以搜索引擎上出现的结果肯定还是指向这个二级域名的，交换友链的朋友也请尽量使用主域名。
+不过主域名还是继续使用 **[printempw.github.io](https://prinsss.github.io)**，包括短域名上的页面也都通过 [rel=canonical &lt;link&gt; 标记](https://support.google.com/webmasters/answer/139066) 指向主域名了，所以搜索引擎上出现的结果肯定还是指向这个二级域名的，交换友链的朋友也请尽量使用主域名。
 
 嗯，要说的就这些，破事水，完毕。🤞

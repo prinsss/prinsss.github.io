@@ -7,7 +7,7 @@ tags:
   - Apple
 ---
 
-继 [AirPods 2](https://printempw.github.io/airpods-2-are-great/) 之后，前段时间我又没忍住，入手了传说中的~~豌豆射手~~ AirPods Pro。
+继 [AirPods 2](https://prinsss.github.io/airpods-2-are-great/) 之后，前段时间我又没忍住，入手了传说中的~~豌豆射手~~ AirPods Pro。
 
 第一次体验到的「主动降噪」功能确实惊艳，虽然感觉对人声的处理还是差了点意思，但开和不开真的是两种完全不同的感受。尤其是乘坐公共交通的时候，感觉是终于夺回了一点耳朵的主导权，不用再一味地被各种噪声强奸了。
 

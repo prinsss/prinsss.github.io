@@ -11,7 +11,7 @@ tags:
 
 是的，我又双叒叕换博客程序了。
 
-话是这样说，其实也没有很频繁啦，上一次从 [WordPress 迁移至 Ghost](https://printempw.github.io/hello-ghost-goodbye-wordpress/) 已经是一年多前的事了。这次是从 Ghost 迁移至 [Hexo](https://hexo.io/)，一个静态博客生成器。总体来看，我对博客程序的选择是越来越轻~~（zhuang）~~量~~（bi）~~化了。
+话是这样说，其实也没有很频繁啦，上一次从 [WordPress 迁移至 Ghost](https://prinsss.github.io/hello-ghost-goodbye-wordpress/) 已经是一年多前的事了。这次是从 Ghost 迁移至 [Hexo](https://hexo.io/)，一个静态博客生成器。总体来看，我对博客程序的选择是越来越轻~~（zhuang）~~量~~（bi）~~化了。
 
 目前，本博客已经完全迁移至 Hexo，包括所有的文章和主题。不过话说回来现在回头去看两年多前写的文章，真的挺尬的，行文风格完全不一样，超尬 (つд⊂) 目前我在用的这个主题（[Seventeen](https://qaq.cat/kotori/100)）已经陪了我快三年了，之前我把它从 WordPress 移植到 Ghost，现在到了 Hexo 我又把它给移植过来了，我也是爱得深沉啊（笑）
 
@@ -43,7 +43,7 @@ tags:
 - 没有原生评论系统，你必须和其他静态博客一样去使用如 Disqus、多说（已经倒闭了）之类的第三方评论系统；
 - 没有搜索功能。为什么你一个动态博客和静态博客一样不支持站内搜索？极简风？
 - 没有附件上传功能。好吧我也用不到这个，交给图床去做；
-- 不支持用户自行截取文章摘要，不[修改源码](https://printempw.github.io/add-more-tag-for-ghost/)无法实现类似 WordPress 的 `<!--more-->` 功能；
+- 不支持用户自行截取文章摘要，不[修改源码](https://prinsss.github.io/add-more-tag-for-ghost/)无法实现类似 WordPress 的 `<!--more-->` 功能；
 - 虽是打着简洁轻便优美的名头，但是在我看来 Ghost 整体已经日渐臃肿，尤其是 1.0 Alpha 版，看源码看得我一个头两个大。当然，你也可以说是我太low，不懂它的架构优雅😀
 - Markdown 支持不好，渲染经常出问题，而且连个表格都没得插；
 

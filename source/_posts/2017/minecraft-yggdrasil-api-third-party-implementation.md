@@ -73,7 +73,7 @@ tags:
 
 authlib-injector 官方也提供了一个 Java 编写的后端 [yggdrasil-mock](https://github.com/to2mbn/yggdrasil-mock)，虽然完整实现了 Yggdrasil API，但是它并没有提供直观的管理网页，只提供了一套 RESTful API，所以距离实装要求还是差得比较远的。
 
-要重头开发一套这样的系统是非常非常够呛的，不过幸运的是，我之前一直在持续开发的 Minecraft 皮肤站 [Blessing Skin Server](https://github.com/printempw/blessing-skin-server)，这个项目的 v3 版本**正好**就满足的这些要求 —— 友好的用户界面、完善的用户系统、强大的后台管理、附带皮肤上传管理展示功能，再加上我之前开发的[插件系统](https://printempw.github.io/laravel-plugin-system-1/)（开发这玩意真是个正确的决定，一劳永逸啊） ，这让我可以很方便地开发一个插件出来，直接基于现成的皮肤站用户系统实现 Yggdrasil API。
+要重头开发一套这样的系统是非常非常够呛的，不过幸运的是，我之前一直在持续开发的 Minecraft 皮肤站 [Blessing Skin Server](https://github.com/printempw/blessing-skin-server)，这个项目的 v3 版本**正好**就满足的这些要求 —— 友好的用户界面、完善的用户系统、强大的后台管理、附带皮肤上传管理展示功能，再加上我之前开发的[插件系统](https://prinsss.github.io/laravel-plugin-system-1/)（开发这玩意真是个正确的决定，一劳永逸啊） ，这让我可以很方便地开发一个插件出来，直接基于现成的皮肤站用户系统实现 Yggdrasil API。
 
 ![API](https://i.loli.net/2017/08/04/59846283822ac.png)
 

@@ -22,7 +22,7 @@ Disqus 评论系统以其几乎零配置的安装方式为众人所称道。只�
 
 ![disqus-discussions-weird-url](https://img.prin.studio/images/2019/09/26/disqus-discussions-weird-url.png)
 
-> 顺带一提，根据不同 URL 的数量来看（比如微信的 `?nsukey=`），所有文章里被分享次数最多的是「[为何 shadowsocks 要弃用一次性验证 (OTA)](https://printempw.github.io/why-do-shadowsocks-deprecate-ota/)」，足足有 400 多条。其他还有「[Twitter 账号被锁定是种怎样的体验](https://printempw.github.io/twitter-account-has-been-locked/)」「[命令行界面 (CLI)、终端 (Terminal)、Shell、TTY，傻傻分不清楚？](https://printempw.github.io/the-difference-between-cli-terminal-shell-tty/)」等文章也比较受欢迎。
+> 顺带一提，根据不同 URL 的数量来看（比如微信的 `?nsukey=`），所有文章里被分享次数最多的是「[为何 shadowsocks 要弃用一次性验证 (OTA)](https://prinsss.github.io/why-do-shadowsocks-deprecate-ota/)」，足足有 400 多条。其他还有「[Twitter 账号被锁定是种怎样的体验](https://prinsss.github.io/twitter-account-has-been-locked/)」「[命令行界面 (CLI)、终端 (Terminal)、Shell、TTY，傻傻分不清楚？](https://prinsss.github.io/the-difference-between-cli-terminal-shell-tty/)」等文章也比较受欢迎。
 
 为什么会这样呢？问题就出在「无需配置也能用」上。
 
@@ -78,10 +78,10 @@ s.setAttribute('data-timestamp', +new Date());
 举个栗子：
 
 ```csv
-https://printempw.github.io/why-do-shadowsocks-deprecate-ota/?nsukey=乱七八糟一大串,https://printempw.github.io/why-do-shadowsocks-deprecate-ota/
-https://printempw.github.io/wsl-guide/?nsukey=乱七八糟一大串,https://printempw.github.io/wsl-guide/
-https://printempw.github.io/friends/index.html,https://printempw.github.io/friends/
-http://localhost:4000/setup-nginx-php-on-windows/,https://printempw.github.io/404.html
+https://prinsss.github.io/why-do-shadowsocks-deprecate-ota/?nsukey=乱七八糟一大串,https://prinsss.github.io/why-do-shadowsocks-deprecate-ota/
+https://prinsss.github.io/wsl-guide/?nsukey=乱七八糟一大串,https://prinsss.github.io/wsl-guide/
+https://prinsss.github.io/friends/index.html,https://prinsss.github.io/friends/
+http://localhost:4000/setup-nginx-php-on-windows/,https://prinsss.github.io/404.html
 ```
 
 在刚才那个页面上传修改过的 CSV，Disqus 后台就会开始迁移，迁移结束之后会有邮件提醒。

@@ -25,7 +25,7 @@ OTA（One Time Auth，[一次性验证](https://shadowsocks.org/en/spec/one-time
 
 ## 二、原协议的弱点
 
-原 shadowsocks 协议的这个漏洞其实早在 2015 年就被 [@breakwa11](https://github.com/breakwa11) 提出了。当时正值 @clowwindy [被喝茶](https://printempw.github.io/about-clowwindy-archive/)之际，此 issue 下闹得沸沸扬扬撕逼不断，过了好一段时间后才开始有正经的技术讨论。
+原 shadowsocks 协议的这个漏洞其实早在 2015 年就被 [@breakwa11](https://github.com/breakwa11) 提出了。当时正值 @clowwindy [被喝茶](https://prinsss.github.io/about-clowwindy-archive/)之际，此 issue 下闹得沸沸扬扬撕逼不断，过了好一段时间后才开始有正经的技术讨论。
 
 如果你想要了解一下当时的情况可以去看看 [这个 issue](https://github.com/breakwa11/shadowsocks-rss/issues/38)，我这里简略概括一下当时提出的漏洞。
 

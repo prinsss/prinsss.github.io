@@ -8,7 +8,7 @@ tags:
   - C/C++
 ---
 
-去年我写过一篇博客「[使用 VS Code 搭建适用于 ACM 练习的 C/C++ 开发环境](https://printempw.github.io/vscode-c-cpp-configuration-for-acm-oj/)」，主要介绍了在 VS Code 里跑简单 C 程序的一些方法。不过那篇文章里介绍的方法仅适用于单文件程序，所以稍微大一点的项目就力不从心了。
+去年我写过一篇博客「[使用 VS Code 搭建适用于 ACM 练习的 C/C++ 开发环境](https://prinsss.github.io/vscode-c-cpp-configuration-for-acm-oj/)」，主要介绍了在 VS Code 里跑简单 C 程序的一些方法。不过那篇文章里介绍的方法仅适用于单文件程序，所以稍微大一点的项目就力不从心了。
 
 但是对于课程设计这类，说大不大说小也不算小的 C++ 项目，也不是特别想用大型 IDE……所以我更新了一下相关的 VSC 配置，使其也能用于多文件的 C++ 项目。
 

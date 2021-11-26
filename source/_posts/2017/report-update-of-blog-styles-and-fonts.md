@@ -76,7 +76,7 @@ $('#sbpin').affix({
 
 ### 改进侧边栏在手机上的表现
 
-以前手机上侧边栏是直接隐藏起来的，只保留最上面的名片部分，因此侧边栏上的 [Hitokoto](https://printempw.github.io/a-hitokoto-crawler/) 小工具和 [Do you like me](https://printempw.github.io/do-you-like-me-mysqli-version/) 小工具在手机上都不可见了，还是比较蛋疼的。
+以前手机上侧边栏是直接隐藏起来的，只保留最上面的名片部分，因此侧边栏上的 [Hitokoto](https://prinsss.github.io/a-hitokoto-crawler/) 小工具和 [Do you like me](https://prinsss.github.io/do-you-like-me-mysqli-version/) 小工具在手机上都不可见了，还是比较蛋疼的。
 
 我稍微修改了一下，现在侧边栏的内容在手机上会被放到所有内容的底部。这样的好处是一进入文章页首屏就是正文，而不是像以前那样首屏是我的名片。
 
@@ -96,7 +96,7 @@ $('#sbpin').affix({
 
 <script src="https://gist.github.com/prinsss/e31ae00ddbadf1b0237c56a36e7ee6b1.js"></script>
 
-上面那个「点击加载 Gist」按钮也是我之前[折腾](https://printempw.github.io/how-to-load-gist-dynamically-via-clicking-button/)的。
+上面那个「点击加载 Gist」按钮也是我之前[折腾](https://prinsss.github.io/how-to-load-gist-dynamically-via-clicking-button/)的。
 
 ### 添加文章目录 TOC
 
@@ -108,7 +108,7 @@ $('#sbpin').affix({
 
 很惭愧，做了点微小的工作。附上以前我对博客样式的折腾：
 
-- [最近有点迷上字体排印学了](https://printempw.github.io/wow-typography/) *2015-11-16*
-- [对博客进行了稍微的调教](https://printempw.github.io/adjust-blog/) *2015-08-03*
+- [最近有点迷上字体排印学了](https://prinsss.github.io/wow-typography/) *2015-11-16*
+- [对博客进行了稍微的调教](https://prinsss.github.io/adjust-blog/) *2015-08-03*
 
 如果哪里样式有不对头，或者对本博客的样式有什么意见/建议的话，请在下方评论区告诉我 :D

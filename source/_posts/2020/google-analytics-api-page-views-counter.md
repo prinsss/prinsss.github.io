@@ -7,7 +7,7 @@ tags:
   - 博客
 ---
 
-前段时间，Google Analytics 给我发了封邮件，说二月份我的博客有 9.3K 的 UV。点进去看了看热门的文章，访问量最多的是「[Twitter 账号被锁定是种怎样的体验](https://printempw.github.io/twitter-account-has-been-locked/)」（17 年的博文了……），其他比较高的还有以前写的教程「[Windows Terminal 安装与配置指南](https://printempw.github.io/windows-terminal-setup-guide/)」「[WSL 配置指北：打造 Windows 最强命令行](https://printempw.github.io/wsl-guide/)」，以及后起之秀「[记一次 HNS 币空投薅 $500 羊毛的经历](https://printempw.github.io/namebase-handshake-airdrop/)」，很真实。
+前段时间，Google Analytics 给我发了封邮件，说二月份我的博客有 9.3K 的 UV。点进去看了看热门的文章，访问量最多的是「[Twitter 账号被锁定是种怎样的体验](https://prinsss.github.io/twitter-account-has-been-locked/)」（17 年的博文了……），其他比较高的还有以前写的教程「[Windows Terminal 安装与配置指南](https://prinsss.github.io/windows-terminal-setup-guide/)」「[WSL 配置指北：打造 Windows 最强命令行](https://prinsss.github.io/wsl-guide/)」，以及后起之秀「[记一次 HNS 币空投薅 $500 羊毛的经历](https://prinsss.github.io/namebase-handshake-airdrop/)」，很真实。
 
 看着报表上的访问量排名，我突然一寻思，这白花花的数据都在眼前，那能不能利用 GA 里的这些数据，给博客加个访问计数、阅读量统计功能呢？
 
@@ -219,8 +219,8 @@ CloudFlare Workers 上遇到的问题是 CPU 执行时间超时（script exceede
 
 我捣鼓博客这几年以来，在阅读量统计上也花过一些心思：
 
-- [为 Ghost 博客添加页面访问计数器](https://printempw.github.io/add-page-view-counter-for-ghost-blog/)
-- [为 Hexo 博客添加页面访问计数器](https://printempw.github.io/add-page-view-counter-for-hexo/)
+- [为 Ghost 博客添加页面访问计数器](https://prinsss.github.io/add-page-view-counter-for-ghost-blog/)
+- [为 Hexo 博客添加页面访问计数器](https://prinsss.github.io/add-page-view-counter-for-hexo/)
 
 直接使用 GA 的数据作为阅读量展示，有其优势也有其局限性。优势是不用自己维护统计的后端了，一个 GA 统计代码就可以通吃，数据也比较一致。
 

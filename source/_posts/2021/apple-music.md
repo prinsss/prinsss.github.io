@@ -82,7 +82,7 @@ Apple Music 官方说的是「7000万曲聴き放題」，在日本所有音乐�
 
 iTunes Store 作为日本最大的音乐在线配信平台，可以说大部分的歌如果有在网上卖，那肯定有在 iTunes Store 上卖；如果 iTunes Store 上没有，那八成就是没有在网上卖。
 
-有些音乐 Apple Music 上没有提供，但是 iTunes Store 上是有卖的，比如「宇宙よりも遠い場所」「少女終末旅行」的 OP、ED、插入歌专辑。还有 [IM@S 偶像大师系列](https://printempw.github.io/the-idolmaster/)，万南不肯流媒体配信，唯一支持的 ANiUTa 还全都只有 short version，想第一时间听到新曲就只能上 iTunes Store 了。
+有些音乐 Apple Music 上没有提供，但是 iTunes Store 上是有卖的，比如「宇宙よりも遠い場所」「少女終末旅行」的 OP、ED、插入歌专辑。还有 [IM@S 偶像大师系列](https://prinsss.github.io/the-idolmaster/)，万南不肯流媒体配信，唯一支持的 ANiUTa 还全都只有 short version，想第一时间听到新曲就只能上 iTunes Store 了。
 
 毕竟都是水果家的服务，iTunes Store 上购买的专辑与单曲，也可以直接在 Apple Music 的应用中播放（废话）。
 
