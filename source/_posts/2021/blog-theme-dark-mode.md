@@ -54,7 +54,7 @@ body {
 
 ## 使用 mixin 处理颜色
 
-拿我自己写的这个[主题](https://github.com/printempw/hexo-theme-murasaki)举例，在主题中我们一般会用到很多颜色。一个常见的做法就是使用 CSS 预处理器，把这些颜色定义成变量方便后续使用（我用的是 [Stylus](https://stylus-lang.com/)）：
+拿我自己写的这个[主题](https://github.com/prinsss/hexo-theme-murasaki)举例，在主题中我们一般会用到很多颜色。一个常见的做法就是使用 CSS 预处理器，把这些颜色定义成变量方便后续使用（我用的是 [Stylus](https://stylus-lang.com/)）：
 
 ```stylus
 $color-primary        = convert(hexo-config('primary_color'));

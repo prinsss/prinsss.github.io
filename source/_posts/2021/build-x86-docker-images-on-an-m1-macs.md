@@ -10,7 +10,7 @@ tags:
 
 今天闲来无事，数了一下服务器上在跑的东西，打算把它们都扔到 Docker 里面去。第一个开刀的就是之前写的 [Google Analytics 博客阅读量统计](https://prinsss.github.io/google-analytics-api-page-views-counter/)，很简单的一个 Node.js + Express 程序。
 
-写完 [Dockerfile](https://github.com/printempw/google-analytics-hit-counter) 测试好，正准备 push 上去时，我才突然想起来：
+写完 [Dockerfile](https://github.com/prinsss/google-analytics-hit-counter) 测试好，正准备 push 上去时，我才突然想起来：
 
 我现在用的是 M1 MacBook，**丫的默认 build 出来的镜像是 `arm64` 架构的呀！**
 
@@ -58,7 +58,7 @@ Platforms: linux/arm64, linux/amd64, linux/riscv64, linux/ppc64le, linux/s390x, 
 ```bash
 docker buildx build \
   --platform linux/amd64,linux/arm64
-  --push -t printempw/google-analytics-hit-counter .
+  --push -t prinsss/google-analytics-hit-counter .
 ```
 
 其中 `-t` 参数指定远程仓库，`--push` 表示将构建好的镜像推送到 Docker 仓库。如果不想直接推送，也可以改成 `--load`，即将构建结果加载到镜像列表中。
@@ -68,20 +68,20 @@ docker buildx build \
 构建完 push 上去以后，可以查看远程仓库的 manifest：
 
 ```bash
-docker buildx imagetools inspect printempw/google-analytics-hit-counter
+docker buildx imagetools inspect prinsss/google-analytics-hit-counter
 ```
 
 ```text
-Name:      docker.io/printempw/google-analytics-hit-counter:latest
+Name:      docker.io/prinsss/google-analytics-hit-counter:latest
 MediaType: application/vnd.docker.distribution.manifest.list.v2+json
 Digest:    sha256:a9a8d097abb4fce257ae065365be19accebce7d95df58142d6332270cb3e3478
 
 Manifests:
-  Name:      docker.io/printempw/google-analytics-hit-counter:latest@sha256:bb7f3a996b66a1038de77db9289215ef01b18e685587e2ec4bb0a6403cc7ce78
+  Name:      docker.io/prinsss/google-analytics-hit-counter:latest@sha256:bb7f3a996b66a1038de77db9289215ef01b18e685587e2ec4bb0a6403cc7ce78
   MediaType: application/vnd.docker.distribution.manifest.v2+json
   Platform:  linux/amd64
 
-  Name:      docker.io/printempw/google-analytics-hit-counter:latest@sha256:94ea08ac45f38860254e5de2bae77dee6288dd7c9404d8da8a3578d6912e68e7
+  Name:      docker.io/prinsss/google-analytics-hit-counter:latest@sha256:94ea08ac45f38860254e5de2bae77dee6288dd7c9404d8da8a3578d6912e68e7
   MediaType: application/vnd.docker.distribution.manifest.v2+json
   Platform:  linux/arm64
 ```

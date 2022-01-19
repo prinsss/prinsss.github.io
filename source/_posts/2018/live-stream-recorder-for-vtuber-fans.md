@@ -40,7 +40,7 @@ tags:
 
 好歹我也会捣鼓点代码，于是我就写了几个脚本来完成我的需求（让计算机按照自己的意愿工作，我觉得这就是编程的醍醐味），监视 YouTube、OPENREC、Twitch、TwitCasting 等平台，只要主播一开播就自动开始录像。代码开源在 GitHub 上：
 
-👉 [**printempw/live-stream-recorder**](https://github.com/printempw/live-stream-recorder) 👈
+👉 [**prinsss/live-stream-recorder**](https://github.com/prinsss/live-stream-recorder) 👈
 
 脚本是我几个月前写的，跑得还算安稳，也成功帮我录下了不少惨遭 Mea 削除存档的直播，可喜可贺。因为当时搜索类似解决方案时基本没看到几个，所以最近把代码整理了一下，糊了个像样的文档分享出来。使用方法都在项目 README 里说明了，这里就不再赘述。
 

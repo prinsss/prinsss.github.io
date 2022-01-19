@@ -29,7 +29,7 @@ tags:
 
 这样的话我们只需要在应用启动的时候实例化一个 `OptionRepository` 类，在构造函数里读入所有的 `options` 并放到类内属性上，`get` 方法直接从该属性里取值，而调用 `set` 操作的时候则对该属性进行修改，同时 push 修改过的 `key` 到一个 `$items_modified` 数组里去，在对象析构的时候再真正执行数据库操作，写入所有修改过的 `options`。
 
-`OptionRepository` 类的具体实现可以看这里：[App\Services\OptionRepository](https://github.com/printempw/blessing-skin-server/blob/master/app/Services/OptionRepository.php)
+`OptionRepository` 类的具体实现可以看这里：[App\Services\OptionRepository](https://github.com/prinsss/blessing-skin-server/blob/master/app/Services/OptionRepository.php)
 
 不过光是实现了一个 Repository 还是不够的，我们还需要把它绑定到服务容器里，同时注册个 Facade 给它，让我们能够更优雅地调用仓库类的相关方法：
 

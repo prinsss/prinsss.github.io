@@ -20,7 +20,7 @@ tags:
 
 <!--more-->
 
-然后我看了下列表里的博客们，托管在 GitHub Pages 上的博客也不在少数，看来这个所谓的「自己的域名」也是包括 `printempw.github.io` 这类二级域名的，可能博客园、CSDN 那类的才不算吧。
+然后我看了下列表里的博客们，托管在 GitHub Pages 上的博客也不在少数，看来这个所谓的「自己的域名」也是包括 `prinsss.github.io` 这类二级域名的，可能博客园、CSDN 那类的才不算吧。
 
 使用自定义域名当然不是什么难事，就算是放在 GitHub Pages 上也只需要整个 CNAME 解析一下就行了。所以使用私有域名与否，和博客本身的水平肯定是没有必然联系的，Medium 这类公共写作平台上还有不少大神呢。
 
@@ -48,6 +48,6 @@ tags:
 
 > **2020-05-02 更新**：我又摸了个域名 **[prin.studio](https://prin.studio/)**，稍微好记一点（
 
-不过主域名还是继续使用 **[printempw.github.io](https://prinsss.github.io)**，包括短域名上的页面也都通过 [rel=canonical &lt;link&gt; 标记](https://support.google.com/webmasters/answer/139066) 指向主域名了，所以搜索引擎上出现的结果肯定还是指向这个二级域名的，交换友链的朋友也请尽量使用主域名。
+不过主域名还是继续使用 **[printempw.github.io](https://printempw.github.io)**，包括短域名上的页面也都通过 [rel=canonical &lt;link&gt; 标记](https://support.google.com/webmasters/answer/139066) 指向主域名了，所以搜索引擎上出现的结果肯定还是指向这个二级域名的，交换友链的朋友也请尽量使用主域名。
 
 嗯，要说的就这些，破事水，完毕。🤞

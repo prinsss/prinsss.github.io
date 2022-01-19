@@ -7,12 +7,8 @@ tags:
   - Minecraft
 ---
 
-
 原文链接：[TFC Wiki](http://wiki.terrafirmacraft.com/Stone-Age_Guide)
 
 现在的进度。。两段。<del><span style="color: #999999;"> 有生之年系列</span></del>
 
-有人有兴趣吗？ 翻译项目托管在 [GitHub](https://github.com/printempw/TerraFirmaCraft-Wiki-Translation) 上。
-
-
-
+有人有兴趣吗？ 翻译项目托管在 [GitHub](https://github.com/prinsss/TerraFirmaCraft-Wiki-Translation) 上。

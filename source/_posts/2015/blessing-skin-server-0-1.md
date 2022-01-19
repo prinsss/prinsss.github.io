@@ -9,7 +9,6 @@ tags:
   - PHP
 ---
 
-
 ![bss upload](https://img.prin.studio/images/2016/01/2016-01-03_05-22-44.png)
 
 很久以前就有想写一个皮肤站的想法了，但是苦于没有时间且 PHP、前端的 coding 都不熟练，所以一直搁置着，当作一个目标。
@@ -40,7 +39,4 @@ Ajax 文件上传带 token POST 请求 `upload.php`，同样返回 json，上次
 
 - - - - - -
 
-项目开源在 [GitHub](https://github.com/printempw/blessing-skin-server) 上，欢迎 Pull Request~ 在线演示：[https://skin.prinzeugen.net/](https://skin.prinzeugen.net/)
-
-
-
+项目开源在 [GitHub](https://github.com/prinsss/blessing-skin-server) 上，欢迎 Pull Request~ 在线演示：[https://skin.prinzeugen.net/](https://skin.prinzeugen.net/)

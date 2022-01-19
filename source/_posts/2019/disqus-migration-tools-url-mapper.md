@@ -57,7 +57,7 @@ s.setAttribute('data-timestamp', +new Date());
 
 至于为什么我没配置 `url` 和 `identifier`，那就得问问我当初移植旧主题时脑子放到哪里去了。¯\\\_(ツ)_/¯
 
-在目前的 [Murasaki](https://github.com/printempw/hexo-theme-murasaki) 主题中，这两项分别被配置为文章的 permalink 与 slug。
+在目前的 [Murasaki](https://github.com/prinsss/hexo-theme-murasaki) 主题中，这两项分别被配置为文章的 permalink 与 slug。
 
 ## 使用 URL mapper 迁移评论
 

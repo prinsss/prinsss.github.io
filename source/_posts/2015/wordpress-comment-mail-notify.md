@@ -21,11 +21,11 @@ woc 窝当时心里真激动啊，这是评论者的一小步是人博客的一�
 
 遂搜索了一大堆方法，其中也踩了不少坑，在这里记录一下。
 
-原生 wp 的邮件发送是使用 php 的 mail() 函数，这点在后台登陆页的忘记密码处可以得知。你可以在 [探针](http://www.yahei.net/) 里查看你的 mail() 函数是否启用。使用 mail() 函数的方法请自行搜索。
+原生 wp 的邮件发送是使用 php 的 mail() 函数，这点在后台登陆页的忘记密码处可以得知。你可以在 [探针](http://www.yahei.net/) 里查看你的 mail() 函数是否启用。使用 mail() 函数的方法请自行搜索。
 
-首先去找一个启用 SMTP 的插件，这里推荐 Easy WP SMTP。配置不多说，请自行搞到能收到测试邮件。
+首先去找一个启用 SMTP 的插件，这里推荐 Easy WP SMTP。配置不多说，请自行搞到能收到测试邮件。
 
-如果你的主题自带回复提醒的话现在就可以测试一下了 // [坑1](#1)
+如果你的主题自带回复提醒的话现在就可以测试一下了 // [坑1](#1)
 
 对于没有这个功能主题，打开开主题的 function.php ，在合适位置加入如下代码：
 
@@ -40,11 +40,11 @@ woc 窝当时心里真激动啊，这是评论者的一小步是人博客的一�
 <table style="width: 99.8%; height: 99.8%;"><tbody><tr><td style="background: #FAFAFA url('https://files.prinzeugen.net/Resources/pics/mail_background.png');"><div style="background-color: white; border-top: 2px solid #12ADDB; box-shadow: 0 1px 3px #AAAAAA; line-height: 180%; padding: 0 15px 12px; width: 500px; margin: 50px auto; color: #555555; font-family: Century Gothic,Trebuchet MS,Hiragino Sans GB,微软雅黑,Microsoft Yahei,Tahoma,Helvetica,Arial,SimSun,sans-serif; font-size: 12px;">
 ## <span style="color: #12addb; font-weight: bold;">> </span>您在[ (ゝω·)~☆ kira ](https://prinzeugen.net)博客上的留言有回复啦！
 
-<div style="padding: 0 12px 0 12px; margin-top: 18px;">printempw ，您曾在文章《关于》上发表评论:
+<div style="padding: 0 12px 0 12px; margin-top: 18px;">prin ，您曾在文章《关于》上发表评论:
 
 TEST FOR MAIL
 
-printempw 给您的回复如下:
+prin 给您的回复如下:
 
 FXCK U MAN
 
@@ -64,7 +64,7 @@ $message = '<div style="border-right:#666666 1px solid;border-radius:8px;color:#
 
 AAA I WANT A MAIL
 
-printempw 于2015-07-26 15:10:35 给您的回复如下:
+prin 于2015-07-26 15:10:35 给您的回复如下:
 
 蛤
 
@@ -74,7 +74,7 @@ printempw 于2015-07-26 15:10:35 给您的回复如下:
 
 此邮件由系统自动发出，就算你回复了窝也不会回复你哟 ﾟ∀ﾟ)σ
 
-</div></div> 
+</div></div>
 
 //关于坑1
 
@@ -82,7 +82,7 @@ printempw 于2015-07-26 15:10:35 给您的回复如下:
 
 如果你明明 SMTP 可以发件但是收不到回复邮件的话，可以在这个函数顶上写个 wp_mail() （参数自己看）来调试
 
-上面的是在别处扒来的，不过这样的话那个评论复选框就没用了呢 [![20150717112829](https://img.prin.studio/images/2015/07/2015-07-17_03-28-41.jpg)](https://img.prin.studio/images/2015/07/2015-07-17_03-28-41.jpg) 等有时间窝在把判断逻辑也写进去
+上面的是在别处扒来的，不过这样的话那个评论复选框就没用了呢 [![20150717112829](https://img.prin.studio/images/2015/07/2015-07-17_03-28-41.jpg)](https://img.prin.studio/images/2015/07/2015-07-17_03-28-41.jpg) 等有时间窝在把判断逻辑也写进去
 
 
 

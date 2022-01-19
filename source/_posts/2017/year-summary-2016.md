@@ -72,7 +72,7 @@ Total comments number of last year: 570
 ## 学习
 
 - 开始学习 PHP，[接触了 Laravel](https://prinsss.github.io/tag/laravel/) 这个伟大的框架
-- 开发了 [Blessing Skin Server](https://github.com/printempw/blessing-skin-server)，学到了不少东西
+- 开发了 [Blessing Skin Server](https://github.com/prinsss/blessing-skin-server)，学到了不少东西
 - 学会了基于 gulp 等工具的前端工程化
 - 学会了软件工程中一些不错的设计模式和架构模式
 - 熟练使用了 Shell
@@ -102,7 +102,7 @@ Total comments number of last year: 570
 
 列表里去掉了社区市场的消费记录（学前端知识的好处之一ww）
 
-- 开始使用 Twitter，欢迎关注 [@printempw](https://twitter.com/printempw)：
+- 开始使用 Twitter，欢迎关注 [@xxx](https://twitter.com/i)：
 
 ![Twitter](https://img.prin.studio/images/2017/01/11/Screenshot_2017-01-11-12-59-37.png)
 

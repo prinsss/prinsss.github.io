@@ -57,7 +57,7 @@ tags:
 
 同样的，需要缓存的页面响应头中不得含有 `Set-Cookie` 字段，否则 Nginx 也是**默认**不缓存的。然而坑爹的是，Laravel 5.2 默认会给 `routes.php` 中所有的路由套上一个 `StartSession` 中间件，并且给响应头附上 `Set-Cookie`。
 
-在 Laravel 5.3 以后路由文件可以模块化了所以没问题，但是对于由于种种原因无法使用 5.3 的用户（我他喵的还得照顾广大虚拟主机用户们），就要自己解决路由模块化问题了，具体可以参考 [这里](https://laravel-china.org/topics/2484#reply2) 和 [这里](https://github.com/printempw/blessing-skin-server/commit/8944be0e2a7ad89591e86f57756450043612d462)。
+在 Laravel 5.3 以后路由文件可以模块化了所以没问题，但是对于由于种种原因无法使用 5.3 的用户（我他喵的还得照顾广大虚拟主机用户们），就要自己解决路由模块化问题了，具体可以参考 [这里](https://laravel-china.org/topics/2484#reply2) 和 [这里](https://github.com/prinsss/blessing-skin-server/commit/8944be0e2a7ad89591e86f57756450043612d462)。
 
 #### 三、反代可能会造成的后端协议判断错误
 

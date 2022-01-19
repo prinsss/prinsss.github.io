@@ -30,7 +30,7 @@ $("#username,#password,input.check_code").keyEnter(e)
 // @namespace    https://prinzeugen.net/
 // @version      0.1
 // @description  自动登录 Kodexplorer
-// @author       printempw
+// @author       prin
 // @match        https://prinzeugen.net:12450/kodexplorer-14012/index.php?user/login
 // @grant        none
 // ==/UserScript==

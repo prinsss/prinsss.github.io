@@ -47,7 +47,7 @@ tags:
 
 ```shell
 git init
-git remote add origin git@github.com:printempw/printempw.github.io.git
+git remote add origin git@github.com:prinsss/prinsss.github.io.git
 # 新建 source 分支
 git checkout --orphan source
 git add .

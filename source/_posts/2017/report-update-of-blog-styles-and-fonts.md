@@ -16,7 +16,7 @@ tags:
 【更新 17/04/24】
 
 - 正文字体已由 Monda 改为 PT Serif
-- [调整了](https://twitter.com/printempw/status/856456764803301376) blockquote 的样式
+- [调整了](https://twitter.com/i/status/856456764803301376) blockquote 的样式
 
 ### 标题字体改为 Roboto Slab
 
@@ -44,7 +44,7 @@ Roboto Slab 是[粗衬线体](https://zh.wikipedia.org/wiki/%E7%B2%97%E8%A1%AC%E
 
 之前博客正文中的西文字体是使用的 [Alegeya Sans](https://fonts.google.com/specimen/Alegreya+Sans)。这是一款根据与 Alegreya 相同骨架设计的人文主义感非衬线字体。它很漂亮，但可惜它在正文中的表现还是有些不尽人意，这次索性改成了 [Monda](https://fonts.google.com/specimen/Monda) 这款无衬线字体。
 
-我之前的 [Tweet](https://twitter.com/printempw/status/835472326221127683) 里也有提到过，对比图如下（上面是 Alegreya Sans *Medium*，下面是 Monda *Regular*）：
+我之前的 [Tweet](https://twitter.com/i/status/835472326221127683) 里也有提到过，对比图如下（上面是 Alegreya Sans *Medium*，下面是 Monda *Regular*）：
 
 ![对比图](https://img.prin.studio/images/2017/02/26/QQ20170226164005.png)
 
@@ -72,7 +72,7 @@ $('#sbpin').affix({
 
 因为这个主题是卡片式的设计，每篇 POST 都是以卡片的形式展示出来的。而原主题在手机上也保留了这个设计，造成了很大一部分都被用于显示卡片的边缘。
 
-这次我也把卡片的两边的 margin 给去掉了，并且修改了一下侧边栏，把空间都空出来给正文，这样阅读体验会更好一些。效果可以看[这里](https://twitter.com/printempw/status/833219482554245121)。
+这次我也把卡片的两边的 margin 给去掉了，并且修改了一下侧边栏，把空间都空出来给正文，这样阅读体验会更好一些。效果可以看[这里](https://twitter.com/i/status/833219482554245121)。
 
 ### 改进侧边栏在手机上的表现
 
@@ -102,7 +102,7 @@ $('#sbpin').affix({
 
 这个也是一直想做的，然而实现了发现没地方放……
 
-以后再看看能加到哪里吧，效果参见我之前发的[推文](https://twitter.com/printempw/status/833210925255516160)。
+以后再看看能加到哪里吧，效果参见我之前发的[推文](https://twitter.com/i/status/833210925255516160)。
 
 ----------
 

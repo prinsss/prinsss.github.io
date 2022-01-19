@@ -15,7 +15,7 @@ tags:
 
 <!--more-->
 
-于是我写了一个 Hexo 插件 **[hexo-hide-posts](https://github.com/printempw/hexo-hide-posts)** 来实现这个需求（网上也有一些关于 Hexo 隐藏文章的教程，不过一般都要求修改主题文件，还是我这样写个插件更通用一些）。它的功能如下：
+于是我写了一个 Hexo 插件 **[hexo-hide-posts](https://github.com/prinsss/hexo-hide-posts)** 来实现这个需求（网上也有一些关于 Hexo 隐藏文章的教程，不过一般都要求修改主题文件，还是我这样写个插件更通用一些）。它的功能如下：
 
 - 在博客的所有文章列表中隐藏指定的文章（包括首页、存档页、分类标签、Feed 等）；
 - 被隐藏的文章依然可以通过文章链接直接访问（比如 `https://hexo.example/{slug}/`）；

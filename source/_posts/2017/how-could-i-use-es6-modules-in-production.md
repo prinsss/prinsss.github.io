@@ -307,7 +307,7 @@ Webpack 也可以配合 Gulp 工作流让开发更嗨皮，有兴趣的可自行
 
 ## 写在后面
 
-前几天我在捣鼓 [printempw/blessing-skin-server](https://github.com/printempw/blessing-skin-server) 那坨 shi 一样 JavaScript 代码的模块化的时候，打算试着使用一下 ES6 标准中的模块化方案，并找了 Google 大老师问 ES6 模块转译打包相关的资源，找了半天，几乎没有什么像样的中文资源。全是讲 ES6 模块是啥、有多好、为什么要用之类的，没几个是讲到底该怎么在生产环境中使用的（也有可能是我搜索姿势不对），说不出话。遂撰此文，希望能帮到后来人。
+前几天我在捣鼓 [blessing-skin-server](https://github.com/prinsss/blessing-skin-server) 那坨 shi 一样 JavaScript 代码的模块化的时候，打算试着使用一下 ES6 标准中的模块化方案，并找了 Google 大老师问 ES6 模块转译打包相关的资源，找了半天，几乎没有什么像样的中文资源。全是讲 ES6 模块是啥、有多好、为什么要用之类的，没几个是讲到底该怎么在生产环境中使用的（也有可能是我搜索姿势不对），说不出话。遂撰此文，希望能帮到后来人。
 
 且本人水平有限，如果文中有什么错误，欢迎在下方评论区批评指出。
 

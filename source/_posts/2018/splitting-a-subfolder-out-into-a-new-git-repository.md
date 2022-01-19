@@ -16,7 +16,7 @@ tags:
 
 ## 0x01 需求分析
 
-我为什么会有如本文标题所述这样的需求呢？这是因为我之前把所有为 [Blessing Skin](https://github.com/printempw/blessing-skin-server) 这个程序编写的插件源码都放在一个 [git repo](https://github.com/printempw/blessing-skin-plugins) 中了，每个子文件夹中都是一个独立的插件（因为嫌麻烦所以一股脑给塞进一个仓库里了），并且对每个子文件夹中的代码的修改最后都是在这个统一仓库中提交的。该仓库差不多长这样：
+我为什么会有如本文标题所述这样的需求呢？这是因为我之前把所有为 [Blessing Skin](https://github.com/prinsss/blessing-skin-server) 这个程序编写的插件源码都放在一个 [git repo](https://github.com/prinsss/blessing-skin-plugins) 中了，每个子文件夹中都是一个独立的插件（因为嫌麻烦所以一股脑给塞进一个仓库里了），并且对每个子文件夹中的代码的修改最后都是在这个统一仓库中提交的。该仓库差不多长这样：
 
 ```text
 $ tree

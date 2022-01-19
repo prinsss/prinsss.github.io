@@ -27,8 +27,8 @@ tags:
 
 先说成果。我写了两个版本的程序，分别使用 Node.js 和 PHP 实现，都可以通过页面 URI 查询 PV 访问量，提供的 API 也是一样的。源码放在 GitHub 上：
 
-- Node.js 版本：[printempw/google-analytics-hit-counter](https://github.com/printempw/google-analytics-hit-counter)
-- PHP 版本：同一仓库的 [`php`](https://github.com/printempw/google-analytics-hit-counter/tree/php) 分支
+- Node.js 版本：[prinsss/google-analytics-hit-counter](https://github.com/prinsss/google-analytics-hit-counter)
+- PHP 版本：同一仓库的 [`php`](https://github.com/prinsss/google-analytics-hit-counter/tree/php) 分支
 
 部署之后，前端通过其提供的 API 获取 PV，具体效果可以参考本博客。
 

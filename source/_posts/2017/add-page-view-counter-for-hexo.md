@@ -28,7 +28,7 @@ tags:
 
 前端 `increase`（访问量自增）、`get`（获取访问量）等操作用 JavaScript 来写，这没得选，关键是后端。本来打算后端也用 Node.js 来写的，但是想想我 VPS 上还跑着其他 PHP 项目，使用 PHP 的话运维比较方便（不需要再去另外运行 `forever` 之类的守护进程），而且我对 PHP 也很熟悉，开发效率比 Node、Python 等语言要高。
 
-之前（2016 年一月份）我写的那个适用于 Ghost 博客的访问计数器（[printempw/ghost-hit-counter](https://github.com/printempw/ghost-hit-counter)）也是用 PHP 写的，不过当时并没有使用什么框架，直接原生 PHP 肛上去。这次的项目我打算使用 Lumen 这个「为速度而生的 Laravel 框架」，一来之前在开发 Minecraft 皮肤站（[printempw/blessing-skin-server](https://github.com/printempw/blessing-skin-server)）时已经摸清了 Laravel 那一套，二来 Lumen 在性能强大的同时还能保持 Laravel 高效率开发特性，可以省去不少无用功，专注于业务逻辑本身的开发。
+之前（2016 年一月份）我写的那个适用于 Ghost 博客的访问计数器（[ghost-hit-counter](https://github.com/prinsss/ghost-hit-counter)）也是用 PHP 写的，不过当时并没有使用什么框架，直接原生 PHP 肛上去。这次的项目我打算使用 Lumen 这个「为速度而生的 Laravel 框架」，一来之前在开发 Minecraft 皮肤站（[blessing-skin-server](https://github.com/prinsss/blessing-skin-server)）时已经摸清了 Laravel 那一套，二来 Lumen 在性能强大的同时还能保持 Laravel 高效率开发特性，可以省去不少无用功，专注于业务逻辑本身的开发。
 
 ## 0x02 开发
 
@@ -45,7 +45,7 @@ tags:
 - 自带超好用的时间处理类库 `Carbon`；
 - 开箱即用的异常处理系统以及完整的日志记录，etc.
 
-成品开源在 GitHub 上（[printempw/hexo-view-counter](https://github.com/printempw/hexo-view-counter)），采用 GPLv3 协议，欢迎 star 或修改自用，Live Demo 就是这个博客。另外这也是我第一次使用 Atom 编辑器从头开始开发一个项目，一路用下来使用体验还是蛮不错的（之前都用的 Sublime Text3）。
+成品开源在 GitHub 上（[hexo-view-counter](https://github.com/prinsss/hexo-view-counter)），采用 GPLv3 协议，欢迎 star 或修改自用，Live Demo 就是这个博客。另外这也是我第一次使用 Atom 编辑器从头开始开发一个项目，一路用下来使用体验还是蛮不错的（之前都用的 Sublime Text3）。
 
 ![Atom](https://img.prin.studio/images/2017/06/25/snipaste_20170624_222645.png)
 

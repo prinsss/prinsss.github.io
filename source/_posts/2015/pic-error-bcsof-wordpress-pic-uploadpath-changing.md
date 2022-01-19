@@ -34,5 +34,7 @@ UPDATE wp_posts SET post_content = REPLACE( post_content, 'http://www.prinzeugen
 UPDATE posts SET markdown = REPLACE(markdown, 'img.prinzeugen.net/uploads', 'img.blessing.studio/images')
 ```
 
-<blockquote class="twitter-tweet" data-lang="zh-cn"><p lang="zh" dir="ltr">不小心把 Ghost 的 posts 表给删掉了，幸好有备份<br>没想到恢复的时候被外键约束给摆了一道，吃瘪了 <a href="https://t.co/bV1bnYuX0p">pic.twitter.com/bV1bnYuX0p</a></p>&mdash; 若葉いろは (@printempw) <a href="https://twitter.com/printempw/status/873922289842110464">2017年6月11日</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> 不小心把 Ghost 的 posts 表给删掉了，幸好有备份<br>
+> 没想到恢复的时候被外键约束给摆了一道，吃瘪了
+>
+> 2017年6月11日

@@ -36,7 +36,7 @@ Seventeen 原本是一个付费的 WordPress 主题，其漂亮的外观让当�
 
 在 Accent Color 的选取上，本来想直接用我最喜欢的颜色 [藤紫色](https://irocore.com/fujimurasaki/) (#8F82BC) 的，但作为主色可能还是有点偏淡，所以选择了稍深一点的 [菫色](https://irocore.com/sumire-iro/) (#7065A3)。而主题也因此得名：<ruby>紫<rp>(</rp><rt>murasaki</rt><rp>)</rp></ruby>。
 
-> 代码照例以 MIT 协议开源在 GitHub 上：[printempw/hexo-theme-murasaki](https://github.com/printempw/hexo-theme-murasaki/)
+> 代码照例以 MIT 协议开源在 GitHub 上：[prinsss/hexo-theme-murasaki](https://github.com/prinsss/hexo-theme-murasaki/)
 
 不过毕竟是周末两天时间写出来的，还有非常多不完善的地方，只是因为没时间了所以先糊了上去，目前还不推荐各位使用（光是我自己的 TODO 就已经列了一大堆了，我真的有时间全实现吗……）。等到我觉得到了能发布的水准，我会专门写一篇关于这个主题的博客的，这里就按下不表咕咕咕。
 
@@ -44,7 +44,7 @@ Seventeen 原本是一个付费的 WordPress 主题，其漂亮的外观让当�
 
 也没啥特别的理由，真要说的话就是想表明我对生活的态度，以及我想在这浩如烟海的 Cyberworld 中留下点什么痕迹的愿望。还有就是看起来更装逼一点（
 
-因为博客改名了，原来的域名 [blessing.studio](https://blessing.studio) 也就一起 deprecated 掉了，目前是 301 重定向到当前的域名 [printempw.github.io](https://prinsss.github.io) 上。对，就是 GitHub Pages 的默认域名。虽然没那么个性，但不用担心过期失效，所以普普通通的也挺好。
+因为博客改名了，原来的域名 [blessing.studio](https://blessing.studio) 也就一起 deprecated 掉了，目前是 301 重定向到当前的域名 [printempw.github.io](https://printempw.github.io) 上。对，就是 GitHub Pages 的默认域名。虽然没那么个性，但不用担心过期失效，所以普普通通的也挺好。
 
 另外我还买了个域名 [printem.pw](https://printem.pw) 指向这里，虽然不会作为主域名，不过放到外面个人资料之类的地方也还是蛮拉风的。
 

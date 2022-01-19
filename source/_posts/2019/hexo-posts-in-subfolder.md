@@ -31,7 +31,7 @@ tags:
 
 当然可以！Hexo 可是以灵活~~随便~~著称的 JavaScript 写的博客程序，那还不是想怎么魔改就怎么魔改？这里我抛砖引玉，介绍一种使用 filter 对文章永久链接进行操作的方法。其他应该也有不少方法能实现同样的效果，欢迎各位在评论区分享交流。
 
-先贴代码（直接放到站点根目录的 [`scripts`](https://github.com/printempw/printempw.github.io/tree/source/scripts) 文件夹中就可以了）：
+先贴代码（直接放到站点根目录的 [`scripts`](https://github.com/prinsss/prinsss.github.io/tree/source/scripts) 文件夹中就可以了）：
 
 ```js
 // posts-subfolder

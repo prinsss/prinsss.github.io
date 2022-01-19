@@ -22,7 +22,7 @@ tags:
 <!--more-->
 -----
 
-我的博客完全托管在 GitHub 上：[printempw/printempw.github.io](https://github.com/printempw/printempw.github.io)，其中 `source` 分支放的是源码，`master` 分支（即 GitHub Pages）是 Hexo 生成的静态博客页面。
+我的博客完全托管在 GitHub 上：[prinsss.github.io](https://github.com/prinsss/prinsss.github.io)，其中 `source` 分支放的是源码，`master` 分支（即 GitHub Pages）是 Hexo 生成的静态博客页面。
 
 要做的也和之前 Travis CI 差不多，当 `source` 分支有更新时，自动使用 Hexo 构建新页面并更新 GitHub Pages 就可以了。
 
@@ -31,7 +31,7 @@ tags:
 生成一个新的 SSH 密钥，用于 push 至 GitHub Pages 所在的 repo：
 
 ```bash
-ssh-keygen -f hexo-deploy-key -C "printempw.github.io"
+ssh-keygen -f hexo-deploy-key -C "prinsss.github.io"
 ```
 
 将公钥 `hexo-deploy-key.pub` 设置为仓库的部署密钥（Settings > Deploy keys）：
@@ -78,7 +78,7 @@ jobs:
       - name: Checkout theme repo
         uses: actions/checkout@v2
         with:
-          repository: printempw/hexo-theme-murasaki
+          repository: prinsss/hexo-theme-murasaki
           ref: master
           path: themes/murasaki
 
@@ -131,10 +131,10 @@ GitHub Pages 相关的具体配置放在了 Hexo 的 `_config.yml` 里：
 ```yaml
 deploy:
   type: git
-  repo: git@github.com:printempw/printempw.github.io.git
+  repo: git@github.com:prinsss/prinsss.github.io.git
   branch: master
-  name: printempw
-  email: printempw@gmail.com
+  name: prinsss
+  email: prinsss@gmail.com
 ```
 
 ## 部署结果

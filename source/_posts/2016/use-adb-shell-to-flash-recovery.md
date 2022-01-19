@@ -26,7 +26,7 @@ tags:
 虽然我无法在手机上拿到 root 权限（没有权限管理应用），但是我能在 `ADB Shell` 里拿到呀：
 
 ```shell
-printempw@prinzeugen ~ $ adb shell
+prin@prinzeugen ~ $ adb shell
 shell@android:/ $ su
 su # 切换到 root 用户
 shell@android:/ #
@@ -55,7 +55,7 @@ dd if=/mnt/sdcard2/recovery.img of=/dev/recovery
 从上面的回显可以看到 `dd` 命令已经成功把 recovery 覆写掉了，那么下面就是见证奇迹的时刻辣！
 
 ```
-printempw@prinzeugen ~ $ adb reboot recovery
+prin@prinzeugen ~ $ adb reboot recovery
 ```
 
 ![](https://img.prin.studio/legacy/image.php?di=15FA) 大成功！

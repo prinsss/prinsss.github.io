@@ -25,7 +25,7 @@ tags:
 
 ## 0x01 需求分析
 
-在我们学校，大一新生想要参加 ACM 集训队，必须先在学校的 OJ (Online Judge) 平台上刷完 200 道入门程序题。可选的语言有 C、C++ 和 Java，经过 [一番权衡](https://twitter.com/printempw/status/1040451170962071552) 后，我选择使用 C 语言来完成这些题目。
+在我们学校，大一新生想要参加 ACM 集训队，必须先在学校的 OJ (Online Judge) 平台上刷完 200 道入门程序题。可选的语言有 C、C++ 和 Java，经过 [一番权衡](https://twitter.com/i/status/1040451170962071552) 后，我选择使用 C 语言来完成这些题目。
 
 由于我之前基本上没有用过 C，所以上手第一步自然是搭建开发环境。
 
@@ -178,6 +178,8 @@ $ ./A.exe
 ```
 
 配置完成后，你可以通过 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd> 快捷键（可以自定义，我改成了 <kbd>F5</kbd>）或者右键菜单等方式编译运行当前编辑器中打开的文件，非常方便。效果如下：
+
+<!-- 修改图片！ -->
 
 ![code-runner-demo](https://img.prin.studio/images/2018/10/02/code-runner-demo.png)
 

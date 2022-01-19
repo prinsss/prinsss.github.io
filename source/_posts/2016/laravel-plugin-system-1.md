@@ -62,7 +62,7 @@ tags:
   "version": "1.0",
   "title": "BS Super Cache",
   "description": "缓存皮肤预览图、头像、玩家 Json，优化站点性能。",
-  "author": "printempw",
+  "author": "prin",
   "namespace": "SuperCache",
   "config": "config.tpl"
 }
@@ -172,9 +172,8 @@ foreach ($plugins->getPlugins() as $plugin) {
 
 题外话，`Factory` 也有 `addNamespace` 这个方法，说明 Taylor Otwell 也是考虑的很周到啊，同时也说明了 Laravel 的文档是多么的菜 ⊂彡☆))д´)
 
-完整的 `PluginServiceProvider` 可以参考 [这里](https://github.com/printempw/blessing-skin-server/blob/master/app/Providers/PluginServiceProvider.php)。
+完整的 `PluginServiceProvider` 可以参考 [这里](https://github.com/prinsss/blessing-skin-server/blob/master/app/Providers/PluginServiceProvider.php)。
 
 --------------
 
 这样一来基本的插件系统就已经完工了，下一篇文章将会详细讲述该如何编写一个插件。
-

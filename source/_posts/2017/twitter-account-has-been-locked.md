@@ -29,8 +29,8 @@ WTF？ 你特么在逗我？![黑人问号](https://img.prin.studio/images/2017/
   - 显示设置中的色温只能三级（暖色 - 标准 - 冷色）调整；
   - 但是对于 Wabi Pro Ara 这个主题还是很满意的，很漂亮；
 - 在刷了 MIUI 的机器上登录 Twitter 账号，但是用的另外一个代理服务器；
-- 发了一篇推文<sup>[[source]](https://twitter.com/printempw/status/876037651089903616)</sup>；
-- 刷了 Lineage14（基于 Android 7.1.2），恢复了之前备份的应用数据，登录 Twitter 发推……然后，就没有然后了。这是我那天发表的最后一条推文：[@printempw/status](https://twitter.com/printempw/status/876049475407560705)；
+- 发了一篇推文<sup>[[source]](https://twitter.com/i/status/876037651089903616)</sup>；
+- 刷了 Lineage14（基于 Android 7.1.2），恢复了之前备份的应用数据，登录 Twitter 发推……然后，就没有然后了。这是我那天发表的最后一条推文：[@prin/status](https://twitter.com/i/status/876049475407560705)；
 
 
 看来也就只有发的那几条推文可能有问题了，但这也够不上 Automatic Behaviors 吧？真不晓得 Twitter 怎么搞的。
@@ -83,7 +83,7 @@ Twitter 官方说会给我绑定的手机号打电话，叫我把电话中的验
 
 ![Unlock](https://img.prin.studio/images/2017/06/19/snipaste_20170619_105254.png)
 
-我是在两天后（2017-06-19）[早上起来时](https://twitter.com/printempw/status/876603531930722305)收到邮件的，申诉处理速度和网上其他人**两年前**描述的也差不多（ummmm……）。所以被封申诉后一天两天没有回复还算是正常的，不用太慌。
+我是在两天后（2017-06-19）[早上起来时](https://twitter.com/i/status/876603531930722305)收到邮件的，申诉处理速度和网上其他人**两年前**描述的也差不多（ummmm……）。所以被封申诉后一天两天没有回复还算是正常的，不用太慌。
 
 -------
 

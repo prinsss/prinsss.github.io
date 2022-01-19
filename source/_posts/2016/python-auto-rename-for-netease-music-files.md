@@ -57,7 +57,7 @@ for fname in os.listdir(path):
         print(new_fname)
 
 print("Done.")
-``` 
+```
 
 被注释掉的地方是我用来处理 OST 的，其他地方可以直接把网易云下载的文件重命名为 `歌曲名.mp3` 格式。
 
@@ -75,4 +75,4 @@ print("Done.")
 
 话说我最近真是越来越懒了，啥都想搞个自动化，上次学校叫确认学分，将近 50 项要一个一个点过去简直反人类 |д\` ) 于是我就用 `$('a:contains("确认")').each()` 写了个自动确认脚本。脚本本身倒是没啥大不了的，不如说我比较惊讶的是教育局网站竟然用了 jQuery 和 ajax（笑）
 
-最近在折腾以 gulp 为核心的前端自动化，还是蛮有意思的，[Blessing Skin Server](https://github.com/printempw/blessing-skin-server) V3 也用了很多最近流行的前端技术~~（我的试验田）~~，有兴趣的话给个 Star 吧~
+最近在折腾以 gulp 为核心的前端自动化，还是蛮有意思的，[Blessing Skin Server](https://github.com/prinsss/blessing-skin-server) V3 也用了很多最近流行的前端技术~~（我的试验田）~~，有兴趣的话给个 Star 吧~

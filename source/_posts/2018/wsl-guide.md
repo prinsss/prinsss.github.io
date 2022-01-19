@@ -13,9 +13,9 @@ tags:
 
 **在 Windows 上原生运行 Linux 可执行文件，牛逼疯了！**
 
-然而 Bug10 也不是浪得虚名，原本只提供给 Insider 的 WSL 在正式发布后依然问题多多（不仅 zsh、tmux 等工具无法使用，网络相关的操作更是一概欠奉，还有各种各样 [奇妙的 BUG](https://twitter.com/printempw/status/927862325280772096)），基本没有可用性，我在尝鲜了一段时间后也不得不重回 Cygwin 的怀抱。不过好消息是，在之后的更新中，[这些 BUG 都已被逐一消灭](https://blogs.msdn.microsoft.com/commandline/2017/04/11/windows-10-creators-update-whats-new-in-bashwsl-windows-console/)。
+然而 Bug10 也不是浪得虚名，原本只提供给 Insider 的 WSL 在正式发布后依然问题多多（不仅 zsh、tmux 等工具无法使用，网络相关的操作更是一概欠奉，还有各种各样 [奇妙的 BUG](https://twitter.com/i/status/927862325280772096)），基本没有可用性，我在尝鲜了一段时间后也不得不重回 Cygwin 的怀抱。不过好消息是，在之后的更新中，[这些 BUG 都已被逐一消灭](https://blogs.msdn.microsoft.com/commandline/2017/04/11/windows-10-creators-update-whats-new-in-bashwsl-windows-console/)。
 
-经过了两年的发展，WSL 已经[足够成熟](https://twitter.com/printempw/status/927898980385677312)，我也是时候完成这篇[一咕再咕](https://twitter.com/printempw/status/928656863310200832)的博文了。
+经过了两年的发展，WSL 已经[足够成熟](https://twitter.com/i/status/927898980385677312)，我也是时候完成这篇[一咕再咕](https://twitter.com/i/status/928656863310200832)的博文了。
 
 （开学在即，仓促成文，如有谬误，还请指正。）
 
@@ -272,9 +272,9 @@ E: on /mnt/e type drvfs (rw,noatime,uid=1000,gid=1000)
 ```cmd
 PS C:\temp> wsl ls -al
 total 0
-drwxrwxrwx 1 printempw printempw 4096 Sep  7 19:04 .
-drwxrwxrwx 1 printempw printempw 4096 Sep  7 18:38 ..
--rwxrwxrwx 1 printempw printempw    4 Sep  7 19:04 foo.txt
+drwxrwxrwx 1 prin  prin  4096 Sep  7 19:04 .
+drwxrwxrwx 1 prin  prin  4096 Sep  7 18:38 ..
+-rwxrwxrwx 1 prin  prin     4 Sep  7 19:04 foo.txt
 ```
 
 你也可以在 WSL 中调用 Windows 中的命令行程序：
@@ -310,7 +310,7 @@ $ ipconfig.exe | grep IPv4 | cut -d: -f2
 192.168.1.114
 
 $ ls -al | findstr.exe foo.txt
--rwxrwxrwx 1 printempw printempw    4 Sep  7 19:04 foo.txt
+-rwxrwxrwx 1 prin  prin 4 Sep  7 19:04 foo.txt
 
 $ cmd.exe /c dir
  Volume in drive C is Windows

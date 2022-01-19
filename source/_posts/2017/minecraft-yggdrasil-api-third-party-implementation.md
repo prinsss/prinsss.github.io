@@ -73,7 +73,7 @@ tags:
 
 authlib-injector 官方也提供了一个 Java 编写的后端 [yggdrasil-mock](https://github.com/to2mbn/yggdrasil-mock)，虽然完整实现了 Yggdrasil API，但是它并没有提供直观的管理网页，只提供了一套 RESTful API，所以距离实装要求还是差得比较远的。
 
-要重头开发一套这样的系统是非常非常够呛的，不过幸运的是，我之前一直在持续开发的 Minecraft 皮肤站 [Blessing Skin Server](https://github.com/printempw/blessing-skin-server)，这个项目的 v3 版本**正好**就满足的这些要求 —— 友好的用户界面、完善的用户系统、强大的后台管理、附带皮肤上传管理展示功能，再加上我之前开发的[插件系统](https://prinsss.github.io/laravel-plugin-system-1/)（开发这玩意真是个正确的决定，一劳永逸啊） ，这让我可以很方便地开发一个插件出来，直接基于现成的皮肤站用户系统实现 Yggdrasil API。
+要重头开发一套这样的系统是非常非常够呛的，不过幸运的是，我之前一直在持续开发的 Minecraft 皮肤站 [Blessing Skin Server](https://github.com/prinsss/blessing-skin-server)，这个项目的 v3 版本**正好**就满足的这些要求 —— 友好的用户界面、完善的用户系统、强大的后台管理、附带皮肤上传管理展示功能，再加上我之前开发的[插件系统](https://prinsss.github.io/laravel-plugin-system-1/)（开发这玩意真是个正确的决定，一劳永逸啊） ，这让我可以很方便地开发一个插件出来，直接基于现成的皮肤站用户系统实现 Yggdrasil API。
 
 ![API](https://i.loli.net/2017/08/04/59846283822ac.png)
 
@@ -81,7 +81,7 @@ authlib-injector 官方也提供了一个 Java 编写的后端 [yggdrasil-mock](
 
 讲了那么多，那么到底该怎么使用呢？
 
-请参阅：[printempw/yggdrasil-api wiki](https://github.com/printempw/yggdrasil-api/wiki)。
+请参阅：[yggdrasil-api wiki](https://github.com/prinsss/yggdrasil-api/wiki)。
 
 以上步骤完成后你将得到什么？
 
@@ -256,7 +256,7 @@ Yggdrasil API 中的 `clientToken`、`accessToken`、`id` 等字段的格式都�
 
 #### 4.5.2 数字签名
 
-需要注意的是上述 Profile 中的 `signature` 字段。顾名思义，这个字段就是 `value` 字段的数字签名。虽然官方 API 只有在指定 `unsigned=false` 时才会返回带签名的 Profile，但是目前（截至本文发布） authlib-injector 在服务端未返回数字签名时会出现[神秘的错误](https://github.com/printempw/blessing-skin-server/issues/81)，所以还是默认返回 `signature` 字段来得好。
+需要注意的是上述 Profile 中的 `signature` 字段。顾名思义，这个字段就是 `value` 字段的数字签名。虽然官方 API 只有在指定 `unsigned=false` 时才会返回带签名的 Profile，但是目前（截至本文发布） authlib-injector 在服务端未返回数字签名时会出现[神秘的错误](https://github.com/prinsss/blessing-skin-server/issues/81)，所以还是默认返回 `signature` 字段来得好。
 
 至于数字签名如何生成，其实就是用的 OpenSSL 内置的签名算法。各个平台都有 OpenSSL 库的实现，我这里贴一下 PHP 的示例代码：
 
@@ -336,10 +336,10 @@ GET  /api/profiles/minecraft/{uuid}
 
 ### 5.2 文章更新日志
 
-具体的修改可以查看这篇博客在 GitHub 上源码的 [历史提交记录](https://github.com/printempw/printempw.github.io/commits/source/source/_posts/minecraft-yggdrasil-api-third-party-implementation.md)。
+具体的修改可以查看这篇博客在 GitHub 上源码的 [历史提交记录](https://github.com/prinsss/prinsss.github.io/commits/source/source/_posts/minecraft-yggdrasil-api-third-party-implementation.md)。
 
 **2018-02-22：**
 
 - 基于最新的 authlib-injector 修改文章
-- 将具体部署步骤移动至 [printempw/yggdrasil-api](https://github.com/printempw/yggdrasil-api) 页面
+- 将具体部署步骤移动至 [yggdrasil-api](https://github.com/prinsss/yggdrasil-api) 页面
 - 同时也更新了 MCBBS 上的 [相关帖子](http://www.mcbbs.net/thread-718219-1-1.html)

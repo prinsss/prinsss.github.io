@@ -13,7 +13,7 @@ tags:
 
 **你他娘的写了这么久 PHP，怎么现在想起来搭建开发环境了？**
 
-呃，情况呢是这么个情况，我之前开发的那个 PHP 项目 ([printempw/blessing-skin-server](https://github.com/printempw/blessing-skin-server/)) 在两个月前发布 v3.5.0 版本后基本就已经告一段落了。虽然我本意是不再更新~~（弃坑的委婉说法）~~，因为当前的版本已经足够完善，该有的东西都有了（而且说实话搞了这么久我也腻味，不仅是对这个程序，还有对国内 Minecraft 开发生态以及用户群体的失望）。
+呃，情况呢是这么个情况，我之前开发的那个 PHP 项目 ([blessing-skin-server](https://github.com/prinsss/blessing-skin-server/)) 在两个月前发布 v3.5.0 版本后基本就已经告一段落了。虽然我本意是不再更新~~（弃坑的委婉说法）~~，因为当前的版本已经足够完善，该有的东西都有了（而且说实话搞了这么久我也腻味，不仅是对这个程序，还有对国内 Minecraft 开发生态以及用户群体的失望）。
 
 不过我的朋友 [g-plane](https://blog.gplane.win/) 说他愿意接坑，所以现在这个项目的后续开发都是他在搞。而我也乐得清闲，做个甩手掌柜 [搞别的](https://prinsss.github.io/vscode-c-cpp-configuration-for-acm-oj/) 去了。当我摸鱼正快活时，他过来联系我说准备发布 4.0.0-alpha 了，我才想起来这茬：「啊，我连新版本长啥样都还不知道呢！😂」于是急急忙忙 pull 了新代码准备 review 一下，却发现我的新笔电上甚至压根儿就没安装 PHP 开发环境，只能说是非常地真实。
 
@@ -44,9 +44,9 @@ tags:
 > 配置或数据文件的位置：
 >
 > ```text
-> C:\Users\printempw\scoop\apps\nginx\current\conf
-> C:\Users\printempw\scoop\apps\mariadb\current\data
-> C:\Users\printempw\scoop\apps\php\current\cli
+> C:\Users\prin\scoop\apps\nginx\current\conf
+> C:\Users\prin\scoop\apps\mariadb\current\data
+> C:\Users\prin\scoop\apps\php\current\cli
 > ```
 >
 > 比起手动下载方便不少。
