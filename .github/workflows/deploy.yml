@@ -6,7 +6,7 @@ on:
       - source
 
 env:
-  POST_ASSET_IMAGE_CDN: true
+  POST_ASSET_IMAGE_CDN: false
 
 jobs:
   build-and-deploy:

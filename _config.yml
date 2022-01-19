@@ -106,9 +106,6 @@ theme_config:
     github:
       name: GitHub
       path: https://github.com/prinsss
-    twitter:
-      name: Twitter
-      path: https://twitter.com/printempw
     rss:
       name: RSS Feed
       path: /atom.xml
