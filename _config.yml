@@ -110,9 +110,9 @@ theme_config:
     enable: true
     loading_image: images/loading.jpg
   disqus:
-    enable: false
+    enable: true
     shortname: blessing-studio
-    api: https://disqus.printempw.workers.dev/api/
+    api: https://disqus.skk.moe/disqus/
     apikey: 5O1HIIFsAWX3lBOQveU8qWPPAd2aLyf1fklehBAfcQ7S9Jo8y4acIrmyO2uxMD35
     admin: printempw
     admin_label: 博主
@@ -138,12 +138,10 @@ hide_posts:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
-    new: git@gh_new:prinsss/prinsss.github.io.git
-    old: git@gh_old:printempw/printempw.github.io.git
+  repo: git@github.com:prinsss/prinsss.github.io.git
   branch: master
   name: prin
-  email: printempw@gmail.com
+  email: hi@prin.studio
 
 # hexo-math
 math:
