@@ -37,11 +37,7 @@ render_drafts: false
 post_asset_folder: true
 relative_link: false
 future: true
-highlight:
-  enable: false
-  line_number: true
-  auto_detect: false
-  tab_replace:
+syntax_highlighter:
 
 # Category & Tag
 default_category: uncategorized
@@ -114,14 +110,14 @@ theme_config:
     enable: true
     loading_image: images/loading.jpg
   disqus:
-    enable: true
+    enable: false
     shortname: blessing-studio
     api: https://disqus.printempw.workers.dev/api/
     apikey: 5O1HIIFsAWX3lBOQveU8qWPPAd2aLyf1fklehBAfcQ7S9Jo8y4acIrmyO2uxMD35
     admin: printempw
     admin_label: 博主
   post_views_counter:
-    enable: true
+    enable: false
     api: https://work.prinzeugen.net/api/pageviews
   google_font: https://fonts.loli.net
   google_analytics: UA-65656002-1
