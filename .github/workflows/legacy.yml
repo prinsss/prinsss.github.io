@@ -1,4 +1,4 @@
-name: Hexo Deploy
+name: Hexo Deploy Legacy
 
 on:
   push:
@@ -7,9 +7,10 @@ on:
 
 env:
   POST_ASSET_IMAGE_CDN: false
+  BLOG_MIGRATION_NOTICE: true
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -44,27 +45,16 @@ jobs:
           run_install: |
             args: [--prefer-offline, --frozen-lockfile]
 
-      - name: Build
-        run: npx hexo generate
+      - name: Set up environment
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        run: |
+          sudo timedatectl set-timezone "Asia/Shanghai"
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: ./public
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-
-    permissions:
-      pages: write
-      id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+      - name: Deploy
+        run: |
+          npx hexo deploy --generate

@@ -138,7 +138,8 @@ hide_posts:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:prinsss/prinsss.github.io.git
+  # Legacy repo
+  repo: git@github.com:printempw/printempw.github.io.git
   branch: master
   name: prin
   email: hi@prin.studio
