@@ -83,7 +83,7 @@ stylus:
 
 theme_config:
   # https://twitter.com/imas_official/status/1287398983267049473
-  primary_color: "#f34e6c"
+  primary_color: "#6d28d9"
   favicon: /images/favicon.png
   keywords: "prin, prinsss, printempw, blog, 博客, 独立博客"
   canonical: true
