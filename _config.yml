@@ -110,12 +110,26 @@ theme_config:
     enable: true
     loading_image: images/loading.jpg
   disqus:
-    enable: true
+    enable: false
     shortname: blessing-studio
     api: https://disqus.skk.moe/disqus/
     apikey: 5O1HIIFsAWX3lBOQveU8qWPPAd2aLyf1fklehBAfcQ7S9Jo8y4acIrmyO2uxMD35
     admin: printempw
     admin_label: 博主
+  giscus:
+    enable: true
+    repo: prinsss/prinsss.github.io
+    repo_id: MDEwOlJlcG9zaXRvcnkxMDU3MzY5MTA=
+    category: Announcements
+    category_id: DIC_kwDOBk1qzs4CawFb
+    mapping: title
+    strict: 1
+    reactions_enabled: 1
+    emit_metadata: 0
+    input_position: top
+    theme: preferred_color_scheme
+    lang: zh-CN
+    loading: lazy
   post_views_counter:
     enable: false
     api: https://work.prinzeugen.net/api/pageviews
