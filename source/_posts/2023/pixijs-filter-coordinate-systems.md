@@ -276,7 +276,7 @@ vec4 color = texture2D(uSampler, clamp(modifiedTextureCoord, inputClamp.xy, inpu
 ### resolution
 
 * 类型：`float`
-* 含义：分辨率，即 CSS 像素与物理像素的比率，类似 `window.devicePixelRatio`
+* 含义：分辨率，即 CSS 像素与物理像素的比率，类似 `devicePixelRatio`
 
 ### filterArea (legacy)
 
@@ -286,7 +286,7 @@ vec4 color = texture2D(uSampler, clamp(modifiedTextureCoord, inputClamp.xy, inpu
 注意，filterArea 已经被标记为 **legacy**，你应该考虑使用其他参数替代。
 
 ```glsl
-// 以下语句等价与直接使用 filterArea uniform
+// 以下语句等价于直接使用 filterArea uniform
 vec4 filterArea = vec4(inputSize.xy, outputFrame.xy)
 ```
 
@@ -454,25 +454,23 @@ calculateProjection()
 
 计算出投影矩阵为：
 
-$$
+{% mathjax %}
 \begin{bmatrix}
 0.0067 & 0      & -1.6667 \\
 0      & 0.0067 & -1.2000 \\
 0      & 0      & 1
 \end{bmatrix}
-$$
+{% endmathjax %}
 
-<!--
-```
+<!-- ```
 | 0.0067 | 0      | -1.6667 |
 | 0      | 0.0067 | -1.2000 |
 | 0      | 0      | 1       |
-```
--->
+``` -->
 
 使用矩阵乘法对世界坐标进行变换：
 
-$$
+{% mathjax %}
 \begin{split}
 
 \begin{bmatrix}
@@ -496,7 +494,7 @@ $$
 \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix}
 
 \end{split}
-$$
+{% endmathjax %}
 
 得到如下坐标：
 
@@ -505,7 +503,7 @@ $$
 - 缩放变换：(0.67, 0.20) ~ (2.68, 2.21)
 - 平移变换：(-1.0, -1.0) ~ (1.0, 1.0)
 
-即可将世界坐标转换为裁剪空间的标准化设备坐标。
+即可将世界坐标转换为裁剪空间的标准化设备坐标。数学，很神奇吧！👊
 
 更多关于矩阵变换的资料可参考：
 

@@ -144,3 +144,8 @@ deploy:
   branch: master
   name: prin
   email: printempw@gmail.com
+
+# hexo-math
+math:
+  katex:
+    css: false
