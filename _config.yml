@@ -134,9 +134,15 @@ theme_config:
     enable: false
     api: https://work.prinzeugen.net/api/pageviews
   google_font: https://fonts.loli.net
-  google_analytics: UA-65656002-1
-  google_analytics_api: https://ga.printempw.workers.dev/
+  google_analytics:
+    enable: false
+    tracking_id: UA-65656002-1
+    api: https://ga.printempw.workers.dev/
   google_site_verification: GRFMvqszPSgldR5B46PfCl67MehNVagYoA9AtJpd8BA
+  umami:
+    enable: true
+    script_url: https://oishii.prin.studio/delicious-party
+    website_id: 02075562-9733-4917-8c28-be13173bb1f7
 
 # hexo-hide-posts
 hide_posts:
