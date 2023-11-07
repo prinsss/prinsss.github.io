@@ -5,6 +5,7 @@ updated: '2021-03-05 20:04:00'
 categories: 日常
 tags:
   - Apple
+  - 音视频
 ---
 
 继 [AirPods 2](https://prinsss.github.io/airpods-2-are-great/) 之后，前段时间我又没忍住，入手了传说中的~~豌豆射手~~ AirPods Pro。

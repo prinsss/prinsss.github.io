@@ -5,8 +5,8 @@ updated: '2016-01-03 22:26:33'
 categories: 技术
 tags:
   - Minecraft
-  - 皮肤站
   - PHP
+  - 前端
 ---
 
 ![bss upload](https://img.prin.studio/images/2016/01/2016-01-03_05-22-44.png)

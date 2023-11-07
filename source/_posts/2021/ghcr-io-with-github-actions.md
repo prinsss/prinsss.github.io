@@ -5,7 +5,6 @@ updated: '2021-11-24 18:30:00'
 categories: 技术
 tags:
   - Docker
-  - GitHub
 ---
 
 前段时间把 GitHub 的用户名修改成了 [@prinsss](https://github.com/prinsss)，准备把其他地方的账号也修改一下的时候，却发现 Docker Hub 的 username 不能改，只能[砍掉重练](https://hub.docker.com/support/doc/how-do-i-change-my-docker-username)（npm 也是）。

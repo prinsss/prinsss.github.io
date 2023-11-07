@@ -5,7 +5,7 @@ updated: '2015-07-10 22:54:20'
 categories: 技术
 tags:
   - 运维
-  - 记录
+  - 踩坑
 ---
 
 lnmp 自动安装 phpMyAdmin 后，默认高级功能是未开启的，会提示：

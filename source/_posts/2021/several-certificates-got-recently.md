@@ -2,7 +2,7 @@
 title: '最近考的几个证：软考、N1 和驾照'
 date: '2021-08-02 16:16:00'
 updated: '2021-08-02 16:16:00'
-categories: 日常
+categories: 随笔
 tags:
 ---
 

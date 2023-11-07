@@ -1,11 +1,10 @@
 ---
-title: 'Chrome 下使支持 https 的站点默认使用 ssl 加密'
+title: 'Chrome 下使支持 https 的站点默认使用 SSL 加密'
 date: '2015-07-24 06:27:57'
 updated: '2015-07-24 06:30:44'
 categories: 技术
 tags:
-  - Https
-  - Chrome
+  - SSL
 ---
 
 有些网站比如 V2EX 支持 https 但是不强制使用 https，在 chrome 下我们可以通过设置使访问 V2EX 强制使用 https 。

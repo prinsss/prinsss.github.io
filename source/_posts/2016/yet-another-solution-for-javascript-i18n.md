@@ -5,6 +5,7 @@ updated: '2016-09-16 12:46:40'
 categories: 技术
 tags:
   - JavaScript
+  - 前端
 ---
 
 现在 Blessing Skin Server 的 HTML 模板是使用 Laravel 自带的本地化来实现多语言支持的，并且使用了 [devitek/yaml-translation](https://github.com/Devitek/laravel-yaml-translation) 这个包把 Laravel 语言文件从默认的 PHP 数组形式改为 YAML 格式的文件。

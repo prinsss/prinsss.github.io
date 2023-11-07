@@ -4,8 +4,8 @@ date:    '2015-06-28 08:00:08'
 updated: '2015-08-29 00:41:27'
 categories: 技术
 tags:
-  - OpenWRT
-  - shadowsocks
+  - OpenWrt
+  - GFW
 ---
 
 咱折腾了好久都是命令行的方法但是玩玩没想到用LuCI会这么简单 ![bq](https://img.prin.studio/images/2015/06/2015-06-27_15-39-05.jpg)

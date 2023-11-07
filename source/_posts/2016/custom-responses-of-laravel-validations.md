@@ -6,7 +6,7 @@ categories: 技术
 tags:
   - Laravel
   - PHP
-  - 记录
+  - 踩坑
 ---
 
 不得不说 Laravel 的 [Validation](http://laravel-china.org/docs/5.1/validation) 是极好的，非常易于使用，麻麻再也不用担心我要写一大堆验证啦 ~(　^ω^)

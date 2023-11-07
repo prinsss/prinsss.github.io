@@ -2,7 +2,7 @@
 title: 'THE IDOLM@STER 偶像大师系列个人入坑心得'
 date: '2020-08-02 19:23:00'
 updated: '2020-08-02 19:23:00'
-categories: 日常
+categories: 随笔
 tags:
   - ACGN
 ---

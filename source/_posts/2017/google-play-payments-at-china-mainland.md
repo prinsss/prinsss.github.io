@@ -2,11 +2,10 @@
 title: '在中国大陆购买 Google Play 内容的几种方法'
 date: '2017-06-07 21:41:16'
 updated: '2017-06-07 21:42:07'
-categories: 随笔
+categories: 日常
 tags:
   - Android
-  - Google
-  - 记录
+  - 踩坑
 ---
 
 <img src="https://img.prin.studio/images/2017/06/07/google_play_purchase.png" alt="剁tm的！" style="border: 0;">

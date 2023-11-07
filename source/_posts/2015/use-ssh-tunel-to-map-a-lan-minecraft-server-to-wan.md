@@ -5,8 +5,7 @@ updated: '2015-12-27 01:40:10'
 categories: 技术
 tags:
   - Minecraft
-  - SSH
-  - 网络技术
+  - 网络
 ---
 
 

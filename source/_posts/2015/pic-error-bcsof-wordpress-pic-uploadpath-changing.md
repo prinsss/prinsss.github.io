@@ -5,7 +5,7 @@ updated: '2017-06-11 23:38:19'
 categories: 技术
 tags:
   - WordPress
-  - 记录
+  - 踩坑
 ---
 
 把默认的图片上传地址改成了 `img.prinzeugen.net`，但是原来的文章中所有的图片引用都失效了

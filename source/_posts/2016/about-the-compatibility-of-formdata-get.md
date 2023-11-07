@@ -4,7 +4,7 @@ date: '2016-07-26 09:47:22'
 updated: '2016-07-26 09:50:31'
 categories: 技术
 tags:
-  - 记录
+  - 踩坑
   - JavaScript
 ---
 

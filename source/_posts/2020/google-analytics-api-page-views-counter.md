@@ -5,6 +5,7 @@ updated: '2020-03-25 07:07:00'
 categories: 技术
 tags:
   - 博客
+  - JavaScript
 ---
 
 前段时间，Google Analytics 给我发了封邮件，说二月份我的博客有 9.3K 的 UV。点进去看了看热门的文章，访问量最多的是「[Twitter 账号被锁定是种怎样的体验](https://prinsss.github.io/twitter-account-has-been-locked/)」（17 年的博文了……），其他比较高的还有以前写的教程「[Windows Terminal 安装与配置指南](https://prinsss.github.io/windows-terminal-setup-guide/)」「[WSL 配置指北：打造 Windows 最强命令行](https://prinsss.github.io/wsl-guide/)」，以及后起之秀「[记一次 HNS 币空投薅 $500 羊毛的经历](https://prinsss.github.io/namebase-handshake-airdrop/)」，很真实。

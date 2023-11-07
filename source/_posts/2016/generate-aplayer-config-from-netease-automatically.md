@@ -5,7 +5,7 @@ updated: '2016-07-25 20:01:05'
 categories: 技术
 tags:
   - JavaScript
-  - 音乐
+  - 音视频
 ---
 
 最近在网易云音乐找到了很多很棒的歌，准备找个 HTML5 的播放器挂到博客上去。以前我的博客也是有音乐播放器的，用的是 WordPress 的一个叫 [WP-Player](https://wordpress.org/plugins/wp-player/) 的插件。后来转到 Ghost 的时候就把以前文章里的插件短代码删掉了，也没有再搞播放器了。

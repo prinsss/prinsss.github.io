@@ -6,7 +6,6 @@ categories: 技术
 tags:
   - PHP
   - Nginx
-  - Apache
 ---
 
 看到这个标题，有人可能会想吐槽：

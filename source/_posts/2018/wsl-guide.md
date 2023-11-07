@@ -4,8 +4,8 @@ date: '2018-09-08 15:07:41'
 updated: '2018-09-08 15:07:41'
 categories: 技术
 tags:
-  - WSL
-  - CLI
+  - Linux
+  - 命令行
   - Windows
 ---
 

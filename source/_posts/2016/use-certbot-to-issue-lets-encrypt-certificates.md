@@ -4,9 +4,8 @@ date: '2016-09-19 22:59:17'
 updated: '2016-09-19 22:59:17'
 categories: 技术
 tags:
-  - 记录
-  - Https
-  - "Let's Encrypt"
+  - 踩坑
+  - SSL
 ---
 
 今晚一回来就看到 Google Search Console 给我发了封邮件说我站点上的 SSL 证书过期了。我上去一看还真是，这张我从 Andy 手里买来的通配符证书已经在昨天失效了。

@@ -5,7 +5,8 @@ updated: '2016-07-26 09:51:17'
 categories: 技术
 tags:
   - JavaScript
-  - 记录
+  - 前端
+  - 踩坑
 ---
 
 最近在写 Blessing Skin Server V3 的前端的时候，定义带可选参数的函数的时候经常这样定义：

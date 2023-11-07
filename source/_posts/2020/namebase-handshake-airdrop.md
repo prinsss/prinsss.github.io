@@ -2,9 +2,9 @@
 title: '记一次 HNS 币空投薅 $500 羊毛的经历'
 date: '2020-02-21 02:30:00'
 updated: '2020-02-21 02:30:00'
-categories: 日常
+categories: 随笔
 tags:
-  - 数字货币
+  - 区块链
 ---
 
 没想到我人生中第一次 Cryptocurrency 实操经验，竟然是白嫖出来的。

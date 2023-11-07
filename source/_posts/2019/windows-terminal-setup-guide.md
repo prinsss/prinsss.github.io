@@ -5,8 +5,7 @@ updated: '2020-03-14 23:35:00'
 categories: 技术
 tags:
   - 教程
-  - CLI
-  - 终端
+  - 命令行
 ---
 
 自今年微软开发者大会 Build 2019 中[首次亮相](https://devblogs.microsoft.com/commandline/introducing-windows-terminal/)以来，经历了近半年的发展，万众瞩目的 Windows Terminal 已经日趋成熟。从十月份开始，我将其作为主力终端使用了一段时间，暂时还没遇到什么严重的问题。

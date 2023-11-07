@@ -4,7 +4,6 @@ date: '2020-02-29 12:47:00'
 updated: '2020-02-29 12:47:00'
 categories: 技术
 tags:
-  - Manjaro
   - Linux
 ---
 

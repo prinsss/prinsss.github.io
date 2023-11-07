@@ -5,7 +5,7 @@ updated: '2015-08-29 00:35:12'
 categories: 随笔
 tags:
   - Windows
-  - 记录
+  - 踩坑
 ---
 
 在 win10 早期版本相信大家都是用类似于[这个帖子](http://bbs.pcbeta.com/viewthread-1393590-1-2.html)中的方法去掉那几个文件夹的，

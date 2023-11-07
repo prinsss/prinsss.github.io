@@ -4,7 +4,7 @@ date:    '2015-03-31 17:17:15'
 updated: '2017-10-03 18:31:20'
 categories: 日常
 tags:
-  - 吐槽
+  - 前端
 ---
 
 ![Internet Explorer 6](https://img.prin.studio/images/2015/03/3546546-300x225.jpg)

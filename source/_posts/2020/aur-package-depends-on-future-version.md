@@ -5,7 +5,6 @@ updated: '2020-02-08 03:50:00'
 categories: 技术
 tags:
   - Linux
-  - Arch
 ---
 
 今天升级软件包时出了点问题，提示是这样的：

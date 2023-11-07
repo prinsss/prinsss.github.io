@@ -4,8 +4,7 @@ date: '2015-10-21 02:35:08'
 updated: '2015-11-04 20:05:52'
 categories: 随笔
 tags:
-  - Https
-  - "Let's Encrypt"
+  - SSL
 ---
 
 从今天 Google Now 的推送得知 Let's Encrypt 项目的根证书已经被信任，遂整理下时间轴，以示纪念。

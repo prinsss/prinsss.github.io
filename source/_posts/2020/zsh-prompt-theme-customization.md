@@ -4,7 +4,7 @@ date: '2020-01-16 21:30:00'
 updated: '2020-01-16 23:10:00'
 categories: 技术
 tags:
-  - Shell
+  - 命令行
   - Linux
 ---
 

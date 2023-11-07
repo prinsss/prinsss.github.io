@@ -4,9 +4,8 @@ date: '2016-12-10 17:38:31'
 updated: '2017-06-11 11:10:15'
 categories: 技术
 tags:
-  - 记录
-  - Https
-  - "Let's Encrypt"
+  - 踩坑
+  - SSL
 ---
 
 Let's Encrypt 证书即将过期时会给你发送邮件，这个还是比较贴心的。这样也就不会陷入证书过期却没发现的尴尬境地（Let's Encrypt 的证书只有 90 天的有效期）。

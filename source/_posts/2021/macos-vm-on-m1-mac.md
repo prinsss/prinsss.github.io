@@ -4,7 +4,6 @@ date: '2021-11-26 18:30:00'
 updated: '2021-11-26 18:30:00'
 categories: 技术
 tags:
-  - macOS
   - Mac
 ---
 

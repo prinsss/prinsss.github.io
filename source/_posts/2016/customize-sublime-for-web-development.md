@@ -2,11 +2,11 @@
 title: '为 Web 开发定制 Sublime Text 3'
 date: '2016-04-11 21:19:52'
 updated: '2016-04-17 13:43:37'
-categories: 随笔
+categories: 技术
 tags:
   - Sublime
   - 分享
-  - 工具
+  - 前端
 ---
 
 Sublime Text 是非常强大的编辑器，插件功能更是让其拥有无限可能。我用 Sublime 也已经快八个月了，我的 Sublime 也从原来连 Package Control 也没有的纯原版到现在的 Web 开发神器，特此安利一下。

@@ -5,7 +5,6 @@ updated: '2019-09-26 22:06:00'
 categories: 技术
 tags:
   - 博客
-  - Disqus
 ---
 
 本文主要介绍了 Disqus 提供的评论迁移工具之一，URL Mapper 的使用方法。

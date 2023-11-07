@@ -4,7 +4,6 @@ date: '2019-12-18 22:55:00'
 updated: '2019-12-18 22:55:00'
 categories: 随笔
 tags:
-hidden: true
 ---
 
 今天不谈技术，我们来聊一聊思想。

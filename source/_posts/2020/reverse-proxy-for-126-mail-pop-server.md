@@ -4,7 +4,7 @@ date: '2020-03-18 14:27:58'
 updated: '2021-02-06 23:10:00'
 categories: 技术
 tags:
-  - 记录
+  - 踩坑
 ---
 
 我有很多个电子邮箱地址，并且都设置了转发或者代收到 Gmail 上，方便集中处理。其中看重实时性、邮件需要尽快处理的邮箱地址（比如 [printempw#gmail.com](mailto:printempw@gmail.com)）是设置的自动转发规则，其他无关紧要的邮箱则是在 Gmail 上设置了 POP3 代收信（[查收其他帐号的邮件](https://support.google.com/mail/answer/21289)），一直用到现在也没什么问题。

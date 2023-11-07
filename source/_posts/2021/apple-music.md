@@ -2,9 +2,9 @@
 title: '日区 Apple Music 优缺点与实际体验'
 date: '2021-02-17 16:11:00'
 updated: '2021-02-17 16:11:00'
-categories: 日常
+categories: 随笔
 tags:
-  - 音乐
+  - 音视频
   - Apple
 ---
 

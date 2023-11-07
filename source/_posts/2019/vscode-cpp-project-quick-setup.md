@@ -4,8 +4,8 @@ date: '2019-12-19 19:20:00'
 updated: '2019-12-19 19:20:00'
 categories: 技术
 tags:
-  - VS Code
-  - C/C++
+  - VSCode
+  - C++
 ---
 
 去年我写过一篇博客「[使用 VS Code 搭建适用于 ACM 练习的 C/C++ 开发环境](https://prinsss.github.io/vscode-c-cpp-configuration-for-acm-oj/)」，主要介绍了在 VS Code 里跑简单 C 程序的一些方法。不过那篇文章里介绍的方法仅适用于单文件程序，所以稍微大一点的项目就力不从心了。

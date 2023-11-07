@@ -4,7 +4,7 @@ date: '2015-08-27 01:59:58'
 updated: '2015-08-27 02:00:26'
 categories: 随笔
 tags:
-  - shadowsocks
+  - GFW
 ---
 
 一盏一盏的灯在熄灭，四面八方的光源在消失。

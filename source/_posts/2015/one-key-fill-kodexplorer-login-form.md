@@ -4,7 +4,7 @@ date: '2015-12-06 02:05:50'
 updated: '2016-01-30 20:33:38'
 categories: 技术
 tags:
-  - JavaScript
+  - UserScript
 ---
 
 应该挺多人知道 [KodExplorer](http://kalcaddle.com/index.html) 吧？一个用 PHP 编写的很棒的在线文件管理器。 因为是文件管理，拥有着 www 用户组的所有权限，自然是一定要用强口令的。然而 KodExplorer 登录页不是用 form 表单提交的，chrome 的自动保存也没用了，每次都输强口令也挺麻烦的，所以写了个脚本一键填写登录表单并提交，放入书签栏即可食用~ KodExplorer 的登录逻辑都在 `./static/js/app/src/user/main.js` 里，有用的一段在这里：

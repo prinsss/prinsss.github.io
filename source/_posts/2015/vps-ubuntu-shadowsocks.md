@@ -4,7 +4,7 @@ date: '2015-07-09 02:15:33'
 updated: '2015-09-01 07:04:12'
 categories: 技术
 tags:
-  - shadowsocks
+  - GFW
   - VPS
 ---
 

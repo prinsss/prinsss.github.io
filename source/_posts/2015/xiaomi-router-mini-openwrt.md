@@ -4,9 +4,7 @@ date:    '2015-06-28 04:20:25'
 updated: '2015-08-29 00:41:31'
 categories: 技术
 tags:
-  - OpenWRT
-  - 记录
-  - 小米
+  - OpenWrt
 ---
 
 

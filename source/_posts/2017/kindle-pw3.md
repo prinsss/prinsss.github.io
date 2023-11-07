@@ -2,10 +2,9 @@
 title: '至臻完美，只为阅读 —— Kindle Paperwhite 简评'
 date: '2017-03-05 00:08:48'
 updated: '2017-03-05 12:28:44'
-categories: 日常
+categories: 随笔
 tags:
   - 评测
-  - Kindle
 ---
 
 ![Kindle Paperwhite 3](https://ooo.0o0.ooo/2017/03/04/58bab82fcd86e.jpg)

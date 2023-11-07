@@ -4,7 +4,7 @@ date: '2016-09-26 22:28:29'
 updated: '2016-09-26 22:28:29'
 categories: 技术
 tags:
-  - 记录
+  - 踩坑
   - JavaScript
 ---
 
@@ -17,7 +17,7 @@ tags:
 ```
 /**
  * 代码来自 MDN
- * 
+ *
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
  */
 

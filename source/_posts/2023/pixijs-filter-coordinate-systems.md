@@ -5,7 +5,7 @@ updated: '2023-11-03 21:35:00'
 categories: 技术
 tags:
   - WebGL
-  - PixiJS
+  - 前端
 ---
 
 除草啦除草啦，再不更新博客就要变成热带雨林啦！🌿

@@ -4,7 +4,7 @@ date: '2015-08-27 01:36:36'
 updated: '2015-09-03 20:20:45'
 categories: 随笔
 tags:
-  - shadowsocks
+  - GFW
 ---
 
 

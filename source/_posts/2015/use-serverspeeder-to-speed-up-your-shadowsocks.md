@@ -4,8 +4,8 @@ date: '2015-08-01 03:30:30'
 updated: '2015-08-29 00:35:25'
 categories: 技术
 tags:
-  - shadowsocks
-  - 锐速
+  - GFW
+  - 网络
 ---
 
 关于锐速是否道德的讨论：[V2EX](https://www.v2ex.com/t/164883) ，这种东西仁者见仁智者见智。

@@ -4,8 +4,8 @@ date: '2015-08-13 01:26:42'
 updated: '2015-08-13 02:54:43'
 categories: 技术
 tags:
-  - shadowsocks
-  - Shell
+  - GFW
+  - 命令行
 ---
 
 > 从 WordPress 迁移至 Ghost 时把代码样式都给弄乱了，换行全都被吞掉了，不过我也懒得再去修复就是了（反正原来的代码也很屎）。

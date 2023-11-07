@@ -4,7 +4,8 @@ date: '2021-04-26 05:30:00'
 updated: '2021-04-26 06:30:00'
 categories: 技术
 tags:
-  - 流媒体
+  - UserScript
+  - 音视频
 ---
 
 最近在看动画[《佐贺偶像是传奇 卷土重来》](https://zombielandsaga.com/)（ゾンビランドサガ リベンジ），官方的同步网络放送有 Amazon Prime Video 和 AbemaTV。因为我已经订阅 Netflix 了，感觉 Prime Video 不怎么用得到，所以还是用免费的 Abema 吧。

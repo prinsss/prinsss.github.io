@@ -4,8 +4,6 @@ date: '2015-08-22 17:15:52'
 updated: '2015-08-23 01:08:17'
 categories: 随笔
 tags:
-  - shadowsocks
-  - 转载
 ---
 
 

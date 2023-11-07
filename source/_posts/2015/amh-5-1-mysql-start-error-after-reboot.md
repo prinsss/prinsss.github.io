@@ -4,7 +4,6 @@ date: '2015-07-18 23:26:50'
 updated: '2015-07-19 04:21:22'
 categories: 技术
 tags:
-  - MySQL
   - VPS
   - 运维
 ---

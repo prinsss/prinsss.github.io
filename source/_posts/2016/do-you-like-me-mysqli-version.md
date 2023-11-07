@@ -19,4 +19,6 @@ mysqli 改为以面向对象的方式操作数据库，而不是 `mysql_` 系列
 
 其实也没改多少，另外把建表的 SQL 也顺便封装在文件里了，托管在 [Gist](https://gist.github.com/prinsss/48920748b328bacead1b) 上。
 
+<!--more-->
+
 <script src="https://gist.github.com/prinsss/48920748b328bacead1b.js"></script>

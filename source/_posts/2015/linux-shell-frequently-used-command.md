@@ -5,7 +5,7 @@ updated: '2015-07-24 02:17:22'
 categories: 技术
 tags:
   - Linux
-  - Shell
+  - 命令行
 ---
 
 

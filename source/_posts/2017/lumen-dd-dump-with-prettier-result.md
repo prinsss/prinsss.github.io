@@ -6,7 +6,6 @@ categories: 技术
 tags:
   - Laravel
   - PHP
-  - Lumen
 ---
 
 做开发的，免不了要和调试打交道。单说 PHP，有的人直接 `echo`，有的人用 `print_r()`，有的人用 `var_dump()`，还有的人直接上 Xdebug，用啥的都有。

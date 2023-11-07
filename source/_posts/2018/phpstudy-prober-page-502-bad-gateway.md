@@ -5,7 +5,7 @@ updated: '2018-10-21 20:36:42'
 categories: 技术
 tags:
   - PHP
-  - 记录
+  - 踩坑
 ---
 
 不要问我为什么要用 phpStudy，我也不想。

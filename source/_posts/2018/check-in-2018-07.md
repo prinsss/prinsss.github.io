@@ -2,11 +2,9 @@
 title: '近况报告：我的高复生活'
 date: '2018-07-21 19:50:00'
 updated: '2018-11-04 01:37:00'
-categories: 日常
+categories: 随笔
 tags:
-  - 水
-  - 近况报告
-hidden: true
+  - 年度总结
 ---
 
 好久不见。

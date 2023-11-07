@@ -6,7 +6,6 @@ categories: 技术
 tags:
   - Hexo
   - 博客
-  - 持续集成
 ---
 
 之前（六月份高考完后）我把博客引擎由 Ghost [换成了静态博客生成器 Hexo](https://prinsss.github.io/migrated-to-hexo/)，并且只使用了自带的 Git Deployment 来手动部署生成好的静态博客文件到服务器上。虽然不像动态博客程序那样可以随时随地更新博客，但是想到马上就要上大学了，之后手头都会有电脑，所以更新博客也不算那么麻烦。

@@ -4,7 +4,7 @@ date: '2016-09-24 23:32:18'
 updated: '2016-09-24 23:33:10'
 categories: 技术
 tags:
-  - 记录
+  - 踩坑
   - Laravel
   - PHP
 ---

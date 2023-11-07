@@ -2,7 +2,7 @@
 title: 'Sublime Text 3 主题推荐 —— Boxy'
 date: '2016-09-15 15:49:52'
 updated: '2016-09-15 15:50:28'
-categories: 随笔
+categories: 日常
 tags:
   - 分享
   - Sublime
