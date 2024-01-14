@@ -163,7 +163,7 @@ deploy:
 pandoc:
   args:
     - "-f"
-    - "markdown"
+    - "markdown-implicit_figures"
     - "-t"
     - "html"
     - "--mathjax"
