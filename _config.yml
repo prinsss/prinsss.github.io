@@ -163,3 +163,16 @@ deploy:
 math:
   katex:
     css: false
+
+# hexo-renderer-pandoc
+pandoc:
+  args:
+    - "-f"
+    - "markdown"
+    - "-t"
+    - "html"
+    - "--mathjax"
+    # Otherwise openGraphHelper fails to extract image tags
+    - "--wrap"
+    - "none"
+    - "--no-highlight"
