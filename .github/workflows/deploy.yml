@@ -44,6 +44,9 @@ jobs:
           run_install: |
             args: [--prefer-offline, --frozen-lockfile]
 
+      - name: Set up Pandoc
+        uses: nikeee/setup-pandoc@v1
+
       - name: Build
         run: npx hexo generate
 

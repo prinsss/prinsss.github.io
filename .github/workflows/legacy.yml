@@ -55,6 +55,9 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
 
+      - name: Set up Pandoc
+        uses: nikeee/setup-pandoc@v1
+
       - name: Deploy
         run: |
           npx hexo deploy --generate
