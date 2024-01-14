@@ -3,6 +3,7 @@ title: '详解 PixiJS Filter 中的参数与坐标系'
 date: '2023-11-03 21:35:00'
 updated: '2023-11-03 21:35:00'
 categories: 技术
+mathjax: true
 tags:
   - WebGL
   - 前端
@@ -454,13 +455,13 @@ calculateProjection()
 
 计算出投影矩阵为：
 
-{% mathjax %}
+$$
 \begin{bmatrix}
 0.0067 & 0      & -1.6667 \\
 0      & 0.0067 & -1.2000 \\
 0      & 0      & 1
 \end{bmatrix}
-{% endmathjax %}
+$$
 
 <!-- ```
 | 0.0067 | 0      | -1.6667 |
@@ -470,9 +471,10 @@ calculateProjection()
 
 使用矩阵乘法对世界坐标进行变换：
 
-{% mathjax %}
-\begin{split}
+<!-- NOTE: For display math, use $$ delimiters. (In this case, the delimiters may be separated from the formula by whitespace. However, there can be no blank lines between the opening and closing $$ delimiters.) -->
 
+$$
+\begin{split}
 \begin{bmatrix}
 \frac{2}{300} & 0             & -\frac{5}{3} \\
 0             & \frac{2}{300} & -\frac{6}{5} \\
@@ -480,11 +482,9 @@ calculateProjection()
 \end{bmatrix} \cdot
 \begin{bmatrix} 100 \\ 30 \\ 1 \end{bmatrix} &=
 \begin{bmatrix} -1 \\ -1 \\ 1 \end{bmatrix}
-
 \\
 \vdots
 \\
-
 \begin{bmatrix}
 \frac{2}{300} & 0             & -\frac{5}{3} \\
 0             & \frac{2}{300} & -\frac{6}{5} \\
@@ -492,9 +492,8 @@ calculateProjection()
 \end{bmatrix} \cdot
 \begin{bmatrix} 400 \\ 330 \\ 1 \end{bmatrix} &=
 \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix}
-
 \end{split}
-{% endmathjax %}
+$$
 
 得到如下坐标：
 

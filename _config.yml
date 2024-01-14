@@ -159,11 +159,6 @@ deploy:
   name: prin
   email: hi@prin.studio
 
-# hexo-math
-math:
-  katex:
-    css: false
-
 # hexo-renderer-pandoc
 pandoc:
   args:
@@ -176,3 +171,18 @@ pandoc:
     - "--wrap"
     - "none"
     - "--no-highlight"
+
+# hexo-filter-mathjax
+mathjax:
+  tags: none # or 'ams' or 'all'
+  single_dollars: true # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (monospace) width
+  append_css: true # add CSS to pages rendered by MathJax
+  every_page: false # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
+  packages: # extra packages to load
+  extension_options:
+    # Don't process LaTeX commands outside of math mode
+    # processEnvironments: false
+    # you can put your extension options here
+    # see http://docs.mathjax.org/en/latest/options/input/tex.html#tex-extension-options for more detail
