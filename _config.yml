@@ -186,3 +186,16 @@ mathjax:
     # processEnvironments: false
     # you can put your extension options here
     # see http://docs.mathjax.org/en/latest/options/input/tex.html#tex-extension-options for more detail
+
+tikzjax:
+  # Enable TikZ rendering for all posts and pages.
+  # Or you can enable it per post by adding `tikzjax: true` to the front-matter.
+  every_page: true
+  # Add CSS to pages which contain TikZ graphs.
+  append_css: true
+  # URL of the font CSS file.
+  font_css_url: 'https://cdn.jsdelivr.net/npm/node-tikzjax@latest/css/fonts.css'
+  # Additional options that will be passed to node-tikzjax.
+  # See: https://github.com/prinsss/node-tikzjax/#usage
+  # tikzjax_options:
+  #   showConsole: false

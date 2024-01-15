@@ -15,8 +15,8 @@ dependencies:
     specifier: ^0.9.0
     version: 0.9.0
   hexo-filter-tikzjax:
-    specifier: ^1.0.0
-    version: 1.0.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.3.1)
+    specifier: ^1.0.1
+    version: 1.0.1(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.3.1)
   hexo-generator-archive:
     specifier: ^2.0.0
     version: 2.0.0
@@ -756,8 +756,8 @@ packages:
       mathjax-full: 3.2.2
     dev: false
 
-  /hexo-filter-tikzjax@1.0.0(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.3.1):
-    resolution: {integrity: sha512-0HtWYRW8JsP9cP627K55cwv3uX7GNVMMYgw2ySMV7wapJlkj1/cGUadHZTsmGsEg3jJrbIMwKsg2kNfnKXwgFQ==}
+  /hexo-filter-tikzjax@1.0.1(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.3.1):
+    resolution: {integrity: sha512-SSDZIVITDVrFmssazGl51l9UvqKXqVDITMmyiUDWt8jzFAeTkzOU9D37b8RY08WFVsgj4nqIoZOwbIlBRlGVhw==}
     dependencies:
       node-localstorage: 3.0.5
       node-tikzjax: 1.0.3(quill-delta@5.1.0)(rxjs@7.8.1)(tslib@2.3.1)
@@ -1040,7 +1040,7 @@ packages:
     engines: {node: '>= 14'}
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.2
+      debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: false
