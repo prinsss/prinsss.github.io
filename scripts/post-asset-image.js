@@ -5,7 +5,6 @@ if (!hexo.config.post_asset_folder) {
   return;
 }
 
-const chalk = require('chalk');
 const rootUrl = 'https://cdn.jsdelivr.net/gh/prinsss/prinsss.github.io@source/source/';
 
 function isRelativePath(url) {
@@ -24,7 +23,7 @@ function jsDelivrReplacer(match, p1, p2) {
     }
 
     const absoluteUrl = `${rootUrl}${basePath}${relativeUrl}`;
-    hexo.log.info('Post asset image: %s -> %s', chalk.yellow(relativeUrl), chalk.green(absoluteUrl));
+    hexo.log.info('Post asset image: %s -> %s', relativeUrl, absoluteUrl);
     return `![${p1}](${absoluteUrl})`;
   }
 
@@ -44,7 +43,7 @@ function localReplacer(match, p1, p2) {
   return `![${p1}](${p2})`;
 }
 
-hexo.extend.filter.register('before_post_render', data => {
+hexo.extend.filter.register('before_post_render', (data) => {
   data.content = data.content.replace(
     /(?:!\[(.*?)\]\((.*?)\))/g,
     // TODO: dirty quick fix

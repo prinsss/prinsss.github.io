@@ -4,4 +4,4 @@ hexo.config.hide_posts.acl_function_per_post = function (post, generatorName) {
   }
 
   return true;
-}
+};
