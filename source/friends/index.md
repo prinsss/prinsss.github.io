@@ -1,7 +1,7 @@
 ---
 title: '友情链接'
 date: '2015-09-03 11:54:24'
-updated: '2020-04-22 03:26:00'
+updated: '2024-01-16 22:30:00'
 ---
 
 在这个独立博客式微的时代，友情链接的意义是什么？
@@ -187,6 +187,9 @@ _以下站点按照添加的时间顺序排列：_
 
 * [一个球的博客](https://jw1.dev)
   - Front-end Developer, Music Producer
+
+* [Yunyi's Blog](https://www.yunyitang.me/zh/)
+  - Little squirrel Hopping around
 
 *****
 
