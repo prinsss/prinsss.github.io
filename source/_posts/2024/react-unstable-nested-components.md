@@ -279,7 +279,7 @@ function TodoList() {
 
 ![nested-usememo-memo-deps](react-unstable-nested-components/nested-usememo-memo-deps.png)
 
-从实际测试中可以看到，有了依赖项的 `useMemo` + 嵌套组件，又退化成了最开始的样子，每次都会被当成不同的组件类型，每次都会被 unmount。之前所做的努力全部木大！
+从实际测试中可以看到，有了依赖项的 `useMemo` + 嵌套组件，又退化成了最开始的样子，每次都会被当成不同的组件类型，每次都会被 unmount。之前所做的努力全部木大！（顺带一提用 `useRef` [也是一样的](https://stackblitz.com/edit/react-unstable-nested-components?file=src%2Fcomponents%2F10-nested-useref.jsx)，有依赖就歇菜）
 
 也就是说，只有你的嵌套子组件完全不依赖父组件作用域时，才能保证 `useMemo` 的缓存一直有效，才能做到完全不影响渲染性能。但既然都已经完全不依赖了，那么又还有什么理由一定要把它定义在父组件内部呢？
 
@@ -350,6 +350,7 @@ function TodoList() {
 
 - 渲染函数虽然和组件一样都返回 JSX，但它不是组件；
 - 渲染函数就是普通 JavaScript 函数，没有状态，也没有对应的 Fiber 节点；
+- 渲染函数只是当前组件的一部分，对于 React 渲染来说没有额外开销；
 - 渲染函数内部不能使用 Hooks，只有组件内部才能使用 Hooks；
 - 渲染函数命名一般以 `render` 开头，首字母小写（否则容易和组件搞混）。
 
@@ -361,7 +362,7 @@ function TodoList() {
 
 **第一，配置 Lint 规则。**
 
-防范于未然，合理的 Lint 配置可以减少起码 80% 的代码规范问题。比如本文介绍的坑，其实完全可以通过 [`react/no-unstable-nested-components`](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unstable-nested-components.md) 规则提前规避。
+防范于未然，合理的 Lint 配置可以减少起码 80% 的代码规范问题。比如本文介绍的坑，其实完全可以通过 [`react/no-unstable-nested-components`](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unstable-nested-components.md) + [`react-rfc/no-component-def-in-render`](https://github.com/xgbuils/eslint-plugin-react-rfc/blob/main/docs/rules/no-component-def-in-render.md) 规则提前规避。
 
 最好再配合代码提交后的 CI 卡点检查，有效避免因开发者环境配置不当或者偷摸跳过检查，导致规则形同虚设的情况。
 
