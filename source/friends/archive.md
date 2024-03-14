@@ -193,3 +193,6 @@
 
 * [编程随想](https://blog.zshnb.com)
   - 分享我的编程感悟
+
+* [Coherence's Blog](https://blog.coherence.codes)
+  - 💭 这个博客木有描述……

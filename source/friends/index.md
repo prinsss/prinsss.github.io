@@ -26,7 +26,7 @@ updated: '2024-03-13'
 
 _以下站点按照添加的时间顺序排列：_
 
-<script async data-category-id="28810" src="https://blog-friend-circle.prin.studio/app.js"></script>
+<script async data-category-id="2" src="https://blog-friend-circle.prin.studio/app.js"></script>
 
 如果上面的 iframe 没有加载出来，也可以点[这里](https://github.com/prinsss/prinsss.github.io/blob/source/source/friends/archive.md)查看完整列表。
 
