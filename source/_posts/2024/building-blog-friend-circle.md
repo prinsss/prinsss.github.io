@@ -1,10 +1,11 @@
 ---
-title: 重构博客友链页面，又一个友链朋友圈开源
+title: 重构博客友链页面 & 友链朋友圈开源
 date: '2024-03-13'
 updated: '2024-03-13'
 categories: 技术
 tags:
   - 博客
+  - RSS
 ---
 
 先来看看效果：[友情链接 - PRIN BLOG](https://prinsss.github.io/friends/)。
@@ -23,6 +24,16 @@ tags:
 - [朋友圈 | Black Flies](https://www.yyyzyyyz.cn/fcircle/)
 
 当时就感觉卧槽好高端，很有想法。
+
+这种聚合订阅的形式有个名字，叫做 [Planet](https://en.wikipedia.org/wiki/Planet_(software))（社区星球）。Planet 通常用于聚合某个领域的博客，然后展示在一个页面上，方便用户一站式阅读，比如：
+
+- [Planet Python](https://planetpython.org)
+- [Planet MySQL](https://planet.oursqlcommunity.org)
+- [Arch Linux 中文星球](https://planet.archlinuxcn.org/)
+
+这种形式在开源社区里比较常见，不过用在博客的友链上我倒还是第一次看到。
+
+***
 
 就像我在本站友链页里说的一样，独立博客之间的联系基本上就是靠的链接交换和评论互访。一个博客的访客看到了其他博客的链接，点过去看了，然后从对面的友链中，又导航到新的博客……如此往复，我们就依靠着这种从现在看来显得十分古老的方式，维系着这些信息孤岛之间的纽带。原始又浪漫。
 
@@ -49,6 +60,8 @@ tags:
 另外一个选择就是各种支持 self-host 的 RSS 阅读器，比如 [Tiny Tiny RSS](https://tt-rss.org) 和 [Miniflux](https://miniflux.app)。我之前部署过 TTRSS，说实话感觉还是太重了。Miniflux 则是使用 Go 编写的，该有的功能都有，非常轻量级，部署也很方便。就决定是它了！
 
 技术栈方面选择了之前一直比较心水的 [Hono](https://hono.dev)，部署在 Cloudflare Workers 上。前端方面没有使用任何框架，连客户端 JS 都没几行，基本上是纯服务端渲染。有时候不得不感叹技术的趋势就是个圈，以前那么流行 SPA，现在又都在搞静态生成了。
+
+![cf-workers-usage](building-blog-friend-circle/cf-workers-usage.jpg)
 
 页面渲染使用了 Hono 提供的 [JSX](https://hono.dev/guides/jsx) 方案，可以在服务端用类似 React 的语法返回 HTML，挺好用的。不过 CSS 没有用 Hono 的那一套 CSS-in-JS，因为要允许用户覆盖样式，所以要用语义化的类名。最后选了 [Less](https://lesscss.org)，还是熟悉的味道。
 
@@ -84,9 +97,11 @@ tags:
 </script>
 ```
 
+![friends-page-demo](building-blog-friend-circle/friends-page-demo.jpg)
+
 当然也可以作为独立页面打开，有做双栏布局适配：
 
-[blog-friend-circle.prin.studio/category/28810/entries](https://blog-friend-circle.prin.studio/category/28810/entries)
+[blog-friend-circle.prin.studio/category/2/entries](https://blog-friend-circle.prin.studio/category/2/entries)
 
 ## 开源
 
@@ -94,6 +109,6 @@ tags:
 
 👉 [prinsss/blog-friend-circle](https://github.com/prinsss/blog-friend-circle)
 
-这个方案和 hexo-circle-of-friends 并没有孰优孰劣之分，只是侧重点和实现方式不同。不过我这个的一个好处是，如果你已经在用 Miniflux 了，那么可以直接复用已有的大部分能力，不需要再起一个 Python 服务和数据库去抓取、保存 RSS，相对来说会更轻量一些。
+这个方案和 hexo-circle-of-friends 并没有孰优孰劣之分，只是侧重点和实现方式不同。不过我这个的一个好处是，如果你已经在用 Miniflux 了，那么可以直接复用已有的大部分能力，不需要再起一个 Python 服务和数据库去抓取、保存 RSS，相对来说会更轻量、稳定一些。
 
 如果你选择使用 Miniflux 官方提供的 RSS 服务，甚至可以无需服务器，部署一下 CF Workers 就行了，像我这样的懒人最爱。
