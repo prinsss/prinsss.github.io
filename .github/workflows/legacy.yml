@@ -15,22 +15,22 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Checkout theme repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: prinsss/hexo-theme-murasaki
           ref: master
           path: themes/murasaki
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
-          node-version: 18
+          node-version: 24
 
       - name: Cache pnpm modules
-        uses: actions/cache@v3
+        uses: actions/cache@v5
         id: pnpm-cache
         with:
           path: ~/.pnpm-store
@@ -39,7 +39,7 @@ jobs:
             ${{ runner.os }}-pnpm-
 
       - name: Set up pnpm and install dependencies
-        uses: pnpm/action-setup@v2
+        uses: pnpm/action-setup@v4
         with:
           version: 8.10.2
           run_install: |
@@ -51,8 +51,8 @@ jobs:
         run: |
           sudo timedatectl set-timezone "Asia/Shanghai"
           mkdir -p ~/.ssh
-          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
+          echo "$DEPLOY_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan github.com >> ~/.ssh/known_hosts
 
       - name: Set up Pandoc
